@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!--  GENERAL  -->
+	<!--  =======  -->
+	<term key="nivel_inicial">1</term>
+	<term key="modo_inicial">finn</term>
+	<term key="shared_object_string">adventure-time_rythm-time</term>
+	<term key="language">eng</term>
+	<term key="online">false</term>
+	<term key="num_levels">5</term>
+	<term key="load_level_assets">true</term>
+	<term key="load_level_config">true</term>
+	<term key="debug_on_screen">false</term>
+	<term key="erase_data_on_new_game">false</term>
+	<term key="free_play">false</term>
+	
+	<!--  CARGAS SEPARADAS  -->
+	<!--  ================  -->
+	<term key="game_swf_weight">164691</term>
+	<term key="sounds_swf_weight">619250</term>
+	<term key="widgets_swf_weight">1244031</term>
+	
+	<!--  =======================  -->
+	<!--  SFXs Y MUSICAS GLOBALES  -->
+	<term key="global_sfx_ids">CharacterSelect,JakeUnlocked,TutorialLessonOk,TutorialLessonWrong,TutorialEnterJake,TutorialExitJake,RollOver,LevelSelect,TransitionIn,TransitionOut,DiscIn</term>
+	<term key="global_music_ids">MusicSilence,MusicSplash,MusicLevelLost,MusicLevelWon,MusicGameWon</term>
+	
+	<!--  VOLUMENES  -->
+	<!--  =========  -->
+	<term key="master_volume">1</term>
+		<!--  GUI SFX  -->
+	<term key="Volume_CharacterSelect">1.3</term>
+	<term key="Volume_JakeUnlocked">1</term>
+	<term key="Volume_TutorialLessonOk">0.5</term>
+	<term key="Volume_TutorialLessonWrong">1</term>
+	<term key="Volume_TutorialEnterJake">0.67</term>
+	<term key="Volume_TutorialExitJake">0,8</term>
+	<term key="Volume_RollOver">0.65</term>
+	<term key="Volume_LevelSelect">0.8</term>
+	<term key="Volume_TransitionIn">0.6</term>
+	<term key="Volume_TransitionOut">0.6</term>
+	<term key="Volume_DiscIn">0.7</term>
+		<!--  LEVELS SFX  -->
+	<term key="Volume_Lv1Action1SndAsset-finn">1</term>
+	<term key="Volume_Lv1Action1SndAsset-jake">1</term>
+	<term key="Volume_Lv2JumpsSndAsset">0.8</term>
+	<term key="Volume_Lv2AttacksSndAsset">0.7</term>
+	<term key="Volume_Lv3Action2SndAsset">1</term>
+	<term key="Volume_Lv4Action1SndAsset">1</term>
+	<term key="Volume_Lv4Action2SndAsset">1</term>
+	<term key="Volume_Lv4HitSndAsset">1</term>
+		<!--  MUSICAS  -->
+	<term key="Volume_MusicSplash">1.1</term>
+	<term key="Volume_MusicLevelLost">1.3</term>
+	<term key="Volume_MusicLevelWon">1.4</term>
+	<term key="Volume_MusicGameWon">1</term>
+	
+	<!--  GUI  -->
+	<!--  ===  -->
+	<term key="score_num_digits">4</term>
+	
+	<!--  ANIMATIONS  -->
+	<!--  ==========  -->
+	<term key="lv4_candies_animations_frames_offset">4</term>
+	<term key="lv4_ice_king_hit_frames_offset">5</term>
+	
+	<!--  TUTORIALES  -->
+	<!--  ==========  -->
+	<term key="use_tutorial_level_1-finn">true</term>
+	<term key="use_tutorial_level_2-finn">true</term>
+	<term key="use_tutorial_level_3-finn">true</term>
+	<term key="use_tutorial_level_4-finn">true</term>
+	<term key="use_tutorial_level_1-jake">false</term>
+	<term key="use_tutorial_level_2-jake">false</term>
+	<term key="use_tutorial_level_3-jake">false</term>
+	<term key="use_tutorial_level_4-jake">true</term>
+	
+	
+	<!--  BADGES  -->
+	<!--  ======  -->
+	<!--  Nivel 1  -->
+		<!--  Finn  -->
+	<term key="min_action_right_ranking_A_level_1-finn">55</term>
+	<term key="max_action_wrong_ranking_A_level_1-finn">6</term>
+	<term key="min_action_right_ranking_B_level_1-finn">50</term>
+	<term key="max_action_wrong_ranking_B_level_1-finn">10</term>
+	<term key="min_action_right_ranking_C_level_1-finn">42</term>
+	<term key="max_action_wrong_ranking_C_level_1-finn">15</term>
+		<!--  Jake  -->
+	<term key="min_action_right_ranking_A_level_1-jake">62</term>
+	<term key="max_action_wrong_ranking_A_level_1-jake">3</term>
+	<term key="min_action_right_ranking_B_level_1-jake">59</term>
+	<term key="max_action_wrong_ranking_B_level_1-jake">6</term>
+	<term key="min_action_right_ranking_C_level_1-jake">55</term>
+	<term key="max_action_wrong_ranking_C_level_1-jake">10</term>
+	<!--  Nivel 2  -->
+		<!--  Finn  -->
+	<term key="min_action_right_ranking_A_level_2-finn">54</term>
+	<term key="max_action_wrong_ranking_A_level_2-finn">3</term>
+	<term key="min_action_right_ranking_B_level_2-finn">48</term>
+	<term key="max_action_wrong_ranking_B_level_2-finn">8</term>
+	<term key="min_action_right_ranking_C_level_2-finn">42</term>
+	<term key="max_action_wrong_ranking_C_level_2-finn">15</term>
+		<!--  Jake  -->
+	<term key="min_action_right_ranking_A_level_2-jake">66</term>
+	<term key="max_action_wrong_ranking_A_level_2-jake">3</term>
+	<term key="min_action_right_ranking_B_level_2-jake">62</term>
+	<term key="max_action_wrong_ranking_B_level_2-jake">6</term>
+	<term key="min_action_right_ranking_C_level_2-jake">58</term>
+	<term key="max_action_wrong_ranking_C_level_2-jake">12</term>
+	<!--  Nivel 3  -->
+		<!--  Finn  -->
+	<term key="min_action_right_ranking_A_level_3-finn">90</term>
+	<term key="max_action_wrong_ranking_A_level_3-finn">8</term>
+	<term key="min_action_right_ranking_B_level_3-finn">80</term>
+	<term key="max_action_wrong_ranking_B_level_3-finn">15</term>
+	<term key="min_action_right_ranking_C_level_3-finn">75</term>
+	<term key="max_action_wrong_ranking_C_level_3-finn">20</term>
+		<!--  Jake  -->
+	<term key="min_action_right_ranking_A_level_3-jake">130</term>
+	<term key="max_action_wrong_ranking_A_level_3-jake">5</term>
+	<term key="min_action_right_ranking_B_level_3-jake">115</term>
+	<term key="max_action_wrong_ranking_B_level_3-jake">10</term>
+	<term key="min_action_right_ranking_C_level_3-jake">90</term>
+	<term key="max_action_wrong_ranking_C_level_3-jake">25</term>
+	<!--  Nivel 4  -->
+		<!--  Finn  -->
+	<term key="min_action_right_ranking_A_level_4-finn">84</term>
+	<term key="max_action_wrong_ranking_A_level_4-finn">5</term>
+	<term key="min_action_right_ranking_B_level_4-finn">80</term>
+	<term key="max_action_wrong_ranking_B_level_4-finn">10</term>
+	<term key="min_action_right_ranking_C_level_4-finn">78</term>
+	<term key="max_action_wrong_ranking_C_level_4-finn">20</term>
+		<!--  Jake  -->
+	<term key="min_action_right_ranking_A_level_4-jake">82</term>
+	<term key="max_action_wrong_ranking_A_level_4-jake">5</term>
+	<term key="min_action_right_ranking_B_level_4-jake">80</term>
+	<term key="max_action_wrong_ranking_B_level_4-jake">10</term>
+	<term key="min_action_right_ranking_C_level_4-jake">78</term>
+	<term key="max_action_wrong_ranking_C_level_4-jake">20</term>
+	
+	<!--  SCORE (frames)  -->
+	<!--  ==============   -->
+	<term key="score_per_action_right">60</term>
+	<term key="score_penalty_per_action_wrong">30</term>
+	
+	
+	<!--  TOLERANCIA (frames)  -->
+	<!--  ==================   -->
+	<!--  Nivel 1  -->
+		<!--  Finn  -->
+	<term key="precision_tolerance_down_before_level_1-finn">10</term>
+	<term key="precision_tolerance_down_after_level_1-finn">10</term>
+	<term key="precision_tolerance_release_before_level_1-finn">10</term>
+	<term key="precision_tolerance_release_after_level_1-finn">10</term>
+		<!--  Jake  -->
+	<term key="precision_tolerance_down_before_level_1-jake">10</term>
+	<term key="precision_tolerance_down_after_level_1-jake">10</term>
+	<term key="precision_tolerance_release_before_level_1-jake">10</term>
+	<term key="precision_tolerance_release_after_level_1-jake">10</term>
+	<!--  Nivel 2  -->
+		<!--  Finn  -->
+	<term key="precision_tolerance_down_before_level_2-finn">10</term>
+	<term key="precision_tolerance_down_after_level_2-finn">3</term>
+	<term key="precision_tolerance_release_before_level_2-finn">10</term>
+	<term key="precision_tolerance_release_after_level_2-finn">10</term>
+		<!--  Jake  -->
+	<term key="precision_tolerance_down_before_level_2-jake">10</term>
+	<term key="precision_tolerance_down_after_level_2-jake">3</term>
+	<term key="precision_tolerance_release_before_level_2-jake">10</term>
+	<term key="precision_tolerance_release_after_level_2-jake">10</term>
+	<!--  Nivel 3  -->
+		<!--  Finn  -->
+	<term key="precision_tolerance_down_before_level_3-finn">10</term>
+	<term key="precision_tolerance_down_after_level_3-finn">10</term>
+	<term key="precision_tolerance_release_before_level_3-finn">10</term>
+	<term key="precision_tolerance_release_after_level_3-finn">10</term>
+		<!--  Jake  -->
+	<term key="precision_tolerance_down_before_level_3-jake">10</term>
+	<term key="precision_tolerance_down_after_level_3-jake">10</term>
+	<term key="precision_tolerance_release_before_level_3-jake">10</term>
+	<term key="precision_tolerance_release_after_level_3-jake">10</term>
+	<!--  Nivel 4  -->
+		<!--  Finn  -->
+	<term key="precision_tolerance_down_before_level_4-finn">10</term>
+	<term key="precision_tolerance_down_after_level_4-finn">3</term>
+	<term key="precision_tolerance_release_before_level_4-finn">10</term>
+	<term key="precision_tolerance_release_after_level_4-finn">10</term>
+		<!--  Jake  -->
+	<term key="precision_tolerance_down_before_level_4-jake">10</term>
+	<term key="precision_tolerance_down_after_level_4-jake">3</term>
+	<term key="precision_tolerance_release_before_level_4-jake">10</term>
+	<term key="precision_tolerance_release_after_level_4-jake">10</term>
+	
+</config>
