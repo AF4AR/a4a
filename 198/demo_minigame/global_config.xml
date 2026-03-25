@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <urls>urls.xml</urls>
+    <urlsPreviewGUI>urlsPreviewGUI.xml</urlsPreviewGUI>
+    <initBytes>2171822</initBytes>
+    <useConsole>0</useConsole>
+    <traceLog>1</traceLog>
+    <appWidth>750</appWidth>
+    <appHeight>500</appHeight>
+    <frameRate>30</frameRate>
+    <quality>high</quality>
+    <enabledCheats>0</enabledCheats>
+    <appName>Application_01</appName>
+    <strings>strings/strings.xml</strings>
+    <loaderURL>demo_minigame_loader.swf</loaderURL>
+</data>

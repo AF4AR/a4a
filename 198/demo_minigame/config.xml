@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmlData>
+
+	<settings>
+		<testSpot>S_63</testSpot>
+		<enemiesInitCooldown>2000</enemiesInitCooldown>
+		<unlock1>2</unlock1>
+		<unlock2>9</unlock2>
+		<summonRecharge>20</summonRecharge>
+		<summonTotal>100</summonTotal>
+		<itemGroup1>root</itemGroup1>
+		<itemGroup2>heroHelmet1,auraAmulet1</itemGroup2>
+		<itemGroup3>mageCape1,speedBracelet1</itemGroup3>
+		<itemGroup4>heroHelmet2,auraAmulet2,mageCape2</itemGroup4>
+		<tobiasFirstFight>S_0</tobiasFirstFight>
+		<tobiasTraining>S_64,S_65,S_66</tobiasTraining>
+		<fightBeforeTv>S_14</fightBeforeTv>
+		<enemiesBeforeTv>122</enemiesBeforeTv>
+		<fightBeforeConsole>S_27</fightBeforeConsole>
+		<enemiesBeforeConsole>433</enemiesBeforeConsole>
+		<fightBeforeComputer>S_34</fightBeforeComputer>
+		<enemiesBeforeComputer>718</enemiesBeforeComputer>
+		<fightBeforeMicrowave>S_41</fightBeforeMicrowave>
+		<enemiesBeforeMicrowave>454</enemiesBeforeMicrowave>
+		<initMilkshakePrice>5</initMilkshakePrice>
+		<initTrainingPrice>30</initTrainingPrice>
+		<timeShieldTotal>10000</timeShieldTotal>
+		<usePlayerMouseMove>1</usePlayerMouseMove>
+		<inventoryLimit>24</inventoryLimit>
+		<bossId>E_100</bossId>
+		<bossGroup>S_63</bossGroup>
+		<enabeTutoralsFights>1</enabeTutoralsFights>
+		<daylyFight>S_52,S_53,S_54</daylyFight>
+	</settings>
+
+	<actions>
+		<a id="1" action="MELEE_1" d="15" f="0.1" c="12000" />
+		<a id="2" action="MELEE_2" d="19" f="0.1" c="6000" />
+		<a id="3" action="TACKLE_1" d="25" f="0.2" c="12000" />
+		<a id="4" action="TACKLE_2" d="31" f="0.2" c="6000" />
+		<a id="5" action="GAS_1" d="4" f="0" c="2000" />
+		<a id="6" action="GAS_2" d="4" f="0" c="2000" />
+		<a id="7" action="GRENADE_1" d="25" f="0.2" c="2000" />
+		<a id="8" action="GRENADE_2" d="35" f="0.2" c="2000" />
+		<a id="9" action="HEALTH" />
+		<a id="10" action="EXPERIENCE" />
+		<a id="11" action="ITEM_DROP" />
+		<a id="12" action="TIME_DIZZY" />
+		<a id="13" action="SKIN" />
+		<a id="14" action="MONEY" />
+		<a id="15" action="ITEMS_GROUP_1" />
+		<a id="16" action="ITEMS_GROUP_2" />
+		<a id="17" action="ITEMS_GROUP_3" />
+		<a id="18" action="ITEMS_GROUP_4" />
+		<a id="19" action="MELEE_DEFENSE" />
+		<a id="20" action="MAGIC_DEFENSE" />
+		<a id="21" action="MELEE_3" d="22.5" f="0.25" c="10000" />
+		<a id="22" action="MELEE_4" d="26.25" f="0.3" c="10001" />
+		<a id="23" action="MELEE_5" d="30" f="0.25" c="10002" />
+		<a id="24" action="MELEE_6" d="33.75" f="0.3" c="10003" />
+		<a id="25" action="MELEE_7" d="37.5" f="0.25" c="10004" />
+		<a id="26" action="MELEE_8" d="41.25" f="0.3" c="10005" />
+		<a id="27" action="MELEE_9" d="45" f="0.3" c="10006" />
+		<a id="28" action="TACKLE_3" d="36" f="0.25" c="10007" />
+		<a id="29" action="TACKLE_4" d="42" f="0.3" c="10008" />
+		<a id="30" action="TACKLE_5" d="48" f="0.25" c="10009" />
+		<a id="31" action="TACKLE_6" d="54" f="0.3" c="10010" />
+		<a id="32" action="TACKLE_7" d="60" f="0.25" c="10011" />
+		<a id="33" action="TACKLE_8" d="66" f="0.3" c="10012" />
+		<a id="34" action="TACKLE_9" d="72" f="0.25" c="10013" />
+		<a id="35" action="GAS_3" d="64" f="0.3" c="10014" />
+		<a id="36" action="GAS_4" d="65" f="0.3" c="10015" />
+		<a id="37" action="GAS_5" d="66" f="0.66" c="10016" />
+		<a id="38" action="GRENADE_3" d="67" f="0.25" c="10017" />
+		<a id="39" action="GRENADE_4" d="68" f="0.3" c="10018" />
+		<a id="40" action="GRENADE_5" d="69" f="0.4" c="10019" />
+		<a id="41" action="GRANNY_MELEE_1" d="48.75" f="0" c="4000" />
+		<a id="42" action="GRANNY_MELEE_2" d="52.5" f="0" c="4000" />
+		<a id="43" action="GRANNY_MELEE_3" d="56.25" f="0" c="10000" />
+		<a id="44" action="GRANNY_RANGE_1" d="50" f="0" c="2000" />
+		<a id="45" action="GRANNY_RANGE_2" d="50" f="0" c="4000" />
+		<a id="46" action="GRANNY_RANGE_3" d="50" f="0" c="8000" />
+		<a id="47" action="GRANNY_HEAL" d="100" f="0" c="6000" />
+	</actions>
+
+	<player>
+		<a xp="0" z="0" p="20000" hpf="120" hpb="130" hph="110" sdf="100" cdf1="5000" avf1="10" cdf2="12000" avf2="8" cdf3="16000" avf3="25" cdb1="5000" avb1="10" cdb2="12000" avb2="10" cdb3="16000" avb3="10" cdh1="5000" avh1="8" cdh2="12000" avh2="50" cdh3="16000" />
+		<a xp="1800" z="4020" p="20000" hpf="150" hpb="160" hph="140" sdf="140" cdf1="4800" avf1="25" cdf2="12000" avf2="20" cdf3="16000" avf3="35" cdb1="4800" avb1="25" cdb2="12000" avb2="12" cdb3="16000" avb3="12" cdh1="4800" avh1="20" cdh2="12000" avh2="80" cdh3="16000" />
+		<a xp="15000" z="350" p="20000" hpf="180" hpb="190" hph="170" sdf="180" cdf1="4700" avf1="40" cdf2="12000" avf2="32" cdf3="16000" avf3="45" cdb1="4700" avb1="40" cdb2="12000" avb2="14" cdb3="16000" avb3="14" cdh1="4700" avh1="32" cdh2="12000" avh2="110" cdh3="16000" />
+		<a xp="30000" z="300" p="20000" hpf="210" hpb="220" hph="200" sdf="220" cdf1="4600" avf1="55" cdf2="12000" avf2="44" cdf3="16000" avf3="55" cdb1="4600" avb1="55" cdb2="12000" avb2="16" cdb3="16000" avb3="16" cdh1="4600" avh1="44" cdh2="12000" avh2="140" cdh3="16000" />
+		<a xp="60000" z="250" p="20000" hpf="240" hpb="250" hph="230" sdf="260" cdf1="4300" avf1="65" cdf2="12000" avf2="54" cdf3="16000" avf3="65" cdb1="4300" avb1="65" cdb2="12000" avb2="18" cdb3="16000" avb3="18" cdh1="4300" avh1="54" cdh2="12000" avh2="160" cdh3="16000" />
+		<a xp="90000" z="200" p="20000" hpf="270" hpb="280" hph="260" sdf="300" cdf1="4000" avf1="75" cdf2="12000" avf2="64" cdf3="16000" avf3="95" cdb1="4000" avb1="75" cdb2="12000" avb2="20" cdb3="16000" avb3="20" cdh1="4000" avh1="64" cdh2="12000" avh2="180" cdh3="16000" />
+		<a xp="120000" z="150" p="20000" hpf="300" hpb="310" hph="290" sdf="340" cdf1="3500" avf1="85" cdf2="12000" avf2="74" cdf3="16000" avf3="105" cdb1="3500" avb1="85" cdb2="12000" avb2="22" cdb3="16000" avb3="22" cdh1="3500" avh1="74" cdh2="12000" avh2="190" cdh3="16000" />
+		<a xp="150000" z="150" p="20000" hpf="330" hpb="340" hph="320" sdf="380" cdf1="3400" avf1="95" cdf2="12000" avf2="84" cdf3="16000" avf3="115" cdb1="3400" avb1="95" cdb2="12000" avb2="22" cdb3="16000" avb3="22" cdh1="3400" avh1="84" cdh2="12000" avh2="200" cdh3="16000" />
+		<a xp="180000" z="150" p="20000" hpf="360" hpb="370" hph="350" sdf="420" cdf1="3300" avf1="100" cdf2="12000" avf2="88" cdf3="16000" avf3="125" cdb1="3300" avb1="100" cdb2="12000" avb2="22" cdb3="16000" avb3="22" cdh1="3300" avh1="88" cdh2="12000" avh2="210" cdh3="16000" />
+		<a xp="210000" z="150" p="20000" hpf="390" hpb="400" hph="380" sdf="460" cdf1="3200" avf1="105" cdf2="12000" avf2="92" cdf3="16000" avf3="135" cdb1="3200" avb1="105" cdb2="12000" avb2="22" cdb3="16000" avb3="22" cdh1="3200" avh1="92" cdh2="12000" avh2="220" cdh3="16000" />
+		<a xp="240000" z="150" p="20000" hpf="420" hpb="430" hph="410" sdf="500" cdf1="3100" avf1="110" cdf2="12000" avf2="106" cdf3="16000" avf3="145" cdb1="3100" avb1="110" cdb2="12000" avb2="22" cdb3="16000" avb3="22" cdh1="3100" avh1="106" cdh2="12000" avh2="230" cdh3="16000" />
+		<a xp="270000" z="150" p="20000" hpf="450" hpb="460" hph="440" sdf="540" cdf1="3000" avf1="115" cdf2="12000" avf2="110" cdf3="16000" avf3="155" cdb1="3000" avb1="115" cdb2="12000" avb2="22" cdb3="16000" avb3="22" cdh1="3000" avh1="110" cdh2="12000" avh2="240" cdh3="16000" />
+	</player>
+
+	<E_0>
+		<a id="9" v="40" />
+		<a id="10" v="1600" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="5" />
+		<a id="1" v="1" g="1" />
+		<a id="1" v="1" g="1" />
+		<a id="3" v="1" g="2" />
+		<a id="3" v="1" g="2" />
+		<a id="7" v="1" g="2" />
+		<a id="14" v="30" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.2" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="0" />
+		<a id="20" v="0" />
+	</E_0>
+
+	<E_1>
+		<a id="9" v="40" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="3" />
+		<a id="1" v="1" g="1" />
+		<a id="5" v="1" g="1" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.2" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_1>
+
+	<E_2>
+		<a id="9" v="60" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="2" />
+		<a id="3" v="1" g="1" />
+		<a id="7" v="1" g="1" />
+		<a id="14" v="20" />
+		<a id="15" v="0.5" />
+		<a id="16" v="0.2" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_2>
+
+	<E_3>
+		<a id="9" v="100" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="3" />
+		<a id="2" v="1" g="1" />
+		<a id="5" v="1" g="1" />
+		<a id="14" v="20" />
+		<a id="15" v="0.5" />
+		<a id="16" v="0.4" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+		<a id="20" v="5" />
+	</E_3>
+
+	<E_4>
+		<a id="9" v="150" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="2" />
+		<a id="3" v="1" g="1" />
+		<a id="7" v="1" g="1" />
+		<a id="14" v="20" />
+		<a id="15" v="0.5" />
+		<a id="16" v="0.2" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_4>
+
+	<E_5>
+		<a id="9" v="320" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="1" />
+		<a id="2" v="1" g="1" />
+		<a id="14" v="20" />
+		<a id="15" v="0.5" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_5>
+
+	<E_6>
+		<a id="9" v="400" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="4" />
+		<a id="28" v="1" g="1" />
+		<a id="38" v="1" g="2" h="50" />
+		<a id="14" v="20" />
+		<a id="15" v="0.5" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_6>
+
+	<E_7>
+		<a id="9" v="440" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="1" />
+		<a id="22" v="1" g="1" />
+		<a id="6" v="1" g="2" h="50" />
+		<a id="22" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.1" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_7>
+
+	<E_8>
+		<a id="9" v="550" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="4" />
+		<a id="30" v="1" g="1" />
+		<a id="6" v="1" g="2" h="50" />
+		<a id="30" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.1" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_8>
+
+	<E_9>
+		<a id="9" v="520" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="3" />
+		<a id="23" v="1" g="1" />
+		<a id="6" v="1" g="2" h="50" />
+		<a id="23" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.1" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_9>
+
+	<E_10>
+		<a id="9" v="650" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="2" />
+		<a id="30" v="1" g="1" />
+		<a id="8" v="1" g="2" h="50" />
+		<a id="30" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.1" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_10>
+
+	<E_11>
+		<a id="9" v="600" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="1" />
+		<a id="24" v="1" g="1" />
+		<a id="35" v="1" g="1" />
+		<a id="24" v="1" g="2" h="50" />
+		<a id="24" v="1" g="2" />
+		<a id="35" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.1" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_11>
+
+	<E_12>
+		<a id="9" v="750" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="4" />
+		<a id="31" v="1" g="1" />
+		<a id="38" v="1" g="2" h="50" />
+		<a id="31" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.1" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_12>
+
+	<E_13>
+		<a id="9" v="680" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="8" />
+		<a id="25" v="1" g="1" />
+		<a id="35" v="1" g="2" h="50" />
+		<a id="25" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_13>
+
+	<E_14>
+		<a id="9" v="850" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="7" />
+		<a id="32" v="1" g="1" />
+		<a id="38" v="1" g="2" h="50" />
+		<a id="32" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_14>
+
+	<E_15>
+		<a id="9" v="1440" />
+		<a id="10" v="3500" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="8" />
+		<a id="26" v="1" g="1" />
+		<a id="35" v="1" g="2" h="50" />
+		<a id="26" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_15>
+
+	<E_16>
+		<a id="9" v="1800" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="7" />
+		<a id="33" v="1" g="1" />
+		<a id="8" v="1" g="2" h="50" />
+		<a id="33" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_16>
+
+	<E_17>
+		<a id="9" v="1600" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="6" />
+		<a id="27" v="1" g="1" />
+		<a id="36" v="1" g="2" h="50" />
+		<a id="27" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_17>
+
+	<E_18>
+		<a id="9" v="2000" />
+		<a id="10" v="1760" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="9" />
+		<a id="29" v="1" g="1" />
+		<a id="39" v="1" g="2" h="50" />
+		<a id="30" v="4" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_18>
+
+	<E_19>
+		<a id="9" v="300" />
+		<a id="10" v="40000" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="6" />
+		<a id="34" v="1" g="1" />
+		<a id="39" v="1" g="2" h="50" />
+		<a id="34" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_19>
+
+	<E_20>
+		<a id="9" v="300" />
+		<a id="10" v="40000" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="9" />
+		<a id="22" v="1" g="1" />
+		<a id="36" v="1" g="2" h="50" />
+		<a id="23" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_20>
+
+	<E_21>
+		<a id="9" v="400" />
+		<a id="10" v="9000" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="5" />
+		<a id="28" v="1" g="1" />
+		<a id="38" v="1" g="2" h="50" />
+		<a id="14" v="20" />
+		<a id="15" v="0.5" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_21>
+
+	<E_22>
+		<a id="9" v="1440" />
+		<a id="10" v="9000" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="5" />
+		<a id="26" v="1" g="1" />
+		<a id="35" v="1" g="2" h="50" />
+		<a id="26" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_22>
+
+	<E_23>
+		<a id="9" v="2000" />
+		<a id="10" v="9000" />
+		<a id="11" v="1" />
+		<a id="12" v="1000" />
+		<a id="13" v="5" />
+		<a id="29" v="1" g="1" />
+		<a id="39" v="1" g="2" h="50" />
+		<a id="30" v="1" g="2" />
+		<a id="14" v="20" />
+		<a id="15" v="0.4" />
+		<a id="16" v="0.3" />
+		<a id="17" v="0.3" />
+		<a id="18" v="0" />
+		<a id="19" v="5" />
+		<a id="20" v="5" />
+	</E_23>
+
+	<E_100>
+		<a id="9" v="3000" />
+		<a id="10" v="200000" />
+		<a id="14" v="500" />
+		<a id="11" v="0" />
+		<a id="13" v="10" />
+		<a id="19" v="20" />
+		<a id="20" v="0" />
+		<a id="44" v="1" g="1" />
+		<a id="41" v="1" g="2" h="80" />
+		<a id="45" v="1" g="3" h="60" />
+		<a id="45" v="1" g="3" />
+		<a id="45" v="1" g="3" />
+		<a id="45" v="1" g="3" />
+		<a id="42" v="1" g="3" />
+		<a id="42" v="1" g="3" />
+		<a id="42" v="1" g="3" />
+		<a id="42" v="1" g="3" />
+		<a id="47" v="1" g="3" />
+		<a id="47" v="1" g="3" />
+		<a id="46" v="1" g="4" h="30" />
+		<a id="46" v="1" g="4" />
+		<a id="46" v="1" g="4" />
+		<a id="46" v="1" g="4" />
+		<a id="43" v="1" g="4" />
+		<a id="43" v="1" g="4" />
+		<a id="43" v="1" g="4" />
+		<a id="43" v="1" g="4" />
+		<a id="47" v="1" g="4" />
+		<a id="47" v="1" g="4" />
+	</E_100>
+
+	<groups>
+		<S_0 enemies="E_0" xp="1600" />
+		<S_1 enemies="E_1" xp="1760" />
+		<S_2 enemies="E_2" xp="1760" />
+		<S_3 enemies="E_1,E_2" xp="3520" />
+		<S_4 enemies="E_1,E_2,E_1" xp="5280" />
+		<S_5 enemies="E_1,E_2,E_2" xp="5280" />
+		<S_6 enemies="E_1,E_1,E_2" xp="5280" />
+		<S_7 enemies="E_1,E_1,E_1" xp="5280" />
+		<S_8 enemies="E_2,E_2,E_2" xp="5280" />
+		<S_9 enemies="E_3,E_4" xp="3520" />
+		<S_10 enemies="E_4,E_3" xp="3520" />
+		<S_11 enemies="E_3,E_4,E_3" xp="5280" />
+		<S_12 enemies="E_3,E_4,E_4" xp="5280" />
+		<S_13 enemies="E_3,E_3,E_3" xp="5280" />
+		<S_14 enemies="E_4,E_3,E_4" xp="5280" />
+		<S_15 enemies="E_5,E_6" xp="7000" />
+		<S_16 enemies="E_6,E_5" xp="7000" />
+		<S_17 enemies="E_5,E_6,E_5" xp="10500" />
+		<S_18 enemies="E_5,E_6,E_6" xp="10500" />
+		<S_19 enemies="E_5,E_5,E_5" xp="10500" />
+		<S_20 enemies="E_6,E_6,E_6" xp="10500" />
+		<S_21 enemies="E_7" xp="3500" />
+		<S_22 enemies="E_8" xp="3500" />
+		<S_23 enemies="E_7,E_8" xp="7000" />
+		<S_24 enemies="E_7,E_8,E_7" xp="10500" />
+		<S_25 enemies="E_7,E_8,E_8" xp="10500" />
+		<S_26 enemies="E_7,E_7,E_7" xp="10500" />
+		<S_27 enemies="E_8,E_7,E_8" xp="10500" />
+		<S_28 enemies="E_9" xp="3500" />
+		<S_29 enemies="E_10" xp="3500" />
+		<S_30 enemies="E_9,E_10" xp="7000" />
+		<S_31 enemies="E_9,E_10,E_9" xp="10500" />
+		<S_32 enemies="E_9,E_10,E_10" xp="10500" />
+		<S_33 enemies="E_9,E_9,E_9" xp="10500" />
+		<S_34 enemies="E_10,E_9,E_10" xp="10500" />
+		<S_35 enemies="E_11" xp="3500" />
+		<S_36 enemies="E_12" xp="3500" />
+		<S_37 enemies="E_11,E_12" xp="7000" />
+		<S_38 enemies="E_11,E_12,E_11" xp="10500" />
+		<S_39 enemies="E_11,E_12,E_12" xp="10500" />
+		<S_40 enemies="E_11,E_11,E_11" xp="10500" />
+		<S_41 enemies="E_12,E_12,E_12" xp="10500" />
+		<S_42 enemies="E_13" xp="3500" />
+		<S_43 enemies="E_14" xp="3500" />
+		<S_44 enemies="E_13,E_14" xp="7000" />
+		<S_45 enemies="E_13,E_14,E_13" xp="10500" />
+		<S_46 enemies="E_13,E_14,E_14" xp="10500" />
+		<S_47 enemies="E_13,E_13,E_13" xp="10500" />
+		<S_48 enemies="E_14,E_14,E_14" xp="10500" />
+		<S_49 enemies="E_15" xp="3500" />
+		<S_50 enemies="E_16" xp="1760" />
+		<S_51 enemies="E_15,E_16" xp="5260" />
+		<S_52 enemies="E_15,E_16,E_15" xp="8760" />
+		<S_53 enemies="E_15,E_16,E_16" xp="7020" />
+		<S_54 enemies="E_15,E_15,E_15" xp="10500" />
+		<S_55 enemies="E_16,E_16,E_16" xp="10500" />
+		<S_56 enemies="E_17" />
+		<S_57 enemies="E_18" />
+		<S_58 enemies="E_17, E_18" />
+		<S_59 enemies="E_17,E_18,E_17" />
+		<S_60 enemies="E_17,E_18,E_18" />
+		<S_61 enemies="E_17,E_17,E_17" />
+		<S_62 enemies="E_18,E_18,E_18" />
+		<S_63 enemies="E_100" />
+		<S_64 enemies="E_21" />
+		<S_65 enemies="E_22" />
+		<S_66 enemies="E_23" />
+	</groups>
+
+</xmlData>

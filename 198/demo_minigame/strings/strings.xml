@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmlData>
+
+	<strings>
+
+		<!-- LOADING -->
+		<text id="TXT_LOADING_PERCENT"><![CDATA[LOADING]]></text>
+
+		<!-- TOOLTIPS -->
+		<text id="TXT_TOOLTIP_NEXT"><![CDATA[NEXT]]></text>
+		<text id="TXT_TOOLTIP_BACK"><![CDATA[BACK]]></text>
+		<text id="TXT_TOOLTIP_SKIP"><![CDATA[SKIP]]></text>
+		<text id="TXT_TOOLTIP_RESUME"><![CDATA[RESUME]]></text>
+		<text id="TXT_TOOLTIP_RESET"><![CDATA[RESET]]></text>
+		<text id="TXT_TOOLTIP_HELP"><![CDATA[HELP]]></text>
+		<text id="TXT_TOOLTIP_SOUND"><![CDATA[SOUND]]></text>
+		<text id="TXT_TOOLTIP_QUIT"><![CDATA[QUIT]]></text>
+		<text id="TXT_TOOLTIP_YES"><![CDATA[YES]]></text>
+		<text id="TXT_TOOLTIP_NO"><![CDATA[NO]]></text>
+		<text id="TXT_TOOLTIP_HOME"><![CDATA[HOME]]></text>
+		<text id="TXT_TOOLTIP_RETRY"><![CDATA[RETRY]]></text>
+
+		<!-- TRY AGAIN -->
+		<text id="TXT_TA_TITLE"><![CDATA[DON'T GIVE UP!<br>Your quest isn't<br>over yet!]]></text>
+
+		<!-- MAIN MENU -->
+		<text id="TXT_MM_NEW_GAME"><![CDATA[NEW GAME]]></text>
+		<text id="TXT_MM_PLAY" Size='25'><![CDATA[PLAY]]></text>
+		<text id="TXT_MM_CONTINUE"><![CDATA[CONTINUE]]></text>
+		<text id="TXT_MM_TITLE"><![CDATA[TITLE]]></text>
+		<text id="TXT_CONFIRM_NEW_GAME"><![CDATA[Are you sure?]]></text>
+
+		<!-- METAMAP -->
+		<text id="TXT_META_TITLE"><![CDATA[SELECT LEVEL]]></text>
+		<text id="TXT_META_LV_1"><![CDATA[RPG]]></text>
+		<text id="TXT_META_LV_2"><![CDATA[LEVEL 2]]></text>
+		<text id="TXT_META_LV_3"><![CDATA[LEVEL 3]]></text>
+		<text id="TXT_MAP_NAME_MAIN"><![CDATA[TEST MAP]]></text>
+		<text id="TXT_MAP_NAME_HUB"><![CDATA[WATTERSON'S HOUSE]]></text>
+		<text id="TXT_MAP_NAME_HUB_0"><![CDATA[Watterson's House]]></text>
+		<text id="TXT_MAP_NAME_HUB_02"><![CDATA[Watterson's House]]></text>
+		<text id="TXT_MAP_NAME_HUB_1"><![CDATA[Watterson's House]]></text>
+		<text id="TXT_MAP_NAME_HUB_2"><![CDATA[Watterson's House]]></text>
+		<text id="TXT_MAP_NAME_GRAVEYARD"><![CDATA[ELMORE CEMETERY]]></text>
+		<text id="TXT_MAP_NAME_GHOST_HOUSE"><![CDATA[HAUNTED HOUSE]]></text>
+		<text id="TXT_MAP_NAME_FOREST_OF_DOOM"><![CDATA[THE FOREST OF DOOM]]></text>
+
+		<!-- MAIN MENU POPUP -->
+		<text id="TXT_POPUP_EXIT"><![CDATA[EXIT]]></text>
+
+		<!-- PAUSE -->
+		<text id="TXT_PAUSE_TITLE"><![CDATA[PAUSE]]></text>
+
+		<!-- POPUP HELP -->
+		<text id="TXT_POPUP_HELP_INSTRUCTIONS"><![CDATA[INSTRUCTIONS]]></text>
+		<text id="TXT_POPUP_BTN_BACK"><![CDATA[BACK]]></text>
+
+		<!-- HUD -->
+		<text id="TXT_HUD_NUMBER"><![CDATA[]]></text>
+
+		<!-- POPUP YES NO -->
+		<text id="TXT_YES_NO"><![CDATA[QUIT?]]></text>
+
+		<!-- CUTSCENE INTRO -->
+		<text id="TXT_CUTSCENE_INFO_1"><![CDATA["I can't believe Nicole’s parenting. I know how dangerous<br>the world is.These kids aren't safe."]]></text>
+		<text id="TXT_CUTSCENE_INFO_2"><![CDATA[A black car peels out from the house with<br>the Watterson's stuff in the trunk]]></text>
+		<text id="TXT_CUTSCENE_INFO_3"><![CDATA["What the heck?<br>Who trashed our house?!"]]></text>
+		<text id="TXT_CUTSCENE_INFO_4"><![CDATA[Gumball: Granny Jojo, are you nuts?!<br>Jojo: This lesson showed that no one is safe around electronics.<br>Darwin: I think our house is a lot more dangerous with you in it]]></text>
+		<text id="TXT_CUTSCENE_INFO_5"><![CDATA[Nicole: What happened to this place?!<br>Jojo: I was just teaching my grandkids a lesson.<br>Kids, ready to continue the journey?]]></text>
+
+		<!-- DIALOG ACTION KEY -->
+		<text id="TXT_DIALOG_ACTION"><![CDATA[PRESS SPACEBAR]]></text>
+
+		<!-- PREES C TO CLOSE QUEST LOG -->
+		<text id="TXT_PRESS_TO_CLOSE"><![CDATA[PRESS<br>TO CLOSE]]></text>
+		<text id="TXT_KEY_C"><![CDATA[C]]></text>
+
+		<!-- DIALOGS PORTALS -->
+		<text id="TXT_DIALOG_PORTAL_PRE_CUTSCENE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Let's go!</font>]]></text>
+		<text id="TXT_DIALOG_PORTAL_ASK" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Should I go home already?</font>]]></text>
+
+		<!-- DIALOG GRANNY -->
+		<text id="TXT_DIALOG_GRANNY_FIRST_TALK" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Gumball, Tobias is waiting in the yard!!.</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_PORTAL_IS_OPEN" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY JOJO:</font><font color ='#FFFF33'><br>A good grandmother prevents incidents before they happen.<br>How about we danger-proof the house this afternoon?</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_PORTAL_IS_OPEN_ANSWER" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Right, about that, we already got plans. I'm going to chat with Penny online.</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_PORTAL_IS_OPEN_ANSWER2" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>And Mcgruff's season premiere is this afternoon.</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_REMEMBER_DEFEAT_TOBIAS" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY JOJO:</font><font color ='#FFFF33'><br>Aren't you going to give your granny a kiss?</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_REMEMBER_DEFEAT_TOBIAS_GUMBALL" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>I have to talk to Tobias first]]></text>
+		<text id="TXT_DIALOG_GRANNY_REMEMBER_ANSWER" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Heh. Heh</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_RANDOM_1" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY JOJO:</font><font color ='#FFFF33'><br>Oh dear, I don't remember anything I must have fallen asleep. But look at it the bright side,<br>now there's nothing dangerous left in the house.</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_RANDOM_2" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY JOJO:</font><font color ='#FFFF33'><br>Oh good, you found the TV </font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_RANDOM_3" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY JOJO:</font><font color ='#FFFF33'><br>A grandmother's work is never done</font>]]></text>
+		<text id="TXT_DIALOG_GRANNY_PRE_FIGTH" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY JOJO:</font><font color ='#FFFF33'><br>... Now I will destroy those evil gizmos</font>]]></text>
+
+		<!-- DIALOG TOBIAS -->
+		<text id="TXT_DIALOG_TOBIAS_FRIENDLY" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>You've defeated me, great paladin! But I will be avenged!!<br>By the way, my dad is waiting outside. We better go</font>]]></text>
+		<text id="TXT_DIALOG_TOBIAS_TAUNT" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Do you want to practice before going to the Fantasy Club?<br>Let's see how you handle Tobias, the DARK ELF</font>]]></text>
+		<text id="TXT_DIALOG_TOBIAS_FAKE_FIGHT" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>WHAT! How did you win?!</font>]]></text>
+		<text id="TXT_DIALOG_TOBIAS_OFFER_TRAINING" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Wanna train with the best, huh? It'll cost ya YYY coins</font>]]></text>
+		<text id="TXT_DIALOG_TOBIAS_OFFER_TRAINING_FAIL_MONEY" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Training? Sorry. It costs HHH coins and you have GGG coins</font>]]></text>
+
+		<!-- DIALOG PHONE -->
+		<text id="TXT_DIALOG_PHONE" size='14'><![CDATA[<font color ='#FFFF33'>NICOLE:</font><font color ='#FFFF33'><br>Gumball, you know I don't trust Granny Jojo, so I'm putting you in charge this weekend. <br>Just make sure everything stays the way we left it. </font>]]></text>
+		<text id="TXT_DIALOG_PHONE_2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Relax, mom. I've got everything under control.</font>]]></text>
+
+		<!-- DIALOG SPACE TV -->
+		<text id="TXT_DIALOG_SPACE_TV_CLUE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Huh? It's an invitation to the cemetery.<br>For an Undead Primetime TV Party!? ]]></text>
+		<text id="TXT_DIALOG_SPACE_TV_ACTIVATE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>We better go to see Carrie</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_TV_REMEMBER_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>It's our first clue! Let's talk to Carrie at the Cemetery</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_TV_NEXT_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>We found the TV, but... Where's the GAME CONSOLE?</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_TV_NEXT_QUEST_DONE" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>We did it!</font>]]></text>
+
+		<!-- DIALOG SPACE CONSOLE -->
+		<text id="TXT_DIALOG_SPACE_CONSOLE_REQUERIMENT" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>No clues around here right now</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_CONSOLE_CLUE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Just got a text from Carrie. Looks like a clue, but it doesn't make sense:<br/>Grilled cheese is a taste no forest creature can resist</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_CONSOLE_ACTIVATE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>We have to go to the Forest of Doom (gulp).</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_CONSOLE_REMEMBER_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>We must go to the Forest of Doom</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_CONSOLE_NEXT_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>The panini maker.. I mean, game console seems OK, let's go looking for more clues.</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_CONSOLE_NEXT_QUEST_DONE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>We did it!</font>]]></text>
+
+		<!-- DIALOG SPACE COMPUTER -->
+		<text id="TXT_DIALOG_SPACE_COMPUTER_REQUERIMENT" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>No clues around here right now</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_COMPUTER_CLUE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Another text from Carrie!: All of my ghost friends just got really into online dating. What a drag.</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_COMPUTER_ACTIVATE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Gumball, you found a key to the Haunted House, right?</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_COMPUTER_REMEMBER_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Yeah. Oh, man! I can't believe we have go back to the Cemetery and search the Haunted House</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_COMPUTER_NEXT_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Let's see if there are any clues in the kitchen.</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_COMPUTER_NEXT_QUEST_DONE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>We did it!</font>]]></text>
+
+		<!-- DIALOG SPACE MICROWAVE -->
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_REQUERIMENT" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>No clues around here right now</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_CLUE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Here's another invitation:<br/>Frozen Dinner Forest Fiesta?!</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_ACTIVATE_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>We must be missing something in the forest, let's go back (gulp).</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_REMEMBER_QUEST" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>We better get back to the Forest of Doom.</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_NEXT" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Oh yeah! We found everything!</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_NEXT_2" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>But who took it in first place</font>]]></text>
+		<text id="TXT_DIALOG_SPACE_MICROWAVE_NEXT_3" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Just one person can...</font>]]></text>
+
+		<!-- MESSAGES PORTAL HUB -->
+		<text id="TXT_MESSAGE_PORTAL_HUB_REMEMBER" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Hey Gumball! Meet me in the backyard</font>]]></text>
+		<text id="TXT_MESSAGE_PORTAL_HUB_REMEMBER_2" size='14'><![CDATA[<font color ='#FFFF33'>...</font><font color ='#FFFF33'><br>Talk to Granny</font>]]></text>
+		<text id="TXT_MESSAGE_PORTAL_HUB_CHECK_PHONE" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Is someone going to answer that phone?</font>]]></text>
+		<text id="TXT_MESSAGE_PORTAL_HUB_CHECK_DARWIN" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Have you talked to Darwin?</font>]]></text>
+		<text id="TXT_MESSAGE_PORTAL_HUB_CHECK_EMPTY_SPACE" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Look for clues</font>]]></text>
+
+		<!-- MESSAGES INIT HUB 1 -->
+		<text id="TXT_MESSAGE_HUB_1_ALL_IS_OK" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Everything seems fine so far...</font>]]></text>
+		<text id="TXT_MESSAGE_HUB_1_INIT_ALERT" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Where is all our stuff??!!</font>]]></text>
+		<text id="TXT_MESSAGE_REMEMBER_TALK_ANAIS" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Better talk to Anais first</font>]]></text>
+		<text id="TXT_MESSAGE_HUB_1_GREAT_JOB" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>GREAT JOB! Let's keep looking if there's more<br>missing things</font>]]></text>
+		<text id="TXT_MESSAGE_OPEN_CHEST" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Open the chest and get your HERO HELMET</font>]]></text>
+
+		<!-- QUEST TALK TO GRANNY -->
+		<text id="TXT_QUEST_NAME_TALK_TO_GRANNY" size='14'><![CDATA[TALK TO GRANNY JOJO]]></text>
+		<text id="TXT_QUEST_DESC_TALK_TO_GRANNY" size='14'><![CDATA[Track down Granny Jojo]]></text>
+
+		<!-- QUEST TALK BY PHONE -->
+		<text id="TXT_QUEST_NAME_TALK_BY_PHONE" size='14'><![CDATA[ANSWER THE PHONE]]></text>
+		<text id="TXT_QUEST_DESC_TALK_BY_PHONE" size='14'><![CDATA[See who's calling]]></text>
+
+		<!-- QUEST DEFEAT TOBIAS INFO -->
+		<text id="TXT_QUEST_NAME_DEFEAT_TOBIAS" size='14'><![CDATA[DEFEAT TOBIAS]]></text>
+		<text id="TXT_QUEST_DESC_DEFEAT_TOBIAS" size='14'><![CDATA[Beat Tobias in single combat]]></text>
+
+		<!-- QUEST RECOVER TV INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_TV" size='14'><![CDATA[RECOVER TV]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_TV" size='14'><![CDATA[Search TV in...]]></text>
+
+		<!-- QUEST RECOVER CONSOLE INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_CONSOLE" size='14'><![CDATA[RECOVER CONSOLE]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_CONSOLE" size='14'><![CDATA[Search CONSOLE in...]]></text>
+
+		<!-- QUEST RECOVER COMPUTER INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_COMPUTER" size='14'><![CDATA[RECOVER COMPUTER]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_COMPUTER" size='14'><![CDATA[Search COMPUTER in...]]></text>
+
+		<!-- QUEST RECOVER MICROWAVE INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_MICROWAVE" size='14'><![CDATA[RECOVER MICROWAVE]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_MICROWAVE" size='14'><![CDATA[Search MICROWAVE in...]]></text>
+
+		<!-- QUEST RECOVER REMOTE INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_REMOTE" size='14'><![CDATA[RECOVER REMOTE]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_REMOTE" size='14'><![CDATA[Search REMOTE in...]]></text>
+
+		<!-- QUEST RECOVER VIDEOGAMES INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_VIDEOGAMES" size='14'><![CDATA[RECOVER VIDEOGAMES]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_VIDEOGAMES" size='14'><![CDATA[Search VIDEOGAMES in...]]></text>
+
+		<!-- QUEST RECOVER MOUSE INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_MOUSE" size='14'><![CDATA[RECOVER MOUSE]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_MOUSE" size='14'><![CDATA[Search MOUSE in...]]></text>
+
+		<!-- QUEST RECOVER DISH INFO -->
+		<text id="TXT_QUEST_NAME_RECOVER_DISH" size='14'><![CDATA[RECOVER DISH]]></text>
+		<text id="TXT_QUEST_DESC_RECOVER_DISH" size='14'><![CDATA[Search DISH in...]]></text>
+
+		<!-- QUEST TALK DARWIN -->
+		<text id="TXT_QUEST_NAME_TALK_DARWIN" size='14'><![CDATA[TALK DARWIN]]></text>
+		<text id="TXT_QUEST_DESC_TALK_DARWIN" size='14'><![CDATA[Talk to Darwin...]]></text>
+
+		<!-- QUEST TALK CARRIE -->
+		<text id="TXT_QUEST_NAME_TALK_CARRIE" size='14'><![CDATA[TALK CARRIE]]></text>
+		<text id="TXT_QUEST_DESC_TALK_CARRIE" size='14'><![CDATA[Talk to Carrie...]]></text>
+
+		<!-- QUEST OPEN CHEST -->
+		<text id="TXT_QUEST_NAME_OPEN_CHEST" size='14'><![CDATA[OPEN CHEST]]></text>
+		<text id="TXT_QUEST_DESC_OPEN_CHEST" size='14'><![CDATA[Open fist chest]]></text>
+
+		<!-- QUEST NO QUEST YET -->
+		<text id="TXT_QUEST_NAME_NONE" size='14'><![CDATA[NO QUEST YET]]></text>
+		<text id="TXT_QUEST_DESC_NONE" size='14'><![CDATA[No quest info yet]]></text>
+
+		<!-- QUEST TURN OFF COMPUTER -->
+		<text id="TXT_QUEST_NAME_TOUCH_COMPUTER" size='14'><![CDATA[TURN OFF THE COMPUTER]]></text>
+		<text id="TXT_QUEST_DESC_TOUCH_COMPUTER" size='14'><![CDATA[It saves energy]]></text>
+
+		<!-- QUEST TOUCH TV -->
+		<text id="TXT_QUEST_NAME_TOUCH_TV" size='14'><![CDATA[TURN ON THE TV]]></text>
+		<text id="TXT_QUEST_DESC_TOUCH_TV" size='14'><![CDATA[See if there's anything good on.]]></text>
+
+		<!-- QUEST TOUCH CONSOLE -->
+		<text id="TXT_QUEST_NAME_TOUCH_CONSOLE" size='14'><![CDATA[TURN ON THE CONSOLE]]></text>
+		<text id="TXT_QUEST_DESC_TOUCH_CONSOLE" size='14'><![CDATA[Got any good games?]]></text>
+
+		<!-- QUEST TOUCH MICROWAVE -->
+		<text id="TXT_QUEST_NAME_TOUCH_MICROWAVE" size='14'><![CDATA[TURN ON THE MICROWAVE]]></text>
+		<text id="TXT_QUEST_DESC_TOUCH_MICROWAVE" size='14'><![CDATA[Who's hungry?]]></text>
+
+		<!-- QUEST GET MILKSHAKE -->
+		<text id="TXT_QUEST_NAME_BUY_MILKSHAKE_1" size='14'><![CDATA[BUY MILKSHAKE 1]]></text>
+		<text id="TXT_QUEST_DESC_BUY_MILKSHAKE_1" size='14'><![CDATA[Buy and get milkshake 1]]></text>
+		<text id="TXT_QUEST_NAME_BUY_MILKSHAKE_2" size='14'><![CDATA[BUY MILKSHAKE 2]]></text>
+		<text id="TXT_QUEST_DESC_BUY_MILKSHAKE_2" size='14'><![CDATA[Buy and get milkshake 2]]></text>
+		<text id="TXT_QUEST_NAME_BUY_MILKSHAKE_3" size='14'><![CDATA[BUY MILKSHAKE 3]]></text>
+		<text id="TXT_QUEST_DESC_BUY_MILKSHAKE_3" size='14'><![CDATA[Buy and get milkshake 3]]></text>
+		<text id="TXT_QUEST_NAME_BUY_MILKSHAKE_4" size='14'><![CDATA[BUY MILKSHAKE 4]]></text>
+		<text id="TXT_QUEST_DESC_BUY_MILKSHAKE_4" size='14'><![CDATA[Buy and get milkshake 4]]></text>
+
+		<!-- DIALOG CARRIE -->
+		<text id="TXT_DIALOG_IDAHO_GREATING" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>This lame video game fell out of the trunk of of some black car.</font>]]></text>
+		<text id="TXT_DIALOG_IDAHO_GREATING2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Hey, that’s mine. It's a clue! </font>]]></text>
+		<text id="TXT_DIALOG_CARRIE_REGULAR" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Be careful with the other ghosts,<br>they don't like pretty much anyone who's alive.</font>]]></text>
+
+		<!-- DIALOG CARRIE -->
+		<text id="TXT_QUEST_NAME_TALK_ANAIS" size='14'><![CDATA[TALK ANAIS]]></text>
+		<text id="TXT_QUEST_DESC_TALK_ANAIS" size='14'><![CDATA[Talk to Anais...]]></text>
+
+		<!-- INVENTORY -->
+		<text id="TXT_INVENTORY_TITLE"><![CDATA[INVENTORY]]></text>
+		<text id="TXT_INVENTORY_INFO"><![CDATA[INFO]]></text>
+		<text id="TXT_INVENTORY_LEVEL"><![CDATA[LEVEL]]></text>
+		<text id="TXT_INVENTORY_HP"><![CDATA[HP]]></text>
+		<text id="TXT_INVENTORY_INFO_USE"><![CDATA[USE]]></text>
+		<text id="TXT_INVENTORY_INFO_DROP"><![CDATA[DROP]]></text>
+		<text id="TXT_INVENTORY_INFO_CANCEL"><![CDATA[CANCEL]]></text>
+		<text id="TXT_INVENTORY_FULL"><![CDATA[INVENTORY FULL]]></text>
+
+		<!-- SHOP -->
+		<text id="TXT_SHOP_DLG_OFFER"><![CDATA[What do you want to do?]]></text>
+		<text id="TXT_SHOP_DLG_OFFER_BUY"><![CDATA[BUY]]></text>
+		<text id="TXT_SHOP_DLG_OFFER_SELL"><![CDATA[SELL]]></text>
+		<text id="TXT_SHOP_DLG_OFFER_CANCEL"><![CDATA[CANCEL]]></text>
+		<text id="TXT_SHOP_TITLE"><![CDATA[ITEM]]></text>
+		<text id="TXT_SHOP_INFO"><![CDATA[ITEM INFO]]></text>
+		<text id="TXT_SHOP_BUY"><![CDATA[YOU GOT AN ITEM:<br>]]></text>
+		<text id="TXT_SHOP_SELL"><![CDATA[SELL]]></text>
+
+		<!-- HELP -->
+		<text id="TXT_HELP_1"><![CDATA[Use directional keys to move]]></text>
+		<text id="TXT_HELP_2"><![CDATA[Use spacebar to interact with objects]]></text>
+		<text id="TXT_HELP_3"><![CDATA[During the combat use the directional keys to<br>select attacks, enemies and allies and the<br>spacebar to confirm]]></text>
+
+		<!-- END GAME -->
+		<text id="TXT_ENDGAME_INFO"><![CDATA[TOTAL EXPERIENCE]]></text>
+		<text id="TXT_ENDGAME_NUMBER"><![CDATA[]]></text>
+
+		<!-- TOOLTIPS -->
+		<text id="TXT_TOOLTIP_MOVE"><![CDATA[PRESS ARROWS]]></text>
+		<text id="TXT_TOOLTIP"><![CDATA[PRESS]]></text>
+		<text id="TXT_SPACEBAR"><![CDATA[SPACEBAR]]></text>
+		<text id="TXT_Z"><![CDATA[Z]]></text>
+		<text id="TXT_TO_SELECT"><![CDATA[TO SELECT]]></text>
+		<text id="TXT_TO_EXIT"><![CDATA[TO EXIT]]></text>
+		<text id="TXT_QUEST_BOOK"><![CDATA[QUEST BOOK]]></text>
+
+		<!-- FIGHTS -->
+		<text id="TXT_FIGHT_READY"><![CDATA[READY]]></text>
+		<text id="TXT_FIGHT_GO"><![CDATA[GO!]]></text>
+		<text id="TXT_FIGHT_WIN"><![CDATA[VICTORY]]></text>
+		<text id="TXT_FIGHT_LOSE"><![CDATA[YOU LOSE]]></text>
+		<text id="TXT_FIGHT_MISS"><![CDATA[MISS]]></text>
+
+		<!-- DIALOG DARWIN_1 -->
+		<text id="TXT_DIALOG_DARWIN_GREATING" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>RPG Saturday, man this is going to be sweet, don't forget your gear</font>]]></text>
+		<text id="TXT_DIALOG_DARWIN_JOIN_0" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>That's it! This is just one big a Fantasy quest.<br>We'll find all our stuff-together. As a Fellowship! </font>]]></text>
+		<text id="TXT_DIALOG_DARWIN_JOIN" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Darwin the Enchanted Dwarf is ready!</font>]]></text>
+		<text id="TXT_DIALOG_DARWIN_JOINED" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN JOINED!</font>]]></text>
+		<text id="TXT_DIALOG_DARWIN_REGULAR" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Let's do this!</font>]]></text>
+
+		<!-- DIALOG ANAIS_1 -->
+		<text id="TXT_DIALOG_ANAIS_GREATING" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Have fun at your dork party! I'm going to the libarary.</font>]]></text>
+		<text id="TXT_DIALOG_ANAIS_JOIN_CONDITION" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>You're on your own.</font>]]></text>
+		<text id="TXT_DIALOG_ANAIS_JOIN_0" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Anais, you have to help us! We'll let you be a Tribal Warrior Priestess Healer!</font>]]></text>
+		<text id="TXT_DIALOG_ANAIS_JOIN" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Fine. Someone's got to save your butts!</font>]]></text>
+		<text id="TXT_DIALOG_ANAIS_JOINED" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS JOINED!</font>]]></text>
+		<text id="TXT_DIALOG_ANAIS_REGULAR" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Call me Zaltana, Warrior Priestess!</font>]]></text>
+
+		<!-- DIALOG GUMBALL GRAVEYARD -->
+		<text id="TXT_DIALOG_GUMBALL_GRAVEYARD" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>This is it, Darwin. Our journey begins. Now if only we could find a clue to start us off...<br>But first, I should check my QUEST JOURNAL!</font>]]></text>
+		<text id="TXT_DIALOG_GUMBALL_GRAVEYARD_2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>This is it, Darwin. Our journey begins. Now if only we could find a clue to start us off.]]></text>
+
+		<!-- PROLOGUE -->
+		<text id="TXT_DESCRIPTION_TV" size='14'><![CDATA[<font color ='#FFFF33'>ANNOUNCER:</font><font color ='#FFFF33'><br>Tonight, the Sheriff McGruff season premiere</font>]]></text>
+		<text id="TXT_DESCRIPTION_MICROWAVE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>How about a snack</font>]]></text>
+		<text id="TXT_DESCRIPTION_CONSOLE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>My character in "World of Kebab Fighter" is already in level 70.<br>So many memories in those 120 hours</font>]]></text>
+		<text id="TXT_DESCRIPTION_COMPUTER"><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Penny posted another selfie. Like!</font>]]></text>
+
+		<!-- YOU HAVE A CLUE! -->
+		<text id="TXT_PLAYER_HAVE_CLUE" size='14'><![CDATA[<font color ='#FFFF33'>YOU FOUND A CLUE!</font>]]></text>
+
+		<!-- RETURN TV -->
+		<text id="TXT_RETURN_TV" size='14'><![CDATA[<font color ='#FFFF33'>GOOD JOB! NOW RETURN TV</font>]]></text>
+		<text id="TXT_RETURN_CONSOLE" size='14'><![CDATA[<font color ='#FFFF33'>GOOD JOB! NOW RETURN CONSOLE</font>]]></text>
+		<text id="TXT_RETURN_COMPUTER" size='14'><![CDATA[<font color ='#FFFF33'>GOOD JOB! NOW RETURN COMPUTER</font>]]></text>
+		<text id="TXT_RETURN_MICROWAVE" size='14'><![CDATA[<font color ='#FFFF33'>GOOD JOB! NOW RETURN MICROWAVE</font>]]></text>
+		<text id="TXT_PLAYER_GO_HOME" size='14'><![CDATA[<font color ='#FFFF33'>I NEED TO RETURN THIS THING</font>]]></text>
+
+		<!-- IDAHO MILKSHAKE -->
+		<text id="TXT_DIALOG_IDAHO_OFFER" size='14'><![CDATA[<font color ='#FFFF33'>IDAHO:</font><font color ='#FFFF33'><br>Howdy! I can mix up an all-natural WONDER SHAKE to help boost your XP. <br>It will take me 24 HOURS to make it.  All I need is UUU roots.</font>]]></text>
+		<text id="TXT_DIALOG_IDAHO_GIVE" size='14'><![CDATA[<font color ='#FFFF33'>IDAHO:</font><font color ='#FFFF33'><br>Experience the flavor!</font>]]></text>
+		<text id="TXT_DIALOG_IDAHO_WARN_TIME" size='14'><![CDATA[<font color ='#FFFF33'>IDAHO:</font><font color ='#FFFF33'><br>Each shake is hand crafted for extra XP goodness. Check back in: YYY</font>]]></text>
+		<text id="TXT_DIALOG_IDAHO_WARN_ROOTS" size='14'><![CDATA[<font color ='#FFFF33'>IDAHO:</font><font color ='#FFFF33'><br>Well, shoot! I need NNN roots to make a shake, and you only have SSS.</font>]]></text>
+		<text id="TXT_DIALOG_IDAHO_OK_BUY" size='14'><![CDATA[<font color ='#FFFF33'>IDAHO:</font><font color ='#FFFF33'><br>Come back tomorrow to pick up your SHAKE!</font>]]></text>
+		<text id="TXT_DIALOG_IDAHO_MILKSHAKE" size='14'><![CDATA[<font color ='#FFFF33'>WONDER SHAKE!</font>]]></text>
+
+		<!-- DIALOG PLAYER BEOFRE FIGHT TV -->
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_TV_1"><![CDATA[<font color ='#FFFF33'>ANNOUNCER:</font><font color ='#FFFF33'><br>Coming up next: McGruff</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_TV_2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>WHAT?? McGruff is already starting. Hey ghosts, give us back our TV!</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_TV_3" size='14'><![CDATA[<font color ='#FFFF33'>GHOST:</font><font color ='#FFFF33'><br>Over my dead body</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_RECOVER_TV" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>We did it, just in time for the second half!</font>]]></text>
+
+		<!-- DIALOG PLAYER BEOFRE FIGHT CONSOLE -->
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_CONSOLE_1" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Why the heck do a bunch of mindless beasts need a game console?</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_CONSOLE_2" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Gumball, I believe they think it's a panini maker</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_CONSOLE_3" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>That's it, monsters! Gimme MY CONSOLE!</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_RECOVER_CONSOLE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>OK, it does look a little bit like a panini maker</font>]]></text>
+
+		<!-- DIALOG PLAYER BEOFRE FIGHT COMPUTER -->
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_COMPUTER_1" size='14'><![CDATA[<font color ='#FFFF33'>GHOST:</font><font color ='#FFFF33'><br>zOMG! You look so different in your profile pic. </font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_COMPUTER_2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>I'm not here for a date, you creep! I want my computer back!</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_COMPUTER_3" size='14'><![CDATA[<font color ='#FFFF33'>GHOST:</font><font color ='#FFFF33'><br>No way, N00B</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_RECOVER_COMPUTER" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>My COMPUTER. Yes!</font>]]></text>
+
+		<!-- DIALOG PLAYER BEOFRE FIGHT MICROWAVE -->
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_MICROWAVE_1" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Hey, monsters! Hands off my MICROWAVE!</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_MICROWAVE_2" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Gross, now they're just scarfing down microwave junk food</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_BEFORE_FIGHT_MICROWAVE_3" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Stick to organic</font>]]></text>
+		<text id="TXT_DIALOG_PLAYER_RECOVER_MICROWAVE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>The MICROWAVE. Yes!</font>]]></text>
+
+		<!-- SCORE CARD -->
+		<text id="TXT_SCORECARD_LEVEL_UP"><![CDATA[LEVEL UP]]></text>
+		<text id="TXT_SCORECARD_LEVEL"><![CDATA[lvl]]></text>
+
+		<!-- ITEMS -->
+		<text id="TXT_NAME_TV"><![CDATA[TV]]></text>
+		<text id="TXT_DESC_TV"><![CDATA[Richard's favorite pasttime]]></text>
+		<text id="TXT_NAME_CONSOLE"><![CDATA[GAME CONSOLE]]></text>
+		<text id="TXT_DESC_CONSOLE"><![CDATA[Where video games live]]></text>
+		<text id="TXT_NAME_COMPUTER"><![CDATA[COMPUTER]]></text>
+		<text id="TXT_DESC_COMPUTER"><![CDATA[This is an important house item]]></text>
+		<text id="TXT_NAME_OVEN"><![CDATA[MICROWAVE]]></text>
+		<text id="TXT_DESC_OVEN"><![CDATA[It's where microwave dinners come from]]></text>
+		<text id="TXT_NAME_KEY1"><![CDATA[HAUNTED HOUSE KEY]]></text>
+		<text id="TXT_DESC_KEY1"><![CDATA[This key opens the gate to the Haunted House]]></text>
+		<text id="TXT_NAME_KEY2"><![CDATA[FOREST KEY]]></text>
+		<text id="TXT_DESC_KEY2"><![CDATA[This key opens a path in the north part of the forest]]></text>
+		<text id="TXT_NAME_KEY3"><![CDATA[CEMETERY KEY]]></text>
+		<text id="TXT_DESC_KEY3"><![CDATA[This skeleton key unlocks the gate to the cemetery. ]]></text>
+		<text id="TXT_NAME_TROPHY1"><![CDATA[TROPHY]]></text>
+		<text id="TXT_DESC_TROPHY1"><![CDATA[It's a major award]]></text>
+		<text id="TXT_NAME_TROPHY2"><![CDATA[WEDDING DRESS]]></text>
+		<text id="TXT_DESC_TROPHY2"><![CDATA[Be as beautiful as Gumball]]></text>
+		<text id="TXT_NAME_MILKSHAKE1"><![CDATA[SMALL WONDER SHAKE]]></text>
+		<text id="TXT_DESC_MILKSHAKE1"><![CDATA[WONDEROUS<br>ROOT]]></text>
+		<text id="TXT_NAME_MILKSHAKE2"><![CDATA[WONDER SHAKE]]></text>
+		<text id="TXT_DESC_MILKSHAKE2"><![CDATA[WONDEROUS<br>ROOT]]></text>
+		<text id="TXT_NAME_MILKSHAKE3"><![CDATA[WONDER SHAKE]]></text>
+		<text id="TXT_DESC_MILKSHAKE3"><![CDATA[WONDEROUS<br>ROOT]]></text>
+		<text id="TXT_NAME_MILKSHAKE4"><![CDATA[WONDER SHAKE]]></text>
+		<text id="TXT_DESC_MILKSHAKE4"><![CDATA[WONDEROUS<br>ROOT]]></text>
+		<text id="TXT_NAME_ROOT"><![CDATA[WONDEROUS<br>ROOT]]></text>
+		<text id="TXT_DESC_ROOT"><![CDATA[Roots can replenish<br>your health]]></text>
+		<text id="TXT_NAME_HEROHELMET1"><![CDATA[HERO HELMET]]></text>
+		<text id="TXT_DESC_HEROHELMET1"><![CDATA[Boosts Gumball's<br>damage]]></text>
+		<text id="TXT_NAME_HEROHELMET2"><![CDATA[LEGENDARY<br>HELMET]]></text>
+		<text id="TXT_DESC_HEROHELMET2"><![CDATA[Boosts Gumball's<br>damage to<br>legendary levels]]></text>
+		<text id="TXT_NAME_MAGECAPE1"><![CDATA[WITCH'S HAT]]></text>
+		<text id="TXT_DESC_MAGECAPE1"><![CDATA[Makes Anais' healing<br>spells more powerful]]></text>
+		<text id="TXT_NAME_MAGECAPE2"><![CDATA[WIZARD'S HAT]]></text>
+		<text id="TXT_DESC_MAGECAPE2"><![CDATA[Anais can restore even<br>more health]]></text>
+		<text id="TXT_NAME_AMULET1"><![CDATA[ENCHANTED<br>SHIELD]]></text>
+		<text id="TXT_DESC_AMULET1"><![CDATA[Improves Darwin's<br>defense]]></text>
+		<text id="TXT_NAME_AMULET2"><![CDATA[AURA SHIELD  ]]></text>
+		<text id="TXT_DESC_AMULET2"><![CDATA[Boosts Darwin's<br>defense to block<br>even stronger<br>attacks]]></text>
+		<text id="TXT_NAME_SPEEDBRACELET1"><![CDATA[SPEED SHOES]]></text>
+		<text id="TXT_DESC_SPEEDBRACELET1"><![CDATA[Reduces attack<br>cooldown time]]></text>
+		<text id="TXT_NAME_SPEEDBRACELET2"><![CDATA[SUPER SPEED<br>SHOES]]></text>
+		<text id="TXT_DESC_SPEEDBRACELET2"><![CDATA[Recharges your attack<br>in no time]]></text>
+		<text id="TXT_NAME_REGENERATIONBRACELET1"><![CDATA[HEALING<br>POTION]]></text>
+		<text id="TXT_DESC_REGENERATIONBRACELET1"><![CDATA[Restores some health<br>to the entire group]]></text>
+		<text id="TXT_NAME_REGENERATIONBRACELET2"><![CDATA[REGENERATION<br>POTION]]></text>
+		<text id="TXT_DESC_REGENERATIONBRACELET2"><![CDATA[Restores the entire<br>group to full<br>strength]]></text>
+		<text id="TXT_NAME_VIDEOGAME"><![CDATA[THE TALE OF ZELMORE]]></text>
+		<text id="TXT_DESC_VIDEOGAME"><![CDATA[The most amazing game ever!]]></text>
+		<text id="TXT_NAME_COINS1"><![CDATA[1 buck]]></text>
+		<text id="TXT_NAME_COINS10"><![CDATA[10 bucks]]></text>
+		<text id="TXT_NAME_COINS50"><![CDATA[50 bucks]]></text>
+		<text id="TXT_NAME_LETTERA"><![CDATA[Halloween Card]]></text>
+		<text id="TXT_NAME_LETTERB"><![CDATA[Chain Letter ]]></text>
+		<text id="TXT_NAME_LETTERC"><![CDATA[Birthday Card]]></text>
+		<text id="TXT_NAME_LETTERD"><![CDATA[Love Letter]]></text>
+		<text id="TXT_DESC_LETTERA"><![CDATA[Deliver to Pete Tuna in the Forest]]></text>
+		<text id="TXT_DESC_LETTERB"><![CDATA[Even ghosts can't escape them]]></text>
+		<text id="TXT_DESC_LETTERC"><![CDATA[Deliver to the Tuna in XXX]]></text>
+		<text id="TXT_DESC_LETTERD"><![CDATA[Love never dies]]></text>
+		<text id="TXT_NAME_REMOTE"><![CDATA[REMOTE]]></text>
+		<text id="TXT_DESC_REMOTE"><![CDATA[TV's best friend]]></text>
+		<text id="TXT_NAME_VIDEOGAMES"><![CDATA[THE TALE OF ZELMORE]]></text>
+		<text id="TXT_DESC_VIDEOGAMES"><![CDATA[The most amazing game ever!]]></text>
+		<text id="TXT_NAME_MOUSE"><![CDATA[MOUSE]]></text>
+		<text id="TXT_DESC_MOUSE"><![CDATA[Made in China]]></text>
+		<text id="TXT_NAME_DISHES"><![CDATA[MICROWAVE DISH]]></text>
+		<text id="TXT_DESC_DISHES"><![CDATA[Spins round and round]]></text>
+		<text id="TXT_NAME_TROPHY"><![CDATA[TROPHY]]></text>
+		<text id="TXT_DESC_TROPHY"><![CDATA[It's a major award]]></text>
+		<text id="TXT_NAME_DRESS"><![CDATA[WEDDING DRESS]]></text>
+		<text id="TXT_DESC_DRESS"><![CDATA[Be as beautiful as Gumball]]></text>
+
+		<!-- RIDDLES -->
+		<text id="TXT_DIALOG_RIDDLE_1" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>If you want to get through, you'll have to fix these headstones. The TUNA goes at the far left.<br>The GRIFFIN should be facing him, but he can't be too close because of the smell.</font>]]></text>
+		<text id="TXT_DIALOG_RIDDLE_2" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Another ancient riddle. The TUNA feels at home right next to the creek. The GRIFFIN is at the<br>opposite side. The DEER is directly below him, making eyes at the SPECTRE.</font>]]></text>
+		<text id="TXT_DIALOG_RIDDLE_3" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Ghosts really love their puzzles. Put the GRIFFIN and the DEER as far away from each other as you can.<br>The TUNA and the SPECTRE are besties, but the TUNA doesen't want to look at the GRIFFIN, although he's right next to him.</font>]]></text>
+		<text id="TXT_DIALOG_RIDDLE_4" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE</font><font color ='#FFFF33'><br>Everyone is next to the SPECTRE. The TUNA and the DEER are at the far left and right of the same line.<br>The GRIFFIN is on the bottom.</font>]]></text>
+		<text id="TXT_DIALOG_RIDDLE_5" size='14'><![CDATA[<font color ='#FFFF33'>CARRIE</font><font color ='#FFFF33'><br>You're headed to the deepest part of the forest. Follow the mushrooms to find the way.</font>]]></text>
+
+		<!-- END LEVEL -->
+		<text id="TXT_END_LEVEL_XP" size='14'><![CDATA[XP]]></text>
+
+		<!-- RECALL IDAHO POPUP -->
+		<text id="TXT_RECALL_IDAHO" size='14'><![CDATA[MILKSHAKE READY]]></text>
+
+		<!-- TUTORIAL FIGHT -->
+		<text id="TXT_DIALOG_BOSS_1"><![CDATA[GUMBALL:<br>We won't let you destroy our stuff!]]></text>
+		<text id="TXT_DIALOG_BOSS_2"><![CDATA[DARWIN:<br>Yeah! How are we gonna waste<br>time without them?]]></text>
+		<text id="TXT_DIALOG_BOSS_3"><![CDATA[ANAIS:<br>Do you know how many<br>times we've had to fix everything<br>because of dad?]]></text>
+		<text id="TXT_DIALOG_BOSS_4"><![CDATA[GRANNY JOJO:<br>Listen to your grandmother!<br>I'm only trying to keep you safe!]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_TOBIAS_INIT"><![CDATA[<font color ='#FFFF33'>TOBIAS</font><font color ='#FFFF33'>: <br>Ha! Are you telling me you don't know<br> how to fight? Prepare to get schooled!]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_CHARACTERS_INIT"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Our first fight as a party! <br>Still need help? <br>No problem.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ACTIONS_INIT"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>WOW! You just learned a new ability!!]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_CHARACTERS_MOVE"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Use UP and DOWN arrows or CLICK<br>to choose a character.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ACTIONS_MOVE"><![CDATA[</font><font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Use LEFT and RIGHT arrows or CLICK<br>to select the new ability.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ALLIES_MOVE"><![CDATA[</font><font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Use UP and DOWN arrows or CLICK<br>to choose an ally.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ENEMIES_MOVE"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Use UP and DOWN arrows or CLICK<br>to choose an enemy.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_TOBIAS_PRESS"><![CDATA[</font><font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Press SPACEBAR or CLICK<br>to select your ability.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_CHARACTERS_PRESS"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Press SPACEBAR or CLICK<br>to trigger their ability.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ACTIONS_PRESS"><![CDATA[</font><font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Press SPACEBAR or CLICK<br>to trigger your ability.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ALLIES_PRESS"><![CDATA[</font><font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Press SPACEBAR or CLICK<br>to select an ally.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_ENEMIES_PRESS"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Press SPACEBAR or CLICK<br>again to attack the enemy.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_TOBIAS_PRESS_2"><![CDATA[</font><font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Press SPACEBAR or CLICK to attack<br>your enemy... that means me.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_CHARACTERS_RUN"><![CDATA[</font><font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Oops! Almost forgot, <br>you can click the RETREAT<br> button if you want to run away. ]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_RECHARGE"><![CDATA[</font><font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Now wait for your ability to recharge<br>to attack again... pfff super easy.]]></text>
+		<text id="TXT_TUTORIAL_FIGHT_TOBIAS_END"><![CDATA[</font><font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>MAN! I'm a great teacher…]]></text>
+
+		<!-- TUTORIAL INVENTORY -->
+		<text id="TXT_TUTORIAL_INVENTORY_SELECT"><![CDATA[ITEM EQUIPED ]]></text>
+		<text id="TXT_TUTORIAL_INVENTORY_USE"><![CDATA[Select USE to equip]]></text>
+
+		<!-- KEY MESSAGES -->
+		<text id="TXT_DONT_HAVE_KEY" size='14'><![CDATA[YOU NEED A KEY]]></text>
+		<text id="TXT_USE_KEY" size='14'><![CDATA[KEY USED]]></text>
+
+		<!-- LETTER ACTIVITY DLOGS -->
+		<text id="TXT_ACTIVITY_ASK_LETTER"><![CDATA[NAME: I need LETTER_IN. ]]></text>
+		<text id="TXT_ACTIVITY_ASK_DELIVER"><![CDATA[<font color ='#FFFF33'>CARLOS TUNA:</font><font color ='#FFFF33'><br>Chill out, bro. I have nothing against the living. Hey, can you do me a favor? I need to deliver a<br>LETTER_OUT to my brother PETE TUNA in the FOREST OF DOOM. Can you help me?</font>]]></text>
+		<text id="TXT_ACTIVITY_REMEMBER_DELIVER"><![CDATA[<font color ='#FFFF33'>CARLOS TUNA:</font><font color ='#FFFF33'><br>Remember deliver LETTER_OUT to PETE TUNA
+</font>]]></text>
+		<text id="TXT_ACTIVITY_MESSAGE"><![CDATA[You have a LETTER]]></text>
+		<text id="TXT_ACTIVITY_THANKS_LETTER_IN_GIVE_LETTER_OUT"><![CDATA[<font color ='#FFFF33'>PETE TUNA:</font><font color ='#FFFF33'><br>Man! News from Carlos! Thanks for bring me LETTER_IN. Please, deliver this LETTER_OUT<br>to ANDY TUNA</font>]]></text>
+		<text id="TXT_ACTIVITY_THANKS_LETTER_IN_GIVE_REWARD"><![CDATA[<font color ='#FFFF33'>ANDY TUNA:</font><font color ='#FFFF33'><br>Thanks for bringing me LETTER_IN. Please, take this REWARD</font>]]></text>
+		<text id="TXT_ACTIVITY_THANKS_DELIVER_LETTER_OUT"><![CDATA[<font color ='#FFFF33'>CARLOS TUNA:</font><font color ='#FFFF33'><br>Thanks for deliver LETTER_OUT to PETE TUNA</font>]]></text>
+		<text id="TXT_ACTIVITY_THANKS_HELP"><![CDATA[<font color ='#FFFF33'>CARLOS TUNA:</font><font color ='#FFFF33'><br>Thanks for  your help!</font>]]></text>
+		<text id="TXT_ACTIVITY_MESSAGE_REWARD"><![CDATA[You have a REWARD]]></text>
+
+		<!-- TUTORIAL INVENTORY INFO -->
+		<text id="TXT_DARWIN_ADVICE_PRESS_Z"><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Press Z to open your inventory]]></text>
+		<text id="TXT_DARWIN_AFTER_INVENTORY_TUTO"><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Good! Tobias is waiting for ya in the backyard]]></text>
+		<text id="TXT_BUTTON_QUEST_TITLE"><![CDATA[QUEST JOURNAL]]></text>
+		<text id="TXT_BUTTON_QUEST_INFO"><![CDATA[Press C to open your quest journal]]></text>
+
+		<!-- DARWIN COMPUTER -->
+		<text id="TXT_DLOG_DARWIN_TURN_OFF" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>RPG Saturday! Man, this is going to be sweet. Have you heard from Tobias yet?]]></text>
+		<text id="TXT_DLOG_DARWIN_GUMBALL_TURN_OFF" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Let me check the COMPUTER]]></text>
+		<text id="TXT_DLOG_DARWIN_REMEMBER_TURN_OFF" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Don't forget to check the COMPUTER]]></text>
+		<text id="TXT_DLOG_DARWIN_GUMBALL_REMEMBER_TURN_OFF" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Oh, right!]]></text>
+
+		<!-- DARWIN CHEST -->
+		<text id="TXT_DLOG_DARWIN_TOBIAS_IS_HAPPY" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>I could swear I saw your HELMET in an old CHEST]]></text>
+		<text id="TXT_DLOG_DARWIN_LETS_PLAY_VIDEOGAMES" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>We're ready! Let's go downstairs]]></text>
+
+		<!-- GUMBALL COMPUTER -->
+		<text id="TXT_DLOG_GUMBALL_I_HAVE_MAIL" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Wait... I have an email from Tobias]]></text>
+		<text id="TXT_DLOG_GUMBALL_READ_MAIL" size='14'><![CDATA[<font color ='#FFFF33'>TOBIAS:</font><font color ='#FFFF33'><br>Prepare to face the wrath of Tobias the Dark Elf!  Don't forget your gear. <br>I'll be right over]]></text>
+		<text id="TXT_DLOG_GUMBALL_TURN_OFF" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Time to get ready!]]></text>
+		<text id="TXT_DLOG_GUMBALL_DARWIN_THANKS" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Tobias says he's taking the FANTASY club to the next level. Better grab your HERO HELMET?<br> I think I saw it in a chest somewhere]]></text>
+		<text id="TXT_DLOG_GUMBALL_PC_IS_OFF" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>The computer is off]]></text>
+
+		<!-- GRANNY PROLOGUE -->
+		<text id="TXT_DLOG_GRANNY_HI" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY:</font><font color ='#FFFF33'><br>Aren't you going to give your granny a kiss?]]></text>
+		<text id="TXT_DLOG_GRANNY_GUMBALL_HI" size='14'><![CDATA[GUMBALL: <br> Uhh…]]></text>
+		<text id="TXT_DLOG_GRANNY_DONT_WORRY" size='14'><![CDATA[<font color ='#FFFF33'> GRANNY:</font><font color ='#FFFF33'><br>A good grandmother prevents incidents before they happen.<br>How about we danger-proof the house this afternoon? ]]></text>
+		<text id="TXT_DLOG_GRANNY_GUMBALL" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Right, about that, I already have plans to chat with Penny on Elmore Plus.<br>Also we were watching McGruff's season premiere and playing video games. ]]></text>
+		<text id="TXT_DLOG_GRANNY_DONT_RUN" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY:</font><font color ='#FFFF33'><br>It's dangerous to run inside the house]]></text>
+		<text id="TXT_DLOG_GRANNY_GUMBALL_DONT_WORRY" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Dont worry, Granny]]></text>
+		<text id="TXT_DLOG_GRANNY_CHECK_PHONE" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY:</font><font color ='#FFFF33'><br>Get the phone, Gumball]]></text>
+		<text id="TXT_DLOG_GRANNY_GUMBALL_CHECK_PHONE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Sure thing, Granny Jojo]]></text>
+		<text id="TXT_DLOG_GRANNY_PROLOGUE_DONE" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY:</font><font color ='#FFFF33'><br>Are you sure you wanna go outside, it could be dangerous]]></text>
+		<text id="TXT_DLOG_GRANNY_GUMBALL_PROLOGUE_DONE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Yes, it is my sacred quest]]></text>
+
+		<!-- DARWIN PROLOGUE -->
+		<text id="TXT_DLOG_DARWIN_WANNA_PLAY" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Mr. dad asked us to turn off everything before going out]]></text>
+		<text id="TXT_DLOG_DARWIN_GUMBALL_YES" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>On it!]]></text>
+		<text id="TXT_DLOG_DARWIN_TURN_ON_TV_CONSOLE" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Turn off the TV and the game console]]></text>
+		<text id="TXT_DLOG_DARWIN_TURN_ON_TV" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Turn off the TV]]></text>
+		<text id="TXT_DLOG_DARWIN_GUMBALL_RELAX" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Ok, relax!]]></text>
+		<text id="TXT_DLOG_DARWIN_TURN_ON_CONSOLE" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Turn off the the console]]></text>
+		<text id="TXT_DLOG_DARWIN_GUMBALL_GET_FUN" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Yeah! Video games!]]></text>
+		<text id="TXT_DLOG_DARWIN_GUMBALL_RIGHT_NOW" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Got it!]]></text>
+		<text id="TXT_DLOG_DARWIN_HUNGRY" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>The snacks for the Fantasy Club are in the microwave]]></text>
+		<text id="TXT_DLOG_DARWIN_PROLOGUE_DONE" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>I'll see you later, video games]]></text>
+		<text id="TXT_DLOG_DARWIN_WARN_ABOUT_TOBIAS" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Great!... Now, don't forget about Tobias]]></text>
+		<text id="TXT_DLOG_DARWIN_WARN_ABOUT_TOBIAS" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Great!... Now, don't forget about Tobias]]></text>
+		<text id="TXT_DLOG_DARWIN_REMEMBER_TOBIAS" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Tobias is out back]]></text>
+		<text id="TXT_DLOG_DARWIN_REMEMBER_TOBIAS_GUMBALL" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>On my way!]]></text>
+		<text id="TXT_DLOG_DARWIN_CHECK_PHONE" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Answer the phone]]></text>
+		<text id="TXT_MSG_DARWIN_THINGS_TO_DO" size='14'><![CDATA[<font color ='#FFFF33'>DARWIN:</font><font color ='#FFFF33'><br>Gumball? Have you checked the TV, game console and microwave?]]></text>
+
+		<!-- ANAIS PROLOGUE -->
+		<text id="TXT_DLOG_ANAIS_MAKE_POPCORN" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>There are snacks in the microwave ]]></text>
+		<text id="TXT_DLOG_ANAIS_GUMBALL_POPCORN" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Oh, sweet!]]></text>
+		<text id="TXT_DLOG_ANAIS_TOBIAS_YARD" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Tobias is in the backyard]]></text>
+		<text id="TXT_DLOG_ANAIS_GUMBALL_TOBIAS" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>I know, it's RPG Saturday]]></text>
+		<text id="TXT_DLOG_ANAIS_PROLOGUE_DONE" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>I'm busy]]></text>
+		<text id="TXT_DLOG_ANAIS_REMEMBER_TOBIAS" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Tobias is waiting for you in the backyard!]]></text>
+		<text id="TXT_DLOG_ANAIS_CHECK_PHONE" size='14'><![CDATA[<font color ='#FFFF33'>ANAIS:</font><font color ='#FFFF33'><br>Answer the phone]]></text>
+
+		<!-- SPACES DLOGS PROLOGUE -->
+		<text id="TXT_DLOG_GUMBALL_TV" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>TV off. Check!]]></text>
+		<text id="TXT_DLOG_GUMBALL_TV_2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Yep, I turned the TV off already]]></text>
+		<text id="TXT_DLOG_GUMBALL_CONSOLE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>CONSOLE off and game saved]]></text>
+		<text id="TXT_DLOG_GUMBALL_CONSOLE_2" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>CONSOLE is still off]]></text>
+		<text id="TXT_DLOG_GUMBALL_MICROWAVE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>The snacks are ready in microwave]]></text>
+
+		<!-- CARRIE GHOST HOUSE -->
+		<text id="TXT_DLOG_CARRIE_WARNING" size='14'><![CDATA[</font><font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Be careful, my friends are waiting for dates, they could be on edge.]]></text>
+		<text id="TXT_DLOG_CARRIE_GUMBALL_DONT_SEE" size='14'><![CDATA[</font><font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>I dont see anybody.]]></text>
+		<text id="TXT_DLOG_CARRIE_GUMBALL_DOH" size='14'><![CDATA[</font><font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>D'oh! They're invisible.]]></text>
+		<text id="TXT_DLOG_CARRIE_MORE_BUTTONS_1" size='14'><![CDATA[</font><font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Look for more buttons.]]></text>
+		<text id="TXT_DLOG_CARRIE_MORE_BUTTONS_2" size='14'><![CDATA[</font><font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Find and push more buttons.]]></text>
+		<text id="TXT_DLOG_CARRIE_BLOCKERS_OFF_1" size='14'><![CDATA[</font><font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Be careful, this place is crawling with ghosts.]]></text>
+		<text id="TXT_DLOG_CARRIE_BLOCKERS_OFF_1_GUMBALL" size='14'><![CDATA[</font><font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>True adventurers never quit!]]></text>
+		<text id="TXT_DLOG_CARRIE_BLOCKERS_OFF_2" size='14'><![CDATA[</font><font color ='#FFFF33'>CARRIE:</font><font color ='#FFFF33'><br>Don't say I didn't warn you.]]></text>
+
+		<!-- GRANNY AFTER DEFEAT -->
+		<text id="TXT_DLOG_GRANNY_AFTER_DEFEAT" size='14'><![CDATA[<font color ='#FFFF33'>GRANNY:</font><font color ='#FFFF33'><br>There are more objets around the world, return to the ELMORE GRAVEYARD<br> and THE FOREST OF DOOM to find a few more surprises]]></text>
+
+		<!-- GUMBALL MISSING OBJETS -->
+		<text id="TXT_DLOG_GUMBALL_WHERE_IS_REMOTE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>The remote is still missing, maybe it's somewhere in ELMORE GRAVEYARD.]]></text>
+		<text id="TXT_DLOG_GUMBALL_WHERE_IS_VIDEOGAMES" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Carrie found one of the video games near the HAUNTED HOUSE.]]></text>
+		<text id="TXT_DLOG_GUMBALL_WHERE_IS_MOUSE" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>Where's the computer mouse?! Maybe some FOREST creature thought it was an actual mouse.]]></text>
+		<text id="TXT_DLOG_GUMBALL_WHERE_IS_DISH" size='14'><![CDATA[<font color ='#FFFF33'>GUMBALL:</font><font color ='#FFFF33'><br>The microwave dish is still missing. Let's go back to the FOREST to find it. ]]></text>
+
+		<!-- DAYLY FIGHT -->
+		<text id="TXT_DLOG_DAYLY_FIGHT_OFFER" size='14'><![CDATA[<font color ='#FFFF33'>...</font><font color ='#FFFF33'><br>Wanna SPECIAL fight?]]></text>
+		<text id="TXT_DIALOG_DAYLY_FIGHT_WARN_TIME" size='14'><![CDATA[<font color ='#FFFF33'>...</font><font color ='#FFFF33'><br>You only get one SPECIAL fight a day. Come back in YYY hours]]></text>
+	</strings>
+
+</xmlData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmlData>
+	<tasks>
+		<task id="tsk_00a" action="talk" target="Granny" num="1" />
+		<task id="tsk_00b" action="talk" target="Phone" num="1" />
+		<task id="tsk_00c" action="talk" target="Darwin" num="1" />
+		<task id="tsk_00d" action="talk" target="Carrie" num="1" />
+		<task id="tsk_00e" action="talk" target="Anais" num="1" />
+		<task id="tsk_00f" action="open" target="chest" num="1" />
+		<task id="tsk_00g" action="touch" target="computer" num="1" />
+		<task id="tsk_00h" action="touch" target="tv" num="1" />
+		<task id="tsk_00i" action="touch" target="console" num="1" />
+		<task id="tsk_00j" action="touch" target="microwave" num="1" />
+		<task id="tsk_00k" action="defeat" target="Granny" num="1" />
+		<task id="tsk_00l" action="check" target="questBook" num="1" />
+		<task id="tsk_00m1" action="buy" target="milkshake1" num="1" />
+		<task id="tsk_00m2" action="buy" target="milkshake2" num="1" />
+		<task id="tsk_00m3" action="buy" target="milkshake3" num="1" />
+		<task id="tsk_00m4" action="buy" target="milkshake4" num="1" />
+		<task id="tsk_001" action="defeat" target="Tobias" num="1" />
+		<task id="tsk_002" action="recover" target="tv" num="1" />
+		<task id="tsk_003" action="recover" target="console" num="1" />
+		<task id="tsk_004" action="recover" target="computer" num="1" />
+		<task id="tsk_005" action="recover" target="microwave" num="1" />
+		<task id="tsk_006" action="recover" target="remote" num="1" />
+		<task id="tsk_007" action="recover" target="videogames" num="1" />
+		<task id="tsk_008" action="recover" target="mouse" num="1" />
+		<task id="tsk_009" action="recover" target="dishes" num="1" />
+	</tasks>
+
+	<quests>
+		<quest id="qst_talk_granny" name="TXT_QUEST_NAME_TALK_TO_GRANNY" desc="TXT_QUEST_DESC_TALK_TO_GRANNY" task="tsk_00a" script="none" important="false" />
+		<quest id="qst_talk_phone" name="TXT_QUEST_NAME_TALK_BY_PHONE" desc="TXT_QUEST_DESC_TALK_BY_PHONE" task="tsk_00b" script="none" important="false" />
+		<quest id="qst_talk_darwin" name="TXT_QUEST_NAME_TALK_DARWIN" desc="TXT_QUEST_DESC_TALK_DARWIN" task="tsk_00c" script="none" important="false" />
+		<quest id="qst_talk_carrie" name="TXT_QUEST_NAME_TALK_CARRIE" desc="TXT_QUEST_DESC_TALK_CARRIE" task="tsk_00d" script="none" important="false" />
+		<quest id="qst_talk_anais" name="TXT_QUEST_NAME_TALK_ANAIS" desc="TXT_QUEST_DESC_TALK_ANAIS" task="tsk_00e" script="none" important="false" />
+		<quest id="qst_open_chest" name="TXT_QUEST_NAME_OPEN_CHEST" desc="TXT_QUEST_DESC_OPEN_CHEST" task="tsk_00f" script="none" important="false" />
+		<quest id="qst_touch_computer" name="TXT_QUEST_NAME_TOUCH_COMPUTER" desc="TXT_QUEST_DESC_TOUCH_COMPUTER" task="tsk_00g" script="none" important="false" />
+		<quest id="qst_touch_tv" name="TXT_QUEST_NAME_TOUCH_TV" desc="TXT_QUEST_DESC_TOUCH_TV" task="tsk_00h" script="none" important="false" />
+		<quest id="qst_touch_console" name="TXT_QUEST_NAME_TOUCH_CONSOLE" desc="TXT_QUEST_DESC_TOUCH_CONSOLE" task="tsk_00i" script="none" important="false" />
+		<quest id="qst_touch_microwave" name="TXT_QUEST_NAME_TOUCH_MICROWAVE" desc="TXT_QUEST_DESC_TOUCH_MICROWAVE" task="tsk_00j" script="none" important="false" />
+		<quest id="qst_defeat_granny" name="TXT_QUEST_NAME_TOUCH_MICROWAVE" desc="TXT_QUEST_DESC_TOUCH_MICROWAVE" task="tsk_00k" script="none" important="false" />
+		<quest id="qst_check_tutorialQuestBook" name="TXT_QUEST_NAME_TOUCH_MICROWAVE" desc="TXT_QUEST_DESC_TOUCH_MICROWAVE" task="tsk_00l" script="none" important="false" />
+		<quest id="qst_buy_milkshake1" name="TXT_QUEST_NAME_BUY_MILKSHAKE_1" desc="TXT_QUEST_DESC_BUY_MILKSHAKE_1" task="tsk_00m1" script="none" important="false" />
+		<quest id="qst_buy_milkshake2" name="TXT_QUEST_NAME_BUY_MILKSHAKE_2" desc="TXT_QUEST_DESC_BUY_MILKSHAKE_2" task="tsk_00m2" script="none" important="false" />
+		<quest id="qst_buy_milkshake3" name="TXT_QUEST_NAME_BUY_MILKSHAKE_3" desc="TXT_QUEST_DESC_BUY_MILKSHAKE_3" task="tsk_00m3" script="none" important="false" />
+		<quest id="qst_buy_milkshake4" name="TXT_QUEST_NAME_BUY_MILKSHAKE_4" desc="TXT_QUEST_DESC_BUY_MILKSHAKE_4" task="tsk_00m4" script="none" important="false" />
+		<quest id="qst_defeat_tobias" name="TXT_QUEST_NAME_DEFEAT_TOBIAS" desc="TXT_QUEST_DESC_DEFEAT_TOBIAS" task="tsk_001" script="script_qst_defeat_tobias" important="false" />
+		<quest id="qst_recover_tv" name="TXT_QUEST_NAME_RECOVER_TV" desc="TXT_QUEST_DESC_RECOVER_TV" task="tsk_002" script="script_qst_recover_tv" important="true" />
+		<quest id="qst_recover_console" name="TXT_QUEST_NAME_RECOVER_CONSOLE" desc="TXT_QUEST_DESC_RECOVER_CONSOLE" task="tsk_003" script="script_qst_recover_console" important="true" />
+		<quest id="qst_recover_computer" name="TXT_QUEST_NAME_RECOVER_COMPUTER" desc="TXT_QUEST_DESC_RECOVER_COMPUTER" task="tsk_004" script="script_qst_recover_computer" important="true" />
+		<quest id="qst_recover_microwave" name="TXT_QUEST_NAME_RECOVER_MICROWAVE" desc="TXT_QUEST_DESC_RECOVER_MICROWAVE" task="tsk_005" script="script_qst_recover_microwave" important="true" />
+		<quest id="qst_recover_remote" name="TXT_QUEST_NAME_RECOVER_REMOTE" desc="TXT_QUEST_DESC_RECOVER_REMOTE" task="tsk_006" script="none" important="false" />
+		<quest id="qst_recover_videogames" name="TXT_QUEST_NAME_RECOVER_VIDEOGAMES" desc="TXT_QUEST_DESC_RECOVER_VIDEOGAMES" task="tsk_007" script="none" important="false" />
+		<quest id="qst_recover_mouse" name="TXT_QUEST_NAME_RECOVER_MOUSE" desc="TXT_QUEST_DESC_RECOVER_MOUSE" task="tsk_008" script="none" important="false" />
+		<quest id="qst_recover_dish" name="TXT_QUEST_NAME_RECOVER_DISH" desc="TXT_QUEST_DESC_RECOVER_DISH" task="tsk_009" script="none" important="false" />
+	</quests>
+
+</xmlData>

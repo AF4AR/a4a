@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmlData>
+
+	<dialog id="dlog_desc_console" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DESCRIPTION_CONSOLE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_desc_microwave" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DESCRIPTION_MICROWAVE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_desc_tv" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DESCRIPTION_TV" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_desc_computer" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DESCRIPTION_COMPUTER" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_remember_defeat_tobias" script="script_dlog_granny_remember_defeat_tobias">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_REMEMBER_DEFEAT_TOBIAS" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_REMEMBER_DEFEAT_TOBIAS_GUMBALL" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_portal_is_open" script="script_dlog_granny_portal_is_open">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_PORTAL_IS_OPEN" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_PORTAL_IS_OPEN_ANSWER" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_PORTAL_IS_OPEN_ANSWER2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_first_talikng" script="script_dlog_granny_first_talking">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_FIRST_TALK" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_tobias_friendly" script="script_dlog_tobias_friendly">
+		<bubble>
+			<statement txt="TXT_DIALOG_TOBIAS_FRIENDLY" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_tobias_taunt" script="script_dlog_tobias_taunt">
+		<bubble>
+			<statement txt="TXT_DIALOG_TOBIAS_TAUNT" />
+			<option txt="TXT_TOOLTIP_YES" goto="option1" />
+			<option txt="TXT_TOOLTIP_NO" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_tobias_offer_training" script="script_dlog_tobias_offer_training">
+		<bubble>
+			<statement txt="TXT_DIALOG_TOBIAS_OFFER_TRAINING" />
+			<option txt="TXT_TOOLTIP_YES" goto="option1" />
+			<option txt="TXT_TOOLTIP_NO" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_tobias_offer_training_fail" script="script_dlog_tobias_offer_training_fail">
+		<bubble>
+			<statement txt="TXT_DIALOG_TOBIAS_OFFER_TRAINING_FAIL_MONEY" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_phone" script="script_dlog_phone">
+		<bubble>
+			<statement txt="TXT_DIALOG_PHONE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PHONE_2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceTV_activate_quest" script="script_dlog_spaceTV_activate_quest">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_TV_CLUE_QUEST" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_TV_ACTIVATE_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceTV_remember_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_TV_REMEMBER_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceTV_next_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_TV_NEXT_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceTV_next_quest_done" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_TV_NEXT_QUEST_DONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceConsole_requeriment" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_CONSOLE_REQUERIMENT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceConsole_activate_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_CONSOLE_CLUE_QUEST" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_CONSOLE_ACTIVATE_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceConsole_remember_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_CONSOLE_REMEMBER_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceConsole_next_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_CONSOLE_NEXT_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceConsole_next_quest_done" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_CONSOLE_NEXT_QUEST_DONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceComputer_requeriment" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_COMPUTER_REQUERIMENT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceComputer_activate_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_COMPUTER_CLUE_QUEST" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_COMPUTER_ACTIVATE_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceComputer_remember_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_COMPUTER_REMEMBER_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceComputer_next_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_COMPUTER_NEXT_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceComputer_next_quest_done" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_COMPUTER_NEXT_QUEST_DONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceMicrowave_requeriment" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_REQUERIMENT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceMicrowave_activate_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_CLUE_QUEST" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_ACTIVATE_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceMicrowave_remember_quest" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_REMEMBER_QUEST" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceMicrowave_next" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_NEXT" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_NEXT_2" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_NEXT_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_IdahoGreating_next" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_GREATING" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_GREATING2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_random_1" script="script_dlog_granny_random_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_RANDOM_1" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_random_2" script="script_dlog_granny_random_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_RANDOM_2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_random_3" script="script_dlog_granny_random_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_RANDOM_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_1" script="script_dlog_darwin_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_DARWIN_GREATING" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_join" script="script_dlog_darwin_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_DARWIN_JOIN_0" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_DARWIN_JOIN" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_regular" script="script_dlog_darwin_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_DARWIN_REGULAR" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_1" script="script_dlog_anais_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_ANAIS_GREATING" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_join_condition" script="script_dlog_anais_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_ANAIS_JOIN_CONDITION" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_join" script="script_dlog_anais_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_ANAIS_JOIN_0" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_ANAIS_JOIN" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_regular" script="script_dlog_anais_1">
+		<bubble>
+			<statement txt="TXT_DIALOG_ANAIS_REGULAR" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_graveyard" script="script_dlog_gumball">
+		<bubble>
+			<statement txt="TXT_DIALOG_GUMBALL_GRAVEYARD" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_graveyard_2" script="script_dlog_gumball">
+		<bubble>
+			<statement txt="TXT_DIALOG_GUMBALL_GRAVEYARD_2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_idaho_offer" script="script_dlog_idaho_offer">
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_OFFER" />
+			<option txt="TXT_TOOLTIP_YES" goto="option1" />
+			<option txt="TXT_TOOLTIP_NO" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_idaho_give" script="script_dlog_idaho_warn_time">
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_GIVE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_idaho_warn_time" script="script_dlog_idaho_warn_time">
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_WARN_TIME" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_idaho_warn_roots" script="script_dlog_idaho_warn_roots">
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_WARN_ROOTS" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_idaho_ok_buy" script="script_dlog_idaho_warn_time">
+		<bubble>
+			<statement txt="TXT_DIALOG_IDAHO_OK_BUY" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_player_before_fight_tv" script="script_dlog_player_before_fight_tv">
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_TV_1" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_TV_2" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_TV_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_player_before_fight_console" script="script_dlog_player_before_fight_console">
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_CONSOLE_1" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_CONSOLE_2" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_CONSOLE_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_player_before_fight_computer" script="script_dlog_player_before_fight_computer">
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_COMPUTER_1" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_COMPUTER_2" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_COMPUTER_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_player_before_fight_microwave" script="script_dlog_player_before_fight_microwave">
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_MICROWAVE_1" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_MICROWAVE_2" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DIALOG_PLAYER_BEFORE_FIGHT_MICROWAVE_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_shop_offer" script="script_dlog_shop_offer">
+		<bubble>
+			<statement txt="TXT_SHOP_DLG_OFFER" />
+			<option txt="TXT_SHOP_DLG_OFFER_BUY" goto="option1" />
+			<option txt="TXT_SHOP_DLG_OFFER_SELL" goto="option2" />
+			<option txt="TXT_SHOP_DLG_OFFER_CANCEL" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_riddle_1" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_RIDDLE_1" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_riddle_2" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_RIDDLE_2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_riddle_3" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_RIDDLE_3" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_riddle_4" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_RIDDLE_4" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_portal_pre_cutscene" script="script_dlog_gumball">
+		<bubble>
+			<statement txt="TXT_DIALOG_PORTAL_PRE_CUTSCENE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_portal_ask" script="script_dlog_portal_ask">
+		<bubble>
+			<statement txt="TXT_DIALOG_PORTAL_ASK" />
+			<option txt="TXT_TOOLTIP_YES" goto="option1" />
+			<option txt="TXT_TOOLTIP_NO" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_carrie_regular" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_CARRIE_REGULAR" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_riddle_5" script="script_dlog_carrie">
+		<bubble>
+			<statement txt="TXT_DIALOG_RIDDLE_5" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_ask_letter" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_ASK_LETTER" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_ask_deliver" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_ASK_DELIVER" />
+			<option txt="TXT_TOOLTIP_YES" goto="option1" />
+			<option txt="TXT_TOOLTIP_NO" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_remember_deliver" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_REMEMBER_DELIVER" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_thanks_letter_in_give_letter_out" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_THANKS_LETTER_IN_GIVE_LETTER_OUT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_thanks_letter_in_give_reward" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_THANKS_LETTER_IN_GIVE_REWARD" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_thanks_deliver_letter_out" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_THANKS_DELIVER_LETTER_OUT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_activity_thanks_help" script="script_dlog_activity_ask_letter">
+		<bubble>
+			<statement txt="TXT_ACTIVITY_THANKS_HELP" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_press_z" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DARWIN_ADVICE_PRESS_Z" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_after_inventory" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DARWIN_AFTER_INVENTORY_TUTO" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_turn_off" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_TURN_OFF" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_TURN_OFF" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_remember_turn_off" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_REMEMBER_TURN_OFF" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_REMEMBER_TURN_OFF" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_computer" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_I_HAVE_MAIL" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_READ_MAIL" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_TURN_OFF" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_DARWIN_THANKS" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_computer_off" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_PC_IS_OFF" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_tobias_happy" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_TOBIAS_IS_HAPPY" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_play_games" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_LETS_PLAY_VIDEOGAMES" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_prologue" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_HI" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_GUMBALL_HI" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_DONT_WORRY" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_GUMBALL" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_prologue" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_WANNA_PLAY" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_YES" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_turn_on_tv_console" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_TURN_ON_TV_CONSOLE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_RIGHT_NOW" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_dont_run" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_DONT_RUN" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_GUMBALL_DONT_WORRY" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_popcorn" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_MAKE_POPCORN" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_GUMBALL_POPCORN" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_tobias_yard" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_TOBIAS_YARD" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_GUMBALL_TOBIAS" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_tv_prologue" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_TV" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_tv_prologue_2" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_TV_2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_console_prologue" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_CONSOLE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_console_prologue_2" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_CONSOLE_2" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_microwave_prologue" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_MICROWAVE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_prologue_done" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_PROLOGUE_DONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_turn_on_tv_console" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_TURN_ON_TV_CONSOLE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_RIGHT_NOW" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_turn_on_console" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_TURN_ON_CONSOLE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_GET_FUN" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_turn_on_tv" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_TURN_ON_TV" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_GUMBALL_RELAX" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_hungry" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_HUNGRY" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_prologue_done" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_PROLOGUE_DONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_warn" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_WARN_ABOUT_TOBIAS" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_rememver_tobias" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_REMEMBER_TOBIAS" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_REMEMBER_TOBIAS_GUMBALL" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_remember_tobias_prologue" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_REMEMBER_TOBIAS" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_check_phone" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_CHECK_PHONE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_GUMBALL_CHECK_PHONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_prologue_done" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_PROLOGUE_DONE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_GUMBALL_PROLOGUE_DONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_darwin_check_phone" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_DARWIN_CHECK_PHONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_check_phone" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_ANAIS_CHECK_PHONE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_anais_granny_pre_fight" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_GRANNY_PRE_FIGTH" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_carrie_ghost_house" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_CARRIE_WARNING" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_CARRIE_GUMBALL_DONT_SEE" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_CARRIE_GUMBALL_DOH" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_carrie_blockers_off_1" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_CARRIE_BLOCKERS_OFF_1" />
+		</bubble>
+		<bubble>
+			<statement txt="TXT_DLOG_CARRIE_BLOCKERS_OFF_1_GUMBALL" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_spaceMicrowave_next_2" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_SPACE_MICROWAVE_NEXT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_granny_after_defeat" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GRANNY_AFTER_DEFEAT" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_where_is_remote" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_WHERE_IS_REMOTE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_where_is_videogames" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_WHERE_IS_VIDEOGAMES" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_where_is_mouse" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_WHERE_IS_MOUSE" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_gumball_where_is_dish" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DLOG_GUMBALL_WHERE_IS_DISH" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_npc_dayly_fight_offer" script="script_dlog_npc_dayly_fight_offer">
+		<bubble>
+			<statement txt="TXT_DLOG_DAYLY_FIGHT_OFFER" />
+			<option txt="TXT_TOOLTIP_YES" goto="option1" />
+			<option txt="TXT_TOOLTIP_NO" goto="close" />
+		</bubble>
+	</dialog>
+
+	<dialog id="dlog_npc_dayly_fight_warn_time" script="script_dlog_generic">
+		<bubble>
+			<statement txt="TXT_DIALOG_DAYLY_FIGHT_WARN_TIME" />
+		</bubble>
+	</dialog>
+
+</xmlData>

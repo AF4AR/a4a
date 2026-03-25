@@ -1,0 +1,4 @@
+<xmlData version="1.0">
+	<asset id="logo" file="gui_screens_mainmenu_logo.png" />
+	<asset id="tittle" file="gui_screens_mainmenu_gamename.png" />
+</xmlData>

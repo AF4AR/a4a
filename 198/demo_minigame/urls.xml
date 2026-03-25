@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <!-- Main -->
+    <url id="game_config"   type="xml" path="game_config.xml"/>
+    <url id="sounds"        type="xml" path="sounds.xml"/>
+    <url id="config"        type="xml" path="config.xml"/>
+    <url id="soundsAssets"  type="swf" path="demo_minigame_sounds.swf"/>
+    <url id="fonts"         type="swf" path="demo_minigame_fonts.swf"/>
+    <url id="content"       type="swf" path="demo_minigame_content.swf"/>
+    <url id="screens"       type="xml" path="screens/screens.xml"/>
+    <url id="postUrls"      type="xml" path="postUrls.xml"/>
+    <url id="vars"          type="xml" path="debugVars.xml" />
+    <url id="assets"        type="img" path="assets/assets.xml" pathRelative="assets/" />
+    <url id="dialogs"       type="xml" path="dialogs/dialogs.xml" />
+    <url id="quests"        type="xml" path="quests/quests.xml" />
+    <url id="scripts"       type="xml" isPackage="1" path="scripts/scripts.xml" pathRelative="scripts/" />
+    <url id="shop"          type="xml" path="shop.xml" />
+
+    <!-- Images -->
+    <!--
+    <url id="assetsLevel_hub_0" type="img" path="gamesData/gameRPG/lv0_hub/flash.xml" pathRelative="gamesData/gameRPG/images/"/>
+    <url id="assetsLevel_hub_02" type="img" path="gamesData/gameRPG/lv02_hub/flash.xml" pathRelative="gamesData/gameRPG/images/"/>
+    <url id="assetsLevel_hub_1" type="img" path="gamesData/gameRPG/lv1_hub/flash.xml" pathRelative="gamesData/gameRPG/images/"/>
+    <url id="assetsLevel_hub_2" type="img" path="gamesData/gameRPG/lv2_hub/flash.xml" pathRelative="gamesData/gameRPG/images/"/>
+    <url id="assetsLevel_graveyard" type="img" path="gamesData/gameRPG/lv1_graveyard/flash.xml" pathRelative="gamesData/gameRPG/images/"/>
+    <url id="assetsLevel_ghost_house" type="img" path="gamesData/gameRPG/lv1ghost_house/flash.xml" pathRelative="gamesData/gameRPG/images/"/>
+	 -->
+    <!--url id="assetsLevel_forest_of_doom" type="img" path="gamesData/gameRPG/lv2_forest_of_doom/flash.xml" pathRelative="gamesData/gameRPG/images/"/-->
+    <!--url id="assetsLevel_maze_forest1" type="img" path="gamesData/gameRPG/maze_forest1/flash.xml" pathRelative="gamesData/gameRPG/images/" /-->
+    <!--url id="assetsLevel_maze_forest2" type="img" path="gamesData/gameRPG/maze_forest2/flash.xml" pathRelative="gamesData/gameRPG/images/" /-->
+    <!--url id="assetsLevel_maze_forest3" type="img" path="gamesData/gameRPG/maze_forest3/flash.xml" pathRelative="gamesData/gameRPG/images/" /-->
+    <!--url id="assetsLevel_maze_forest4" type="img" path="gamesData/gameRPG/maze_forest4/flash.xml" pathRelative="gamesData/gameRPG/images/"/-->
+
+    <!-- World Hub 0 -->
+    <url id="dataGeneral_hub_0" type="xml" path="gamesData/gameRPG/lv0_hub/general.xml" />
+    <url id="dataWorld_hub_0"   type="xml" path="gamesData/gameRPG/lv0_hub/lv0_hub.xml" />
+
+    <!-- World Hub 02 -->
+    <url id="dataGeneral_hub_02" type="xml" path="gamesData/gameRPG/lv02_hub/general.xml" />
+    <url id="dataWorld_hub_02"   type="xml" path="gamesData/gameRPG/lv02_hub/lv02_hub.xml" />
+
+    <!-- World Hub 1 -->
+    <url id="dataGeneral_hub_1" type="xml" path="gamesData/gameRPG/lv1_hub/general.xml" />
+    <url id="dataWorld_hub_1"   type="xml" path="gamesData/gameRPG/lv1_hub/lv1_hub.xml" />
+
+    <!-- World Hub 2 -->
+    <url id="dataGeneral_hub_2" type="xml" path="gamesData/gameRPG/lv2_hub/general.xml" />
+    <url id="dataWorld_hub_2"   type="xml" path="gamesData/gameRPG/lv2_hub/lv2_hub.xml" />
+
+    <!-- World Graveyard -->
+    <url id="dataGeneral_graveyard" type="xml" path="gamesData/gameRPG/lv1_graveyard/general.xml" />
+    <url id="dataWorld_graveyard"   type="xml" path="gamesData/gameRPG/lv1_graveyard/lv1_graveyard.xml" />
+
+    <!-- World Ghost House -->
+    <url id="dataGeneral_ghost_house" type="xml" path="gamesData/gameRPG/lv1ghost_house/general.xml" />
+    <url id="dataWorld_ghost_house"   type="xml" path="gamesData/gameRPG/lv1ghost_house/lv1ghost_house.xml" />
+
+    <!-- World Ghost House -->
+    <url id="dataGeneral_forest_of_doom" type="xml" path="gamesData/gameRPG/lv2_forest_of_doom/general.xml" />
+    <url id="dataWorld_forest_of_doom"   type="xml" path="gamesData/gameRPG/lv2_forest_of_doom/lv2_forest_of_doom.xml" />
+
+    <!-- World Maze Forest 1 -->
+    <url id="dataGeneral_maze_forest1" type="xml" path="gamesData/gameRPG/maze_forest1/general.xml" />
+    <url id="dataWorld_maze_forest1"   type="xml" path="gamesData/gameRPG/maze_forest1/maze_forest1.xml" />
+
+    <!-- World Maze Forest 2 -->
+    <url id="dataGeneral_maze_forest2" type="xml" path="gamesData/gameRPG/maze_forest2/general.xml" />
+    <url id="dataWorld_maze_forest2"   type="xml" path="gamesData/gameRPG/maze_forest2/maze_forest2.xml" />
+
+    <!-- World Maze Forest 3 -->
+    <url id="dataGeneral_maze_forest3" type="xml" path="gamesData/gameRPG/maze_forest3/general.xml" />
+    <url id="dataWorld_maze_forest3"   type="xml" path="gamesData/gameRPG/maze_forest3/maze_forest3.xml" />
+
+    <!-- World Maze Forest 4 -->
+    <url id="dataGeneral_maze_forest4" type="xml" path="gamesData/gameRPG/maze_forest4/general.xml" />
+    <url id="dataWorld_maze_forest4"   type="xml" path="gamesData/gameRPG/maze_forest4/maze_forest4.xml" />
+</data>

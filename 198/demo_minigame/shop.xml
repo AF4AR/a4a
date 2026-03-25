@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <item name="heroHelmet1" />
+    <item name="heroHelmet2" />
+    <item name="mageCape1" />
+    <item name="mageCape2" />
+    <item name="auraAmulet1" />
+    <item name="auraAmulet2" />
+    <item name="speedBracelet1" />
+    <item name="speedBracelet2" />
+    <item name="regenerationBracelet1" />
+    <item name="regenerationBracelet2" />
+    <item name="root" />
+</data>

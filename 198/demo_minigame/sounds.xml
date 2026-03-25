@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <!-- music -->
+    <sound linked="WG_Gameplay" vol="0.8" bg="1" debug="1" />
+    <sound linked="WG_Gameplay2" vol="0.8" bg="1" debug="1" />
+    <sound linked="WG_Scorecard" vol="0.8" bg="1" debug="1" />
+    <sound linked="WG_Titlecard" vol="0.8" bg="1" debug="1" />
+    <sound linked="WG_Boss" vol="0.8" bg="1" debug="1" />
+    <sound linked="WG_Lose" vol="0.8" bg="0" debug="1" />
+    <sound linked="WG_Win" vol="0.8" bg="0" debug="1" />
+    <sound linked="WG_NormalFight" vol="0.9" bg="1" debug="1" />
+
+    <!-- sfx interface -->
+    <sound linked="snd_awg_interface_button" vol="1.1" bg="0" debug="1" />
+    <sound linked="snd_awg_interface_pause" vol="1.2" bg="0" debug="1" />
+    <sound linked="snd_awg_interface_play" vol="1.2" bg="0" debug="1" />
+    <sound linked="snd_awg_interface_resume" vol="1.2" bg="0" debug="1" />
+    <sound linked="snd_awg_interface_passover" vol="1.2" bg="0" debug="1" />
+    <sound linked="WG_Win" vol="0.8" bg="0" debug="1" />
+
+    <!-- sfx player -->
+    <sound linked="snd_awg_player_explore_interact" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_player_fight_attack" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_player_fight_defense" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_player_fight_heal" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_player_fight_hit" vol="4" bg="0" debug="1" />
+
+    <!-- sfx collectibles -->
+    <sound linked="snd_awg_collectibles_generic" vol="4" bg="0" debug="1" />
+
+    <!-- sfx enemies -->
+    <sound linked="snd_awg_enemies_attack" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_enemies_gethit" vol="4" bg="0" debug="1" />
+
+    <!-- sfx boss -->
+    <sound linked="snd_awg_enemies_boss_dash1" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_enemies_boss_dash2" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_enemies_boss_die" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_enemies_boss_gethit" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_enemies_boss_special" vol="4" bg="0" debug="1" />
+    <sound linked="snd_awg_enemies_boss_sweater" vol="4" bg="0" debug="1" />
+</data>

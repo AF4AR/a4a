@@ -1,0 +1,18 @@
+<game_config>
+<keys>
+    <keyLeft>37</keyLeft><!-- default: arrow key left -->
+    <keyRight>39</keyRight><!-- default: arrow key rigth -->
+    <keyUp>38</keyUp><!-- default: arrow key up -->
+    <keyDown>40</keyDown><!-- default: arrow key down -->
+    <keyAction>32</keyAction><!-- default: key Z -->
+
+    <keySelectItem>32</keySelectItem><!-- default: key apacebar -->
+    <keySelectItem2>13</keySelectItem2><!-- default: key ENTER -->
+    <keyInventory>90</keyInventory><!-- default: key Z -->
+    <keyClose>88</keyClose><!-- default: X -->
+    <keyPause>80</keyPause><!-- default: key P -->
+    <keyMap>77</keyMap><!-- default: key M -->
+    <keyQuest>67</keyQuest><!-- default: key C -->
+</keys>
+<minigameAPISwf>MinigameAPI_2_2_DEV_ONLY_DO_NOT_PUBLISH.swf</minigameAPISwf>
+</game_config>
