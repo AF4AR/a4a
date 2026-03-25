@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onCamWait>
+    <func name="switchBlockersStates" param1="" />
+</onCamWait>
+
+<onActivate>
+    <func name="startFreeCamera" param1="1722" param2="575" param3="0.48" param4="1500" param5="onCamWait" param6="" param7="onEndFreeCam" />
+    <func name="setHudBlackBands" param1="true" />
+</onActivate>
+
+<onEndFreeCam>
+    <func name="setHudBlackBands" param1="false" />
+</onEndFreeCam>
+
+</data>

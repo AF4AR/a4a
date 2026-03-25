@@ -1,0 +1,253 @@
+<world>
+	<properties>
+		<width> 1536 </width>
+		<height> 1792 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 1160 </playerX>
+		<playerY> 1320 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+		<kipu id="14" params="name:console;cost:500;clipname:mcConsole;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="0" params="name:coins1;cost:1;clipname:mcCoins1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:1||" />
+		<kipu id="7" params="name:root;cost:200;clipname:mcRoot;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|health:50|money:1||" />
+		<kipu id="1" params="name:milkShake2;cost:10;clipname:mcMilkShake2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:15000|||" />
+		<kipu id="8" params="name:milkShake3;cost:20;clipname:mcMilkShake3;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:30000|||" />
+		<kipu id="15" params="name:milkShake4;cost:40;clipname:mcMilkShake4;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:50000|||" />
+		<kipu id="2" params="name:trophy1;cost:1000;clipname:mcTrophy1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="10" params="name:trophy2;cost:1000;clipname:mcTrophy2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="16" params="name:coins10;cost:10;clipname:mcCoins10;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:10||" />
+		<kipu id="4" params="name:heroHelmet1;cost:99;clipname:mcHeroHelmet1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|strength:1.2|||" />
+		<kipu id="9" params="name:mageCape2;cost:399;clipname:mcMageCape2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|recoveryRatio:1.7|||" />
+		<kipu id="21" params="name:heroHelmet2;cost:399;clipname:mcHeroHelmet2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|strength:1.5|||" />
+		<kipu id="17" params="name:regenerationBracelet1;cost:1000;clipname:mcRegenerationBracelet1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|healthRegenSpeed:0.01|||" />
+		<kipu id="5" params="name:key1;cost:200;clipname:mcKey1;color:blue;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="11" params="name:regenerationBracelet2;cost:2000;clipname:mcRegenerationBracelet2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|healthRegenSpeed:0.05|||" />
+		<kipu id="3" params="name:speedBracelet1;cost:500;clipname:mcSpeedBracelet1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|speed:0.4|||" />
+		<kipu id="18" params="name:key2;cost:200;clipname:mcKey2;color:yellow;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="12" params="name:key3;cost:200;clipname:mcKey3;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="19" params="name:speedBracelet2;cost:800;clipname:mcSpeedBracelet2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|speed:0.8|||" />
+		<kipu id="6" params="name:auraAmulet1;cost:99;clipname:mcAuraAmulet1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|||physical:1.5|" />
+		<kipu id="13" params="name:auraAmulet2;cost:399;clipname:mcAuraAmulet2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|||physical:1.7|" />
+		<kipu id="20" params="name:coins50;cost:50;clipname:mcCoins50;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:50||" />
+	</kipuHeader>
+	<layer name="lv1_hub_1_tilesets" cols="24" rows="28" tileW="64" tileH="64" map="mc_map_lv0_hub_lv1_hub_1_tilesets" width="1536" height="1792" >
+		<tile image="lv1_hub_1_tilesets-tile_29_0" />
+		<tile image="lv1_hub_1_tilesets-tile_16_0" />
+		<tile image="lv1_hub_1_tilesets-tile_17_0" />
+		<tile image="lv1_hub_1_tilesets-tile_04_0" />
+		<tile image="lv1_hub_1_tilesets-tile_05_0" />
+		<tile image="lv1_hub_1_tilesets-tile_06_0" />
+		<tile image="lv1_hub_1_tilesets-tile_07_0" />
+		<tile image="lv1_hub_1_tilesets-tile_00_0" />
+		<tile image="lv1_hub_1_tilesets-tile_01_0" />
+		<tile image="lv1_hub_1_tilesets-tile_18_0" />
+		<tile image="lv1_hub_1_tilesets-tile_20_0" />
+		<tile image="lv1_hub_1_tilesets-tile_21_0" />
+		<tile image="lv1_hub_1_tilesets-tile_22_0" />
+		<tile image="lv1_hub_1_tilesets-tile_24_0" />
+		<tile image="lv1_hub_1_tilesets-tile_25_0" />
+		<tile image="lv1_hub_1_tilesets-tile_26_0" />
+		<tile image="lv1_hub_1_tilesets-tile_02_0" />
+		<tile image="lv1_hub_1_tilesets-tile_03_0" />
+		<tile image="lv1_hub_1_tilesets-tile_30_0" />
+		<tile image="lv1_hub_1_tilesets-tile_12_0" />
+		<tile image="lv1_hub_1_tilesets-tile_08_0" />
+		<tile image="lv1_hub_1_tilesets-tile_14_0" />
+		<tile image="lv1_hub_1_tilesets-tile_28_0" />
+		<tile image="lv1_hub_1_tilesets-tile_32_0" />
+		<tile image="lv1_hub_1_tilesets-tile_13_0" />
+		<tile image="lv1_hub_1_tilesets-tile_36_0" />
+		<tile image="lv1_hub_1_tilesets-tile_17_1" />
+		<tile image="lv1_hub_1_tilesets-tile_18_1" />
+		<tile image="lv1_hub_1_tilesets-tile_19_1" />
+		<tile image="lv1_hub_1_tilesets-tile_00_1" />
+		<tile image="lv1_hub_1_tilesets-tile_01_1" />
+		<tile image="lv1_hub_1_tilesets-tile_02_1" />
+		<tile image="lv1_hub_1_tilesets-tile_03_1" />
+		<tile image="lv1_hub_1_tilesets-tile_24_1" />
+		<tile image="lv1_hub_1_tilesets-tile_22_1" />
+		<tile image="lv1_hub_1_tilesets-tile_26_1" />
+		<tile image="lv1_hub_1_tilesets-tile_12_1" />
+		<tile image="lv1_hub_1_tilesets-tile_04_1" />
+		<tile image="lv1_hub_1_tilesets-tile_05_1" />
+		<tile image="lv1_hub_1_tilesets-tile_06_1" />
+		<tile image="lv1_hub_1_tilesets-tile_07_1" />
+		<tile image="lv1_hub_1_tilesets-tile_13_1" />
+		<tile image="lv1_hub_1_tilesets-tile_14_1" />
+		<tile image="lv1_hub_1_tilesets-tile_28_1" />
+		<tile image="lv1_hub_1_tilesets-tile_29_1" />
+		<tile image="lv1_hub_1_tilesets-tile_30_1" />
+		<tile image="lv1_hub_1_tilesets-tile_16_1" />
+		<tile image="lv1_hub_1_tilesets-tile_08_1" />
+		<tile image="lv1_hub_1_tilesets-tile_09_1" />
+		<tile image="lv1_hub_1_tilesets-tile_10_1" />
+		<tile image="lv1_hub_1_tilesets-tile_11_1" />
+		<tile image="lv1_hub_1_tilesets-tile_20_1" />
+		<tile image="lv1_hub_1_tilesets-tile_19_0" />
+		<tile image="lv1_hub_1_tilesets-tile_27_0" />
+		<tile image="lv1_hub_1_tilesets-tile_33_0" />
+		<tile image="lv1_hub_1_tilesets-tile_35_0" />
+		<tile image="lv1_hub_1_tilesets-tile_32_1" />
+		<tile image="lv1_hub_1_tilesets-tile_33_1" />
+		<tile image="lv1_hub_1_tilesets-tile_34_1" />
+		<tile image="lv1_hub_1_tilesets-tile_23_0" />
+		<tile image="lv1_hub_1_tilesets-tile_31_0" />
+		<tile image="lv1_hub_1_tilesets-tile_37_0" />
+		<tile image="lv1_hub_1_tilesets-tile_38_0" />
+		<tile image="lv1_hub_1_tilesets-tile_39_0" />
+		<tile image="lv1_hub_1_tilesets-tile_36_1" />
+		<tile image="lv1_hub_1_tilesets-tile_38_1" />
+		<tile image="lv1_hub_1_tilesets-tile_08_2" />
+		<tile image="lv1_hub_1_tilesets-tile_09_2" />
+		<tile image="lv1_hub_1_tilesets-tile_10_2" />
+		<tile image="lv1_hub_1_tilesets-tile_12_2" />
+		<tile image="lv1_hub_1_tilesets-tile_13_2" />
+		<tile image="lv1_hub_1_tilesets-tile_14_2" />
+		<tile image="lv1_hub_1_tilesets-tile_02_2" />
+		<tile image="lv1_hub_1_tilesets-tile_03_2" />
+		<tile image="lv1_hub_1_tilesets-tile_06_2" />
+		<tile image="lv1_hub_1_tilesets-tile_07_2" />
+		<tile image="lv1_hub_1_tilesets-tile_11_2" />
+		<tile image="lv1_hub_1_tilesets-tile_15_2" />
+		<tile image="lv1_hub_1_tilesets-tile_28_2" />
+		<tile image="lv1_hub_1_tilesets-tile_31_2" />
+		<tile image="lv1_hub_1_tilesets-tile_16_2" />
+		<tile image="lv1_hub_1_tilesets-tile_18_2" />
+		<tile image="lv1_hub_1_tilesets-tile_19_2" />
+		<tile image="lv1_hub_1_tilesets-tile_32_2" />
+		<tile image="lv1_hub_1_tilesets-tile_35_2" />
+		<tile image="lv1_hub_1_tilesets-tile_33_2" />
+		<tile image="lv1_hub_1_tilesets-tile_34_2" />
+		<tile image="lv1_hub_1_tilesets-tile_20_2" />
+		<tile image="lv1_hub_1_tilesets-tile_21_2" />
+		<tile image="lv1_hub_1_tilesets-tile_22_2" />
+		<tile image="lv1_hub_1_tilesets-tile_23_2" />
+		<tile image="lv1_hub_1_tilesets-tile_36_2" />
+		<tile image="lv1_hub_1_tilesets-tile_39_2" />
+		<tile image="lv1_hub_1_tilesets-tile_37_2" />
+		<tile image="lv1_hub_1_tilesets-tile_38_2" />
+		<tile image="lv1_hub_1_tilesets-tile_24_2" />
+		<tile image="lv1_hub_1_tilesets-tile_25_2" />
+		<tile image="lv1_hub_1_tilesets-tile_26_2" />
+		<tile image="lv1_hub_1_tilesets-tile_27_2" />
+		<tile image="lv1_hub_1_tilesets-tile_15_0" />
+		<tile image="lv1_hub_1_tilesets-tile_09_0" />
+		<tile image="lv1_hub_1_tilesets-tile_10_0" />
+		<tile image="lv1_hub_1_tilesets-tile_11_0" />
+	</layer>
+	<layer type="sprites" name="sprites" width="1536" height="1792" >
+		<gpx x="314" y="214" image="lv1_hub_sprites-spr_lv1_16" />
+		<gpx x="352" y="570" image="lv1_hub_sprites-spr_lv1_05" />
+		<gpx x="352" y="936" image="lv1_hub_sprites-spr_lv1_07" />
+		<gpx x="512" y="564" image="lv1_hub_sprites-spr_lv1_03" />
+		<gpx x="514" y="678" image="lv1_hub_sprites-spr_lv1_01" />
+		<gpx x="576" y="1280" image="lv1_hub_sprites-spr_lv1_08" />
+		<gpx x="674" y="568" image="lv1_hub_sprites-spr_lv1_04" />
+		<gpx x="744" y="952" image="lv1_hub_sprites-spr_lv1_02" />
+		<gpx x="776" y="1260" image="lv1_hub_sprites-spr_lv1_12" />
+		<gpx x="796" y="616" image="lv1_hub_sprites-spr_lv1_11" />
+		<gpx x="864" y="642" image="lv1_hub_sprites-spr_lv1_09" />
+		<gpx x="930" y="646" image="lv1_hub_sprites-spr_lv1_10" />
+		<gpx x="960" y="1472" image="lv1_hub_sprites-spr_lv1_15" />
+		<gpx x="1058" y="1014" image="lv1_hub_sprites-spr_lv1_13" />
+		<gpx x="1202" y="620" image="lv1_hub_sprites-spr_lv1_11" />
+	</layer>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer type="collision" name="collisions" cols="24" rows="28" tileW="64" tileH="64" map="mc_map_lv0_hub_collisions" width="1536" height="1792" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="342" y="1186" id="1113" params="uniqueId:2;script:script_spaceTV;skin:mcSpaceTV;npcName:none" />
+		<object x="343" y="1329" id="1113" params="uniqueId:1;script:script_spaceConsole;skin:mcSpaceConsole;npcName:none" />
+		<object x="388" y="1181" id="1109" params="uniqueId:11;script:none;msg:TXT_DESCRIPTION_TV;face:tv_normal;side:Left" />
+		<object x="391" y="1304" id="1109" params="uniqueId:10;script:none;msg:TXT_DESCRIPTION_CONSOLE" />
+		<object x="530" y="1092" id="1101" params="uniqueId:101010;script:script_darwin;skin:Darwin;npcName:none" />
+		<object x="797" y="989" id="1112" params="uniqueId:7000;script:script_phone;skin:mcPhone;npcName:Phone" />
+		<object x="960" y="1517" id="1102" params="uniqueId:9;script:script_portal_hub;destiny:hub_1;index:-1;insertX:300;insertY:300;open:0;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="992" y="377" id="1101" params="uniqueId:4;script:script_Tobias;skin:Tobias;npcName:Tobias " />
+		<object x="997" y="683" id="1113" params="uniqueId:3;script:script_spaceMicrowave;skin:mcSpaceMicrowave;npcName:none" />
+		<object x="1017" y="673" id="1109" params="uniqueId:12;script:none;msg:TXT_DESCRIPTION_MICROWAVE" />
+		<object x="1059" y="1272" id="1101" params="uniqueId:6;script:script_Granny;skin:Granny;npcName:Granny" />
+		<object x="1182" y="1180" id="1102" params="uniqueId:8;script:none;destiny:hub_02;index:11;insertX:1160;insertY:1290;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="1184" y="767" id="1101" params="uniqueId:5;script:script_anais;skin:Anais;npcName:none" />
+	</layer>
+	<layer name="lv1_hub_tilesets_fore" cols="24" rows="28" tileW="64" tileH="64" map="mc_map_lv0_hub_lv1_hub_tilesets_fore" width="1536" height="1792" >
+		<tile image="lv1_hub_tilesets_fore-tile_00_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_01_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_13_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_17_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_02_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_03_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_04_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_04_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_05_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_14_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_06_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_15_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_23_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_21_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_22_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_36_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_37_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_38_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_27_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_08_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_09_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_00_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_12_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_13_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_02_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_32_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_33_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_34_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_31_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_25_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_26_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_28_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_29_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_30_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_09_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_10_0" />
+		<tile image="lv1_hub_tilesets_fore-tile_11_0" />
+	</layer>
+	<layer name="kipu" >
+		<kipuObject id="0" x="1790" y="122"/>
+		<kipuObject id="1" x="1805" y="184"/>
+		<kipuObject id="2" x="1817" y="255"/>
+		<kipuObject id="3" x="1825" y="455"/>
+		<kipuObject id="4" x="1834" y="313"/>
+		<kipuObject id="5" x="1838" y="379"/>
+		<kipuObject id="6" x="1880" y="525"/>
+		<kipuObject id="7" x="1887" y="126"/>
+		<kipuObject id="8" x="1897" y="190"/>
+		<kipuObject id="9" x="1929" y="316"/>
+		<kipuObject id="10" x="1930" y="256"/>
+		<kipuObject id="11" x="1930" y="382"/>
+		<kipuObject id="12" x="1931" y="454"/>
+		<kipuObject id="13" x="1969" y="528"/>
+		<kipuObject id="14" x="1972" y="123"/>
+		<kipuObject id="15" x="1997" y="189"/>
+		<kipuObject id="16" x="2010" y="260"/>
+		<kipuObject id="17" x="2013" y="327"/>
+		<kipuObject id="18" x="2022" y="389"/>
+		<kipuObject id="19" x="2026" y="455"/>
+		<kipuObject id="20" x="2048" y="525"/>
+		<kipuObject id="21" x="2136" y="378"/>
+		<kipuObject id="7" x="2532" y="287"/>
+	</layer>
+</world>

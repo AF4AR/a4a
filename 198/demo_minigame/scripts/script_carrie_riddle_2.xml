@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkBlockerCollisionOff" param1="430" />
+        </condition>
+        <ifTrue>
+            <func name="startDialog" param1="dlog_carrie_regular" />
+        </ifTrue>
+        <ifFalse>
+           <func name="startDialog" param1="dlog_riddle_2" />
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+</data>

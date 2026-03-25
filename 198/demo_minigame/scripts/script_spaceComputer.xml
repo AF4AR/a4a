@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkSpaceFillInMemory" param1="13" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_recover_computer" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_recover_computer" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkFill" param1="" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="if">
+                                        <condition>
+                                            <func name="checkQuestDone" param1="qst_recover_microwave" />
+                                        </condition>
+                                        <ifTrue>
+                                            <!--func name="startDialog" param1="dlog_spaceComputer_next_quest_done" /-->
+
+                                            <func name="if">
+                                                <condition>
+                                                    <func name="checkQuestDone" param1="qst_defeat_granny" />
+                                                </condition>
+                                                <ifTrue>
+                                                    <func name="if">
+                                                        <condition>
+                                                            <func name="checkQuestExist" param1="qst_recover_mouse" />
+                                                        </condition>
+                                                        <ifTrue>
+                                                            <func name="if">
+                                                                <condition>
+                                                                    <func name="checkQuestDone" param1="qst_recover_mouse" />
+                                                                </condition>
+                                                                <ifTrue>
+                                                                    <func name="startDialog" param1="dlog_spaceComputer_next_quest_done" />
+                                                                </ifTrue>
+                                                                <ifFalse>
+                                                                    <func name="startDialog" param1="dlog_gumball_where_is_mouse" />
+                                                                </ifFalse>
+                                                            </func>
+                                                        </ifTrue>
+                                                        <ifFalse>
+                                                            <func name="createQuest" param1="qst_recover_mouse" />
+                                                            <func name="startDialog" param1="dlog_gumball_where_is_mouse" />
+                                                        </ifFalse>
+                                                    </func>
+                                                </ifTrue>
+                                                <ifFalse>
+                                                    <func name="startDialog" param1="dlog_gumball_where_is_mouse" />
+                                                </ifFalse>
+                                            </func>
+
+                                        </ifTrue>
+                                        <ifFalse>
+                                            <func name="startDialog" param1="dlog_spaceComputer_next_quest" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="playerDoWinAnimation" param1="ANIM_RECOVER_COMPUTER_HUB" />
+                                    <!--func name="showMessage2" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" /-->
+                                    <func name="showMessage3" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" param2="computer" />
+                                    <func name="fill" param1="" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_spaceComputer_remember_quest" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="if">
+                        <condition>
+                            <func name="checkPlayerHaveItem" param1="computer" />
+                        </condition>
+                        <ifTrue>
+                            <func name="createQuest" param1="qst_recover_computer" />
+                            <func name="setQuestDone" param1="qst_recover_computer" />
+                            <func name="fill" param1="" />
+                            <func name="startDialog" param1="dlog_spaceComputer_next_quest" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="playerDoClueAnimation" param1="ANIM_CLUE_COMPUTER" />
+                            <func name="showMessage2" param1="TXT_PLAYER_HAVE_CLUE" />
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="if">
+                <condition>
+                    <func name="checkCurrentMapName" param1="hub_02" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_touch_computer" />
+                        </condition>
+                        <ifTrue>
+                            <func name="startDialog" param1="dlog_gumball_computer_off" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="setQuestDone" param1="qst_touch_computer" />
+                            <func name="startDialog" param1="dlog_gumball_computer" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_spaceComputer_requeriment" />
+                </ifFalse>
+            </func>
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+</data>

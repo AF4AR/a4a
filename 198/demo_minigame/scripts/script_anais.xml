@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="hub_0" />
+        </condition>
+        <ifTrue>
+            <!--func name="startDialog" param1="dlog_anais_1" /-->
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_touch_microwave" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_touch_tv" />
+                            <oper name="and" />
+                            <func name="checkQuestDone" param1="qst_touch_console" />
+                            <oper name="and" />
+                            <func name="checkQuestDone" param1="qst_touch_microwave" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_defeat_tobias" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="if">
+                                        <condition>
+                                            <func name="checkQuestDone" param1="qst_talk_phone" />
+                                        </condition>
+                                        <ifTrue>
+                                            <func name="startDialog" param1="dlog_anais_prologue_done" />
+                                        </ifTrue>
+                                        <ifFalse>
+                                            <func name="startDialog" param1="dlog_anais_check_phone" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="startDialog" param1="dlog_anais_remember_tobias_prologue" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_anais_tobias_yard" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="createQuest" param1="qst_touch_microwave" />
+                    <func name="startDialog" param1="dlog_anais_popcorn" />
+                    <func name="getObjectAndCallFunction" param1="3" param2="addBubble" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_tv" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkAnaisInPlayerParty" param1="" />
+                        </condition>
+                        <ifTrue>
+                            <func name="startDialog" param1="dlog_anais_regular" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_anais_join" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_anais_join_condition" />
+                </ifFalse>
+            </func>
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_anais_join" />
+        </condition>
+        <ifTrue>
+            <func name="hide" param1="" />
+            <func name="setQuestDone" param1="qst_talk_anais" />
+            <func name="playerDoClueAnimation" param1="" />
+            <func name="showMessage2" param1="TXT_DIALOG_ANAIS_JOINED" />
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+</data>

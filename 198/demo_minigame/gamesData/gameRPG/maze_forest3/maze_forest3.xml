@@ -1,0 +1,102 @@
+<world>
+	<properties>
+		<width> 832 </width>
+		<height> 640 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 4436 </playerX>
+		<playerY> 996 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+	</kipuHeader>
+	<layer name="lv2_forest_tilesets" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest3_lv2_forest_tilesets" width="832" height="640" >
+		<tile image="lv2_forest_tilesets-tile_35_0" />
+		<tile image="lv2_forest_tilesets-tile_06_1" />
+		<tile image="lv2_forest_tilesets-tile_07_1" />
+		<tile image="lv2_forest_tilesets-tile_34_0" />
+		<tile image="lv2_forest_tilesets-tile_04_0" />
+		<tile image="lv2_forest_tilesets-tile_05_0" />
+		<tile image="lv2_forest_tilesets-tile_06_0" />
+		<tile image="lv2_forest_tilesets-tile_14_1" />
+		<tile image="lv2_forest_tilesets-tile_38_0" />
+		<tile image="lv2_forest_tilesets-tile_11_0" />
+		<tile image="lv2_forest_tilesets-tile_31_0" />
+		<tile image="lv2_forest_tilesets-tile_08_0" />
+		<tile image="lv2_forest_tilesets-tile_09_0" />
+		<tile image="lv2_forest_tilesets-tile_10_0" />
+		<tile image="lv2_forest_tilesets-tile_18_1" />
+		<tile image="lv2_forest_tilesets-tile_23_0" />
+		<tile image="lv2_forest_tilesets-tile_22_1" />
+		<tile image="lv2_forest_tilesets-tile_03_0" />
+		<tile image="lv2_forest_tilesets-tile_07_0" />
+		<tile image="lv2_forest_tilesets-tile_00_0" />
+		<tile image="lv2_forest_tilesets-tile_01_0" />
+		<tile image="lv2_forest_tilesets-tile_02_0" />
+		<tile image="lv2_forest_tilesets-tile_27_0" />
+		<tile image="lv2_forest_tilesets-tile_08_1" />
+		<tile image="lv2_forest_tilesets-tile_12_1" />
+		<tile image="lv2_forest_tilesets-tile_09_1" />
+		<tile image="lv2_forest_tilesets-tile_18_0" />
+		<tile image="lv2_forest_tilesets-tile_13_1" />
+		<tile image="lv2_forest_tilesets-tile_24_1" />
+		<tile image="lv2_forest_tilesets-tile_25_1" />
+		<tile image="lv2_forest_tilesets-tile_19_1" />
+	</layer>
+	<layer type="objects" name="itemsdown" >
+		<object x="224" y="289" id="1105" params="uniqueId:320;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:3;script:none;skin:mcHole" />
+		<object x="352" y="289" id="1105" params="uniqueId:321;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:4;script:none;skin:mcHole" />
+		<object x="480" y="289" id="1105" params="uniqueId:322;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:2;script:none;skin:mcHole" />
+		<object x="608" y="289" id="1105" params="uniqueId:323;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:1;script:none;skin:mcHole" />
+	</layer>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer type="collision" name="collisions" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest3_collisions" width="832" height="640" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="32" y="289" id="1107" params="uniqueId:305;cellXi:0;cellYi:4;cellXf:0;cellYf:4;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="32" y="358" id="1102" params="uniqueId:312;script:none;destiny:maze_forest4;index:20;insertX:300;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="32" y="353" id="1107" params="uniqueId:-1;cellXi:0;cellYi:5;cellXf:0;cellYf:5;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="256" y="414" id="1104" params="uniqueId:315;script:none;clipName:mcGrabables_01;groupBlockers:1;figureId:1" />
+		<object x="352" y="33" id="1107" params="uniqueId:302;cellXi:5;cellYi:0;cellXf:5;cellYf:0;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="352" y="414" id="1104" params="uniqueId:316;script:none;clipName:mcGrabables_02;groupBlockers:1;figureId:2" />
+		<object x="352" y="609" id="1107" params="uniqueId:306;cellXi:5;cellYi:8;cellXf:5;cellYf:9;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="410" y="33" id="1102" params="uniqueId:314;script:none;destiny:maze_forest4;index:20;insertX:300;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="411" y="690" id="1102" params="uniqueId:313;script:none;destiny:forest_of_doom;index:21;insertX:300;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="416" y="33" id="1107" params="uniqueId:303;cellXi:6;cellYi:0;cellXf:6;cellYf:0;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="416" y="609" id="1107" params="uniqueId:307;cellXi:6;cellYi:8;cellXf:6;cellYf:9;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="480" y="33" id="1107" params="uniqueId:304;cellXi:7;cellYi:0;cellXf:7;cellYf:0;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="480" y="414" id="1104" params="uniqueId:317;script:none;clipName:mcGrabables_03;groupBlockers:1;figureId:3" />
+		<object x="480" y="609" id="1107" params="uniqueId:308;cellXi:7;cellYi:8;cellXf:7;cellYf:9;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="584" y="414" id="1104" params="uniqueId:318;script:none;clipName:mcGrabables_04;groupBlockers:1;figureId:4" />
+		<object x="704" y="159" id="1101" params="uniqueId:324;script:script_carrie_riddle_3;skin:Carrie;npcName:none" />
+		<object x="800" y="289" id="1107" params="uniqueId:309;cellXi:12;cellYi:4;cellXf:12;cellYf:4;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="800" y="358" id="1102" params="uniqueId:311;script:none;destiny:maze_forest4;index:20;insertX:300;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="800" y="353" id="1107" params="uniqueId:310;cellXi:12;cellYi:5;cellXf:12;cellYf:5;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+	</layer>
+	<layer name="lv2_forest_tilesets_fore" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest3_lv2_forest_tilesets_fore" width="832" height="640" >
+		<tile image="lv2_forest_tilesets_fore-tile_18_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_08_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_09_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_26_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_27_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_19_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_30_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_31_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_22_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_23_0" />
+	</layer>
+</world>

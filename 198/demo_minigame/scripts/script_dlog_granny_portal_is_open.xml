@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onChangeBubble_0>
+    <func name="setFaceData" param1="granny_normal" param2="Left" />
+    <func name="doTalkAnimation" param1="npc" />
+</onChangeBubble_0>
+
+<onChangeBubble_1>
+    <func name="setFaceData" param1="gumball_normal" param2="Right" />
+    <func name="doTalkAnimation" param1="player" />
+</onChangeBubble_1>
+
+<onChangeBubble_2>
+    <func name="setFaceData" param1="darwin_normal" param2="Left" />
+    <func name="endTalkAnimation" param1="" />
+</onChangeBubble_2>
+
+</data>

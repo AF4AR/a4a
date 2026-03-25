@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkTimeRegistered" param1="" />
+        </condition>
+        <ifTrue>
+            <func name="startTimeChecker" param1="" />
+        </ifTrue>
+        <ifFalse>
+            <func name="startDialog" param1="dlog_idaho_offer" />
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_idaho_ok_buy" />
+        </condition>
+        <ifTrue>
+            <func name="updateRootsInInventory" param1="" />
+            <func name="startTimeChecker" param1="" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_idaho_give" />
+        </condition>
+        <ifTrue>
+            <func name="giveMilkShakeToPlayer" param1="" />
+            <func name="showMessage" param1="TXT_DIALOG_IDAHO_MILKSHAKE" param2="gumball_normal" param3="Left" />
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+
+<onTimeCheckerKeepWaiting>
+    <func name="startDialog" param1="dlog_idaho_warn_time" />
+</onTimeCheckerKeepWaiting>
+
+
+<onTimeCheckerWaitDone>
+    <func name="startDialog" param1="dlog_idaho_give" />
+</onTimeCheckerWaitDone>
+
+</data>

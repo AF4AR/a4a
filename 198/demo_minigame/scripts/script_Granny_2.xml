@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkQuestDone" param1="qst_recover_tv" />
+        </condition>
+        <ifTrue>
+            <func name="startRandomDialog" param1="dlog_granny_random" param2="2" param="3" />
+        </ifTrue>
+        <ifFalse>
+            <func name="startDialog" param1="dlog_granny_random_1" />
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+</data>

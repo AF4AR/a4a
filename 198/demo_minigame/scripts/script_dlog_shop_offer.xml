@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<option1>
+    <func name="trace" parm1="on offer buy" />
+    <func name="startShop" parm1="" />
+    <func name="close" param1="" />
+</option1>
+
+<option2>
+    <func name="trace" parm1="on offer sell" />
+    <func name="startSell" parm1="" />
+    <func name="close" param1="" />
+</option2>
+
+</data>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="switch" param1="getActState" param2="string">
+        <case name="INIT">
+            <func name="if">
+                <condition>
+                    <func name="checkLetterInIsNone" param1="" />
+                </condition>
+                <ifTrue>
+                    <func name="startDialog" param1="dlog_activity_ask_deliver" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="if" >
+                        <condition>
+                            <func name="checkPlayerHaveLetterIn" param1="" />
+                        </condition>
+                        <ifTrue>
+                            <func name="playerGiveLetterIn" param1="" />
+                            <func name="if">
+                                <condition>
+                                    <func name="checkLetterOutIsNone" param1="" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="changeActState" param1="DONE" />
+                                    <func name="startDialog" param1="dlog_activity_thanks_letter_in_give_reward" />
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="changeActState" param1="WAITING" />
+                                    <func name="startDialog" param1="dlog_activity_thanks_letter_in_give_letter_out" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_activity_ask_letter" />
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+        </case>
+        <case name="WAITING">
+            <func name="if">
+                <condition>
+                    <func name="checkPlayerHaveLetterOut" />
+                </condition>
+                <ifTrue>
+                    <func name="startDialog" param1="dlog_activity_remember_deliver" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="changeActState" param1="DONE" />
+                    <func name="startDialog" param1="dlog_activity_thanks_deliver_letter_out" />
+                </ifFalse>
+            </func>
+        </case>
+        <case name="DONE">
+            <func name="startDialog" param1="dlog_activity_thanks_help" />
+        </case>
+    </func>
+</onStartDialog>
+
+<onEndDialog>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_activity_thanks_letter_in_give_reward">
+            <func name="giveRewardToPlayer" param1="" />
+            <func name="showMessageGetReward" param1="" />
+        </case>
+        <case name="dlog_activity_thanks_letter_in_give_letter_out">
+            <func name="giveLetterOutToPlayer" param1="" />
+            <func name="showMessageGetLetter" param1="" />
+        </case>
+    </func>
+</onEndDialog>
+
+</data>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onChangeBubble_0>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_darwin_join" />
+        </condition>
+        <ifTrue>
+            <func name="setFaceData" param1="gumball_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="player" />
+        </ifTrue>
+        <ifFalse>
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </ifFalse>
+    </func>
+</onChangeBubble_0>
+
+<onChangeBubble_1>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_darwin_join" />
+        </condition>
+        <ifTrue>
+            <func name="setFaceData" param1="darwin_happy" param2="Right" />
+            <func name="doTalkAnimation" param1="npc" />
+        </ifTrue>
+    </func>
+</onChangeBubble_1>
+
+</data>

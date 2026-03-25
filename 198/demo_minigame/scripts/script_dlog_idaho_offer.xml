@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<option1>
+    <func name="if">
+        <condition>
+            <func name="checkPlayerRootsForMilkshake" param1="" />
+        </condition>
+        <ifTrue>
+            <func name="createQuestMilkshake" param1="" />
+            <func name="gotoDialog" param1="dlog_idaho_ok_buy" />
+        </ifTrue>
+        <ifFalse>
+            <func name="gotoDialog" param1="dlog_idaho_warn_roots" />
+        </ifFalse>
+    </func>
+</option1>
+
+<onChangeBubble_0>
+    <func name="addToReplacementList" param1="UUU" param2="getMilkshakePrice" param3="00FF00" />
+    <func name="setFaceData" param1="idaho_normal" param2="Left" />
+    <func name="doTalkAnimation" param1="npc" />
+</onChangeBubble_0>
+
+</data>

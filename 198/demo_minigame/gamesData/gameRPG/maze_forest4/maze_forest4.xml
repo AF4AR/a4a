@@ -1,0 +1,74 @@
+<world>
+	<properties>
+		<width> 832 </width>
+		<height> 640 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 407 </playerX>
+		<playerY> 184 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+	</kipuHeader>
+	<layer name="lv2_forest_tilesets" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest4_lv2_forest_tilesets" width="832" height="640" >
+		<tile image="lv2_forest_tilesets-tile_30_1" />
+		<tile image="lv2_forest_tilesets-tile_07_1" />
+		<tile image="lv2_forest_tilesets-tile_06_1" />
+		<tile image="lv2_forest_tilesets-tile_03_0" />
+		<tile image="lv2_forest_tilesets-tile_04_0" />
+		<tile image="lv2_forest_tilesets-tile_05_0" />
+		<tile image="lv2_forest_tilesets-tile_06_0" />
+		<tile image="lv2_forest_tilesets-tile_31_1" />
+		<tile image="lv2_forest_tilesets-tile_31_0" />
+		<tile image="lv2_forest_tilesets-tile_08_0" />
+		<tile image="lv2_forest_tilesets-tile_09_0" />
+		<tile image="lv2_forest_tilesets-tile_10_0" />
+		<tile image="lv2_forest_tilesets-tile_23_0" />
+		<tile image="lv2_forest_tilesets-tile_27_0" />
+		<tile image="lv2_forest_tilesets-tile_03_1" />
+		<tile image="lv2_forest_tilesets-tile_02_1" />
+	</layer>
+	<layer type="sprites" name="sprites" width="832" height="640" >
+		<gpx x="16" y="80" image="lv2_forest_sprites-spr_06" />
+		<gpx x="49" y="485" image="lv2_forest_sprites-spr_06" />
+		<gpx x="123" y="477" image="lv2_forest_sprites-spr_08" />
+		<gpx x="136" y="77" image="lv2_forest_sprites-spr_08" />
+		<gpx x="176" y="24" sx="-1" image="lv2_forest_sprites-spr_06" />
+		<gpx x="216" y="48" image="lv2_forest_sprites-spr_14" />
+		<gpx x="276" y="246" image="lv2_forest_sprites-spr_08" />
+		<gpx x="560" y="24" image="lv2_forest_sprites-spr_01" />
+		<gpx x="642" y="180" image="lv2_forest_sprites-spr_08" />
+		<gpx x="680" y="48" image="lv2_forest_sprites-spr_14" />
+		<gpx x="709" y="402" image="lv2_forest_sprites-spr_08" />
+		<gpx x="786" y="483" image="lv2_forest_sprites-spr_01" />
+		<gpx x="807" y="79" image="lv2_forest_sprites-spr_01" />
+	</layer>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer type="collision" name="collisions" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest4_collisions" width="832" height="640" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="410" y="54" id="1102" params="uniqueId:332;script:none;destiny:forest_of_doom;index:20;insertX:383;insertY:401;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="415" y="312" id="1101" params="uniqueId:331;script:script_npc_dayly_fight;skin:Enemy1;npcName:none" />
+		<object x="419" y="361" id="1117" params="uniqueId:330;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:mouse" />
+	</layer>
+	<layer name="lv2_forest_tilesets_fore" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest4_lv2_forest_tilesets_fore" width="832" height="640" >
+		<tile image="lv2_forest_tilesets_fore-tile_03_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_02_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_25_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_24_0" />
+	</layer>
+</world>

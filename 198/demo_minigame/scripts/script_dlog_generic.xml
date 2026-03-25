@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onChangeBubble_0>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_spaceTV_remember_quest">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+        </case>
+        <case name="dlog_spaceTV_next_quest">
+            <func name="setFaceData" param1="darwin_enlightened" param2="Left" />
+        </case>
+        <case name="dlog_spaceConsole_activate_quest">
+            <func name="setFaceData" param1="gumball_astonished" param2="Left" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_spaceComputer_activate_quest">
+            <func name="setFaceData" param1="gumball_astonished" param2="Left" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_spaceMicrowave_activate_quest">
+            <func name="setFaceData" param1="gumball_astonished" param2="Left" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_desc_tv">
+            <func name="setFaceData" param1="tv_normal" param2="Left" />
+        </case>
+        <case name="dlog_darwin_press_z">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="getObjectAndCallFunction" param1="27" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_after_inventory">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="getObjectAndCallFunction" param1="27" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_turn_off">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="getObjectAndCallFunction" param1="27" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_remember_turn_off">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_tobias_happy">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_play_games">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_granny_prologue">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+            <func name="getObjectAndCallFunction" param1="6" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_prologue">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="getObjectAndCallFunction" param1="101010" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_turn_on_tv_console">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_granny_dont_run">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_anais_popcorn">
+            <func name="setFaceData" param1="anais_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_anais_tobias_yard">
+            <func name="setFaceData" param1="anais_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_prologue_done">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_turn_on_tv">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_turn_on_console">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_hungry">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_anais_prologue_done">
+            <func name="setFaceData" param1="anais_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_warn">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+        </case>
+        <case name="dlog_darwin_rememver_tobias">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_anais_remember_tobias_prologue">
+            <func name="setFaceData" param1="anais_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_granny_check_phone">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_granny_prologue_done">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_darwin_check_phone">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_anais_check_phone">
+            <func name="setFaceData" param1="anais_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="npc" />
+        </case>
+        <case name="dlog_anais_granny_pre_fight">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+        </case>
+        <case name="dlog_carrie_ghost_house">
+            <func name="setFaceData" param1="carrie_normal" param2="Left" />
+        </case>
+        <case name="dlog_carrie_blockers_off_1">
+            <func name="setFaceData" param1="carrie_normal" param2="Left" />
+        </case>
+        <case name="dlog_granny_after_defeat">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+        </case>
+        <case name="dlog_spaceTV_next_quest_done">
+            <func name="setFaceData" param1="darwin_normal" param2="Left" />
+        </case>
+        <case name="dlog_npc_dayly_fight_warn_time">
+            <func name="addToReplacementList" param1="YYY" param2="getTimeLeftToNextDaylyFight" param3="00FF00" />
+        </case>
+        <case name="DEFAULT">
+            <func name="setFaceData" param1="gumball_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+    </func>
+</onChangeBubble_0>
+
+<onChangeBubble_1>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_spaceConsole_activate_quest">
+            <func name="setFaceData" param1="darwin_normal" param2="Right" />
+        </case>
+        <case name="dlog_spaceComputer_activate_quest">
+            <func name="setFaceData" param1="anais_normal" param2="Right" />
+        </case>
+        <case name="dlog_spaceMicrowave_activate_quest">
+            <func name="setFaceData" param1="darwin_normal" param2="Right" />
+        </case>
+        <case name="dlog_darwin_turn_off">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="getObjectAndCallFunction" param1="27" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_gumball_computer">
+            <func name="setFaceData" param1="tobias_normal" param2="Right" />
+        </case>
+        <case name="dlog_granny_prologue">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+            <func name="getObjectAndCallFunction" param1="6" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_prologue">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+            <func name="getObjectAndCallFunction" param1="101010" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_turn_on_tv_console">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_granny_dont_run">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_anais_popcorn">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_anais_tobias_yard">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_darwin_turn_on_tv_console">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_darwin_turn_on_console">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_darwin_rememver_tobias">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_granny_check_phone">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_granny_prologue_done">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_spaceMicrowave_next">
+            <func name="setFaceData" param1="darwin_normal" param2="Right" />
+            <func name="getObjectAndCallFunction" param1="17" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_carrie_ghost_house">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="dlog_carrie_blockers_off_1">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+        <case name="DEFAULT">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+    </func>
+</onChangeBubble_1>
+
+<onChangeBubble_2>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_granny_prologue">
+            <func name="setFaceData" param1="granny_normal" param2="Left" />
+            <func name="endTalkAnimation" param1="player" />
+            <func name="getObjectAndCallFunction" param1="6" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_spaceMicrowave_next">
+            <func name="setFaceData" param1="anais_normal" param2="Left" />
+            <func name="getObjectAndCallFunction" param1="17" param2="endTalkAnimation" />
+            <func name="getObjectAndCallFunction" param1="19" param2="doTalkAnimation" />
+        </case>
+        <case name="dlog_carrie_ghost_house">
+            <func name="endTalkAnimation" param1="player" />
+            <func name="setFaceData" param1="carrie_normal" param2="Left" />
+        </case>
+        <case name="DEFAULT">
+            <func name="setFaceData" param1="gumball_normal" param2="Left" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+    </func>
+</onChangeBubble_2>
+
+<onChangeBubble_3>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_granny_prologue">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+            <func name="getObjectAndCallFunction" param1="6" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_gumball_computer">
+            <func name="setFaceData" param1="darwin_normal" param2="Right" />
+            <func name="getObjectAndCallFunction" param1="27" param2="doTalkAnimation" />
+        </case>
+        <case name="DEFAULT">
+            <func name="setFaceData" param1="gumball_normal" param2="Right" />
+            <func name="doTalkAnimation" param1="player" />
+        </case>
+    </func>
+</onChangeBubble_3>
+
+<onClose>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_gumball_computer">
+            <func name="getObjectAndCallFunction" param1="27" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_after_inventory">
+            <func name="getObjectAndCallFunction" param1="27" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_darwin_press_z">
+            <func name="getObjectAndCallFunction" param1="27" param2="endTalkAnimation" />
+        </case>
+        <case name="dlog_spaceMicrowave_next">
+            <func name="getObjectAndCallFunction" param1="19" param2="endTalkAnimation" />
+        </case>
+    </func>
+</onClose>
+
+</data>

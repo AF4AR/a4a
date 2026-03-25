@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkQuestDone" param1="qst_talk_carrie" />
+        </condition>
+        <ifTrue>
+            <func name="startDialog" param1="dlog_carrie_regular" />
+        </ifTrue>
+        <ifFalse>
+            <func name="startDialog" param1="dlog_IdahoGreating_next" />
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_IdahoGreating_next" />
+        </condition>
+        <ifTrue>
+            <func name="setQuestDone" param1="qst_talk_carrie" />
+            <func name="playerDoClueAnimation" param1="ANIM_CLUE_CARRIE" />
+            <func name="showMessage2" param1="TXT_PLAYER_HAVE_CLUE" />
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+</data>

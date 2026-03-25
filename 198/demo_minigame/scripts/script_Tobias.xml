@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+
+<func name="if">
+    <condition>
+        <func name="checkQuestExist" param1="qst_defeat_tobias" />
+    </condition>
+    <ifTrue>
+        <func name="if">
+            <condition>
+                <func name="checkQuestDone" param1="qst_defeat_tobias" />
+            </condition>
+            <ifTrue>
+                <func name="startDialog" param1="dlog_tobias_friendly" />
+            </ifTrue>
+            <ifFalse>
+                <func name="startDialog" param1="dlog_tobias_taunt" />
+            </ifFalse>
+        </func>
+    </ifTrue>
+    <ifFalse>
+        <func name="createQuest" param1="qst_defeat_tobias" />
+        <func name="startDialog" param1="dlog_tobias_taunt" />
+    </ifFalse>
+</func>
+
+</onStartDialog>
+
+</data>

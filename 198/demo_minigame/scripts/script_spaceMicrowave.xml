@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkSpaceFillInMemory" param1="22" />
+        </condition>
+        <ifTrue>
+           <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_recover_microwave" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_recover_microwave" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkFill" param1="" />
+                                </condition>
+                                <ifTrue>
+                                    <!--func name="startDialog" param1="dlog_spaceMicrowave_next_2" /-->
+
+                                    <func name="if">
+                                        <condition>
+                                            <func name="checkQuestDone" param1="qst_defeat_granny" />
+                                        </condition>
+                                        <ifTrue>
+                                            <func name="if">
+                                                <condition>
+                                                    <func name="checkQuestExist" param1="qst_recover_dish" />
+                                                </condition>
+                                                <ifTrue>
+                                                    <func name="if">
+                                                        <condition>
+                                                            <func name="checkQuestDone" param1="qst_recover_dish" />
+                                                        </condition>
+                                                        <ifTrue>
+                                                            <func name="startDialog" param1="dlog_spaceMicrowave_next_2" />
+                                                        </ifTrue>
+                                                        <ifFalse>
+                                                            <func name="startDialog" param1="dlog_gumball_where_is_dish" />
+                                                        </ifFalse>
+                                                    </func>
+                                                </ifTrue>
+                                                <ifFalse>
+                                                    <func name="createQuest" param1="qst_recover_dish" />
+                                                    <func name="startDialog" param1="dlog_gumball_where_is_dish" />
+                                                </ifFalse>
+                                            </func>
+                                        </ifTrue>
+                                        <ifFalse>
+                                            <func name="startDialog" param1="dlog_gumball_where_is_dish" />
+                                        </ifFalse>
+                                    </func>
+
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="playerDoWinAnimation" param1="ANIM_RECOVER_MICROWAVE_HUB" />
+                                    <!--func name="showMessage2" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" /-->
+                                    <func name="showMessage3" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" param2="microwave" />
+                                    <func name="fill" param1="" />
+                                    <func name="getObjectAndCallFunction" param1="17" param2="unhideForGrannyA" />
+                                    <func name="getObjectAndCallFunction" param1="19" param2="unhideForGrannyB" />
+                                    <func name="getObjectAndCallFunction" param1="18" param2="hide" />
+                                    <func name="getObjectAndCallFunction" param1="16" param2="hide" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_spaceMicrowave_remember_quest" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="if">
+                        <condition>
+                            <func name="checkPlayerHaveItem" param1="microwave" />
+                        </condition>
+                        <ifTrue>
+                            <!--
+                            <func name="createQuest" param1="qst_recover_microwave" />
+                            <func name="setQuestDone" param1="qst_recover_microwave" />
+                            <func name="fill" param1="" />
+                            <func name="startDialog" param1="dlog_spaceMicrowave_next" />
+                            -->
+                            <func name="playerDoWinAnimation" param1="ANIM_RECOVER_MICROWAVE_HUB" />
+                            <func name="showMessage3" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" param2="microwave" />
+                            <func name="fill" param1="" />
+                            <func name="getObjectAndCallFunction" param1="17" param2="unhideForGrannyA" />
+                            <func name="getObjectAndCallFunction" param1="19" param2="unhideForGrannyB" />
+                            <func name="getObjectAndCallFunction" param1="18" param2="hide" />
+                            <func name="getObjectAndCallFunction" param1="16" param2="hide" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="playerDoClueAnimation" param1="ANIM_CLUE_MICROWAVE" />
+                            <func name="showMessage2" param1="TXT_PLAYER_HAVE_CLUE" />
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="if">
+                <condition>
+                    <func name="checkCurrentMapName" param1="hub_0" />
+                </condition>
+                <ifTrue>
+                    <!--func name="startDialog" param1="dlog_desc_microwave" /-->
+                    <func name="setQuestDone" param1="qst_touch_microwave" />
+                    <func name="startDialog" param1="dlog_gumball_microwave_prologue" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_spaceMicrowave_requeriment" />
+                </ifFalse>
+            </func>
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_gumball_microwave_prologue" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_tv" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_console" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_microwave" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_defeat_tobias" />
+                </condition>
+                <ifFalse>
+                    <func name="createQuest" param1="qst_defeat_tobias" />
+                    <func name="startDialog" param1="dlog_darwin_warn" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+</data>

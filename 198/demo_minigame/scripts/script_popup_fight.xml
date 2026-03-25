@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<!--onWin>
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="tobiasFirstFight" />
+        </condition>
+        <ifTrue>
+            <func name="setQuestDone" param1="qst_defeat_tobias" />
+        </ifTrue>
+    </func>
+</onWin-->
+
+<onLastFrame>
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="tobiasFirstFight" />
+        </condition>
+        <ifTrue>
+            <func name="setQuestDone" param1="qst_defeat_tobias" />
+            <func name="getObjectAndCallFunction" param1="4" param2="triggerDialog" />
+            <func name="getObjectAndCallFunction" param1="7000" param2="startRinging" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="fightBeforeTv" />
+        </condition>
+        <ifTrue>
+            <func name="hideEnemiesBySettings" param1="enemiesBeforeTv" />
+            <func name="playerGetObjectSpace" param1="tv" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="fightBeforeConsole" />
+        </condition>
+        <ifTrue>
+            <func name="hideEnemiesBySettings" param1="enemiesBeforeConsole" />
+            <func name="playerGetObjectSpace" param1="console" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="fightBeforeComputer" />
+        </condition>
+        <ifTrue>
+            <func name="hideEnemiesBySettings" param1="enemiesBeforeComputer" />
+            <func name="playerGetObjectSpace" param1="computer" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="fightBeforeMicrowave" />
+        </condition>
+        <ifTrue>
+            <func name="hideEnemiesBySettings" param1="enemiesBeforeMicrowave" />
+            <func name="playerGetObjectSpace" param1="microwave" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkEnemyGroupBySettings" param1="fightGranny" />
+        </condition>
+        <ifTrue>
+            <func name="setQuestDone" param1="qst_defeat_granny" />
+            <func name="getObjectAndCallFunction" param1="17" param2="hide" />
+            <func name="getObjectAndCallFunction" param1="19" param2="hide" />
+        </ifTrue>
+    </func>
+</onLastFrame>
+
+</data>

@@ -1,0 +1,96 @@
+<world>
+	<properties>
+		<width> 832 </width>
+		<height> 640 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 4436 </playerX>
+		<playerY> 996 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+	</kipuHeader>
+	<layer name="lv2_forest_tilesets" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest1_lv2_forest_tilesets" width="832" height="640" >
+		<tile image="lv2_forest_tilesets-tile_30_1" />
+		<tile image="lv2_forest_tilesets-tile_07_1" />
+		<tile image="lv2_forest_tilesets-tile_06_1" />
+		<tile image="lv2_forest_tilesets-tile_11_1" />
+		<tile image="lv2_forest_tilesets-tile_04_0" />
+		<tile image="lv2_forest_tilesets-tile_05_0" />
+		<tile image="lv2_forest_tilesets-tile_06_0" />
+		<tile image="lv2_forest_tilesets-tile_14_1" />
+		<tile image="lv2_forest_tilesets-tile_28_1" />
+		<tile image="lv2_forest_tilesets-tile_29_1" />
+		<tile image="lv2_forest_tilesets-tile_31_1" />
+		<tile image="lv2_forest_tilesets-tile_31_0" />
+		<tile image="lv2_forest_tilesets-tile_08_0" />
+		<tile image="lv2_forest_tilesets-tile_09_0" />
+		<tile image="lv2_forest_tilesets-tile_10_0" />
+		<tile image="lv2_forest_tilesets-tile_14_0" />
+		<tile image="lv2_forest_tilesets-tile_03_0" />
+		<tile image="lv2_forest_tilesets-tile_39_0" />
+		<tile image="lv2_forest_tilesets-tile_23_0" />
+		<tile image="lv2_forest_tilesets-tile_18_0" />
+		<tile image="lv2_forest_tilesets-tile_27_0" />
+		<tile image="lv2_forest_tilesets-tile_01_0" />
+		<tile image="lv2_forest_tilesets-tile_02_0" />
+		<tile image="lv2_forest_tilesets-tile_19_0" />
+		<tile image="lv2_forest_tilesets-tile_15_0" />
+		<tile image="lv2_forest_tilesets-tile_00_0" />
+		<tile image="lv2_forest_tilesets-tile_17_1" />
+		<tile image="lv2_forest_tilesets-tile_21_1" />
+		<tile image="lv2_forest_tilesets-tile_12_1" />
+		<tile image="lv2_forest_tilesets-tile_00_1" />
+		<tile image="lv2_forest_tilesets-tile_01_1" />
+		<tile image="lv2_forest_tilesets-tile_24_1" />
+		<tile image="lv2_forest_tilesets-tile_25_1" />
+		<tile image="lv2_forest_tilesets-tile_10_1" />
+		<tile image="lv2_forest_tilesets-tile_16_1" />
+		<tile image="lv2_forest_tilesets-tile_18_1" />
+		<tile image="lv2_forest_tilesets-tile_19_1" />
+	</layer>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer type="collision" name="collisions" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest1_collisions" width="832" height="640" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="12" y="357" id="1102" params="uniqueId:341;script:none;destiny:maze_forest4;index:22;insertX:387;insertY:119;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="420" y="60" id="1102" params="uniqueId:340;script:none;destiny:maze_forest4;index:20;insertX:387;insertY:119;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="421" y="657" id="1102" params="uniqueId:342;script:none;destiny:maze_forest4;index:22;insertX:387;insertY:119;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="819" y="352" id="1102" params="uniqueId:343;script:none;destiny:maze_forest2;index:20;insertX:119;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+	</layer>
+	<layer name="lv2_forest_tilesets_fore" cols="13" rows="10" tileW="64" tileH="64" map="mc_map_maze_forest1_lv2_forest_tilesets_fore" width="832" height="640" >
+		<tile image="lv2_forest_tilesets_fore-tile_17_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_08_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_07_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_12_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_00_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_01_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_26_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_27_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_10_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_11_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_16_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_18_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_19_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_04_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_05_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_30_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_31_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_20_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_21_0" />
+	</layer>
+</world>

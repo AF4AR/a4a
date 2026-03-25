@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onChangeBubble_0>
+    <func name="setFaceData" param1="tobias_normal" param2="Left" />
+    <func name="doTalkAnimation" param1="npc" />
+    <func name="addToReplacementList" param1="HHH" param2="getTrainingPrice" param3="00FF00" />
+    <func name="addToReplacementList" param1="GGG" param2="getPlayerMoney" param3="00FF00" />
+</onChangeBubble_0>
+
+</data>

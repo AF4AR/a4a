@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="startDialog" param1="dlog_shop_offer" />
+</onStartDialog>
+
+</data>

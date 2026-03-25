@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkPlayerMoneyForTraining" param1="" />
+        </condition>
+        <ifTrue>
+            <func name="startDialog" param1="dlog_tobias_offer_training" />
+        </ifTrue>
+        <ifFalse>
+            <func name="startDialog" param1="dlog_tobias_offer_training_fail" />
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+</data>

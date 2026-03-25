@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<option1>
+    <func name="startFightBySettings" parm1="tobiasFirstFight" />
+    <func name="close" param1="" />
+</option1>
+
+<onChangeBubble_0>
+    <func name="setFaceData" param1="tobias_normal" param2="Left" />
+    <func name="doTalkAnimation" param1="npc" />
+</onChangeBubble_0>
+
+</data>

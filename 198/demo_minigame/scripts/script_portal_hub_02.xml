@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onAfterCreation>
+    <func name="if">
+        <condition>
+            <func name="checkQuestDone" param1="qst_open_chest" />
+        </condition>
+        <ifTrue>
+            <func name="open" param1="" />
+        </ifTrue>
+        <ifFalse>
+            <func name="close" param1="" />
+        </ifFalse>
+    </func>
+</onAfterCreation>
+
+<onTryOpen>
+    <func name="if">
+        <condition>
+            <func name="checkQuestDone" param1="qst_touch_computer" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_open_chest" />
+                </condition>
+                <ifTrue>
+                    <func name="open" param1="" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="showMessage" param1="TXT_MESSAGE_OPEN_CHEST" param2="darwin_normal" param3="Left" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="showMessage" param1="TXT_DLOG_DARWIN_REMEMBER_TURN_OFF" param2="darwin_normal" param3="Left" />
+        </ifFalse>
+    </func>
+</onTryOpen>
+
+</data>

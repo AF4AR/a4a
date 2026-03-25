@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="setQuestDone" param1="qst_talk_phone" />
+    <func name="startDialog" param1="dlog_phone" />
+</onStartDialog>
+
+</data>

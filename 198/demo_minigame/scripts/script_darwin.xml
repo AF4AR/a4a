@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="hub_02" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_touch_computer" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_open_chest" />
+                        </condition>
+                        <ifTrue>
+                            <func name="startDialog" param1="dlog_darwin_play_games" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_darwin_tobias_happy" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_darwin_remember_turn_off" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="if">
+                <condition>
+                    <func name="checkCurrentMapName" param1="hub_0" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_touch_tv" />
+                            <oper name="and" />
+                            <func name="checkQuestDone" param1="qst_touch_console" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if" >
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_touch_microwave" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="if">
+                                        <condition>
+                                           <func name="checkQuestDone" param1="qst_defeat_tobias" />
+                                        </condition>
+                                        <ifTrue>
+                                            <func name="if">
+                                                <condition>
+                                                    <func name="checkQuestDone" param1="qst_talk_phone" />
+                                                </condition>
+                                                <ifTrue>
+                                                    <func name="startDialog" param1="dlog_darwin_prologue_done" />
+                                                </ifTrue>
+                                                <ifFalse>
+                                                    <func name="startDialog" param1="dlog_darwin_check_phone" />
+                                                </ifFalse>
+                                            </func>
+                                        </ifTrue>
+                                        <ifFalse>
+                                            <func name="startDialog" param1="dlog_darwin_rememver_tobias" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="startDialog" param1="dlog_darwin_hungry" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_touch_tv" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="startDialog" param1="dlog_darwin_turn_on_console" />
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="if">
+                                        <condition>
+                                            <func name="checkQuestDone" param1="qst_touch_console" />
+                                        </condition>
+                                        <ifTrue>
+                                            <func name="startDialog" param1="dlog_darwin_turn_on_tv" />
+                                        </ifTrue>
+                                        <ifFalse>
+                                            <func name="startDialog" param1="dlog_darwin_turn_on_tv_console" />
+                                        </ifFalse>
+                                    </func>
+                                </ifFalse>
+                            </func>
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="if">
+                        <condition>
+                            <func name="checkDarwinInPlayerParty" param1="" />
+                        </condition>
+                        <ifTrue>
+                            <func name="startDialog" param1="dlog_darwin_regular" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="setQuestDone" param1="qst_talk_darwin" />
+                            <func name="startDialog" param1="dlog_darwin_join" />
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_darwin_join" />
+        </condition>
+        <ifTrue>
+            <func name="hide" param1="" />
+            <func name="playerDoClueAnimation" param1="" />
+            <func name="showMessage2" param1="TXT_DIALOG_DARWIN_JOINED" />
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+</data>

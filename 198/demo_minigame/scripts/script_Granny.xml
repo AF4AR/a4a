@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <!--func name="setQuestDone" param1="qst_talk_granny" /-->
+
+    <func name="if">
+        <condition>
+            <func name="checkQuestDone" param1="qst_touch_computer" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_tv" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_console" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_microwave" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_defeat_tobias" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_talk_phone" />
+                        </condition>
+                        <ifTrue>
+                            <func name="startDialog" param1="dlog_granny_prologue_done" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="startDialog" param1="dlog_granny_check_phone" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_granny_remember_defeat_tobias" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="startDialog" param1="dlog_granny_dont_run" />
+        </ifFalse>
+    </func>
+    <!--
+    <func name="if">
+        <condition>
+            <func name="checkQuestExist" param1="qst_defeat_tobias" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_defeat_tobias" />
+                </condition>
+                <ifTrue>
+                    <func name="startDialog" param1="dlog_granny_portal_is_open" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_granny_remember_defeat_tobias" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="startDialog" param1="dlog_granny_remember_defeat_tobias" />
+        </ifFalse>
+    </func>
+    -->
+</onStartDialog>
+
+</data>

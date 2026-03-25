@@ -1,0 +1,318 @@
+<world>
+	<properties>
+		<width> 5248 </width>
+		<height> 2048 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 4436 </playerX>
+		<playerY> 996 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+		<kipu id="6" params="name:coins1;cost:1;clipname:mcCoins1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:1||" />
+		<kipu id="17" params="name:root;cost:200;clipname:mcRoot;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|health:50|money:1||" />
+		<kipu id="13" params="name:milkShake1;cost:5;clipname:mcMilkShake1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:10000|||" />
+		<kipu id="14" params="name:milkShake2;cost:10;clipname:mcMilkShake2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:15000|||" />
+		<kipu id="15" params="name:milkShake3;cost:20;clipname:mcMilkShake3;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:30000|||" />
+		<kipu id="16" params="name:milkShake4;cost:40;clipname:mcMilkShake4;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:50000|||" />
+		<kipu id="12" params="name:tv;cost:500;clipname:mcTV;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="22" params="name:trophy1;cost:1000;clipname:mcTrophy1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="21" params="name:trophy2;cost:1000;clipname:mcTrophy2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="2" params="name:coins10;cost:10;clipname:mcCoins10;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:10||" />
+		<kipu id="0" params="name:mageCape1;cost:99;clipname:mcMageCape1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|recoveryRatio:1.3|||" />
+		<kipu id="10" params="name:mageCape2;cost:399;clipname:mcMageCape2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|recoveryRatio:1.7|||" />
+		<kipu id="1" params="name:heroHelmet2;cost:399;clipname:mcHeroHelmet2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|strength:1.5|||" />
+		<kipu id="5" params="name:regenerationBracelet1;cost:1000;clipname:mcRegenerationBracelet1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|healthRegenSpeed:0.01|||" />
+		<kipu id="7" params="name:key1;cost:200;clipname:mcKey1;color:blue;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="8" params="name:regenerationBracelet2;cost:2000;clipname:mcRegenerationBracelet2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|healthRegenSpeed:0.05|||" />
+		<kipu id="18" params="name:speedBracelet1;cost:500;clipname:mcSpeedBracelet1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|speed:0.4|||" />
+		<kipu id="20" params="name:key2;cost:200;clipname:mcKey2;color:yellow;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="11" params="name:speedBracelet2;cost:800;clipname:mcSpeedBracelet2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|speed:0.8|||" />
+		<kipu id="19" params="name:key3;cost:200;clipname:mcKey3;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="4" params="name:auraAmulet1;cost:99;clipname:mcAuraAmulet1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|||physical:1.5|" />
+		<kipu id="3" params="name:auraAmulet2;cost:399;clipname:mcAuraAmulet2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|||physical:1.7|" />
+		<kipu id="9" params="name:coins50;cost:50;clipname:mcCoins50;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:50||" />
+	</kipuHeader>
+	<layer name="lv3_grave_ghost_tilesets" cols="82" rows="32" tileW="64" tileH="64" map="mc_map_lv1_graveyard_lv3_grave_ghost_tilesets" width="5248" height="2048" >
+		<tile image="lv3_grave_ghost_tilesets-tile_30_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_31_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_07_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_14_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_06_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_00_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_02_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_02_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_03_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_32_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_33_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_34_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_04_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_06_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_08_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_10_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_20_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_21_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_22_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_26_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_01_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_11_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_07_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_33_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_03_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_15_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_05_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_27_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_26_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_16_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_17_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_34_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_32_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_09_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_08_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_09_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_00_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_01_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_20_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_21_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_29_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_25_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_12_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_13_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_04_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_05_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_24_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_12_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_13_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_10_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_28_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_14_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_36_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_36_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_37_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_17_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_39_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_38_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_18_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_19_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_35_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_15_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_30_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_38_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_39_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_18_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_19_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_11_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_22_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_23_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_16_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_28_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_29_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_23_0" />
+		<tile image="lv3_grave_ghost_tilesets-tile_24_1" />
+		<tile image="lv3_grave_ghost_tilesets-tile_25_1" />
+	</layer>
+	<layer type="sprites" name="sprites" width="5248" height="2048" >
+		<gpx x="416" y="1280" image="lv3_grave_ghost_sprites-spr_lv3_09" />
+		<gpx x="544" y="1280" image="lv3_grave_ghost_sprites-spr_lv3_09" />
+		<gpx x="672" y="1280" image="lv3_grave_ghost_sprites-spr_lv3_29" />
+		<gpx x="800" y="1280" image="lv3_grave_ghost_sprites-spr_lv3_27" />
+		<gpx x="988" y="190" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="1184" y="776" image="lv3_grave_ghost_sprites-spr_lv3_09" />
+		<gpx x="1248" y="776" image="lv3_grave_ghost_sprites-spr_lv3_27" />
+		<gpx x="1280" y="936" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="1312" y="776" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="1376" y="936" image="lv3_grave_ghost_sprites-spr_lv3_24" />
+		<gpx x="1568" y="1280" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="1664" y="1960" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="1696" y="1280" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="1696" y="1728" image="lv3_grave_ghost_sprites-spr_lv3_09" />
+		<gpx x="1888" y="1728" image="lv3_grave_ghost_sprites-spr_lv3_09" />
+		<gpx x="1952" y="1216" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="2080" y="1728" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="2144" y="736" image="lv3_grave_ghost_sprites-spr_lv3_24" />
+		<gpx x="2240" y="1952" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="2400" y="1024" image="lv3_grave_ghost_sprites-spr_lv3_27" />
+		<gpx x="2496" y="992" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="2592" y="1024" image="lv3_grave_ghost_sprites-spr_lv3_29" />
+		<gpx x="2992" y="376" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3120" y="352" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3224" y="264" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3232" y="472" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3256" y="304" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3320" y="504" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3329" y="1018" image="lv3_grave_ghost_sprites-spr_lv3_01" />
+		<gpx x="3352" y="456" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3360" y="280" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3424" y="208" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3424" y="448" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="3488" y="960" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="3520" y="1192" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="3520" y="1576" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="3552" y="480" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3552" y="960" image="lv3_grave_ghost_sprites-spr_lv3_29" />
+		<gpx x="3552" y="1408" image="lv3_grave_ghost_sprites-spr_lv3_29" />
+		<gpx x="3608" y="216" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3616" y="448" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="3648" y="248" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3680" y="576" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3728" y="536" image="lv3_grave_ghost_sprites-spr_lv3_22" />
+		<gpx x="3808" y="896" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="3872" y="1248" image="lv3_grave_ghost_sprites-spr_lv3_24" />
+		<gpx x="3888" y="896" image="lv3_grave_ghost_sprites-spr_lv3_09" />
+		<gpx x="3968" y="896" image="lv3_grave_ghost_sprites-spr_lv3_27" />
+		<gpx x="3968" y="1160" image="lv3_grave_ghost_sprites-spr_lv3_01" />
+		<gpx x="4048" y="896" image="lv3_grave_ghost_sprites-spr_lv3_29" />
+		<gpx x="4064" y="1224" image="lv3_grave_ghost_sprites-spr_lv3_28" />
+		<gpx x="4128" y="896" image="lv3_grave_ghost_sprites-spr_lv3_27" />
+		<gpx x="4160" y="1256" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="4256" y="1256" image="lv3_grave_ghost_sprites-spr_lv3_24" />
+		<gpx x="4352" y="1256" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="4407" y="860" image="lv3_grave_ghost_sprites-spr_lv3_23" />
+		<gpx x="4704" y="992" image="lv3_grave_ghost_sprites-spr_lv3_24" />
+	</layer>
+	<layer type="collision" name="collisions" cols="82" rows="32" tileW="64" tileH="64" map="mc_map_lv1_graveyard_collisions" width="5248" height="2048" >
+	</layer>
+	<layer type="objects" name="items_down" >
+		<object x="1567" y="736" id="1105" params="uniqueId:201;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:1;script:none;skin:mcGrabables_02" />
+		<object x="1695" y="736" id="1105" params="uniqueId:202;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:2;script:none;skin:mcGrabables_03" />
+		<object x="1823" y="736" id="1105" params="uniqueId:203;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:3;script:none;skin:mcGrabables_01" />
+	</layer>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer name="kipu" >
+		<kipuObject id="0" x="20" y="88"/>
+		<kipuObject id="1" x="36" y="273"/>
+		<kipuObject id="2" x="50" y="162"/>
+		<kipuObject id="3" x="60" y="336"/>
+		<kipuObject id="0" x="64" y="219"/>
+		<kipuObject id="4" x="74" y="478"/>
+		<kipuObject id="5" x="79" y="381"/>
+		<kipuObject id="6" x="83" y="69"/>
+		<kipuObject id="7" x="116" y="282"/>
+		<kipuObject id="8" x="130" y="83"/>
+		<kipuObject id="9" x="133" y="386"/>
+		<kipuObject id="4" x="168" y="319"/>
+		<kipuObject id="10" x="186" y="180"/>
+		<kipuObject id="11" x="222" y="99"/>
+		<kipuObject id="12" x="1420" y="1301"/>
+		<kipuObject id="0" x="2134" y="54"/>
+		<kipuObject id="13" x="4478" y="1970"/>
+		<kipuObject id="14" x="4570" y="2002"/>
+		<kipuObject id="15" x="4658" y="2011"/>
+		<kipuObject id="16" x="4751" y="1994"/>
+		<kipuObject id="17" x="4786" y="79"/>
+		<kipuObject id="17" x="4905" y="54"/>
+		<kipuObject id="0" x="4932" y="189"/>
+		<kipuObject id="18" x="4961" y="167"/>
+		<kipuObject id="17" x="4961" y="311"/>
+		<kipuObject id="13" x="4982" y="203"/>
+		<kipuObject id="19" x="4991" y="343"/>
+		<kipuObject id="15" x="4993" y="100"/>
+		<kipuObject id="20" x="4994" y="292"/>
+		<kipuObject id="2" x="5023" y="60"/>
+		<kipuObject id="21" x="5027" y="151"/>
+		<kipuObject id="10" x="5031" y="153"/>
+		<kipuObject id="17" x="5043" y="60"/>
+		<kipuObject id="19" x="5055" y="238"/>
+		<kipuObject id="6" x="5067" y="328"/>
+		<kipuObject id="2" x="5089" y="1574"/>
+		<kipuObject id="16" x="5096" y="88"/>
+		<kipuObject id="22" x="5133" y="123"/>
+		<kipuObject id="6" x="5138" y="256"/>
+		<kipuObject id="2" x="5148" y="64"/>
+		<kipuObject id="17" x="5197" y="66"/>
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="544" y="1376" id="1117" params="uniqueId:124;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:remote" />
+		<object x="736" y="1375" id="1116" params="uniqueId:123;script:script_npc_letter_generic;skin:Enemy2;npcName:Carlos Tuna;letterIn:none;letterOut:letterA;reward:none;chain:Pete Tuna" />
+		<object x="1024" y="449" id="1103" params="uniqueId:125;cellXi:15;cellYi:6;cellXf:16;cellYf:6;script:none;skin:mcBlockSwitchK;key:key1;msgError:TXT_DONT_HAVE_KEY;msgUse:TXT_USE_KEY" />
+		<object x="1029" y="349" id="1102" params="uniqueId:126;script:none;destiny:ghost_house;index:12;insertX:1000;insertY:500;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="1312" y="800" id="1107" params="uniqueId:115;cellXi:20;cellYi:12;cellXf:20;cellYf:12;script:none;skin:mcBlock_lv3;groupBlockers:3;open:0;camX:0;camY:0" />
+		<object x="1312" y="864" id="1107" params="uniqueId:116;cellXi:20;cellYi:13;cellXf:20;cellYf:13;script:none;skin:mcBlock_lv3;groupBlockers:3;open:0;camX:0;camY:0" />
+		<object x="1344" y="1313" id="1115" params="uniqueId:122;script:none;skin:Enemy3;npcName:none;toLeft:0" />
+		<object x="1408" y="831" id="1101" params="uniqueId:120;script:script_carrie_riddle_1;skin:Carrie;npcName:none" />
+		<object x="1569" y="861" id="1104" params="uniqueId:117;script:none;clipName:mcGrabables_03;groupBlockers:3;figureId:2" />
+		<object x="1701" y="864" id="1104" params="uniqueId:118;script:none;clipName:mcGrabables_02;groupBlockers:3;figureId:1" />
+		<object x="1760" y="1888" id="1106" params="uniqueId:112;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:script_switch_graveyard;groupBlockers:2;time:0;skin:mcSwitch_lv3" />
+		<object x="1825" y="866" id="1104" params="uniqueId:119;script:none;clipName:mcGrabables_01;groupBlockers:3;figureId:3" />
+		<object x="1952" y="832" id="1108" params="uniqueId:121;script:none;camX:942;camY:548;speed:0.24;timeWait:3000" />
+		<object x="2016" y="1376" id="1111" params="uniqueId:110;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins10" />
+		<object x="2080" y="800" id="1107" params="uniqueId:113;cellXi:30;cellYi:12;cellXf:30;cellYf:12;script:none;skin:mcBlock_lv3;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2080" y="864" id="1107" params="uniqueId:114;cellXi:32;cellYi:13;cellXf:32;cellYf:12;script:none;skin:mcBlock_lv3;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2208" y="1888" id="1117" params="uniqueId:111;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="2846" y="1056" id="1107" params="uniqueId:109;cellXi:44;cellYi:16;cellXf:44;cellYf:16;script:none;skin:mcBlock_lv3;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="2848" y="992" id="1107" params="uniqueId:107;cellXi:44;cellYi:15;cellXf:44;cellYf:15;script:none;skin:mcBlock_lv3;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="2848" y="1120" id="1107" params="uniqueId:108;cellXi:44;cellYi:17;cellXf:44;cellYf:17;script:none;skin:mcBlock_lv3;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="3040" y="224" id="1117" params="uniqueId:106123;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="3040" y="1312" id="1106" params="uniqueId:107;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;groupBlockers:1;time:0;skin:mcSwitch_lv3" />
+		<object x="3181" y="1039" id="1101" params="uniqueId:31;script:script_Idaho_milkshake;skin:Idaho;npcName:Idaho" />
+		<object x="3296" y="224" id="1111" params="uniqueId:106;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:auraAmulet1" />
+		<object x="3552" y="1056" id="1111" params="uniqueId:104;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins10" />
+		<object x="3680" y="1440" id="1111" params="uniqueId:105;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:root" />
+		<object x="4224" y="960" id="1114" params="uniqueId:102;script:script_shop;skin:mcVendingMachine;npcName:shop" />
+		<object x="4256" y="1184" id="1117" params="uniqueId:103;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:auraAmulet1" />
+		<object x="4609" y="631" id="1102" params="uniqueId:127;script:script_portal_generic;destiny:hub_1;index:-1;insertX:300;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="4640" y="952" id="1101" params="uniqueId:101;script:script_Idaho;skin:Carrie;npcName:none" />
+	</layer>
+	<layer type="markers" name="encounters" >
+		<rectangle x="1031" y="1033" params="distance:100;chance:0.5;groups:S_44,S_45,S_46,S_47,S_48;gTV:S_9,S_10,S_11,S_12;gComputer:S_12;uid:5;maxFights:3;type:encounter"  w="258" h="448"/>
+		<rectangle x="1401" y="1314" params="distance:5;chance:1;groups:S_14;id:zone_tv;type:encounter"  w="252" h="192"/>
+		<rectangle x="2212" y="1707" params="distance:80;chance:1;groups:S_44,S_45,S_46,S_47,S_48;gTV:S_9;gComputer:S_12,S_13;uid:3;maxFights:3;type:encounter"  w="192" h="434"/>
+		<rectangle x="3184" y="580" params="distance:100;chance:1;groups:S_45,S_46,S_47,S_48;gTV:S_4,S_5,S_6,S_7,S_8;gComputer:S_12,S_13;gMicrowave:S_13,S_12;gConsole:S_13,S_12;uid:4;maxFights:1;type:encounter"  w="522" h="252"/>
+		<rectangle x="3681" y="1286" params="distance:80;chance:1;groups:S_44,S_45,S_46;gTV:S_3;gComputer:S_13,S_12;gMicrowave:S_12,S_13;gConsole:S_13,S_12;uid:2;maxFights:1;type:encounter"  w="192" h="256"/>
+		<rectangle x="3925" y="991" params="distance:50;chance:1;groups:S_42,S_43,S_44;gTV:S_3;gComputer:S_12,S_13;gMicrowave:S_13,S_14;gConsole:S_13,S_12;uid:1;maxFights:1;type:encounter"  w="288" h="190"/>
+	</layer>
+	<layer name="lv3_grave_ghost_tilesets_fore" cols="82" rows="32" tileW="64" tileH="64" map="mc_map_lv1_graveyard_lv3_grave_ghost_tilesets_fore" width="5248" height="2048" >
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_10_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_11_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_00_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_23_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_32_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_33_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_24_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_25_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_16_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_17_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_34_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_35_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_38_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_39_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_18_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_26_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_27_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_22_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_19_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_36_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_37_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_30_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_31_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_27_1" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_31_1" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_28_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_29_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_04_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_05_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_06_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_20_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_21_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_15_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_12_0" />
+		<tile image="lv3_grave_ghost_tilesets_fore-tile_13_0" />
+	</layer>
+	<layer type="cell" name="fog" cols="30" rows="12" tileW="256" tileH="256" map="mc_map_lv1_graveyard_fog" width="7680" height="3072" >
+		<tile image="lv3_grav_ghost_fog-fog_tile" />
+	</layer>
+</world>

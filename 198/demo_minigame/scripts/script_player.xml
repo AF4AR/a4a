@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartCamWait>
+    <func name="showMessage" param1="TXT_MESSAGE_HUB_1_ALL_IS_OK" param2="gumball_normal" param3="Left" />
+</onStartCamWait>
+
+<onEndFreeCam>
+    <func name="setHudBlackBands" param1="false" />
+</onEndFreeCam>
+
+<onEndCamWait>
+    <func name="startFreeCamera" param1="382" param2="456" param3="0.3" param4="500" param5="" param6="" param7="onEndFreeCam" />
+</onEndCamWait>
+
+<onEndAlarmIntro>
+    <func name="setHudBlackBands" param1="false" />
+    <func name="enableAllKeys" param1="true" />
+    <!--func name="showMovementTooltip" param1="" /-->
+    <func name="startDialog" param1="dlog_darwin_turn_off" />
+</onEndAlarmIntro>
+
+<onEndAlarmGranny>
+    <func name="startFreeCamera" param1="70" param2="1" param3="0.3" param4="3000" param5="onStartCamWaitGranny" param6="" param7="onEndFreeCamGranny" />
+    <func name="setHudBlackBands" param1="true" />
+    <func name="getObjectAndCallFunction" param1="17" param2="removeBubble" />
+    <func name="getObjectAndCallFunction" param1="19" param2="removeBubble" />
+</onEndAlarmGranny>
+
+<onEndFreeCamGranny>
+    <func name="if">
+        <condition>
+            <func name="checkDlogVisible" param1=""  />
+        </condition>
+        <ifTrue>
+            <func name="enableAllKeys" param1="false" />
+            <func name="enableActionKey" param1="true" />
+        </ifTrue>
+    </func>
+</onEndFreeCamGranny>
+
+<onStartCamWaitGranny>
+    <func name="setHudBlackBands" param1="false" />
+    <func name="enableActionKey" param1="true" />
+    <func name="startDialog" param1="dlog_anais_granny_pre_fight" />
+</onStartCamWaitGranny>
+
+<onEndAlarm>
+    <func name="walkToLeft" param1="130" param2="0.4" param3="CINEMATIC_WALK_TO_LEFT_3" />
+</onEndAlarm>
+
+<onEndMovement>
+    <func name="switch" param1="getMovementID" param2="string" >
+        <case name="CINEMATIC_WALK_TO_LEFT_PROLOGUE">
+            <func name="walkToUp" param1="75" param2="0.2" param3="CINEMATIC_WALK_TO_UP_PROLOGUE" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_UP_PROLOGUE">
+            <func name="walkToLeft" param1="55" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT_PROLOGUE_2" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_LEFT_PROLOGUE_2">
+            <func name="setHudBlackBands" param1="false" />
+            <func name="clearMovement" param1="" />
+            <func name="enableAllKeys" param1="true" />
+            <func name="createQuest" param1="qst_touch_tv" />
+            <func name="createQuest" param1="qst_touch_console" />
+            <func name="startDialog" param1="dlog_darwin_prologue" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_LEFT">
+            <func name="walkToUp" param1="150" param2="0.2" param3="CINEMATIC_WALK_TO_UP" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_UP">
+            <func name="walkToLeft" param1="180" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT_2" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_LEFT_2">
+            <func name="showMessage" param1="TXT_MESSAGE_HUB_1_INIT_ALERT" param2="gumball_frightened" param3="Left" />
+            <func name="alarm" param1="8" param2="onEndAlarm" param3="0" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_LEFT_3">
+            <func name="clearMovement" param1="" />
+            <func name="doClueAnimation" param1="ANIM_CLUE_TV" />
+            <func name="showMessage2" param1="TXT_PLAYER_HAVE_CLUE" />
+            <func name="setHudBlackBands" param1="false" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_LEFT_GRAVEYARD">
+            <func name="walkToUp" param1="600" param2="0.2" param3="CINEMATIC_WALK_TO_UP_GRAVEYARD" />
+            <func name="gotoMap" param1="hub_1" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_UP_GRAVEYARD">
+            <func name="setHudBlackBands" param1="false" />
+            <func name="clearMovement" param1="" />
+            <func name="enableAllKeys" param1="true" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_RIGHT_GHOST_HOUSE">
+            <func name="walkToRight" param1="150" param2="0.2" param3="CINEMATIC_WALK_TO_RIGHT_2_GHOST_HOUSE" />
+            <func name="gotoMap" param1="hub_1" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_LEFT_FOREST_DOOM">
+            <func name="walkToLeft" param1="150" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT_2_GHOST_HOUSE" />
+            <func name="gotoMap" param1="hub_1" />
+        </case>
+        <case name="CINEMATIC_WALK_TO_RIGHT_FOREST_DOOM">
+            <func name="walkToRight" param1="150" param2="0.2" param3="CINEMATIC_WALK_TO_RIGHT_2_FOREST_DOOM" />
+            <func name="gotoMap" param1="hub_1" />
+        </case>
+    </func>
+</onEndMovement>
+
+<onEndMapPresentation>
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="hub_02" />
+            <oper name="and" />
+            <func name="checkLastMapName" param1="none" />
+        </condition>
+        <ifTrue>
+            <func name="getObjectAndCallFunction" param1="995612" param2="addBubble" />
+            <!--func name="startDialog" param1="dlog_granny_first_talikng" /-->
+            <func name="enableAllKeys" param1="false" />
+            <func name="alarm"  param1="2" param2="onEndAlarmIntro" param3="0" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="hub_0" />
+            <oper name="and" />
+            <func name="checkLastMapName" param1="hub_02" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_touch_tv" />
+                </condition>
+                <ifFalse>
+                    <func name="setQuestDone" param1="qst_talk_granny" />
+                    <func name="startDialog" param1="dlog_granny_prologue" />
+                </ifFalse>
+            </func>
+
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_touch_tv" />
+                </condition>
+                <ifFalse>
+                    <func name="getObjectAndCallFunction" param1="2" param2="addBubble" />
+                </ifFalse>
+            </func>
+
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_touch_console" />
+                </condition>
+                <ifFalse>
+                    <func name="getObjectAndCallFunction" param1="1" param2="addBubble" />
+                </ifFalse>
+            </func>
+
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_touch_microwave" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_touch_microwave" />
+                        </condition>
+                        <ifFalse>
+                            <func name="getObjectAndCallFunction" param1="3" param2="addBubble" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+            </func>
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="graveyard" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_tv" />
+                </condition>
+                <ifFalse>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_check_tutorialQuestBook" />
+                        </condition>
+                        <ifTrue>
+                            <func name="startDialog" param1="dlog_gumball_graveyard_2" />
+                        </ifTrue>
+                        <ifFalse>
+                           <func name="startDialog" param1="dlog_gumball_graveyard" />
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="ghost_house" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_computer" />
+                </condition>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_carrie_ghost_house" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrentMapName" param1="hub_1" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_remote" />
+                    <oper name="and" />
+                    <func name="checkQuestDone" param1="qst_recover_videogames" />
+                    <oper name="and" />
+                    <func name="checkQuestDone" param1="qst_recover_mouse" />
+                    <oper name="and" />
+                    <func name="checkQuestDone" param1="qst_recover_dish" />
+                </condition>
+                <ifFalse>
+                    <func name="if">
+                        <condition>
+                            <func name="checkLastMapName" param1="hub_2" />
+                        </condition>
+                        <ifFalse>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_defeat_granny" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="startDialog" param1="dlog_granny_after_defeat" />
+                                </ifTrue>
+                            </func>
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_talk_darwin" />
+                </condition>
+                <ifFalse>
+                    <func name="createQuest" param1="qst_talk_darwin" />
+                </ifFalse>
+            </func>
+
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_recover_tv" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkLastMapName" param1="hub_2" />
+                        </condition>
+                        <ifFalse>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_recover_tv" />
+                                </condition>
+                                <ifTrue>
+                                     <func name="if">
+                                        <condition>
+                                            <func name="checkSpaceFill" param1="TV" />
+                                        </condition>
+                                        <ifFalse>
+                                            <func name="showMessage3" param1="TXT_RETURN_TV" param2="tv" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                            </func>
+
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_recover_console" />
+                                </condition>
+                                <ifTrue>
+                                     <func name="if">
+                                        <condition>
+                                            <func name="checkSpaceFill" param1="Console" />
+                                        </condition>
+                                        <ifFalse>
+                                            <func name="showMessage3" param1="TXT_RETURN_CONSOLE" param2="console" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                            </func>
+
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_recover_computer" />
+                                </condition>
+                                <ifTrue>
+                                     <func name="if">
+                                        <condition>
+                                            <func name="checkSpaceFillInMemory" param1="22" />
+                                        </condition>
+                                        <ifFalse>
+                                            <func name="showMessage3" param1="TXT_RETURN_COMPUTER" param2="computer" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                            </func>
+
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_recover_microwave" />
+                                </condition>
+                                <ifTrue>
+                                     <func name="if">
+                                        <condition>
+                                            <func name="checkSpaceFill" param1="Microwave" />
+                                        </condition>
+                                        <ifFalse>
+                                            <func name="showMessage3" param1="TXT_RETURN_MICROWAVE" param2="microwave" />
+                                        </ifFalse>
+                                    </func>
+                                </ifTrue>
+                            </func>
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="setHudBlackBands" param1="true" />
+                    <func name="enableAllKeys" param1="false" />
+                    <func name="walkToLeft" param1="125" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+    </func>
+</onEndMapPresentation>
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_darwin_turn_off" />
+        </condition>
+        <ifTrue>
+            <func name="createQuest" param1="qst_touch_computer" />
+            <func name="showMovementTooltip" param1="" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_granny_first_talikng" />
+        </condition>
+        <ifTrue>
+            <func name="enableAllKeys" param1="false" />
+            <func name="alarm"  param1="2" param2="onEndAlarmIntro" param3="0" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_granny_prologue" />
+        </condition>
+        <ifTrue>
+            <func name="setHudBlackBands" param1="true" />
+            <func name="enableAllKeys" param1="false" />
+            <func name="walkToLeft" param1="225" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT_PROLOGUE" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_portal_pre_cutscene" />
+        </condition>
+        <ifTrue>
+            <func name="getObjectAndCallFunction" param1="9" param2="gotoCutscene" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_gumball_graveyard" />
+        </condition>
+        <ifTrue>
+            <func name="showPressC" param1="" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_player_before_fight_tv" />
+        </condition>
+        <ifTrue>
+            <func name="enableAllKeys" param1="false" />
+            <func name="startFightBySettings" parm1="fightBeforeTv" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_player_before_fight_console" />
+        </condition>
+        <ifTrue>
+            <func name="enableAllKeys" param1="false" />
+            <func name="startFightBySettings" parm1="fightBeforeConsole" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_player_before_fight_computer" />
+        </condition>
+        <ifTrue>
+            <func name="trace" param1="GO COMPUTER!!!" />
+            <func name="enableAllKeys" param1="false" />
+            <func name="startFightBySettings" parm1="fightBeforeComputer" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_player_before_fight_microwave" />
+        </condition>
+        <ifTrue>
+            <func name="enableAllKeys" param1="false" />
+            <func name="startFightBySettings" parm1="fightBeforeMicrowave" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_spaceMicrowave_next" />
+        </condition>
+        <ifTrue>
+            <func name="enableAllKeys" param1="false" />
+            <func name="shakeWorld" param1="10" param2="5" />
+            <func name="alarm"  param1="4" param2="onEndAlarmGranny" param3="1" />
+            <func name="getObjectAndCallFunction" param1="17" param2="addBubble" />
+            <func name="getObjectAndCallFunction" param1="19" param2="addBubble" />
+            <func name="getObjectAndCallFunction" param1="2610" param2="hide" />
+            <func name="getObjectAndCallFunction" param1="2710" param2="hide" />
+            <func name="getObjectAndCallFunction" param1="3110" param2="unhide" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_anais_granny_pre_fight" />
+        </condition>
+        <ifTrue>
+            <func name="startFightBySettings" parm1="fightGranny" />
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+<onCollectItem>
+    <func name="switch" param1="getCollectedItemName" param2="string" >
+        <case name="heroHelmet1">
+            <func name="setQuestDone" param1="qst_open_chest" />
+        </case>
+        <case name="tv">
+            <func name="showMessage" param1="TXT_DIALOG_PLAYER_RECOVER_TV" param2="gumball_celebrate" param3="Left" />
+            <func name="setAnimationID" param1="ANIM_RECOVER_TV_GRAVEYARD" />
+            <func name="setQuestDone" param1="qst_recover_tv" />
+        </case>
+        <case name="console">
+            <func name="showMessage" param1="TXT_DIALOG_PLAYER_RECOVER_CONSOLE" param2="gumball_celebrate" param3="Left" />
+            <func name="setAnimationID" param1="ANIM_RECOVER_CONSOLE_GHOST_HOUSE" />
+            <func name="setQuestDone" param1="qst_recover_console" />
+        </case>
+        <case name="computer">
+            <func name="showMessage" param1="TXT_DIALOG_PLAYER_RECOVER_COMPUTER" param2="gumball_celebrate" param3="Left" />
+            <func name="setAnimationID" param1="ANIM_RECOVER_COMPUTER_FOREST_DOOM" />
+            <func name="setQuestDone" param1="qst_recover_computer" />
+        </case>
+        <case name="microwave">
+            <func name="showMessage" param1="TXT_DIALOG_PLAYER_RECOVER_MICROWAVE" param2="gumball_celebrate" param3="Left" />
+            <func name="setAnimationID" param1="ANIM_RECOVER_MICROWAVE_FOREST_DOOM" />
+            <func name="setQuestDone" param1="qst_recover_microwave" />
+        </case>
+        <case name="remote">
+            <func name="setQuestDone" param1="qst_recover_remote" />
+        </case>
+        <case name="videogames">
+            <func name="setQuestDone" param1="qst_recover_videogames" />
+        </case>
+        <case name="mouse">
+            <func name="setQuestDone" param1="qst_recover_mouse" />
+        </case>
+        <case name="dishes">
+            <func name="setQuestDone" param1="qst_recover_dish" />
+        </case>
+    </func>
+</onCollectItem>
+
+<onEndCollectAnimation>
+    <func name="switch" param1="getAnimationID" param2="string" >
+        <case name="ANIM_RECOVER_TV_GRAVEYARD">
+            <func name="setHudBlackBands" param1="true" />
+            <func name="enableAllKeys" param1="false" />
+            <func name="walkToLeft" param1="300" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT_GRAVEYARD" />
+        </case>
+        <case name="ANIM_RECOVER_CONSOLE_GHOST_HOUSE">
+            <func name="setHudBlackBands" param1="true" />
+            <func name="enableAllKeys" param1="false" />
+            <func name="walkToRight" param1="300" param2="0.2" param3="CINEMATIC_WALK_TO_RIGHT_GHOST_HOUSE" />
+        </case>
+        <case name="ANIM_RECOVER_COMPUTER_FOREST_DOOM">
+            <func name="setHudBlackBands" param1="true" />
+            <func name="enableAllKeys" param1="false" />
+            <func name="walkToLeft" param1="300" param2="0.2" param3="CINEMATIC_WALK_TO_LEFT_FOREST_DOOM" />
+        </case>
+        <case name="ANIM_RECOVER_MICROWAVE_FOREST_DOOM">
+            <func name="setHudBlackBands" param1="true" />
+            <func name="enableAllKeys" param1="false" />
+            <func name="walkToRight" param1="300" param2="0.2" param3="CINEMATIC_WALK_TO_RIGHT_FOREST_DOOM" />
+        </case>
+        <case name="ANIM_CLUE_TV">
+            <func name="enableAllKeys" param1="true" />
+            <func name="createQuest" param1="qst_recover_tv" />
+            <func name="startDialog" param1="dlog_spaceTV_activate_quest" />
+        </case>
+        <case name="ANIM_CLUE_CONSOLE">
+            <func name="createQuest" param1="qst_recover_console" />
+            <func name="startDialog" param1="dlog_spaceConsole_activate_quest" />
+        </case>
+        <case name="ANIM_CLUE_COMPUTER">
+            <func name="createQuest" param1="qst_recover_computer" />
+            <func name="startDialog" param1="dlog_spaceComputer_activate_quest" />
+        </case>
+        <case name="ANIM_CLUE_MICROWAVE">
+            <func name="createQuest" param1="qst_recover_microwave" />
+            <func name="startDialog" param1="dlog_spaceMicrowave_activate_quest" />
+        </case>
+    </func>
+</onEndCollectAnimation>
+
+<onEndWinAnimation>
+    <func name="if">
+        <condition>
+            <func name="checkAnimationID" param1="ANIM_RECOVER_TV_HUB" />
+        </condition>
+        <ifTrue>
+            <func name="createQuest" param1="qst_talk_anais" />
+            <func name="startDialog" param1="dlog_spaceTV_next_quest" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkAnimationID" param1="ANIM_RECOVER_CONSOLE_HUB" />
+        </condition>
+        <ifTrue>
+            <func name="startDialog" param1="dlog_spaceConsole_next_quest" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkAnimationID" param1="ANIM_RECOVER_COMPUTER_HUB" />
+        </condition>
+        <ifTrue>
+            <func name="startDialog" param1="dlog_spaceComputer_next_quest" />
+        </ifTrue>
+    </func>
+
+
+    <func name="if">
+        <condition>
+            <func name="checkAnimationID" param1="ANIM_RECOVER_MICROWAVE_HUB" />
+        </condition>
+        <ifTrue>
+            <func name="startDialog" param1="dlog_spaceMicrowave_next" />
+        </ifTrue>
+    </func>
+</onEndWinAnimation>
+
+<onEnterZone>
+    <func name="switch" param1="getZoneID" param2="string" >
+        <case name="zone_tv">
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_tv" />
+                </condition>
+                <ifFalse>
+                    <func name="alerEnemiesBySettings" param1="enemiesBeforeTv"  />
+                    <func name="startDialog" param1="dlog_player_before_fight_tv" />
+                </ifFalse>
+            </func>
+        </case>
+        <case name="zone_console">
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_console" />
+                </condition>
+                <ifFalse>
+                    <func name="alerEnemiesBySettings" param1="enemiesBeforeConsole" />
+                    <func name="startDialog" param1="dlog_player_before_fight_console" />
+                </ifFalse>
+            </func>
+        </case>
+        <case name="zone_computer">
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_computer" />
+                </condition>
+                <ifFalse>
+                    <func name="alerEnemiesBySettings" param1="enemiesBeforeComputer" />
+                    <func name="startDialog" param1="dlog_player_before_fight_computer" />
+                </ifFalse>
+            </func>
+        </case>
+        <case name="zone_microwave">
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_microwave" />
+                </condition>
+                <ifFalse>
+                    <func name="alerEnemiesBySettings" param1="enemiesBeforeMicrowave" />
+                    <func name="startDialog" param1="dlog_player_before_fight_microwave" />
+                </ifFalse>
+            </func>
+        </case>
+    </func>
+</onEnterZone>
+
+</data>

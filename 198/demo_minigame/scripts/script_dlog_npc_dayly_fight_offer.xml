@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<option1>
+    <func name="startTimeChecker" param1="" />
+    <func name="startDaylyFightBySetting" parm1="daylyFight" />
+    <func name="close" param1="" />
+</option1>
+
+</data>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<option1>
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_activity_ask_deliver">
+            <func name="close" param1="" />
+            <func name="giveLetterOutToPlayer" param1="" />
+            <func name="showMessageGetLetter" param1="" />
+        </case>
+    </func>
+</option1>
+
+<onChangeBubble_0>
+    <!--func name="setFaceData" param1="nicole_normal" param2="Left" /-->
+    <func name="switch" param1="getCurrenDialog" param2="string" >
+        <case name="dlog_activity_ask_letter">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_IN" param2="getNpcLetterIn" param3="00FF00" />
+        </case>
+        <case name="dlog_activity_ask_deliver">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_OUT" param2="getNpcLetterOut" param3="00FF00" />
+            <func name="addToReplacementList" param1="NPC" param2="getNpcChain" param3="00FF00" />
+        </case>
+        <case name="dlog_activity_remember_deliver">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_OUT" param2="getNpcLetterOut" param3="00FF00" />
+            <func name="addToReplacementList" param1="NPC" param2="getNpcChain" param3="00FF00" />
+        </case>
+        <case name="dlog_activity_thanks_letter_in_give_letter_out">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_IN" param2="getNpcLetterIn" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_OUT" param2="getNpcLetterOut" param3="00FF00" />
+            <func name="addToReplacementList" param1="NPC" param2="getNpcChain" param3="00FF00" />
+        </case>
+        <case name="dlog_activity_thanks_deliver_letter_out">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_OUT" param2="getNpcLetterOut" param3="00FF00" />
+            <func name="addToReplacementList" param1="NPC" param2="getNpcChain" param3="00FF00" />
+        </case>
+        <case name="dlog_activity_thanks_letter_in_give_reward">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+            <func name="addToReplacementList" param1="LETTER_IN" param2="getNpcLetterIn" param3="00FF00" />
+            <func name="addToReplacementList" param1="REWARD" param2="getNpcReward" param3="00FF00" />
+        </case>
+        <case name="dlog_activity_thanks_help">
+            <func name="addToReplacementList" param1="NAME" param2="getNpcName" param3="00FF00" />
+        </case>
+    </func>
+</onChangeBubble_0>
+
+</data>

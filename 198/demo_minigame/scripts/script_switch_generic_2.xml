@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onActivate>
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="710" />
+        </condition>
+        <ifTrue>
+            <func name="startFreeCamera" param1="1149" param2="62" param3="0.48" param4="1500" param5="onCamWait" param6="" param7="onEndFreeCam" />
+            <func name="setHudBlackBands" param1="true" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="713" />
+        </condition>
+        <ifTrue>
+            <func name="startFreeCamera" param1="1668" param2="691" param3="0.48" param4="1500" param5="onCamWait" param6="" param7="onEndFreeCam" />
+            <func name="setHudBlackBands" param1="true" />
+        </ifTrue>
+    </func>
+</onActivate>
+
+<onCamWait>
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="710" />
+        </condition>
+        <ifTrue>
+            <func name="switchBlockersStates" param1="" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="713" />
+        </condition>
+        <ifTrue>
+            <func name="switchBlockersStates" param1="" />
+        </ifTrue>
+    </func>
+</onCamWait>
+
+<onEndFreeCam>
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="710" />
+        </condition>
+        <ifTrue>
+            <func name="setHudBlackBands" param1="false" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="713" />
+        </condition>
+        <ifTrue>
+            <func name="setHudBlackBands" param1="false" />
+        </ifTrue>
+    </func>
+</onEndFreeCam>
+
+</data>

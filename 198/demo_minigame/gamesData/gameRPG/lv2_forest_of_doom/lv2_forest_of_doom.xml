@@ -1,0 +1,424 @@
+<world>
+	<properties>
+		<width> 6016 </width>
+		<height> 4544 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 1194 </playerX>
+		<playerY> 2824 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+		<kipu id="12" params="name:console;cost:500;clipname:mcConsole;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="19" params="name:microwave;cost:500;clipname:mcMicrowave;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="18" params="name:root;cost:200;clipname:mcRoot;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|health:50|money:1||" />
+		<kipu id="8" params="name:milkShake1;cost:5;clipname:mcMilkShake1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:10000|||" />
+		<kipu id="3" params="name:milkShake2;cost:10;clipname:mcMilkShake2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:1|experience:15000|||" />
+		<kipu id="17" params="name:coins10;cost:10;clipname:mcCoins10;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:10||" />
+		<kipu id="14" params="name:mageCape1;cost:99;clipname:mcMageCape1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|recoveryRatio:1.3|||" />
+		<kipu id="9" params="name:heroHelmet1;cost:99;clipname:mcHeroHelmet1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|strength:1.2|||" />
+		<kipu id="1" params="name:mageCape2;cost:399;clipname:mcMageCape2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|recoveryRatio:1.7|||" />
+		<kipu id="7" params="name:heroHelmet2;cost:399;clipname:mcHeroHelmet2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|strength:1.5|||" />
+		<kipu id="10" params="name:regenerationBracelet1;cost:1000;clipname:mcRegenerationBracelet1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|healthRegenSpeed:0.01|||" />
+		<kipu id="5" params="name:key1;cost:200;clipname:mcKey1;color:blue;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="15" params="name:regenerationBracelet2;cost:2000;clipname:mcRegenerationBracelet2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|healthRegenSpeed:0.05|||" />
+		<kipu id="4" params="name:key2;cost:200;clipname:mcKey2;color:yellow;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="2" params="name:speedBracelet1;cost:500;clipname:mcSpeedBracelet1;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|speed:0.4|||" />
+		<kipu id="0" params="name:key3;cost:200;clipname:mcKey3;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||||" />
+		<kipu id="13" params="name:speedBracelet2;cost:800;clipname:mcSpeedBracelet2;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:1;isKey:0|speed:0.8|||" />
+		<kipu id="16" params="name:auraAmulet1;cost:99;clipname:mcAuraAmulet1;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|||physical:1.5|" />
+		<kipu id="6" params="name:auraAmulet2;cost:399;clipname:mcAuraAmulet2;color:red;description:TXT_1;duration:0;isEquipment:1;isConsumable:0;isKey:0|||physical:1.7|" />
+		<kipu id="11" params="name:coins50;cost:50;clipname:mcCoins50;color:red;description:TXT_1;duration:0;isEquipment:0;isConsumable:0;isKey:1||money:50||" />
+	</kipuHeader>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer name="lv2_forest_tilesets" cols="94" rows="71" tileW="64" tileH="64" map="mc_map_lv2_forest_of_doom_lv2_forest_tilesets" width="6016" height="4544" >
+		<tile image="lv2_forest_tilesets-tile_30_1" />
+		<tile image="lv2_forest_tilesets-tile_31_1" />
+		<tile image="lv2_forest_tilesets-tile_07_1" />
+		<tile image="lv2_forest_tilesets-tile_00_0" />
+		<tile image="lv2_forest_tilesets-tile_02_0" />
+		<tile image="lv2_forest_tilesets-tile_06_1" />
+		<tile image="lv2_forest_tilesets-tile_03_1" />
+		<tile image="lv2_forest_tilesets-tile_04_0" />
+		<tile image="lv2_forest_tilesets-tile_06_0" />
+		<tile image="lv2_forest_tilesets-tile_02_1" />
+		<tile image="lv2_forest_tilesets-tile_08_0" />
+		<tile image="lv2_forest_tilesets-tile_10_0" />
+		<tile image="lv2_forest_tilesets-tile_01_0" />
+		<tile image="lv2_forest_tilesets-tile_31_0" />
+		<tile image="lv2_forest_tilesets-tile_05_0" />
+		<tile image="lv2_forest_tilesets-tile_03_0" />
+		<tile image="lv2_forest_tilesets-tile_18_0" />
+		<tile image="lv2_forest_tilesets-tile_18_1" />
+		<tile image="lv2_forest_tilesets-tile_19_1" />
+		<tile image="lv2_forest_tilesets-tile_22_1" />
+		<tile image="lv2_forest_tilesets-tile_23_1" />
+		<tile image="lv2_forest_tilesets-tile_23_0" />
+		<tile image="lv2_forest_tilesets-tile_09_0" />
+		<tile image="lv2_forest_tilesets-tile_26_1" />
+		<tile image="lv2_forest_tilesets-tile_27_1" />
+		<tile image="lv2_forest_tilesets-tile_11_0" />
+		<tile image="lv2_forest_tilesets-tile_08_1" />
+		<tile image="lv2_forest_tilesets-tile_09_1" />
+		<tile image="lv2_forest_tilesets-tile_15_1" />
+		<tile image="lv2_forest_tilesets-tile_39_0" />
+		<tile image="lv2_forest_tilesets-tile_12_1" />
+		<tile image="lv2_forest_tilesets-tile_13_1" />
+		<tile image="lv2_forest_tilesets-tile_14_1" />
+		<tile image="lv2_forest_tilesets-tile_07_0" />
+		<tile image="lv2_forest_tilesets-tile_20_0" />
+		<tile image="lv2_forest_tilesets-tile_21_0" />
+		<tile image="lv2_forest_tilesets-tile_22_0" />
+		<tile image="lv2_forest_tilesets-tile_24_0" />
+		<tile image="lv2_forest_tilesets-tile_25_0" />
+		<tile image="lv2_forest_tilesets-tile_36_0" />
+		<tile image="lv2_forest_tilesets-tile_24_1" />
+		<tile image="lv2_forest_tilesets-tile_25_1" />
+		<tile image="lv2_forest_tilesets-tile_32_0" />
+		<tile image="lv2_forest_tilesets-tile_29_0" />
+		<tile image="lv2_forest_tilesets-tile_30_0" />
+		<tile image="lv2_forest_tilesets-tile_28_1" />
+		<tile image="lv2_forest_tilesets-tile_29_1" />
+		<tile image="lv2_forest_tilesets-tile_37_0" />
+		<tile image="lv2_forest_tilesets-tile_26_0" />
+		<tile image="lv2_forest_tilesets-tile_10_1" />
+		<tile image="lv2_forest_tilesets-tile_27_0" />
+		<tile image="lv2_forest_tilesets-tile_28_0" />
+		<tile image="lv2_forest_tilesets-tile_33_0" />
+		<tile image="lv2_forest_tilesets-tile_38_0" />
+		<tile image="lv2_forest_tilesets-tile_11_1" />
+		<tile image="lv2_forest_tilesets-tile_14_0" />
+		<tile image="lv2_forest_tilesets-tile_19_0" />
+		<tile image="lv2_forest_tilesets-tile_15_0" />
+		<tile image="lv2_forest_tilesets-tile_34_1" />
+		<tile image="lv2_forest_tilesets-tile_13_0" />
+		<tile image="lv2_forest_tilesets-tile_16_0" />
+		<tile image="lv2_forest_tilesets-tile_12_0" />
+		<tile image="lv2_forest_tilesets-tile_17_0" />
+	</layer>
+	<layer type="sprites" name="sprites" width="6016" height="4544" >
+		<gpx x="661" y="2716" image="lv2_forest_sprites-spr_04" />
+		<gpx x="693" y="2790" image="lv2_forest_sprites-spr_07" />
+		<gpx x="707" y="2646" image="lv2_forest_sprites-spr_05" />
+		<gpx x="732" y="2677" image="lv2_forest_sprites-spr_20" />
+		<gpx x="761" y="2592" image="lv2_forest_sprites-spr_12" />
+		<gpx x="781" y="2632" image="lv2_forest_sprites-spr_20" />
+		<gpx x="920" y="2614" image="lv2_forest_sprites-spr_20" />
+		<gpx x="955" y="2667" image="lv2_forest_sprites-spr_14" />
+		<gpx x="956" y="2631" image="lv2_forest_sprites-spr_12" />
+		<gpx x="1019" y="2988" image="lv2_forest_sprites-spr_18" />
+		<gpx x="1024" y="2616" image="lv2_forest_sprites-spr_14" />
+		<gpx x="1144" y="2616" image="lv2_forest_sprites-spr_12" />
+		<gpx x="1246" y="2671" image="lv2_forest_sprites-spr_18" />
+		<gpx x="1304" y="2608" image="lv2_forest_sprites-spr_20" />
+		<gpx x="1512" y="2664" image="lv2_forest_sprites-spr_09" />
+		<gpx x="1792" y="2464" image="lv2_forest_sprites-spr_01" />
+		<gpx x="1856" y="2272" image="lv2_forest_sprites-spr_01" />
+		<gpx x="1888" y="2296" image="lv2_forest_sprites-spr_06" />
+		<gpx x="1888" y="2528" image="lv2_forest_sprites-spr_06" />
+		<gpx x="1888" y="2720" image="lv2_forest_sprites-spr_01" />
+		<gpx x="1936" y="1136" image="lv2_forest_sprites-spr_14" />
+		<gpx x="1936" y="2768" image="lv2_forest_sprites-spr_06" />
+		<gpx x="1952" y="2104" image="lv2_forest_sprites-spr_06" />
+		<gpx x="1952" y="2544" image="lv2_forest_sprites-spr_08" />
+		<gpx x="1968" y="1232" image="lv2_forest_sprites-spr_13" />
+		<gpx x="1976" y="2168" image="lv2_forest_sprites-spr_08" />
+		<gpx x="2016" y="2376" image="lv2_forest_sprites-spr_07" />
+		<gpx x="2024" y="1120" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2048" y="2592" image="lv2_forest_sprites-spr_01" />
+		<gpx x="2096" y="2720" image="lv2_forest_sprites-spr_06" />
+		<gpx x="2152" y="2128" image="lv2_forest_sprites-spr_01" />
+		<gpx x="2176" y="1128" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2184" y="2256" image="lv2_forest_sprites-spr_08" />
+		<gpx x="2192" y="2608" image="lv2_forest_sprites-spr_07" />
+		<gpx x="2200" y="2080" image="lv2_forest_sprites-spr_06" />
+		<gpx x="2264" y="2600" image="lv2_forest_sprites-spr_01" />
+		<gpx x="2272" y="2080" image="lv2_forest_sprites-spr_01" />
+		<gpx x="2304" y="1160" image="lv2_forest_sprites-spr_18" />
+		<gpx x="2304" y="2360" image="lv2_forest_sprites-spr_08" />
+		<gpx x="2304" y="2848" image="lv2_forest_sprites-spr_06" />
+		<gpx x="2352" y="2200" image="lv2_forest_sprites-spr_01" />
+		<gpx x="2368" y="2656" image="lv2_forest_sprites-spr_06" />
+		<gpx x="2376" y="1328" image="lv2_forest_sprites-spr_13" />
+		<gpx x="2400" y="2440" image="lv2_forest_sprites-spr_07" />
+		<gpx x="2440" y="1128" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2512" y="2256" image="lv2_forest_sprites-spr_08" />
+		<gpx x="2544" y="784" image="lv2_forest_sprites-spr_10" />
+		<gpx x="2584" y="888" image="lv2_forest_sprites-spr_12" />
+		<gpx x="2584" y="1528" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2584" y="3256" image="lv2_forest_sprites-spr_11" />
+		<gpx x="2616" y="736" image="lv2_forest_sprites-spr_11" />
+		<gpx x="2640" y="968" image="lv2_forest_sprites-spr_12" />
+		<gpx x="2656" y="1736" image="lv2_forest_sprites-spr_13" />
+		<gpx x="2672" y="1392" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2688" y="3400" image="lv2_forest_sprites-spr_13" />
+		<gpx x="2694" y="2199" image="lv2_forest_sprites-spr_19" />
+		<gpx x="2709" y="2104" image="lv2_forest_sprites-spr_19" />
+		<gpx x="2752" y="3560" image="lv2_forest_sprites-spr_12" />
+		<gpx x="2757" y="2156" image="lv2_forest_sprites-spr_19" />
+		<gpx x="2768" y="1456" image="lv2_forest_sprites-spr_13" />
+		<gpx x="2800" y="752" image="lv2_forest_sprites-spr_12" />
+		<gpx x="2808" y="1288" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2845" y="3434" image="lv2_forest_sprites-spr_12" />
+		<gpx x="2848" y="1632" image="lv2_forest_sprites-spr_04" />
+		<gpx x="2848" y="1696" image="lv2_forest_sprites-spr_03" />
+		<gpx x="2848" y="1824" image="lv2_forest_sprites-spr_02" />
+		<gpx x="2872" y="1488" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2880" y="752" image="lv2_forest_sprites-spr_10" />
+		<gpx x="2886" y="3546" image="lv2_forest_sprites-spr_13" />
+		<gpx x="2895" y="3613" image="lv2_forest_sprites-spr_19" />
+		<gpx x="2896" y="3232" image="lv2_forest_sprites-spr_11" />
+		<gpx x="2912" y="1568" image="lv2_forest_sprites-spr_04" />
+		<gpx x="2920" y="888" image="lv2_forest_sprites-spr_12" />
+		<gpx x="2952" y="3374" image="lv2_forest_sprites-spr_11" />
+		<gpx x="2968" y="1392" image="lv2_forest_sprites-spr_14" />
+		<gpx x="2984" y="1648" image="lv2_forest_sprites-spr_05" />
+		<gpx x="3000" y="760" image="lv2_forest_sprites-spr_11" />
+		<gpx x="3008" y="976" image="lv2_forest_sprites-spr_10" />
+		<gpx x="3018" y="3519" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3048" y="1368" image="lv2_forest_sprites-spr_14" />
+		<gpx x="3048" y="3440" image="lv2_forest_sprites-spr_10" />
+		<gpx x="3072" y="1760" image="lv2_forest_sprites-spr_15" />
+		<gpx x="3096" y="3744" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3120" y="760" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3168" y="2016" image="lv2_forest_sprites-spr_04" />
+		<gpx x="3208" y="3576" image="lv2_forest_sprites-spr_11" />
+		<gpx x="3232" y="1504" image="lv2_forest_sprites-spr_04" />
+		<gpx x="3240" y="720" image="lv2_forest_sprites-spr_10" />
+		<gpx x="3240" y="1328" image="lv2_forest_sprites-spr_14" />
+		<gpx x="3280" y="3746" image="lv2_forest_sprites-spr_13" />
+		<gpx x="3296" y="3816" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3320" y="1544" image="lv2_forest_sprites-spr_16" />
+		<gpx x="3328" y="2336" image="lv2_forest_sprites-spr_05" />
+		<gpx x="3368" y="3624" image="lv2_forest_sprites-spr_09" />
+		<gpx x="3392" y="984" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3408" y="1096" image="lv2_forest_sprites-spr_10" />
+		<gpx x="3408" y="1824" image="lv2_forest_sprites-spr_15" />
+		<gpx x="3488" y="2400" image="lv2_forest_sprites-spr_20" />
+		<gpx x="3495" y="3577" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3520" y="464" image="lv2_forest_sprites-spr_17" />
+		<gpx x="3520" y="1664" image="lv2_forest_sprites-spr_16" />
+		<gpx x="3536" y="3856" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3552" y="1312" image="lv2_forest_sprites-spr_04" />
+		<gpx x="3552" y="2472" image="lv2_forest_sprites-spr_20" />
+		<gpx x="3557" y="3630" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3584" y="3440" image="lv2_forest_sprites-spr_11" />
+		<gpx x="3592" y="928" image="lv2_forest_sprites-spr_10" />
+		<gpx x="3640" y="1624" image="lv2_forest_sprites-spr_05" />
+		<gpx x="3648" y="1016" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3648" y="1352" image="lv2_forest_sprites-spr_16" />
+		<gpx x="3656" y="3808" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3664" y="1744" image="lv2_forest_sprites-spr_07" />
+		<gpx x="3680" y="2272" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3680" y="2624" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3680" y="3568" image="lv2_forest_sprites-spr_13" />
+		<gpx x="3688" y="2040" image="lv2_forest_sprites-spr_07" />
+		<gpx x="3704" y="3448" image="lv2_forest_sprites-spr_19" />
+		<gpx x="3776" y="1416" image="lv2_forest_sprites-spr_16" />
+		<gpx x="3784" y="3739" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3792" y="2600" image="lv2_forest_sprites-spr_20" />
+		<gpx x="3816" y="3576" image="lv2_forest_sprites-spr_12" />
+		<gpx x="3904" y="1264" image="lv2_forest_sprites-spr_07" />
+		<gpx x="3904" y="3568" image="lv2_forest_sprites-spr_10" />
+		<gpx x="3912" y="2208" image="lv2_forest_sprites-spr_20" />
+		<gpx x="3923" y="3690" image="lv2_forest_sprites-spr_13" />
+		<gpx x="3992" y="1712" image="lv2_forest_sprites-spr_07" />
+		<gpx x="4008" y="3592" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4016" y="1064" image="lv2_forest_sprites-spr_07" />
+		<gpx x="4016" y="2232" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4048" y="3792" image="lv2_forest_sprites-spr_12" />
+		<gpx x="4128" y="1424" image="lv2_forest_sprites-spr_07" />
+		<gpx x="4136" y="2216" image="lv2_forest_sprites-spr_20" />
+		<gpx x="4147" y="3411" image="lv2_forest_sprites-spr_14" />
+		<gpx x="4152" y="2576" image="lv2_forest_sprites-spr_20" />
+		<gpx x="4201" y="3525" image="lv2_forest_sprites-spr_13" />
+		<gpx x="4216" y="2672" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4256" y="2400" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4304" y="1256" image="lv2_forest_sprites-spr_07" />
+		<gpx x="4307" y="3368" image="lv2_forest_sprites-spr_14" />
+		<gpx x="4361" y="3730" image="lv2_forest_sprites-spr_13" />
+		<gpx x="4366" y="3606" image="lv2_forest_sprites-spr_12" />
+		<gpx x="4448" y="3432" image="lv2_forest_sprites-spr_14" />
+		<gpx x="4496" y="3559" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4611" y="3504" image="lv2_forest_sprites-spr_11" />
+		<gpx x="4720" y="3496" image="lv2_forest_sprites-spr_10" />
+		<gpx x="4736" y="3864" image="lv2_forest_sprites-spr_14" />
+		<gpx x="4740" y="3577" image="lv2_forest_sprites-spr_13" />
+		<gpx x="4741" y="3675" image="lv2_forest_sprites-spr_12" />
+		<gpx x="4760" y="3208" image="lv2_forest_sprites-spr_12" />
+		<gpx x="4820" y="3775" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4840" y="3342" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4880" y="3856" image="lv2_forest_sprites-spr_13" />
+		<gpx x="4960" y="3184" image="lv2_forest_sprites-spr_14" />
+		<gpx x="4984" y="3319" image="lv2_forest_sprites-spr_12" />
+		<gpx x="4994" y="3883" image="lv2_forest_sprites-spr_19" />
+		<gpx x="4998" y="3404" image="lv2_forest_sprites-spr_13" />
+		<gpx x="5051" y="3490" image="lv2_forest_sprites-spr_19" />
+		<gpx x="5096" y="3216" image="lv2_forest_sprites-spr_10" />
+		<gpx x="5121" y="3693" image="lv2_forest_sprites-spr_10" />
+		<gpx x="5144" y="3624" image="lv2_forest_sprites-spr_14" />
+		<gpx x="5152" y="3448" image="lv2_forest_sprites-spr_14" />
+		<gpx x="5160" y="3768" image="lv2_forest_sprites-spr_12" />
+	</layer>
+	<layer type="objects" name="itemsdown" >
+		<object x="3934" y="1280" id="1105" params="uniqueId:510;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:4;script:0;skin:mcpushable" />
+		<object x="3936" y="1153" id="1105" params="uniqueId:509;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="3936" y="1409" id="1105" params="uniqueId:511;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:2;script:none;skin:mcGrabables_02" />
+		<object x="4064" y="1153" id="1105" params="uniqueId:518;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4064" y="1409" id="1105" params="uniqueId:512;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4192" y="1152" id="1105" params="uniqueId:517;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4192" y="1409" id="1105" params="uniqueId:513;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4192" y="3521" id="1105" params="uniqueId:501;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:3;script:none;skin:mcpushable" />
+		<object x="4192" y="3649" id="1105" params="uniqueId:502;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4192" y="3777" id="1105" params="uniqueId:503;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4320" y="1153" id="1105" params="uniqueId:516;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:1;script:none;skin:mcGrabables_01" />
+		<object x="4320" y="1281" id="1105" params="uniqueId:515;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:3;script:none;skin:mcpushable" />
+		<object x="4320" y="1409" id="1105" params="uniqueId:514;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+		<object x="4320" y="3521" id="1105" params="uniqueId:503;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:2;script:none;skin:mcpushable" />
+		<object x="4320" y="3649" id="1105" params="uniqueId:504;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:4;script:none;skin:mcpushable" />
+		<object x="4320" y="3777" id="1105" params="uniqueId:505;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:1;script:none;skin:mcpushable" />
+		<object x="4448" y="3521" id="1105" params="uniqueId:506;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:2;script:none;skin:mcpushable" />
+		<object x="4448" y="3649" id="1105" params="uniqueId:507;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:3;script:none;skin:mcpushable" />
+		<object x="4448" y="3777" id="1105" params="uniqueId:508;cellXi:0;cellYi:0;cellXf:0;cellYf:0;figureId:0;script:none;skin:mcpushable" />
+	</layer>
+	<layer type="collision" name="collisions" cols="94" rows="71" tileW="64" tileH="64" map="mc_map_lv2_forest_of_doom_collisions" width="6016" height="4544" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="832" y="1926" id="1102" params="uniqueId:401;script:script_portal_generic;destiny:hub_1;index:-1;insertX:300;insertY:300;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="1088" y="2731" id="1114" params="uniqueId:402;script:script_shop;skin:mcVendingMachine;npcName:shop" />
+		<object x="1472" y="2751" id="1101" params="uniqueId:404;script:script_Idaho_milkshake;skin:Idaho;npcName:none" />
+		<object x="1504" y="2848" id="1117" params="uniqueId:403;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="1952" y="1248" id="1111" params="uniqueId:436;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins10" />
+		<object x="2016" y="2272" id="1111" params="uniqueId:405;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:root" />
+		<object x="2304" y="646" id="1106" params="uniqueId:437;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:script_switch_forest;groupBlockers:2;time:0;skin:mcSwitch_lv2" />
+		<object x="2304" y="1248" id="1117" params="uniqueId:435;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:regenerationBracelet1" />
+		<object x="2656" y="1825" id="1107" params="uniqueId:439;cellXi:41;cellYi:28;cellXf:41;cellYf:28;script:none;skin:mcBlock_lv2;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2720" y="895" id="1115" params="uniqueId:433;script:none;skin:Enemy1;npcName:none;toLeft:1" />
+		<object x="2720" y="1664" id="1111" params="uniqueId:438;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins10" />
+		<object x="2720" y="1825" id="1107" params="uniqueId:440;cellXi:42;cellYi:28;cellXf:42;cellYf:28;script:none;skin:mcBlock_lv2;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2720" y="1920" id="1111" params="uniqueId:407;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:key3" />
+		<object x="2720" y="2016" id="1117" params="uniqueId:406;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="2720" y="2623" id="1101" params="uniqueId:408;script:script_carrie_riddle_5;skin:Carrie;npcName:none" />
+		<object x="2722" y="2717" id="1107" params="uniqueId:409;cellXi:42;cellYi:42;cellXf:42;cellYf:42;script:none;skin:mcBlock_lv2;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2784" y="1825" id="1107" params="uniqueId:441;cellXi:43;cellYi:28;cellXf:43;cellYf:28;script:none;skin:mcBlock_lv2;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2784" y="3270" id="1102" params="uniqueId:443;script:none;destiny:maze_forest3;index:21;insertX:2770;insertY:3320;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="2785" y="2717" id="1107" params="uniqueId:410;cellXi:43;cellYi:42;cellXf:43;cellYf:42;script:none;skin:mcBlock_lv2;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2788" y="2872" id="1102" params="uniqueId:442;script:none;destiny:maze_forest1;index:20;insertX:2787;insertY:2729;open:1;questId:noneQuest;horizontal:1;visible:1" />
+		<object x="2848" y="3584" id="1104" params="uniqueId:445;script:none;clipName:mcGrabables_01;groupBlockers:5;figureId:1" />
+		<object x="2850" y="2717" id="1107" params="uniqueId:410;cellXi:44;cellYi:42;cellXf:44;cellYf:42;script:none;skin:mcBlock_lv2;groupBlockers:2;open:0;camX:0;camY:0" />
+		<object x="2976" y="3424" id="1111" params="uniqueId:444;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:auraAmulet2" />
+		<object x="3454" y="1216" id="1103" params="uniqueId:432;cellXi:53;cellYi:18;cellXf:54;cellYf:18;script:none;skin:mcBlockSwitchK;key:key2;msgError:TXT_DONT_HAVE_KEY;msgUse:TXT_USE_KEY" />
+		<object x="3488" y="3872" id="1104" params="uniqueId:448;script:none;clipName:mcGrabables_02;groupBlockers:5;figureId:2" />
+		<object x="3615" y="1835" id="1117" params="uniqueId:420;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="3616" y="2016" id="1117" params="uniqueId:417;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="3616" y="2209" id="1107" params="uniqueId:415;cellXi:56;cellYi:34;cellXf:56;cellYf:34;script:none;skin:mcBlock_lv2;groupBlockers:4;open:0;camX:0;camY:0" />
+		<object x="3616" y="3552" id="1104" params="uniqueId:447;script:none;clipName:mcGrabables_03;groupBlockers:5;figureId:3" />
+		<object x="3620" y="1726" id="1116" params="uniqueId:434;script:script_npc_letter_generic;skin:Enemy2;npcName:Pete Tuna;letterIn:letterA;letterOut:letterB;reward:none;chain:Andy Tuna" />
+		<object x="3648" y="3488" id="1111" params="uniqueId:446;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins50" />
+		<object x="3680" y="1056" id="1111" params="uniqueId:431;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:key1" />
+		<object x="3680" y="2209" id="1107" params="uniqueId:416;cellXi:57;cellYi:34;cellXf:57;cellYf:34;script:none;skin:mcBlock_lv2;groupBlockers:4;open:0;camX:0;camY:0" />
+		<object x="3744" y="1824" id="1111" params="uniqueId:419;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins10" />
+		<object x="3744" y="1952" id="1111" params="uniqueId:418;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:root" />
+		<object x="3744" y="2209" id="1107" params="uniqueId:416;cellXi:58;cellYi:34;cellXf:58;cellYf:34;script:none;skin:mcBlock_lv2;groupBlockers:4;open:0;camX:0;camY:0" />
+		<object x="3744" y="2374" id="1106" params="uniqueId:412;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;groupBlockers:4;time:8000;skin:mcSwitch_lv2" />
+		<object x="3744" y="2566" id="1106" params="uniqueId:411;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;groupBlockers:4;time:8000;skin:mcSwitch_lv2" />
+		<object x="3808" y="1057" id="1107" params="uniqueId:428;cellXi:59;cellYi:15;cellXf:59;cellYf:15;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="3808" y="1121" id="1107" params="uniqueId:430;cellXi:59;cellYi:16;cellXf:59;cellYf:16;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="3808" y="1185" id="1107" params="uniqueId:429;cellXi:59;cellYi:17;cellXf:59;cellYf:17;script:none;skin:mcBlock_lv2;groupBlockers:1;open:0;camX:0;camY:0" />
+		<object x="3872" y="1760" id="1111" params="uniqueId:421;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:root" />
+		<object x="3969" y="1662" id="1103" params="uniqueId:423;cellXi:61;cellYi:25;cellXf:62;cellYf:25;script:none;skin:mcBlockSwitchK;key:key3;msgError:TXT_DONT_HAVE_KEY;msgUse:TXT_USE_KEY" />
+		<object x="4000" y="1502" id="1104" params="uniqueId:94;script:none;clipName:mcGrabables_01;groupBlockers:1;figureId:1" />
+		<object x="4000" y="1536" id="1108" params="uniqueId:424;script:none;camX:3443;camY:767;speed:0.24;timeWait:3000" />
+		<object x="4000" y="1760" id="1111" params="uniqueId:422;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:coins10" />
+		<object x="4062" y="1502" id="1104" params="uniqueId:426;script:none;clipName:mcGrabables_02;groupBlockers:1;figureId:2" />
+		<object x="4064" y="3616" id="1104" params="uniqueId:448;script:none;clipName:mcGrabables_04;groupBlockers:5;figureId:4" />
+		<object x="4128" y="1502" id="1104" params="uniqueId:426;script:none;clipName:mcGrabables_03;groupBlockers:1;figureId:3" />
+		<object x="4128" y="2374" id="1106" params="uniqueId:413;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;groupBlockers:4;time:4000;skin:mcSwitch_lv2" />
+		<object x="4128" y="2566" id="1106" params="uniqueId:414;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;groupBlockers:4;time:4000;skin:mcSwitch_lv2" />
+		<object x="4192" y="1502" id="1104" params="uniqueId:425;script:none;clipName:mcGrabables_04;groupBlockers:1;figureId:4" />
+		<object x="4352" y="1503" id="1101" params="uniqueId:427;script:script_carrie_riddle_2;skin:Carrie;npcName:none" />
+		<object x="4576" y="3615" id="1101" params="uniqueId:449;script:script_carrie_riddle_4;skin:Carrie;npcName:none" />
+		<object x="4704" y="3520" id="1107" params="uniqueId:450;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcBlock_lv2;groupBlockers:5;open:0;camX:0;camY:0" />
+		<object x="4704" y="3584" id="1107" params="uniqueId:452;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcBlock_lv2;groupBlockers:5;open:0;camX:0;camY:0" />
+		<object x="4704" y="3648" id="1107" params="uniqueId:451;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcBlock_lv2;groupBlockers:5;open:0;camX:0;camY:0" />
+		<object x="4864" y="3647" id="1115" params="uniqueId:454;script:none;skin:Enemy1;npcName:none;toLeft:0" />
+		<object x="4937" y="3281" id="1117" params="uniqueId:453;cellXi:0;cellYi:0;cellXf:0;cellYf:0;script:none;skin:mcChest;visible:1;group:0;kipuItem:dishes" />
+	</layer>
+	<layer type="markers" name="encounters" >
+		<rectangle x="2080" y="2528" params="distance:150;chance:0.7;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;gConsole:S_15,S_16;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;uid:11;maxFights:2;type:encounter"  w="956" h="984"/>
+		<rectangle x="2176" y="1248" params="distance:150;chance:0.8;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;maxFights:2;type:encounter"  w="656" h="254"/>
+		<rectangle x="2304" y="864" params="distance:200;chance:1;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;maxFights:1;type:encounter"  w="280" h="426"/>
+		<rectangle x="2688" y="864" params="distance:10;chance:1;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;id:zone_console;type:encounter"  w="252" h="386"/>
+		<rectangle x="2720" y="2048" params="distance:150;chance:1;groups:S_58,S_59;gConsole:S_17,S_18;gMicrowave:S_17,S_18;gComputer:S_17,S_18;uid:13;maxFights:1;type:encounter"  w="224" h="380"/>
+		<rectangle x="2848" y="3616" params="distance:150;chance:0.7;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;gMicrowave:S_38,S_39,S_40;gComputer:S_35,S_36,S_37,S_38;type:encounter"  w="632" h="648"/>
+		<rectangle x="3040" y="1408" params="distance:150;chance:0.8;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;maxFights:2;type:encounter"  w="960" h="256"/>
+		<rectangle x="3104" y="2464" params="distance:200;chance:1;groups:S_58,S_59;gConsole:S_17,S_18,S_19,S_20;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;type:encounter"  w="832" h="210"/>
+		<rectangle x="3552" y="928" params="distance:100;chance:1;groups:S_58,S_59;gConsole:S_22,S_23,S_24,S_25;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;uid:15;maxFights:2;type:encounter"  w="338.687" h="384"/>
+		<rectangle x="3680" y="1888" params="distance:150;chance:1;groups:S_58,S_59;gConsole:S_21,S_22,S_23,S_24;gMicrowave:S_35,S_36,S_37,S_38;gComputer:S_35,S_36,S_37,S_38;uid:14;maxFights:3;type:encounter"  w="338" h="482"/>
+		<rectangle x="3680" y="3712" params="distance:120;chance:0.6;groups:S_56,S_57,S_58,S_59,S_60,S_61,S_62;gMicrowave:S_38,S_39,S_40;gComputer:S_35,S_36,S_37,S_38;type:encounter"  w="686" h="614"/>
+		<rectangle x="4928" y="3616" params="distance:10;chance:1;groups:S_78;id:zone_microwave;type:encounter"  w="302" h="364"/>
+	</layer>
+	<layer name="kipu" >
+		<kipuObject id="0" x="-322" y="-132"/>
+		<kipuObject id="1" x="49" y="1961"/>
+		<kipuObject id="2" x="62" y="1680"/>
+		<kipuObject id="3" x="62" y="2057"/>
+		<kipuObject id="4" x="70" y="1827"/>
+		<kipuObject id="5" x="72" y="1860"/>
+		<kipuObject id="6" x="100" y="1604"/>
+		<kipuObject id="7" x="105" y="2162"/>
+		<kipuObject id="0" x="117" y="1527"/>
+		<kipuObject id="8" x="124" y="1903"/>
+		<kipuObject id="9" x="137" y="2221"/>
+		<kipuObject id="10" x="154" y="1858"/>
+		<kipuObject id="11" x="162" y="1589"/>
+		<kipuObject id="12" x="164" y="2093"/>
+		<kipuObject id="3" x="186" y="2109"/>
+		<kipuObject id="13" x="204" y="1676"/>
+		<kipuObject id="8" x="216" y="1981"/>
+		<kipuObject id="14" x="239" y="2227"/>
+		<kipuObject id="15" x="244" y="1816"/>
+		<kipuObject id="16" x="248" y="1616"/>
+		<kipuObject id="17" x="254" y="2300"/>
+		<kipuObject id="8" x="268" y="2095"/>
+		<kipuObject id="18" x="344" y="1962"/>
+		<kipuObject id="12" x="2629" y="882"/>
+		<kipuObject id="5" x="4544" y="192"/>
+		<kipuObject id="19" x="4948" y="3613"/>
+	</layer>
+	<layer name="lv2_forest_tilesets_fore" cols="94" rows="71" tileW="64" tileH="64" map="mc_map_lv2_forest_of_doom_lv2_forest_tilesets_fore" width="6016" height="4544" >
+		<tile image="lv2_forest_tilesets_fore-tile_02_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_03_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_18_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_19_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_24_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_25_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_08_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_09_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_15_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_12_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_13_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_14_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_22_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_23_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_26_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_27_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_10_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_07_0" />
+		<tile image="lv2_forest_tilesets_fore-tile_11_0" />
+	</layer>
+</world>

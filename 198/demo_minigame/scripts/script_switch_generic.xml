@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onActivateFail>
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="702" />
+            <oper name="or" />
+            <func name="checkUniqueId" param1="703" />
+            <oper name="or" />
+            <func name="checkUniqueId" param1="705" />
+        </condition>
+        <ifTrue>
+            <func name="showMessageRand" param1="TXT_DLOG_CARRIE_MORE_BUTTONS_" param2="carrie_normal" param3="Left" param4="1" param5="2" />
+        </ifTrue>
+    </func>
+</onActivateFail>
+
+</data>

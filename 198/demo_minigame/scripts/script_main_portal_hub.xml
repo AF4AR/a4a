@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onAfterCreation>
+    <func name="if">
+        <condition>
+            <func name="checkPlayerHaveActiveQuest" param1="" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_talk_darwin" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_talk_anais" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_talk_anais" />
+                        </condition>
+                        <ifTrue>
+                            <func name="open" param1="" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="close" param1="" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="open" param1="" />
+                </ifFalse>
+            </func>
+            <!--func name="open" param1="" /-->
+        </ifTrue>
+        <ifFalse>
+            <func name="close" param1="" />
+        </ifFalse>
+    </func>
+</onAfterCreation>
+
+<onTryOpen>
+    <func name="if">
+        <condition>
+            <func name="checkPlayerHaveActiveQuest" param1="" />
+            <oper name="or" />
+            <func name="checkQuestDone" param1="qst_defeat_granny" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_talk_darwin" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestExist" param1="qst_talk_anais" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_talk_anais" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="open" param1="" />
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="showMessage" param1="TXT_MESSAGE_REMEMBER_TALK_ANAIS" param2="darwin_normal" param3="Left" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="open" param1="" />
+                        </ifFalse>
+                    </func>
+                    <!--func name="open" param1="" /-->
+                </ifTrue>
+                <ifFalse>
+                    <func name="showMessage" param1="TXT_MESSAGE_PORTAL_HUB_CHECK_DARWIN" param2="anais_normal" param3="Left" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="showMessage" param1="TXT_MESSAGE_PORTAL_HUB_CHECK_EMPTY_SPACE" param2="anais_normal" param3="Left" />
+        </ifFalse>
+    </func>
+</onTryOpen>
+
+<onPass>
+    <func name="gotoMetamap" param1="" />
+</onPass>
+
+</data>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onChangeBubble_0>
+    <func name="setFaceData" param1="nicole_normal" param2="Left" />
+</onChangeBubble_0>
+
+<onChangeBubble_1>
+    <func name="setFaceData" param1="gumball_normal" param2="Right" />
+    <func name="doTalkAnimation" param1="player" />
+</onChangeBubble_1>
+
+</data>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onStartDialog>
+    <func name="if">
+        <condition>
+            <func name="checkQuestExist" param1="qst_recover_tv" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_recover_tv" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkFill" param1="" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_recover_console" />
+                                </condition>
+                                <ifTrue>
+                                    <!--func name="startDialog" param1="dlog_spaceTV_next_quest_done" /-->
+
+                                    <func name="if">
+                                        <condition>
+                                            <func name="checkQuestDone" param1="qst_defeat_granny" />
+                                        </condition>
+                                        <ifTrue>
+                                            <func name="if">
+                                                <condition>
+                                                    <func name="checkQuestExist" param1="qst_recover_remote" />
+                                                </condition>
+                                                <ifTrue>
+                                                    <func name="if">
+                                                        <condition>
+                                                            <func name="checkQuestDone" param1="qst_recover_remote" />
+                                                        </condition>
+                                                        <ifTrue>
+                                                            <func name="startDialog" param1="dlog_spaceTV_next_quest_done" />
+                                                        </ifTrue>
+                                                        <ifFalse>
+                                                            <func name="startDialog" param1="dlog_gumball_where_is_remote" />
+                                                        </ifFalse>
+                                                    </func>
+                                                </ifTrue>
+                                                <ifFalse>
+                                                    <func name="createQuest" param1="qst_recover_remote" />
+                                                    <func name="startDialog" param1="dlog_gumball_where_is_remote" />
+                                                </ifFalse>
+                                            </func>
+                                        </ifTrue>
+                                        <ifFalse>
+                                            <func name="startDialog" param1="dlog_gumball_where_is_remote" />
+                                        </ifFalse>
+                                    </func>
+
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="startDialog" param1="dlog_spaceTV_next_quest" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="playerDoWinAnimation" param1="ANIM_RECOVER_TV_HUB" />
+                            <func name="showMessage3" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" param2="tv" />
+                            <func name="fill" param1="" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="startDialog" param1="dlog_spaceTV_remember_quest" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+        <ifFalse>
+            <func name="if">
+                <condition>
+                    <func name="checkPlayerHaveItem" param1="tv" />
+                </condition>
+                <ifTrue>
+                    <func name="setQuestDone" param1="qst_recover_tv" />
+                    <func name="playerDoWinAnimation" param1="ANIM_RECOVER_TV_HUB" />
+                    <func name="fill" param1="" />
+                    <func name="showMessage3" param1="TXT_MESSAGE_HUB_1_GREAT_JOB" param2="tv" />
+                    <func name="startDialog" param1="dlog_spaceTV_next_quest" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="if">
+                        <condition>
+                            <func name="checkCurrentMapName" param1="hub_0" />
+                        </condition>
+                        <ifTrue>
+                            <func name="if">
+                                <condition>
+                                    <func name="checkQuestDone" param1="qst_touch_tv" />
+                                </condition>
+                                <ifTrue>
+                                    <func name="startDialog" param1="dlog_gumball_tv_prologue_2" />
+                                </ifTrue>
+                                <ifFalse>
+                                    <func name="setQuestDone" param1="qst_touch_tv" />
+                                    <func name="startDialog" param1="dlog_gumball_tv_prologue" />
+                                </ifFalse>
+                            </func>
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="createQuest" param1="qst_recover_tv" />
+                            <func name="startDialog" param1="dlog_spaceTV_activate_quest" />
+                        </ifFalse>
+                    </func>
+                </ifFalse>
+            </func>
+        </ifFalse>
+    </func>
+</onStartDialog>
+
+<onEndDialog>
+    <func name="if">
+        <condition>
+            <func name="checkCurrenDialog" param1="dlog_gumball_tv_prologue" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_tv" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_console" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_microwave" />
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestExist" param1="qst_defeat_tobias" />
+                </condition>
+                <ifFalse>
+                    <func name="createQuest" param1="qst_defeat_tobias" />
+                    <func name="startDialog" param1="dlog_darwin_warn" />
+                </ifFalse>
+            </func>
+        </ifTrue>
+    </func>
+</onEndDialog>
+
+</data>

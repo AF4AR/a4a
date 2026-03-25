@@ -1,0 +1,165 @@
+<world>
+	<properties>
+		<width> 1536 </width>
+		<height> 1536 </height>
+		<cameraWidth> 800 </cameraWidth>
+		<cameraHeight> 600 </cameraHeight>
+		<cameraScreenX> 0 </cameraScreenX>
+		<cameraScreenY> 0 </cameraScreenY>
+		<cameraYMin> 0.5 </cameraYMin>
+		<cameraYMax> 0.5 </cameraYMax>
+		<cameraXMin> 0.5 </cameraXMin>
+		<cameraXMax> 0.5 </cameraXMax>
+		<showCollisions> 1 </showCollisions>
+		<playerX> 1181 </playerX>
+		<playerY> 925 </playerY>
+		<scalePlayerX> 1 </scalePlayerX>
+		<scalePlayerY> 1 </scalePlayerY>
+		<useEmbeddedAssets> 1 </useEmbeddedAssets>
+		<assetsPath> ../images </assetsPath>
+		<kipu> /kipuObjects/kipuItems.xml </kipu>
+		<cameraInitX> 0 </cameraInitX>
+		<cameraInitY> 50 </cameraInitY>
+	</properties>
+	<kipuHeader>
+	</kipuHeader>
+	<layer type="player" name="player" x="0" y="0" width="0" height="0" >
+	</layer>
+	<layer name="lv1_hub_2_tilesets" cols="24" rows="24" tileW="64" tileH="64" map="mc_map_lv2_hub_lv1_hub_2_tilesets" width="1536" height="1536" >
+		<tile image="lv1_hub_2_tilesets-tile_34_1" />
+		<tile image="lv1_hub_2_tilesets-tile_00_0" />
+		<tile image="lv1_hub_2_tilesets-tile_01_0" />
+		<tile image="lv1_hub_2_tilesets-tile_02_0" />
+		<tile image="lv1_hub_2_tilesets-tile_03_0" />
+		<tile image="lv1_hub_2_tilesets-tile_36_1" />
+		<tile image="lv1_hub_2_tilesets-tile_37_1" />
+		<tile image="lv1_hub_2_tilesets-tile_12_0" />
+		<tile image="lv1_hub_2_tilesets-tile_13_0" />
+		<tile image="lv1_hub_2_tilesets-tile_14_0" />
+		<tile image="lv1_hub_2_tilesets-tile_04_0" />
+		<tile image="lv1_hub_2_tilesets-tile_05_0" />
+		<tile image="lv1_hub_2_tilesets-tile_06_0" />
+		<tile image="lv1_hub_2_tilesets-tile_07_0" />
+		<tile image="lv1_hub_2_tilesets-tile_32_1" />
+		<tile image="lv1_hub_2_tilesets-tile_35_1" />
+		<tile image="lv1_hub_2_tilesets-tile_16_0" />
+		<tile image="lv1_hub_2_tilesets-tile_17_0" />
+		<tile image="lv1_hub_2_tilesets-tile_18_0" />
+		<tile image="lv1_hub_2_tilesets-tile_08_0" />
+		<tile image="lv1_hub_2_tilesets-tile_09_0" />
+		<tile image="lv1_hub_2_tilesets-tile_10_0" />
+		<tile image="lv1_hub_2_tilesets-tile_11_0" />
+		<tile image="lv1_hub_2_tilesets-tile_38_1" />
+		<tile image="lv1_hub_2_tilesets-tile_39_1" />
+		<tile image="lv1_hub_2_tilesets-tile_20_0" />
+		<tile image="lv1_hub_2_tilesets-tile_22_0" />
+		<tile image="lv1_hub_2_tilesets-tile_15_0" />
+		<tile image="lv1_hub_2_tilesets-tile_25_0" />
+		<tile image="lv1_hub_2_tilesets-tile_27_0" />
+		<tile image="lv1_hub_2_tilesets-tile_00_1" />
+		<tile image="lv1_hub_2_tilesets-tile_32_0" />
+		<tile image="lv1_hub_2_tilesets-tile_34_0" />
+		<tile image="lv1_hub_2_tilesets-tile_24_0" />
+		<tile image="lv1_hub_2_tilesets-tile_35_0" />
+		<tile image="lv1_hub_2_tilesets-tile_19_0" />
+		<tile image="lv1_hub_2_tilesets-tile_29_0" />
+		<tile image="lv1_hub_2_tilesets-tile_30_0" />
+		<tile image="lv1_hub_2_tilesets-tile_31_0" />
+		<tile image="lv1_hub_2_tilesets-tile_04_1" />
+		<tile image="lv1_hub_2_tilesets-tile_36_0" />
+		<tile image="lv1_hub_2_tilesets-tile_21_0" />
+		<tile image="lv1_hub_2_tilesets-tile_38_0" />
+		<tile image="lv1_hub_2_tilesets-tile_28_0" />
+		<tile image="lv1_hub_2_tilesets-tile_39_0" />
+		<tile image="lv1_hub_2_tilesets-tile_23_0" />
+		<tile image="lv1_hub_2_tilesets-tile_26_0" />
+		<tile image="lv1_hub_2_tilesets-tile_33_0" />
+		<tile image="lv1_hub_2_tilesets-tile_01_1" />
+		<tile image="lv1_hub_2_tilesets-tile_03_1" />
+		<tile image="lv1_hub_2_tilesets-tile_08_1" />
+		<tile image="lv1_hub_2_tilesets-tile_10_1" />
+		<tile image="lv1_hub_2_tilesets-tile_11_1" />
+		<tile image="lv1_hub_2_tilesets-tile_16_1" />
+		<tile image="lv1_hub_2_tilesets-tile_24_1" />
+		<tile image="lv1_hub_2_tilesets-tile_17_1" />
+		<tile image="lv1_hub_2_tilesets-tile_19_1" />
+		<tile image="lv1_hub_2_tilesets-tile_05_1" />
+		<tile image="lv1_hub_2_tilesets-tile_07_1" />
+		<tile image="lv1_hub_2_tilesets-tile_12_1" />
+		<tile image="lv1_hub_2_tilesets-tile_13_1" />
+		<tile image="lv1_hub_2_tilesets-tile_14_1" />
+		<tile image="lv1_hub_2_tilesets-tile_15_1" />
+		<tile image="lv1_hub_2_tilesets-tile_00_2" />
+		<tile image="lv1_hub_2_tilesets-tile_20_1" />
+		<tile image="lv1_hub_2_tilesets-tile_28_1" />
+		<tile image="lv1_hub_2_tilesets-tile_21_1" />
+		<tile image="lv1_hub_2_tilesets-tile_22_1" />
+		<tile image="lv1_hub_2_tilesets-tile_23_1" />
+		<tile image="lv1_hub_2_tilesets-tile_09_1" />
+		<tile image="lv1_hub_2_tilesets-tile_18_1" />
+		<tile image="lv1_hub_2_tilesets-tile_04_2" />
+		<tile image="lv1_hub_2_tilesets-tile_25_1" />
+		<tile image="lv1_hub_2_tilesets-tile_26_1" />
+		<tile image="lv1_hub_2_tilesets-tile_27_1" />
+		<tile image="lv1_hub_2_tilesets-tile_29_1" />
+		<tile image="lv1_hub_2_tilesets-tile_30_1" />
+		<tile image="lv1_hub_2_tilesets-tile_31_1" />
+		<tile image="lv1_hub_2_tilesets-tile_33_1" />
+	</layer>
+	<layer type="sprites" name="sprites" width="1536" height="1536" >
+		<gpx x="280" y="360" image="lv1_hub_sprites-spr_lv1_37" />
+		<gpx x="288" y="296" image="lv1_hub_sprites-spr_lv1_37" />
+		<gpx x="288" y="496" image="lv1_hub_sprites-spr_lv1_38" />
+		<gpx x="288" y="1000" image="lv1_hub_sprites-spr_lv1_38" />
+		<gpx x="344" y="824" image="lv1_hub_sprites-spr_lv1_24" />
+		<gpx x="344" y="1104" image="lv1_hub_sprites-spr_lv1_23" />
+		<gpx x="352" y="272" image="lv1_hub_sprites-spr_lv1_38" />
+		<gpx x="352" y="928" image="lv1_hub_sprites-spr_lv1_27" />
+		<gpx x="416" y="312" image="lv1_hub_sprites-spr_lv1_38" />
+		<gpx x="416" y="400" image="lv1_hub_sprites-spr_lv1_35" />
+		<gpx x="480" y="568" image="lv1_hub_sprites-spr_lv1_04" />
+		<gpx x="544" y="304" image="lv1_hub_sprites-spr_lv1_19" />
+		<gpx x="545" y="183" image="lv1_hub_sprites-spr_lv1_18" />
+		<gpx x="608" y="272" image="lv1_hub_sprites-spr_lv1_38" />
+		<gpx x="624" y="920" image="lv1_hub_sprites-spr_lv1_26" />
+		<gpx x="736" y="568" image="lv1_hub_sprites-spr_lv1_05" />
+		<gpx x="736" y="840" image="lv1_hub_sprites-spr_lv1_29" />
+		<gpx x="736" y="1088" image="lv1_hub_sprites-spr_lv1_35" />
+		<gpx x="790" y="241" image="lv1_hub_sprites-spr_lv1_20" />
+		<gpx x="864" y="184" image="lv1_hub_sprites-spr_lv1_21" />
+		<gpx x="936" y="432" sx="-1" image="lv1_hub_sprites-spr_lv1_17" />
+		<gpx x="960" y="880" image="lv1_hub_sprites-spr_lv1_30" />
+		<gpx x="992" y="568" image="lv1_hub_sprites-spr_lv1_06" />
+		<gpx x="1000" y="288" image="lv1_hub_sprites-spr_lv1_26" />
+		<gpx x="1096" y="448" image="lv1_hub_sprites-spr_lv1_33" />
+		<gpx x="1096" y="928" image="lv1_hub_sprites-spr_lv1_28" />
+		<gpx x="1184" y="264" image="lv1_hub_sprites-spr_lv1_31" />
+		<gpx x="1184" y="352" image="lv1_hub_sprites-spr_lv1_36" />
+		<gpx x="1256" y="424" image="lv1_hub_sprites-spr_lv1_34" />
+		<gpx x="1264" y="472" image="lv1_hub_sprites-spr_lv1_32" />
+	</layer>
+	<layer type="collision" name="collisions" cols="24" rows="24" tileW="64" tileH="64" map="mc_map_lv2_hub_collisions" width="1536" height="1536" >
+	</layer>
+	<layer type="objects" name="items" >
+		<object x="608" y="380" id="1113" params="uniqueId:22;script:script_spaceComputer;skin:mcSpaceComputer;npcName:none" />
+		<object x="1248" y="1030" id="1102" params="uniqueId:23;script:none;destiny:hub_1;index:10;insertX:1245;insertY:852;open:1;questId:noneQuest;horizontal:1;visible:1" />
+	</layer>
+	<layer name="lv1_hub_tilesets_fore" cols="24" rows="24" tileW="64" tileH="64" map="mc_map_lv2_hub_lv1_hub_tilesets_fore" width="1536" height="1536" >
+		<tile image="lv1_hub_tilesets_fore-tile_16_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_14_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_05_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_01_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_18_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_24_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_25_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_26_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_06_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_19_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_28_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_29_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_30_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_20_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_21_1" />
+		<tile image="lv1_hub_tilesets_fore-tile_22_1" />
+	</layer>
+</world>

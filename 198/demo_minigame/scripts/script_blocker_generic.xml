@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onCollisionOff>
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="58" />
+        </condition>
+        <ifTrue>
+            <func name="startPlayerDialog" param1="dlog_carrie_blockers_off_1" />
+        </ifTrue>
+    </func>
+
+    <func name="if">
+        <condition>
+            <func name="checkUniqueId" param1="64" />
+        </condition>
+        <ifTrue>
+            <func name="showMessage" param1="TXT_DLOG_CARRIE_BLOCKERS_OFF_2" param2="carrie_normal" param3="Left" />
+        </ifTrue>
+    </func>
+</onCollisionOff>
+
+</data>

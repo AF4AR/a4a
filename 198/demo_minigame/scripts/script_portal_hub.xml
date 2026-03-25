@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+<onTryOpen>
+    <func name="if">
+        <condition>
+            <func name="checkQuestDone" param1="qst_touch_computer" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_tv" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_console" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_touch_microwave" />
+            <!--
+            <func name="checkQuestDone" param1="qst_defeat_tobias" />
+            <oper name="and" />
+            <func name="checkQuestDone" param1="qst_talk_granny" />
+            -->
+        </condition>
+        <ifTrue>
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_defeat_tobias" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_talk_phone" />
+                        </condition>
+                        <ifTrue>
+                            <func name="open" param1="" />
+                        </ifTrue>
+                        <ifFalse>
+                            <func name="showMessage" param1="TXT_DLOG_GRANNY_CHECK_PHONE" param2="granny_normal" param3="Left" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="showMessage" param1="TXT_DLOG_ANAIS_REMEMBER_TOBIAS" param2="anais_normal" param3="Left" />
+                </ifFalse>
+            </func>
+
+            <!--
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_talk_phone" />
+                </condition>
+                <ifTrue>
+                    <func name="open" param1="" />
+                </ifTrue>
+                <ifFalse>
+                    <func name="getObjectAndCallFunction" param1="7000" param2="startRinging" />
+                    <func name="showMessage" param1="TXT_MESSAGE_PORTAL_HUB_CHECK_PHONE" param2="anais_normal" param3="Left" />
+                </ifFalse>
+            </func>
+            -->
+        </ifTrue>
+        <ifFalse>
+            <func name="showMessage" param1="TXT_MSG_DARWIN_THINGS_TO_DO" param2="darwin_normal" param3="Left" />
+            <!--
+            <func name="if">
+                <condition>
+                    <func name="checkQuestDone" param1="qst_defeat_tobias" />
+                </condition>
+                <ifTrue>
+                    <func name="if">
+                        <condition>
+                            <func name="checkQuestDone" param1="qst_talk_granny" />
+                        </condition>
+                        <ifFalse>
+                            <func name="showMessage" param1="TXT_MESSAGE_PORTAL_HUB_REMEMBER_2" param2="darwin_normal" param3="Left" />
+                        </ifFalse>
+                    </func>
+                </ifTrue>
+                <ifFalse>
+                    <func name="showMessage" param1="TXT_MESSAGE_PORTAL_HUB_REMEMBER" param2="tobias_normal" param3="Left" />
+                </ifFalse>
+            </func>
+            -->
+        </ifFalse>
+    </func>
+</onTryOpen>
+
+<onPass>
+    <func name="playerStartDialog" param1="dlog_portal_pre_cutscene" />
+</onPass>
+
+</data>
