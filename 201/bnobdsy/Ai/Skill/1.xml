@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="影分身【↑+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="螺旋丸【U键】" leng="5" mp="50"/>
+   <skill id="3" sm="螺旋丸手里剑【↓+U】键" leng="5" mp="50"/>
+   <skill id="4" sm="瞬·螺旋丸【↑+J键】" leng="5" mp="50"/>
+   <skill id="5" sm="通灵之术【↓+J键】" leng="5" mp="50"/>
+   <skill id="6" sm="尾兽炮【O键】" leng="20" mp="250"/>
+   <skill id="7" sm="替身之术【受伤L键】" leng="15" mp="50"/>
+   <skill id="8" sm="螺旋连丸【↓+O键】" leng="15" mp="250"/>
+</skill>

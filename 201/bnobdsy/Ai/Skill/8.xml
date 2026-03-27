@@ -1,0 +1,19 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="5"/>
+   <skill id="1" sm="月牙天冲I【↓+O键】" leng="15" mp="250"/>
+   <skill id="2" sm="月牙I【↑+U键】" leng="5" mp="50"/>
+   <skill id="3" sm="月牙II【↓+U键】" leng="5" mp="50"/>
+   <skill id="4" sm="月牙天冲II【↑+O键】" leng="15" mp="250"/>
+   <skill id="5" sm="灵压【↓+J键】" leng="5" mp="50"/>
+   <skill id="6" sm="月牙天冲III【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="风之刃【↑+J键】" leng="5" mp="50"/>
+   <skill id="8" sm="月牙III【空中U键】" leng="5" mp="50"/>
+
+   <skill id="9" sm="卍解-瞬【卍解状态U键】" leng="5" mp="50"/>
+   <skill id="10" sm="月牙乱舞【卍解状态↓+U键】" leng="5" mp="50"/>
+   <skill id="11" sm="卍解-闪【卍解状态↓+O键】" leng="15" mp="250"/>
+   <skill id="12" sm="卍解-空【卍解状态I键】" leng="5" mp="50"/>
+   <skill id="13" sm="卍解-月牙冲天【卍解状态O键】" leng="15" mp="250"/>
+   <skill id="14" sm="卍解-灵【卍解状态↓+I键】" leng="5" mp="50"/>
+   <skill id="15" sm="卍解-落【卍解状态空中U键】" leng="5" mp="50"/>
+</skill>

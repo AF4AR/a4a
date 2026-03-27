@@ -1,0 +1,13 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="水之鐳射【↓+U键】" leng="7" mp="100"/>
+   <skill id="2" sm="水流壓壞【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="水流拘束【I键】" leng="10" mp="100"/>
+   <skill id="4" sm="水流烈鞭【↑+U键】" leng="5" mp="50"/>
+   <skill id="5" sm="水流斬破【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="水流激鋸【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="水流天象【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="水流颱風【↑+O键】" leng="15" mp="500"/>
+   <skill id="9" sm="水流切削【空中or地面↓+I键】" leng="5" mp="50"/>
+   <skill id="10" sm="无技能" leng="15" mp="50"/>
+</skill>

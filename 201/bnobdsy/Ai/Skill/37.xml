@@ -1,0 +1,13 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="拐子上挑【↑+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="不能擾亂的秩序【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="勾人鎖鍊【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="輪轉浮萍拐【↓+U键】" leng="5" mp="50"/>
+   <skill id="5" sm="咬殺【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="阿諾德之手錠【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="暴走雲刺猬【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="觉悟【↑+O键】" leng="10" mp="250"/>
+   <skill id="9" sm="雲動物匣【↓+I键】" leng="5" mp="50"/>
+   <skill id="10" sm="前打" leng="15" mp="50"/>
+</skill>

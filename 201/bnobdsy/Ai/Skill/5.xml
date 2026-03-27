@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="远古之物-回复MP【↑+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="战士系【骑士】【U键】" leng="5" mp="50"/>
+   <skill id="3" sm="魔法系【魔女】【↓+U键】" leng="5" mp="50"/>
+   <skill id="4" sm="飞行系【小龙】【空中↓+J键】" leng="2" mp="50"/>
+   <skill id="5" sm="物体系【股】【↓+J键】" leng="5" mp="50"/>
+   <skill id="6" sm="黑暗系魔法师【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="神系巨神兵【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="神系天空龙【↑+O键】" leng="15" mp="250"/>
+</skill>

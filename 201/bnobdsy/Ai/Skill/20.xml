@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="翼击【空中↓+J键】" leng="8" mp="50"/>
+   <skill id="2" sm="飞啄-逆【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="冲啄【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="起舞【↑+U键】" leng="8" mp="50"/>
+   <skill id="5" sm="舞斩【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="黑鸭冲斩【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="超级快跑鸭部队【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="孔雀之舞【↑+O键】" leng="15" mp="250"/>
+</skill>

@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="袭·螺旋丸【↓+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="鸣人连弹【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="大玉螺旋丸【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="替身之术【受伤L键】" leng="12" mp="50"/>
+   <skill id="5" sm="冲·螺旋丸【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="无刃【↓+O键】" leng="15" mp="250"/>
+   <skill id="7" sm="大玉螺旋手里剑【O键】" leng="15" mp="250"/>
+   <skill id="8" sm="多重分身螺旋丸【空中O键】" leng="15" mp="250"/>
+</skill>

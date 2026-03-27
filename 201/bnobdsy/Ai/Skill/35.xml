@@ -1,0 +1,13 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="武裝鋼刃【↓+U键】" leng="7" mp="100"/>
+   <skill id="2" sm="冥王鋼腳【↑+I键or受伤L键】" leng="15" mp="50"/>
+   <skill id="3" sm="冥王劍舞【I键】" leng="7" mp="100"/>
+   <skill id="4" sm="武裝色行掌【↑+U键】" leng="5" mp="50"/>
+   <skill id="5" sm="冥牙月衝【U键】" leng="7" mp="50"/>
+   <skill id="6" sm="流火冥王閃【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="世界終結閃斬【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="見聞色瞬劍【↑+O键】" leng="15" mp="250"/>
+   <skill id="9" sm="霸王色霸氣【↓+I键】" leng="12" mp="100"/>
+   <skill id="10" sm="无技能" leng="15" mp="50"/>
+</skill>

@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="5"/>
+   <skill id="1" sm="神圣之手【↓+O键】" leng="15" mp="250"/>
+   <skill id="2" sm="辐射I【↑+U键】" leng="5" mp="50"/>
+   <skill id="3" sm="空斩【空中↓+J键】" leng="5" mp="50"/>
+   <skill id="4" sm="神圣十字【↓+I键】" leng="5" mp="50"/>
+   <skill id="5" sm="辐射II，【↓+U键】" leng="5" mp="50"/>
+   <skill id="6" sm="神之奥义【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="辐射III【U键】" leng="5" mp="50"/>
+   <skill id="8" sm="辐射IIII【空中+U键】" leng="5" mp="50"/>
+</skill>

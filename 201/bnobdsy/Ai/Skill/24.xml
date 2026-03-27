@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="手刃【↓+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="瞬手刃【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="雷【I键】" leng="10" mp="50"/>
+   <skill id="4" sm="念力-震【↓+O键】" leng="15" mp="250"/>
+   <skill id="5" sm="前掷【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="念力-强【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="降雷【空中↓+U键】" leng="5" mp="50"/>
+   <skill id="8" sm="空掷【空中↓+I键】" leng="5" mp="50"/>
+</skill>

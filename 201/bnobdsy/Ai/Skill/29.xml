@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="半月【↓+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="瞬月【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="舞月【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="灵杀【↑+U键】" leng="5" mp="50"/>
+   <skill id="5" sm="月牙天冲【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="白月牙天冲I【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="白月牙天冲II【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="猎月【空中O键】" leng="15" mp="250"/>
+</skill>

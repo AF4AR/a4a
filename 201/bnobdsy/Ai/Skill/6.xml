@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="重拳-火【↓+J键】" leng="3" mp="50"/>
+   <skill id="2" sm="火爆拳【↓+U键】" leng="5" mp="50"/>
+   <skill id="3" sm="飞挑【↑+J键】" leng="5" mp="50"/>
+   <skill id="4" sm="上挑【U键】" leng="5" mp="50"/>
+   <skill id="5" sm="上条，【↑+U键】" leng="5" mp="50"/>
+   <skill id="6" sm="邪影刃【↓+O键】" leng="15" mp="250"/>
+   <skill id="7" sm="黑龙波【O键】" leng="15" mp="250"/>
+   <skill id="8" sm="火爆剑【↑+O键】" leng="15" mp="250"/>
+</skill>

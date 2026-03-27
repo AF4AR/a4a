@@ -1,0 +1,13 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="飞樱【I键】" leng="5" mp="50"/>
+   <skill id="2" sm="千本樱·满【U键】" leng="5" mp="100"/>
+   <skill id="3" sm="双堕【↓+U键】" leng="15" mp="100"/>
+   <skill id="4" sm="六道光固【↑+I键】" leng="10" mp="50"/>
+   <skill id="5" sm="樱刃【↑+U键】" leng="5" mp="50"/>
+   <skill id="6" sm="断空【↓+I键】" leng="20" mp="50"/>
+   <skill id="7" sm="终景·白帝剑【O键】" leng="15" mp="250"/>
+   <skill id="8" sm="空蝉【受伤L键】" leng="15" mp="50"/>
+   <skill id="9" sm="吭景·千本樱景严【↑+O键】" leng="99999999" mp="500"/>
+   <skill id="10" sm="卍解千本樱【↓+O键】" leng="15" mp="250"/>
+</skill>

@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="剪刀腿【↓+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="円刃刀【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="ROOM-瞬【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="空间之力【↓+O键】" leng="15" mp="250"/>
+   <skill id="5" sm="ROOM-单杀【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="ROOM-乱杀【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="上諪【↑+U键】" leng="5" mp="50"/>
+   <skill id="8" sm="发作【↓+I键】" leng="5" mp="50"/>
+</skill>

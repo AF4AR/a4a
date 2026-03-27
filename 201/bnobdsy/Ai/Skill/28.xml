@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="山崩地裂【↓+U键】" leng="10" mp="100"/>
+   <skill id="2" sm="覺醒的內心【↑+I键】" leng="10" mp="50"/>
+   <skill id="3" sm="櫻的內心【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="櫻花衝【↓+O键】" leng="15" mp="250"/>
+   <skill id="5" sm="掌仙術【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="爆炎卷【↑+O键】" leng="15" mp="250"/>
+   <skill id="7" sm="自愈术【↑+U键】" leng="15" mp="100"/>
+   <skill id="8" sm="櫻花吹雪【O键】" leng="15" mp="250"/>
+</skill>

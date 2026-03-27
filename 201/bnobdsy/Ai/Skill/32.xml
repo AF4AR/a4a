@@ -1,0 +1,13 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="气弹【U键】" leng="5" mp="50"/>
+   <skill id="2" sm="空踢【↑+U键】" leng="5" mp="100"/>
+   <skill id="3" sm="瞬移龟派气功I【↓+U键】" leng="10" mp="100"/>
+   <skill id="4" sm="瞬移龟派气功II【↑+I键】" leng="10" mp="100"/>
+   <skill id="5" sm="太阳拳【↓+I键】" leng="8" mp="100"/>
+   <skill id="6" sm="气场【I键】" leng="8" mp="100"/>
+   <skill id="7" sm="空舞术【O键】" leng="15" mp="250"/>
+   <skill id="8" sm="瞬移十万龟派气功【↓+O键】" leng="15" mp="250"/>
+   <skill id="9" sm="无技能" leng="99999999" mp="500"/>
+   <skill id="10" sm="龙拳【↑+O键】" leng="15" mp="500"/>
+</skill>

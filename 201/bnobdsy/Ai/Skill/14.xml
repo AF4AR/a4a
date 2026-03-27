@@ -1,0 +1,16 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="断空【↑+U键】" leng="10" mp="50"/>
+   <skill id="2" sm="黑棺【U键】" leng="5" mp="50"/>
+   <skill id="3" sm="镜花水月I【↓+U键】" leng="5" mp="50"/>
+   <skill id="4" sm="瞬挡【↑+J键】" leng="10" mp="50"/>
+   <skill id="5" sm="辅助【瞬挡】" leng="5" mp="0"/>
+   <skill id="6" sm="瞬闪【I键】" leng="10" mp="50"/>
+   <skill id="7" sm="辅助【瞬闪】" leng="5" mp="0"/>
+   <skill id="8" sm="镜花水月II【空中+J键】" leng="5" mp="50"/>
+   <skill id="9" sm="崩玉I【↓+O键】" leng="15" mp="250"/>
+   <skill id="10" sm="崩玉II【O键】" leng="15" mp="250"/>
+   <skill id="11" sm="崩玉III【↑+O键】" leng="15" mp="250"/>
+   <skill id="12" sm="雷虎吼【↑+I键】" leng="15" mp="100"/>
+   <skill id="13" sm="奥义黒棺【不详】" leng="99" mp="500"/>
+</skill>

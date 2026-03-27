@@ -1,0 +1,13 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="龍鳴閃【↓+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="龍卷閃˙束風˙旋˙嵐【↑+I键】" leng="5" mp="50"/>
+   <skill id="3" sm="快速抽刀【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="邪氣波【↑+U键】" leng="5" mp="50"/>
+   <skill id="5" sm="劍氣波【U键】" leng="5" mp="50"/>
+   <skill id="6" sm="九頭龍閃【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="天翔龍閃【↓+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="龍槌翔閃【↑+O键】" leng="15" mp="250"/>
+   <skill id="9" sm="龍巢閃【↓+I键】" leng="8" mp="50"/>
+   <skill id="10" sm="反刃【受伤L键】" leng="15" mp="50"/>
+</skill>

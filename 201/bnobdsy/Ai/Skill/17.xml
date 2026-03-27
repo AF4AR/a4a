@@ -1,0 +1,12 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="上刃【↑+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="刺杀【U键】" leng="5" mp="50"/>
+   <skill id="3" sm="地爆【↓+U键】" leng="5" mp="50"/>
+   <skill id="4" sm="速剑【空中U键】" leng="5" mp="50"/>
+   <skill id="5" sm="瞬杀【↓+J键】" leng="5" mp="50"/>
+   <skill id="6" sm="跃刃【↑+I键】" leng="5" mp="50"/>
+   <skill id="7" sm="最强斩击【O键】" leng="15" mp="250"/>
+   <skill id="8" sm="地波斩【↓+O键】" leng="15" mp="250"/>
+   <skill id="9" sm="黑刀【↑+O键】" leng="15" mp="250"/>
+</skill>

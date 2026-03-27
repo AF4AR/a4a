@@ -1,0 +1,11 @@
+<skill>
+   <skill id="0" sm="瞬步【L键】" leng="0" mp="25"/>
+   <skill id="1" sm="长尾【↓+U键】" leng="5" mp="50"/>
+   <skill id="2" sm="乱舞【U键】" leng="5" mp="50"/>
+   <skill id="3" sm="反尾【I键】" leng="5" mp="50"/>
+   <skill id="4" sm="风刃【↑+U键】" leng="5" mp="50"/>
+   <skill id="5" sm="灵压【↓+I键】" leng="5" mp="50"/>
+   <skill id="6" sm="狒狒王蛇尾丸-杀【O键】" leng="15" mp="250"/>
+   <skill id="7" sm="狒狒王蛇尾丸-升【↑+O键】" leng="15" mp="250"/>
+   <skill id="8" sm="空尾【空中↓+U键】" leng="5" mp="50"/>
+</skill>
