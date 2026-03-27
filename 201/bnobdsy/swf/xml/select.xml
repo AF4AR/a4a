@@ -1,0 +1,79 @@
+<rw>
+  <rw xl="火影系列" sm="这就是我的忍道。">
+     <rw id="1" name="仙人模式·漩涡鸣人" x="3" lv="1"/>
+     <rw id="30" name="疾风传·漩涡鸣人" bnd="0" code="6446555077UHQIQT" x="4" lv="3"/>
+     <rw id="28" name="春野樱" bnd="0" code="644655503RCHQIQT" x="4" lv="3"/>   
+     <rw id="9" name="佐助" x="5" lv="2"/>
+     <rw id="27" name="宇智波斑" bnd="0" code="666666U03RCHQIQT" x="5" lv="BOSS"/>
+  </rw>
+
+  <rw xl="家庭教师系列" sm="我才不要当什麽黑手党首领!要是眼睁睁的看着重要的同伴死去，就算是死，我也不能瞑目。">
+     <rw id="37" name="云雀恭彌" bnd="0" code="DDDDDHB464VR7MM" x="5" lv="3"/>
+     <rw id="34" name="纲吉" bnd="0" code="WRTYGMGHJNZVA7KV" x="4" lv="2"/>
+     <rw id="19" name="库洛姆" bnd="0" code="6JYNGM93ANZVA7KV" x="3" lv="1"/>
+  </rw>
+  
+  <rw xl="海贼王系列" sm="我们的船员一个都不能少。">  
+     <rw id="35" name="雷利" bnd="0" code="KIUTGMGDHNZVA7KV" x="3" lv="1"/> 
+     <rw id="17" name="鹰眼" x="5" lv="2"/>
+     <rw id="16" name="汉库克" x="5" lv="2"/>
+     <rw id="15" name="索隆" x="4" lv="2"/>
+     <rw id="4" name="路飞" x="5" lv="2"/>
+     <rw id="7" name="2年路飞" x="4" lv="3"/>
+     <rw id="18" name="2年索隆" x="4" lv="3"/>
+     <rw id="23" name="罗" bnd="0" x="3" lv="1"/>
+     <rw id="20" name="微微" bnd="0" code="UEG558I7777WHQXA" x="4" lv="2"/>
+  </rw>
+
+  <rw xl="七龙珠系列" sm="集合七龙珠，唤出神龙，实现愿望">
+     <rw id="32" name="孙悟空超级赛亚人4" bnd="0" code="UEEEE855777WHQXA" x="4" lv="0"/>
+     <rw id="11" name="孙悟空" x="5" lv="2"/>
+  </rw>
+  
+  <rw xl="浪客剑心系列" sm="我不想杀人">
+     <rw id="33" name="緋村劍心" bnd="0" code="UEEEDG55EEEDHQXA" x="5" lv="0"/>
+  </rw>
+
+  <rw xl="驱魔少年系列" sm="靠牺牲才换来胜利的战争，得到的只有空虚感而已">
+     <rw id="12" name="艾伦" x="4" lv="2"/>
+  </rw>
+  <rw xl="幽游白书系列" sm="不是灵魂">
+     <rw id="6" name="飞影" x="4" lv="1"/>
+  </rw>
+
+  <rw xl="通灵王系列" sm="只要有同伴，无论多艰苦的考验都能够共同分担，在竞赛之中也能够互相勉励。">
+     <rw id="2" name="叶麻仓" x="5" lv="2"/>
+  </rw>
+
+  <rw xl="死神系列" sm="我们因看不见而恐惧无形之物，因看不见而敬畏无形之物。于是手中的剑，就此挥下。"> 
+     <rw id="31" name="卍解白哉" bnd="0" code="GQ1GN333HHIGIOPT" x="5" lv="3"/>
+     <rw id="29" name="白月" x="5" bnd="0" code="345GN333HHIGIOPT" lv="3"/>
+     <rw id="14" name="蓝染" x="5" lv="BOSS"/>
+     <rw id="13" name="恋次" x="4" lv="2"/>
+     <rw id="10" name="冬狮郎" x="5" lv="2"/>
+     <rw id="8" name="一户" x="4" lv="1"/>
+     <rw id="3" name="白哉" x="5" lv="3"/>
+     <rw id="25" name="牛头一户" bnd="0" code="GQ1GN333HHIGIOPT" x="5" lv="BOSS"/>
+  </rw>
+
+  <rw xl="全职猎人系列" sm="老我们不会拒绝任何东西，所以也别从我们手上夺走什么">
+     <rw id="24" name="奇伢"  bnd="0" code="" x="3" lv="2"/>
+  </rw>
+
+  <rw xl="游戏王系列" sm="如果卡片是剑的话，那么决斗盘就是盾。我就让荣耀寄宿于右手的卡片中，让灵魂寄宿在左手的决斗盘内。">
+     <rw id="5" name="武藤游戏" x="1" lv="1"/>
+  </rw>
+
+  <rw xl="妖精的尾巴系列" sm="就算道路不同，也要坚强的活下去，绝对不能轻视自己的生命，一生都不能忘记过去珍视的同伴!">
+     <rw id="36" name="茱比亚" bnd="0" code="0FFDDHB464VR7MM" x="5" lv="3"/>
+     <rw id="26" name="艾露莎" bnd="0" code="04444CG4O4VR7MM" x="5" lv="3"/>
+  </rw>
+
+  <rw xl="灼眼的夏娜系列" sm="是吗，那太好了，总算留下些我存在过的意义了永别了 - 夏娜">
+     <rw id="22" name="夏娜" bnd="0" code="GGXI5678904QSXC7" x="4" lv="2"/>
+  </rw>
+
+  <rw xl="魔法禁书系列" sm="我变弱了 不代表你变强了!">
+     <rw id="21" name="神裂火织" bnd="0" code="RAINYTCOM1126KKK" x="4" lv="1"/>
+  </rw>
+</rw>
