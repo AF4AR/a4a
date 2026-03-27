@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="2.png" px="0" py="0" class="">
+  <SubTexture name="gif0" x="0" y="0" width="306" height="132" hitPoint="116,116 55,69 118,3 262,-10 295,33 309,85"/>
+  <SubTexture name="gif1" x="306" y="0" width="306" height="132" hitPoint="" frameX="0" frameY="0"/>
+  <SubTexture name="gif2" x="612" y="0" width="306" height="132"/>
+  <SubTexture name="gif3" x="918" y="0" width="306" height="132"/>
+</TextureAtlas>

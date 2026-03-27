@@ -1,0 +1,10 @@
+<TextureAtlas imagePath="kuangzhanshi_luosha.png" px="-184" py="-146" class="">
+  <SubTexture name="gif0" x="0" y="0" width="500" height="300" hitPoint="-55,-7 -53,26 -38,43 3,57 38,64 90,54 140,39 263,14 234,-5 140,-32 32,-37 -47,-53" hitEffect="5" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif1" x="0" y="300" width="500" height="300"/>
+  <SubTexture name="gif2" x="0" y="600" width="500" height="300" hitPoint="" hitEffect="3" hurtInterval="2" cardFrame="-1"/>
+  <SubTexture name="gif3" x="0" y="900" width="500" height="300"/>
+  <SubTexture name="gif4" x="0" y="1200" width="500" height="300"/>
+  <SubTexture name="gif5" x="0" y="1500" width="500" height="300"/>
+  <SubTexture name="gif6" x="0" y="1800" width="500" height="300"/>
+  <SubTexture name="gif7" x="0" y="2100" width="500" height="300"/>
+</TextureAtlas>

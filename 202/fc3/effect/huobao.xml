@@ -1,0 +1,11 @@
+<TextureAtlas imagePath="huobao.png">
+  <SubTexture name="元件 1 实例 10000" x="0" y="0" width="492" height="610"/>
+  <SubTexture name="元件 1 实例 10001" x="492" y="0" width="492" height="610" hitPoint="309,573 124,566 57,526 72,312 189,152 316,153 423,375 502,533" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 1 实例 10002" x="984" y="0" width="492" height="610"/>
+  <SubTexture name="元件 1 实例 10003" x="1476" y="0" width="492" height="610" hitPoint="76,566 435,563 386,26 113,22" hitEffect="4" hurtInterval="2" cardFrame="0"/>
+  <SubTexture name="元件 1 实例 10004" x="0" y="610" width="492" height="610"/>
+  <SubTexture name="元件 1 实例 10005" x="492" y="610" width="492" height="610"/>
+  <SubTexture name="元件 1 实例 10006" x="984" y="610" width="492" height="610"/>
+  <SubTexture name="元件 1 实例 10007" x="1476" y="610" width="492" height="610"/>
+  <SubTexture name="元件 1 实例 10008" x="0" y="1220" width="492" height="610"/>
+</TextureAtlas>

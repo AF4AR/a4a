@@ -1,0 +1,24 @@
+<TextureAtlas imagePath="LingYa.png" px="-150" py="-143" class="">
+  <SubTexture name="元件 10000" x="0" y="0" width="255" height="259" hitPoint="-99,88 -92,63 -73,26 -34,-45 -18,-57 5,-57 17,-45 20,-44 62,-22 88,7 86,80 43,99 6,105" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10001" x="255" y="0" width="255" height="259" hitPoint="-107,77 -72,39 -55,-59 -12,-88 25,-78 65,-15 85,62 85,77 2,104"/>
+  <SubTexture name="元件 10002" x="510" y="0" width="255" height="259" hitPoint="-122,61 -47,20 -58,-25 -42,-131 -6,-143 17,-129 53,-113 63,-43 58,5 79,33 80,78 -4,105 -72,93" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10003" x="765" y="0" width="255" height="259"/>
+  <SubTexture name="元件 10004" x="0" y="259" width="255" height="259"/>
+  <SubTexture name="元件 10005" x="255" y="259" width="255" height="259" hitPoint="-102,100 -52,14 -58,-29 -48,-95 -53,-145 53,-140 72,-33 59,22 94,82 13,109" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10006" x="510" y="259" width="255" height="259"/>
+  <SubTexture name="元件 10007" x="765" y="259" width="255" height="259" hitPoint="-100,88 -54,-3 -55,-132 -55,-141 14,-139 45,-136 53,-83 60,-22 73,47 90,89 5,111" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10008" x="0" y="518" width="255" height="259"/>
+  <SubTexture name="元件 10009" x="255" y="518" width="255" height="259"/>
+  <SubTexture name="元件 10010" x="510" y="518" width="255" height="259" hitPoint="-86,95 -52,-54 -52,-141 49,-138 78,-45 67,24 64,120 -30,111" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10011" x="765" y="518" width="255" height="259"/>
+  <SubTexture name="元件 10012" x="0" y="777" width="255" height="259" hitPoint="-85,88 -52,-28 -39,-144 27,-135 59,-108 50,-5 59,78 48,102 -4,116" hitEffect="3" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10013" x="255" y="777" width="255" height="259"/>
+  <SubTexture name="元件 10014" x="510" y="777" width="255" height="259"/>
+  <SubTexture name="元件 10015" x="765" y="777" width="255" height="259"/>
+  <SubTexture name="元件 10016" x="0" y="1036" width="255" height="259"/>
+  <SubTexture name="元件 10017" x="255" y="1036" width="255" height="259"/>
+  <SubTexture name="元件 10018" x="510" y="1036" width="255" height="259"/>
+  <SubTexture name="元件 10019" x="765" y="1036" width="255" height="259"/>
+  <SubTexture name="元件 10020" x="0" y="1295" width="255" height="259"/>
+  <SubTexture name="元件 10021" x="0" y="1295" width="255" height="259"/>
+</TextureAtlas>

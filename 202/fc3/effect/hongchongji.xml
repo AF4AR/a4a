@@ -1,0 +1,12 @@
+<TextureAtlas imagePath="hongchongji.png">
+  <SubTexture name="元件 10000" x="0" y="0" width="269" height="188"/>
+  <SubTexture name="元件 10001" x="0" y="0" width="269" height="188"/>
+  <SubTexture name="元件 10002" x="0" y="188" width="269" height="188" hitPoint="82,198 40,181 13,167 6,111 -1,77 11,25 23,12 122,-9 183,-6 219,3 248,26 261,46 271,86 277,120 276,156 254,181 217,202 184,206 132,212" hitEffect="6" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10003" x="0" y="188" width="269" height="188"/>
+  <SubTexture name="元件 10004" x="0" y="376" width="269" height="188" hitPoint=""/>
+  <SubTexture name="元件 10005" x="0" y="376" width="269" height="188" hitPoint=""/>
+  <SubTexture name="元件 10006" x="0" y="564" width="269" height="188" hitPoint=""/>
+  <SubTexture name="元件 10007" x="0" y="564" width="269" height="188"/>
+  <SubTexture name="元件 10008" x="0" y="752" width="269" height="188"/>
+  <SubTexture name="元件 10009" x="0" y="752" width="269" height="188"/>
+</TextureAtlas>

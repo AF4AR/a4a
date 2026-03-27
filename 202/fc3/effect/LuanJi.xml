@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="LuanJi.png" px="-52" py="-144">
+  <SubTexture name="死气冲击0000" x="0" y="0" width="140" height="207" hitPoint="-107,-125 70,-114 130,-30 67,36 -117,33 -58,-17 -112,-59 -45,-78" hitEffect="3" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="死气冲击0001" x="140" y="0" width="140" height="207" hitPoint="" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="死气冲击0002" x="280" y="0" width="140" height="207"/>
+  <SubTexture name="死气冲击0003" x="0" y="207" width="140" height="207"/>
+  <SubTexture name="死气冲击0004" x="140" y="207" width="140" height="207"/>
+  <SubTexture name="死气冲击0005" x="140" y="207" width="140" height="207"/>
+</TextureAtlas>

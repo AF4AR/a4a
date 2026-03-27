@@ -1,0 +1,27 @@
+<TextureAtlas imagePath="kuangzhanshi_xixue.png">
+  <SubTexture name="gif0" x="0" y="0" width="400" height="235" hitPoint="16,158 19.5,106.5 61.5,100.5 130.5,82.5 194.5,98.5 214,155 62,179" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif1" x="0" y="235" width="400" height="235"/>
+  <SubTexture name="gif2" x="0" y="470" width="400" height="235" hitPoint="14,132 55,89 159.5,67.5 247,87 258.5,151.5 231.5,188.5 53.5,199.5" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif3" x="0" y="705" width="400" height="235"/>
+  <SubTexture name="gif4" x="0" y="940" width="400" height="235" hitPoint="13,131 110.5,47 257.5,44.5 363,111 221.5,211 25,192.5" hitEffect="10" hurtInterval="3" cardFrame="0"/>
+  <SubTexture name="gif5" x="0" y="1175" width="400" height="235"/>
+  <SubTexture name="gif6" x="0" y="1410" width="400" height="235"/>
+  <SubTexture name="gif7" x="0" y="1645" width="400" height="235"/>
+  <SubTexture name="gif8" x="0" y="1880" width="400" height="235"/>
+  <SubTexture name="gif9" x="0" y="2115" width="400" height="235"/>
+  <SubTexture name="gif10" x="0" y="2350" width="400" height="235"/>
+  <SubTexture name="gif11" x="0" y="2585" width="400" height="235"/>
+  <SubTexture name="gif12" x="0" y="2820" width="400" height="235"/>
+  <SubTexture name="gif13" x="0" y="3055" width="400" height="235"/>
+  <SubTexture name="gif14" x="0" y="3290" width="400" height="235"/>
+  <SubTexture name="gif15" x="0" y="3525" width="400" height="235" hitPoint="16.5,121 133.5,48.5 288,45 354.5,114.5 353,175 30,184.5" hitEffect="6" hurtInterval="3" cardFrame="0"/>
+  <SubTexture name="gif16" x="0" y="3760" width="400" height="235"/>
+  <SubTexture name="gif17" x="400" y="0" width="400" height="235"/>
+  <SubTexture name="gif18" x="400" y="235" width="400" height="235"/>
+  <SubTexture name="gif19" x="400" y="470" width="400" height="235"/>
+  <SubTexture name="gif20" x="400" y="705" width="400" height="235"/>
+  <SubTexture name="gif21" x="400" y="940" width="400" height="235"/>
+  <SubTexture name="gif22" x="400" y="1175" width="400" height="235"/>
+  <SubTexture name="gif23" x="400" y="1410" width="400" height="235"/>
+  <SubTexture name="gif24" x="400" y="1645" width="400" height="235"/>
+</TextureAtlas>

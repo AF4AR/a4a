@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="heian.png" px="-167" py="-134" class="">
+  <SubTexture name="元件 20000" x="0" y="0" width="326" height="285" hitPoint="-21,125 -47,54 -79,39 -115,22 -157,-1 -58,-39 -87,-82 -37,-88 -26,-104 -12,-104 2,-100 23,-79 34,-75 34,-74 59,-70 86,-46 83,-36 83,-33 105,-23 138,-6 31,63" hitEffect="3" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 20001" x="326" y="0" width="326" height="285"/>
+  <SubTexture name="元件 20002" x="652" y="0" width="326" height="285"/>
+  <SubTexture name="元件 20003" x="0" y="285" width="326" height="285"/>
+  <SubTexture name="元件 20004" x="326" y="285" width="326" height="285"/>
+  <SubTexture name="元件 20005" x="652" y="285" width="326" height="285"/>
+</TextureAtlas>

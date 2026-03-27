@@ -1,0 +1,9 @@
+<TextureAtlas imagePath="C2.png" px="-17" py="-205" class="">
+  <SubTexture name="元件 120000" x="0" y="0" width="245" height="231"/>
+  <SubTexture name="元件 120001" x="245" y="0" width="245" height="231" hitPoint="-6,-12 67,-81 80,-138 86,-179 116,-191 127,-195 139,-195 152,-177 176,-173 178,-140 196,-168 202,-125 194,-80 188,-48 68,-6 -7,31" hitEffect="4" hurtInterval="0"/>
+  <SubTexture name="元件 120002" x="0" y="231" width="245" height="231" hitPoint="" hitEffect="2" hurtInterval="0"/>
+  <SubTexture name="元件 120003" x="245" y="231" width="245" height="231" hitPoint=""/>
+  <SubTexture name="元件 120004" x="0" y="462" width="245" height="231" hitPoint=""/>
+  <SubTexture name="元件 120005" x="245" y="462" width="245" height="231"/>
+  <SubTexture name="元件 120006" x="0" y="693" width="245" height="231"/>
+</TextureAtlas>

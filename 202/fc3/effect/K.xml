@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="K.png" px="-111" py="-121">
+  <SubTexture name="元件 60000" x="0" y="0" width="234" height="196" hitPoint="10,38 65,-17 71,-59 22,-79 -45,-67 -101,-41 -100,-55 -38,-103 9,-116 106,-98 123,-39 116,16 99,52 30,54" hitEffect="0" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 60001" x="234" y="0" width="234" height="196" hitPoint="-80,32 -48,43 14,24 34,12 63,12 92,-41 57,-97 91,-98 116,-48 103,23 62,55 -6,70 -74,65" hitEffect="3" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 60002" x="0" y="196" width="234" height="196"/>
+  <SubTexture name="元件 60003" x="234" y="196" width="234" height="196"/>
+</TextureAtlas>

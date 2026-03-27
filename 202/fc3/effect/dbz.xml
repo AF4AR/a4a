@@ -1,0 +1,10 @@
+<TextureAtlas imagePath="dbz.png" px="-219" py="-203" class="">
+  <SubTexture name="元件 30000" x="0" y="0" width="442" height="412" hitPoint="42,147 -44,136 -125,42 -131,-43 -60,-117 10,-130 116,-78 136,134" hitEffect="4" hurtInterval="0" cardFrame="5"/>
+  <SubTexture name="元件 30001" x="442" y="0" width="442" height="412"/>
+  <SubTexture name="元件 30002" x="0" y="412" width="442" height="412"/>
+  <SubTexture name="元件 30003" x="442" y="412" width="442" height="412"/>
+  <SubTexture name="元件 30004" x="0" y="824" width="442" height="412"/>
+  <SubTexture name="元件 30005" x="442" y="824" width="442" height="412" hitPoint="119,53 -141,42 -189,-8 -82,-32 4,-41 170,12" hitEffect="1" hurtInterval="0" cardFrame="1"/>
+  <SubTexture name="元件 30006" x="0" y="1236" width="442" height="412"/>
+  <SubTexture name="元件 30007" x="442" y="1236" width="442" height="412"/>
+</TextureAtlas>

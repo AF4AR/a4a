@@ -1,0 +1,12 @@
+<TextureAtlas imagePath="BOOM11.png">
+  <SubTexture name="gif0" x="0" y="0" width="270" height="282" hitPoint="11,272 257,276 245,158 129,17 19,149" hitEffect="6" hurtInterval="6" cardFrame="0"/>
+  <SubTexture name="gif1" x="270" y="0" width="270" height="282"/>
+  <SubTexture name="gif2" x="540" y="0" width="270" height="282"/>
+  <SubTexture name="gif3" x="810" y="0" width="270" height="282"/>
+  <SubTexture name="gif4" x="1080" y="0" width="270" height="282"/>
+  <SubTexture name="gif5" x="1350" y="0" width="270" height="282"/>
+  <SubTexture name="gif6" x="1620" y="0" width="270" height="282"/>
+  <SubTexture name="gif7" x="1890" y="0" width="270" height="282"/>
+  <SubTexture name="gif8" x="2160" y="0" width="270" height="282"/>
+  <SubTexture name="gif9" x="2430" y="0" width="270" height="282"/>
+</TextureAtlas>

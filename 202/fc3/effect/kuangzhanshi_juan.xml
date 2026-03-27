@@ -1,0 +1,13 @@
+<TextureAtlas imagePath="kuangzhanshi_juan.png">
+  <SubTexture name="gif0" x="0" y="0" width="500" height="520" hitPoint="92,33 111.5,478 370.5,491.5 352.5,45.5" hitEffect="9" hurtInterval="2" cardFrame="0"/>
+  <SubTexture name="gif1" x="0" y="520" width="500" height="520"/>
+  <SubTexture name="gif2" x="0" y="1040" width="500" height="520"/>
+  <SubTexture name="gif3" x="0" y="1560" width="500" height="520"/>
+  <SubTexture name="gif4" x="0" y="2080" width="500" height="520"/>
+  <SubTexture name="gif5" x="0" y="2600" width="500" height="520"/>
+  <SubTexture name="gif6" x="0" y="3120" width="500" height="520"/>
+  <SubTexture name="gif7" x="500" y="0" width="500" height="520"/>
+  <SubTexture name="gif8" x="1000" y="0" width="500" height="520"/>
+  <SubTexture name="gif9" x="1500" y="0" width="500" height="520"/>
+  <SubTexture name="gif10" x="2000" y="0" width="500" height="520"/>
+</TextureAtlas>

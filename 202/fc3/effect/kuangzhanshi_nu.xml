@@ -1,0 +1,12 @@
+<TextureAtlas imagePath="kuangzhanshi_nu.png">
+  <SubTexture name="gif0" x="0" y="0" width="409" height="325" hitPoint="104.5,138 191,98 273.5,144 286.5,214.5 235,287 152.5,289.5 97,228.5" hitEffect="5" hurtInterval="2" cardFrame="-1"/>
+  <SubTexture name="gif1" x="409" y="0" width="409" height="325"/>
+  <SubTexture name="gif2" x="818" y="0" width="409" height="325"/>
+  <SubTexture name="gif3" x="1227" y="0" width="409" height="325"/>
+  <SubTexture name="gif4" x="1636" y="0" width="409" height="325"/>
+  <SubTexture name="gif5" x="2045" y="0" width="409" height="325"/>
+  <SubTexture name="gif6" x="2454" y="0" width="409" height="325" hitPoint="64.5,169 121,96.5 234,80 312,126 314.5,226.5 271,274.5 188,298 103,275.5" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif7" x="2863" y="0" width="409" height="325"/>
+  <SubTexture name="gif8" x="3272" y="0" width="409" height="325"/>
+  <SubTexture name="gif9" x="3681" y="0" width="409" height="325"/>
+</TextureAtlas>

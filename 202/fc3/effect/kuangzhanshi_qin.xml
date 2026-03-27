@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="kuangzhanshi_qin.png">
+  <SubTexture name="gif0" x="0" y="0" width="500" height="403" hitPoint="64,250 64,124 185,55 351,96 337,160 169,269"/>
+  <SubTexture name="gif1" x="500" y="0" width="500" height="403" hitPoint="15,203 94,79 195,28 295,23 393,85 484,156 355,237 94,278"/>
+  <SubTexture name="gif2" x="1000" y="0" width="500" height="403" hitPoint="8,199 138,20 416,86 490,250 266,277" hitEffect="3" hurtInterval="2" cardFrame="0"/>
+  <SubTexture name="gif3" x="1500" y="0" width="500" height="403"/>
+  <SubTexture name="gif4" x="2000" y="0" width="500" height="403"/>
+  <SubTexture name="gif5" x="2500" y="0" width="500" height="403"/>
+</TextureAtlas>

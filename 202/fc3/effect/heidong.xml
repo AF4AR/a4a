@@ -1,0 +1,16 @@
+<TextureAtlas imagePath="heidong.png" px="-149" py="-159" class="">
+  <SubTexture name="元件 30000" x="0" y="0" width="300" height="300"/>
+  <SubTexture name="元件 30001" x="300" y="0" width="300" height="300" hitPoint="-10,68 -45,47 -61,45 -79,43 -84,33 -116,7 -95,-26 -50,-38 -46,-46 -8,-57 21,-53 42,-45 55,-41 58,-24 67,-4 121,6 130,14 107,25 71,38 41,57 25,65" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 30002" x="600" y="0" width="300" height="300"/>
+  <SubTexture name="元件 30003" x="0" y="300" width="300" height="300"/>
+  <SubTexture name="元件 30004" x="300" y="300" width="300" height="300" hitPoint="-29,60 -58,46 -95,28 -114,8 -97,-22 -49,-29 -56,-51 -31,-49 -23,-44 -5,-60 12,-43 30,-43 61,-40 75,-27 64,-21 78,-14 91,-8 86,10 75,31 78,45 69,54 49,57 21,59 3,61" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 30005" x="600" y="300" width="300" height="300"/>
+  <SubTexture name="元件 30006" x="0" y="600" width="300" height="300" hitPoint="-12,73 -53,51 -94,32 -99,21 -108,5 -113,-33 -90,-40 -58,-44 -45,-48 -21,-50 21,-45 65,-39 88,-36 108,-16 82,13 61,35 47,51 33,60" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 30007" x="300" y="600" width="300" height="300"/>
+  <SubTexture name="元件 30008" x="600" y="600" width="300" height="300"/>
+  <SubTexture name="元件 30009" x="0" y="900" width="300" height="300" hitPoint="5,70 -39,59 -45,43 -63,39 -83,35 -105,17 -107,10 -79,-8 -56,-22 -45,-28 -36,-36 -20,-47 5,-53 19,-37 40,-38 55,-38 76,-26 90,-2 103,8 70,26 50,45 40,62 35,71" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 30010" x="300" y="900" width="300" height="300"/>
+  <SubTexture name="元件 30011" x="600" y="900" width="300" height="300"/>
+  <SubTexture name="元件 30012" x="0" y="1200" width="300" height="300" hitPoint=""/>
+  <SubTexture name="元件 30013" x="300" y="1200" width="300" height="300" hitPoint=""/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<TextureAtlas imagePath="penfa.png">
+  <SubTexture name="元件 10000" x="0" y="0" width="300" height="500"/>
+  <SubTexture name="元件 10001" x="300" y="0" width="300" height="500"/>
+  <SubTexture name="元件 10002" x="600" y="0" width="300" height="500" hitPoint="196,88 176,68 125,73 85,107 85,173 57,309 48,357 82,371 122,404 182,405 214,383 248,359 252,319 251,226 251,165 240,121 217,85" hitEffect="4" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10003" x="0" y="500" width="300" height="500"/>
+  <SubTexture name="元件 10004" x="300" y="500" width="300" height="500"/>
+  <SubTexture name="元件 10005" x="600" y="500" width="300" height="500"/>
+  <SubTexture name="元件 10006" x="0" y="1000" width="300" height="500"/>
+  <SubTexture name="元件 10007" x="0" y="1500" width="300" height="500"/>
+  <SubTexture name="元件 10008" x="300" y="1000" width="300" height="500" hitEffect="4" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 10009" x="300" y="1500" width="300" height="500"/>
+</TextureAtlas>

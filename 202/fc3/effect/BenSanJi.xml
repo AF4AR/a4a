@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="BenSanJi.png">
+  <SubTexture name="gif0" x="0" y="0" width="306" height="146"/>
+  <SubTexture name="gif1" x="306" y="0" width="306" height="146" hitPoint="27,85 68.5,31.5 98,16.5 150,14.5 207.5,15 247.5,43 280,93 157.5,130.5" hitEffect="3" hurtInterval="2" cardFrame="0"/>
+  <SubTexture name="gif2" x="612" y="0" width="306" height="146"/>
+  <SubTexture name="gif3" x="918" y="0" width="306" height="146"/>
+  <SubTexture name="gif4" x="1224" y="0" width="306" height="146"/>
+  <SubTexture name="gif5" x="1530" y="0" width="306" height="146"/>
+</TextureAtlas>

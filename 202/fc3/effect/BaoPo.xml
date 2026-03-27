@@ -1,0 +1,9 @@
+<TextureAtlas imagePath="BaoPo.png" px="-206" py="-147" class="">
+  <SubTexture name="元件 140000" x="0" y="0" width="420" height="380"/>
+  <SubTexture name="元件 140001" x="420" y="0" width="420" height="380" hitPoint="-207,60 -174,-37 -134,-92 -65,-107 -16,-128 96,-127 141,-115 159,-91 167,-39 184,8 194,72 196,115 224,146 165,197 -23,200 -142,194" hitEffect="0" hurtInterval="0" cardFrame="20"/>
+  <SubTexture name="元件 140002" x="0" y="380" width="420" height="380" hitPoint="" hitEffect="NaN" hurtInterval="0" cardFrame="20"/>
+  <SubTexture name="元件 140003" x="420" y="380" width="420" height="380" hitPoint="" hitEffect="0" hurtInterval="0" cardFrame=""/>
+  <SubTexture name="元件 140004" x="0" y="760" width="420" height="380" hitPoint=""/>
+  <SubTexture name="元件 140005" x="420" y="760" width="420" height="380"/>
+  <SubTexture name="元件 140006" x="420" y="760" width="420" height="380"/>
+</TextureAtlas>

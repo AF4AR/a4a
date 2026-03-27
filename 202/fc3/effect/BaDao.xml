@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="BaDao.png" px="-105" py="-72">
+  <SubTexture name="元件 150000" x="0" y="0" width="254" height="57" hitPoint="-93,-72 -92.5,-29 131.5,-26 132.5,-66" hitEffect="3" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 150001" x="254" y="0" width="254" height="57" hitPoint="" hitEffect="3" hurtInterval="0"/>
+  <SubTexture name="元件 150002" x="0" y="57" width="254" height="57"/>
+  <SubTexture name="元件 150003" x="254" y="57" width="254" height="57"/>
+  <SubTexture name="元件 150004" x="0" y="114" width="254" height="57"/>
+  <SubTexture name="元件 150005" x="0" y="114" width="254" height="57"/>
+</TextureAtlas>

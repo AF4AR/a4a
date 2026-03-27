@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="kuangzhanshi_nuqi.png">
+  <SubTexture name="gif0" x="0" y="0" width="352" height="469" hitPoint="118.5,437.5 61.5,287 165,34.5 297.5,272 284,421.5 241.5,442.5" hitEffect="4" hurtInterval="1" cardFrame="0"/>
+  <SubTexture name="gif2" x="0" y="938" width="352" height="469"/>
+  <SubTexture name="gif3" x="0" y="1407" width="352" height="469"/>
+  <SubTexture name="gif4" x="0" y="1876" width="352" height="469"/>
+  <SubTexture name="gif5" x="0" y="2345" width="352" height="469"/>
+  <SubTexture name="gif6" x="0" y="2814" width="352" height="469"/>
+</TextureAtlas>
