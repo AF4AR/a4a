@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<base href="/">
+<title>Oups ! Page introuvable 😅</title>
+<meta name="robots" content="noindex, follow">
+<meta name="viewport" content="user-scalable=0, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, height=device-height">
+<link rel="manifest" href="manifest.json?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon-v2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.min.css?17">
+<script src="js/all.min.js?2"></script>
+<style>
+.error404-wrap {
+    text-align: center;
+    padding: 5px 0 10px;
+}
+.error404-img {
+    max-width: 420px;
+    width: 90%;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin: 0 auto 15px;
+    display: block;
+}
+.error404-buttons {
+    margin-top: 10px;
+}
+.btn404-home {
+    display: inline-block;
+    background: #ff8a00;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.btn404-home:hover {
+    background: #ff9d2a;
+    transform: translateY(-1px);
+}
+.btn404-home,
+.btn404-home:hover,
+.btn404-home:visited,
+.btn404-home:active {
+    color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+  <a class="logo" href="/"><img src="images/logo3.png" alt="GamesLOL - Jeux gratuits" width="206" height="38"></a>
+  <div class="headwrap">
+    <div class="search">
+      <form action="search.php" method="get">
+        <input name="q" id="search" value="Recherche" type="search" maxlength="50" onBlur="if (this.value == '') {this.value = 'Recherche';}"  onfocus="if (this.value == 'Recherche') {this.value = '';}">
+        <button type="submit" class="icon-search"></button>
+      </form>
+    </div>
+    <button type="button" class="icon-search2"></button>
+    <div class="search2">
+	  <form action="search.php" method="get">
+	    <input name="q" id="search2" value="Recherche" type="search" maxlength="50" onBlur="if (this.value == '') {this.value = 'Recherche';}"  onfocus="if (this.value == 'Recherche') {this.value = '';}">
+        <span class="icon-close"></span>
+	  </form>
+	</div>
+  </div>
+  <a href="favorites.php" title="Mes favoris" class="icon-fav favHead"></a>
+  <a href="https://www.gameslol.net/" title="Français" class="flag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472 309.25">
+      <path d="M157.33 309.24H38.14C4 309.24 0 280.38 0 271.1v-233C0 30.58.8 0 38.14 0h119.2v309.24z" fill="#2F3F8F"></path>
+      <path d="M157.34,0H314.67V309.25H157.34Z" fill="#E6EDF3"></path><path d="M314.67 309.24V0h119.2C470.1 0 472 30.7 472 38.14v233c0 8.18-1.1 38.14-38.14 38.14z" fill="#ff4b55"></path>
+    </svg></a>
+  <a href="https://en.gameslol.net/" title="English" class="flag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 335.45">
+      <path d="M473.65 0H38.36A38.35 38.35 0 0 0 0 38.35V297.1a38.35 38.35 0 0 0 38.35 38.34h435.3A38.35 38.35 0 0 0 512 297.11V38.35A38.35 38.35 0 0 0 473.64 0z" fill="#2F3F8F"></path>
+      <path d="M511.47 32a38.35 38.35 0 0 0-37.81-32h-10L300.14 107.15V0h-88.28v107.15L48.32 0h-10A38.35 38.35 0 0 0 .53 32l139.78 91.58H0v88.27h140.3L.53 303.44a38.35 38.35 0 0 0 37.81 32h10L211.86 228.3v107.15h88.28V228.3l163.54 107.15h10a38.35 38.35 0 0 0 37.82-32l-139.8-91.6H512V123.6H371.7L511.47 32z" fill="#E6EDF3"></path>
+      <path d="M282.48 0h-53v141.24H0v53h229.52v141.2h53V194.2H512v-53H282.48zM24.78 333l186.6-121.14h-32.43L9.22 322a38.52 38.52 0 0 0 15.57 11zm321.6-121.12H314l180.68 117.3A38.55 38.55 0 0 0 507 316.09L346.4 211.86zM4.05 21.2l157.73 102.4h32.43L15.48 7.57A38.41 38.41 0 0 0 4.05 21.2zm328.52 102.4l170-110.38A38.49 38.49 0 0 0 486.9 2.35L300.14 123.6z" fill="#ff4b55"></path>
+	</svg></a>
+</div>
+
+<nav id="menuToggle">
+  <input type="checkbox">
+  <span></span><span></span><span></span>
+  <ul id="menu">
+    <li class="navhome">
+      <div class="navclose"></div>
+      <a href="favorites.php" style="color:#aaa; font-size:17px;margin-left: 15px;" class="icon-fav"></a>
+      <a href="https://www.gameslol.net/" style="height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472 309.25">
+      <path d="M157.33 309.24H38.14C4 309.24 0 280.38 0 271.1v-233C0 30.58.8 0 38.14 0h119.2v309.24z" fill="#2F3F8F"></path>
+      <path d="M157.34,0H314.67V309.25H157.34Z" fill="#E6EDF3"></path><path d="M314.67 309.24V0h119.2C470.1 0 472 30.7 472 38.14v233c0 8.18-1.1 38.14-38.14 38.14z" fill="#ff4b55"></path>
+    </svg></a>
+      <a href="https://en.gameslol.net/" style="height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 335.45">
+      <path d="M473.65 0H38.36A38.35 38.35 0 0 0 0 38.35V297.1a38.35 38.35 0 0 0 38.35 38.34h435.3A38.35 38.35 0 0 0 512 297.11V38.35A38.35 38.35 0 0 0 473.64 0z" fill="#2F3F8F"></path>
+      <path d="M511.47 32a38.35 38.35 0 0 0-37.81-32h-10L300.14 107.15V0h-88.28v107.15L48.32 0h-10A38.35 38.35 0 0 0 .53 32l139.78 91.58H0v88.27h140.3L.53 303.44a38.35 38.35 0 0 0 37.81 32h10L211.86 228.3v107.15h88.28V228.3l163.54 107.15h10a38.35 38.35 0 0 0 37.82-32l-139.8-91.6H512V123.6H371.7L511.47 32z" fill="#E6EDF3"></path>
+      <path d="M282.48 0h-53v141.24H0v53h229.52v141.2h53V194.2H512v-53H282.48zM24.78 333l186.6-121.14h-32.43L9.22 322a38.52 38.52 0 0 0 15.57 11zm321.6-121.12H314l180.68 117.3A38.55 38.55 0 0 0 507 316.09L346.4 211.86zM4.05 21.2l157.73 102.4h32.43L15.48 7.57A38.41 38.41 0 0 0 4.05 21.2zm328.52 102.4l170-110.38A38.49 38.49 0 0 0 486.9 2.35L300.14 123.6z" fill="#ff4b55"></path>
+	</svg></a>
+    </li>
+        <li class="navover"><a href="1-jeux-d-action.html" class="border0"><span class="navicon categ-1" aria-hidden="true"></span><div>Jeux d'action</div></a></li><li class="navover"><a href="2-jeux-d-aventure.html" class="border0"><span class="navicon categ-2" aria-hidden="true"></span><div>Jeux d'aventure</div></a></li><li class="navover"><a href="3-jeux-pour-enfants.html" class="border0"><span class="navicon categ-3" aria-hidden="true"></span><div>Jeux pour enfants</div></a></li><li class="navover"><a href="4-jeux-de-fille.html" class="border0"><span class="navicon categ-4" aria-hidden="true"></span><div>Jeux de fille</div></a></li><li class="navover"><a href="5-jeux-de-moto.html" class="border0"><span class="navicon categ-5" aria-hidden="true"></span><div>Jeux de moto</div></a></li><li class="navover"><a href="6-jeux-de-reflexion.html" class="border0"><span class="navicon categ-6" aria-hidden="true"></span><div>Jeux de réflexion</div></a></li><li class="navover"><a href="7-jeux-de-sport.html" class="border0"><span class="navicon categ-7" aria-hidden="true"></span><div>Jeux de sport</div></a></li><li class="navover"><a href="8-jeux-de-voiture.html" class="border0"><span class="navicon categ-8" aria-hidden="true"></span><div>Jeux de voiture</div></a></li>     <li class="navover"><a href="jeux-arcade.php" class="border1"><span class="navicon tag-21" aria-hidden="true"></span><div>Arcade</div></a></li> <li class="navover"><a href="jeux-bubble.php" class="border1"><span class="navicon tag-1" aria-hidden="true"></span><div>Bubble</div></a></li> <li class="navover"><a href="jeux-cartes.php" class="border1"><span class="navicon tag-2" aria-hidden="true"></span><div>Cartes</div></a></li> <li class="navover"><a href="jeux-combat.php" class="border1"><span class="navicon tag-3" aria-hidden="true"></span><div>Combat</div></a></li> <li class="navover"><a href="jeux-cuisine.php" class="border1"><span class="navicon tag-4" aria-hidden="true"></span><div>Cuisine</div></a></li> <li class="navover"><a href="jeux-gestion-de-temps.php" class="border1"><span class="navicon tag-5" aria-hidden="true"></span><div>Gestion de temps</div></a></li> <li class="navover"><a href="jeux-guerre.php" class="border1"><span class="navicon tag-6" aria-hidden="true"></span><div>Guerre</div></a></li> <li class="navover"><a href="jeux-habillage.php" class="border1"><span class="navicon tag-7" aria-hidden="true"></span><div>Habillage</div></a></li> <li class="navover"><a href="jeux-idle.php" class="border1"><span class="navicon tag-20" aria-hidden="true"></span><div>Idle</div></a></li> <li class="navover"><a href="jeux-mahjong.php" class="border1"><span class="navicon tag-8" aria-hidden="true"></span><div>Mahjong</div></a></li> <li class="navover"><a href="jeux-mots.php" class="border1"><span class="navicon tag-10" aria-hidden="true"></span><div>Mots</div></a></li> <li class="navover"><a href="jeux-musique.php" class="border1"><span class="navicon tag-23" aria-hidden="true"></span><div>Musique</div></a></li> <li class="navover"><a href="jeux-objets-caches.php" class="border1"><span class="navicon tag-11" aria-hidden="true"></span><div>Objets cachés</div></a></li> <li class="navover"><a href="jeux-parking.php" class="border1"><span class="navicon tag-12" aria-hidden="true"></span><div>Parking</div></a></li> <li class="navover"><a href="jeux-plateau.php" class="border1"><span class="navicon tag-24" aria-hidden="true"></span><div>Plateau</div></a></li> <li class="navover"><a href="jeux-plateforme.php" class="border1"><span class="navicon tag-22" aria-hidden="true"></span><div>Plateforme</div></a></li> <li class="navover"><a href="jeux-quizz.php" class="border1"><span class="navicon tag-13" aria-hidden="true"></span><div>Quizz</div></a></li> <li class="navover"><a href="jeux-retro.php" class="border1"><span class="navicon tag-19" aria-hidden="true"></span><div>Rétro</div></a></li> <li class="navover"><a href="jeux-series-de-3.php" class="border1"><span class="navicon tag-14" aria-hidden="true"></span><div>Séries de 3</div></a></li> <li class="navover"><a href="jeux-simulation.php" class="border1"><span class="navicon tag-18" aria-hidden="true"></span><div>Simulation</div></a></li> <li class="navover"><a href="jeux-strategie.php" class="border1"><span class="navicon tag-15" aria-hidden="true"></span><div>Stratégie</div></a></li> <li class="navover"><a href="jeux-tir.php" class="border1"><span class="navicon tag-16" aria-hidden="true"></span><div>Tir</div></a></li> <li class="navover"><a href="jeux-zuma.php" class="border1"><span class="navicon tag-17" aria-hidden="true"></span><div>Zuma</div></a></li>    <li class="navover"><a href="tags.php" class="border2"><span class="navicon navhash">#</span><div>Tous les tags >></div></a></li>
+    <li style="height: 50px"></li>
+  </ul>
+</nav><div id="global">     
+  <div class="Lside">
+    <div class="content">
+      <div class="cons_head"><h1 class="entete">Oups ! Page introuvable 😅</h1></div>
+      <div class="cons_content">
+        <div class="plug_single">
+          <div class="error404-wrap">
+            <img src="/images/404.webp" alt="404" class="error404-img">
+            La page que vous recherchez n’existe pas ou a peut-être été déplacée.<br>
+Mais pas de panique, des milliers de jeux gratuits vous attendent sur GamesLOL !            <div class="error404-buttons"><a href="/" class="btn404-home">🎮 Retour à l'accueil</a></div>
+          </div>       
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="Rside">
+    <div class="colonne_droite">
+      <div class="cons_head entete">Top du jour</div>
+      <div class="moreGames">
+        <a href="/?sort=4"><img src="images/nav_plus.png" width="38" height="34" alt="+"></a>
+      </div>
+      <div class="cons_content">
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="bleach-vs-naruto-3-3-1397.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1397.webp?v=2" type="image/webp"><img alt="Bleach Vs Naruto 3.3" src="thumbs/jeu-1397.jpg?v=2" width="160" height="120"></picture><span class="game_title">Bleach Vs Naruto 3.3</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Bleach Vs Naruto 3.3</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>110398 votes</span></div>
+		    <span>Joué 19 151 950 fois</span>
+			<div class="popDesc">Bleach Vs Naruto est enfin de retour dans une version 3.3 apportant son lot de nouveautés : 3 ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="bleach-vs-naruto-3-5-1824.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1824.webp?v=2" type="image/webp"><img alt="Bleach Vs Naruto 3.5" src="thumbs/jeu-1824.jpg?v=2" width="160" height="120"></picture><span class="game_title">Bleach Vs Naruto 3.5</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Bleach Vs Naruto 3.5</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>2956 votes</span></div>
+		    <span>Joué 707 283 fois</span>
+			<div class="popDesc">Bleach Vs Naruto, la star des jeux de combats crossover en ligne, est de retour dans une version ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="dame-de-pique-712.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-712.webp?v=2" type="image/webp"><img alt="Dame de Pique" src="thumbs/jeu-712.jpg?v=2" width="160" height="120"></picture><span class="game_title">Dame de Pique</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Dame de Pique</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>57103 votes</span></div>
+		    <span>Joué 29 125 034 fois</span>
+			<div class="popDesc">Jouez en ligne au célèbre jeu de cartes "La Dame de Pique" face à 3 joueurs contrôlés par ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="bejeweled-3-68.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-68.webp?v=2" type="image/webp"><img alt="Bejeweled 3" src="thumbs/jeu-68.jpg?v=2" width="160" height="120"></picture><span class="game_title">Bejeweled 3</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Bejeweled 3</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>20984 votes</span></div>
+		    <span>Joué 14 829 541 fois</span>
+			<div class="popDesc">Bejeweled 3 est le dernier opus de la série créée par Popcap et qui est à l'origine de ce style ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="monopoly-1122.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1122.webp?v=2" type="image/webp"><img alt="Monopoly" src="thumbs/jeu-1122.jpg?v=2" width="160" height="120"></picture><span class="game_title">Monopoly</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Monopoly</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>26167 votes</span></div>
+		    <span>Joué 10 255 258 fois</span>
+			<div class="popDesc">On ne présente plus le Monopoly, sans doute le jeu de société le plus connu au monde, dont le ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="text-twist-francais-644.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-644.webp?v=2" type="image/webp"><img alt="Text Twist français" src="thumbs/jeu-644.jpg?v=2" width="160" height="120"></picture><span class="game_title">Text Twist français</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Text Twist français</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>7233 votes</span></div>
+		    <span>Joué 15 507 759 fois</span>
+			<div class="popDesc">Retrouvez un maximum de mots français, à partir d'un tirage aléatoire de 6 lettres, et trouvez ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="bleach-vs-naruto-2-6-1255.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1255.webp?v=2" type="image/webp"><img alt="Bleach Vs Naruto 2.6" src="thumbs/jeu-1255.jpg?v=2" width="160" height="120"></picture><span class="game_title">Bleach Vs Naruto 2.6</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Bleach Vs Naruto 2.6</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>120724 votes</span></div>
+		    <span>Joué 22 052 331 fois</span>
+			<div class="popDesc">Cet excellent jeu de combat est de retour avec l'ajout de 2 nouveaux personnages principaux ainsi ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="fairy-tail-vs-one-piece-2-0-1358.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1358.webp?v=2" type="image/webp"><img alt="Fairy Tail Vs One Piece 2.0" src="thumbs/jeu-1358.jpg?v=2" width="160" height="120"></picture><span class="game_title">Fairy Tail Vs One Piece 2.0</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Fairy Tail Vs One Piece 2.0</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>41981 votes</span></div>
+		    <span>Joué 5 546 898 fois</span>
+			<div class="popDesc">Toute la bande de Luffy et de Natsu sont de retour pour une mise à jour majeure du fameux jeu de ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="plantes-contre-zombies-69.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-69.webp?v=2" type="image/webp"><img alt="Plantes contre Zombies" src="thumbs/jeu-69.jpg?v=2" width="160" height="120"></picture><span class="game_title">Plantes contre Zombies</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Plantes contre Zombies</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>17326 votes</span></div>
+		    <span>Joué 2 074 533 fois</span>
+			<div class="popDesc">Plantes contre Zombies ("Plants vs Zombies" en anglais) est un jeu de stratégie temps réel de ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="bloons-td-5-262.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-262.webp?v=2" type="image/webp"><img alt="Bloons TD 5" src="thumbs/jeu-262.jpg?v=2" width="160" height="120"></picture><span class="game_title">Bloons TD 5</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Bloons TD 5</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>5291 votes</span></div>
+		    <span>Joué 1 197 563 fois</span>
+			<div class="popDesc">Bloons Tower Defense 5 est le dernier opus d'un des plus célèbres jeu du genre, dans lequel vous ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="five-nights-at-freddy-s-1148.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1148.webp?v=2" type="image/webp"><img alt="Five Nights at Freddy's" src="thumbs/jeu-1148.jpg?v=2" width="160" height="120"></picture><span class="game_title">Five Nights at Freddy's</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Five Nights at Freddy's</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>202906 votes</span></div>
+		    <span>Joué 31 293 180 fois</span>
+			<div class="popDesc">Freddy's Fazbear Pizza est une pizzeria que les enfants adorent pour son spectacle de marionnettes, ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="anime-battle-4-1461.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1461.webp?v=2" type="image/webp"><img alt="Anime Battle 4" src="thumbs/jeu-1461.jpg?v=2" width="160" height="120"></picture><span class="game_title">Anime Battle 4</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Anime Battle 4</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>7777 votes</span></div>
+		    <span>Joué 1 427 145 fois</span>
+			<div class="popDesc">Après la disparition de Flash, Anime Battle nous revient dans une nouvelle version, réécrite en ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="backgammon-749.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-749.webp?v=2" type="image/webp"><img alt="Backgammon" src="thumbs/jeu-749.jpg?v=2" width="160" height="120"></picture><span class="game_title">Backgammon</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Backgammon</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-7"><span>4730 votes</span></div>
+		    <span>Joué 3 174 063 fois</span>
+			<div class="popDesc">Jeu de backgammon en ligne, à la réalisation soignée, proposant d'affronter l'ordinateur sur 2 ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="doki-doki-literature-club-1828.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1828.webp?v=2" type="image/webp"><img alt="Doki Doki Literature Club!" src="thumbs/jeu-1828.jpg?v=2" width="160" height="120"></picture><span class="game_title">Doki Doki Literature Club!</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Doki Doki Literature Club!</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>971 votes</span></div>
+		    <span>Joué 107 547 fois</span>
+			<div class="popDesc">Doki Doki Literature Club! (DDLC pour les intimes) est un roman visuel qui débute comme une ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="zuma-s-revenge-67.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-67.webp?v=2" type="image/webp"><img alt="Zuma's Revenge" src="thumbs/jeu-67.jpg?v=2" width="160" height="120"></picture><span class="game_title">Zuma's Revenge</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Zuma's Revenge</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>12810 votes</span></div>
+		    <span>Joué 6 137 224 fois</span>
+			<div class="popDesc">Zuma revanche est la suite du célébrissime jeu en ligne du même nom, édité par Popcap, qui a ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="adventure-capitalist-1086.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1086.webp?v=2" type="image/webp"><img alt="AdVenture Capitalist" src="thumbs/jeu-1086.jpg?v=2" width="160" height="120"></picture><span class="game_title">AdVenture Capitalist</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">AdVenture Capitalist</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-9"><span>7334 votes</span></div>
+		    <span>Joué 865 418 fois</span>
+			<div class="popDesc">Avez-vous l'âme d'un businessman et la volonté de faire fortune en inondant le monde de produits ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="five-nights-at-freddy-s-4-1177.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1177.webp?v=2" type="image/webp"><img alt="Five Nights at Freddy's 4" src="thumbs/jeu-1177.jpg?v=2" width="160" height="120"></picture><span class="game_title">Five Nights at Freddy's 4</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Five Nights at Freddy's 4</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-9"><span>64815 votes</span></div>
+		    <span>Joué 10 690 651 fois</span>
+			<div class="popDesc">Le chapitre final de FNAF change radicalement de lieu et de système de jeu tout en progressant ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="scrabble-francais-1871.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-1871.webp?v=2" type="image/webp"><img alt="Scrabble français" src="thumbs/jeu-1871.jpg?v=2" width="160" height="120"></picture><span class="game_title">Scrabble français</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Scrabble français</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-7"><span>160 votes</span></div>
+		    <span>Joué 40 508 fois</span>
+			<div class="popDesc">Jouez en ligne contre l'ordinateur au Scrabble en français, sans inscription ni ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="texttwist-2-francais-337.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-337.webp?v=2" type="image/webp"><img alt="TextTwist 2 français" src="thumbs/jeu-337.jpg?v=2" width="160" height="120"></picture><span class="game_title">TextTwist 2 français</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">TextTwist 2 français</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>980 votes</span></div>
+		    <span>Joué 1 601 960 fois</span>
+			<div class="popDesc">Jeu de mots très addictif dans lequel vous devrez composer un maximum de mots français, compris ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="plug_image">
+	  <div class="thumbwrap"><a href="bubble-town-47.html" class="trigger"><picture><source srcset="thumbs/webp/jeu-47.webp?v=2" type="image/webp"><img alt="Bubble Town" src="thumbs/jeu-47.jpg?v=2" width="160" height="120"></picture><span class="game_title">Bubble Town</span></a></div>
+	  <div class="popup">
+	    <div class="popwrap">
+	      <div class="popTitle">Bubble Town</div>
+		  <div class="popContent">
+		    <div class="ratingstars stars-8"><span>4845 votes</span></div>
+		    <span>Joué 6 240 083 fois</span>
+			<div class="popDesc">Bubble Town est une nouvelle version en ligne du célèbre "Puzzle Bubble", très bien réalisée ...</div>
+		  </div>
+		</div>
+	  </div>
+	</div></div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <span class="textfoot"><img src="images/logo3.png" alt="GamesLOL" width="114" height="21"></span>
+  <a href="privacy.php">Informations légales</a><a href="contact.php">Contact</a>
+</footer></body>
+</html>
