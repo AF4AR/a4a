@@ -1,0 +1,7 @@
+<TextureAtlas imagePath="YiDaoZhan.png" px="-127" py="-270" class="">
+  <SubTexture name="元件 10000" x="0" y="0" width="338" height="382" hitPoint="-134,-170 -16,-174 137,-148 225,12 178,81 55,95 -84,64 -56,-28" hitEffect="3" hurtInterval="10" cardFrame="10"/>
+  <SubTexture name="元件 10001" x="338" y="0" width="338" height="382"/>
+  <SubTexture name="元件 10002" x="676" y="0" width="338" height="382" hitPoint="" hitEffect="1" hurtInterval="0"/>
+  <SubTexture name="元件 10003" x="0" y="382" width="338" height="382"/>
+  <SubTexture name="元件 10004" x="338" y="382" width="338" height="382"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<TextureAtlas imagePath="shangqie.png" px="-182" py="-240" class="">
+  <SubTexture name="gif0" x="0" y="0" width="346" height="300" hitPoint="-65,0 -81,-16 -70,-41 -39,-66 8,-107 67,-129 107,-144 101,-103 79,-24 62,8 -2,31" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif1" x="346" y="0" width="346" height="300" hitPoint="" hitEffect="3" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif2" x="692" y="0" width="346" height="300" hitPoint="-64,-1 -10,-53 2,-84 -21,-101 -44,-84 -63,-93 -68,-120 -49,-132 -19,-127 20,-115 42,-94 79,-128 120,-160 102,-102 67,-52 45,-5 9,37" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif3" x="1038" y="0" width="346" height="300"/>
+  <SubTexture name="gif4" x="1384" y="0" width="346" height="300"/>
+</TextureAtlas>

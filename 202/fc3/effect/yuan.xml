@@ -1,0 +1,24 @@
+<TextureAtlas imagePath="yuan.png" px="-3" py="-10" class="">
+  <SubTexture name="元件 10000" x="0" y="0" width="200" height="200" hitPoint="10,103 13,67 14,41 29,24 55,7 94,1 115,0 132,3 152,8 166,11 172,24 181,31 189,45 194,62 197,84 200,111 196,141 193,159 181,172 164,186 136,191 109,194 79,193 53,182 24,171" frameX="0" frameY="0" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10001" x="0" y="0" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10002" x="200" y="0" width="200" height="200" hitPoint="13,93 11,53 27,29 53,6 83,3 117,3 147,5 166,11 186,29 194,59 194,91 193,128 193,151 173,180 154,188 130,194 99,190 75,187 40,180 37,180 25,167 24,165 15,136" frameX="0" frameY="0" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10003" x="200" y="0" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10004" x="400" y="0" width="200" height="200" hitPoint="11,93 25,20 48,9 81,1 124,10 157,11 175,22 181,28 189,52 195,71 196,95 198,130 190,158 175,185 145,203 109,202 63,187 31,176 4,150" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10005" x="400" y="0" width="200" height="200" hitPoint="" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10006" x="600" y="0" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10007" x="600" y="0" width="200" height="200" hitPoint="8,99 10,58 27,36 36,12 58,9 78,6 98,6 119,6 136,7 151,10 168,19 173,21 182,42 187,53 193,64 194,79 195,98 195,117 195,136 187,155 178,172 158,187 124,190 91,191 48,185 30,168 17,154" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10008" x="800" y="0" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10009" x="800" y="0" width="200" height="200" hitPoint="9,87 -1,59 22,33 43,3 71,0 97,0 129,3 176,7 187,24 193,52 196,72 196,95 192,126 192,151 178,174 162,186 134,188 103,189 71,189 30,183 21,164 10,138" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10010" x="0" y="200" width="200" height="200" hitPoint="" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10011" x="0" y="200" width="200" height="200" hitEffect="0" hurtInterval="0" cardFrame="10" hitPoint="11,104 8,59 20,32 51,3 102,2 151,7 172,11 182,34 192,52 196,91 198,122 188,146 177,164 162,185 137,189 106,190 77,189 54,182 35,161 17,149"/>
+  <SubTexture name="元件 10012" x="200" y="200" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10013" x="200" y="200" width="200" height="200" hitPoint="11,97 15,68 30,30 48,17 81,8 134,9 157,14 174,27 178,47 193,69 196,90 199,124 196,148 179,169 152,191 117,194 79,193 43,178 17,146" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10014" x="400" y="200" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10015" x="400" y="200" width="200" height="200" hitPoint="8,101 11,66 18,35 37,20 76,9 121,10 150,12 175,25 191,48 196,81 197,123 187,157 173,180 148,192 106,192 59,193 12,160" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10016" x="600" y="200" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10017" x="600" y="200" width="200" height="200" hitPoint="11,103 10,77 29,34 37,19 61,14 81,12 129,6 151,12 164,16 177,25 186,53 195,81 195,104 195,116 194,130 186,156 169,177 148,184 114,187 81,189 54,180 30,162 21,144" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10018" x="800" y="200" width="200" height="200" hitPoint=""/>
+  <SubTexture name="元件 10019" x="800" y="200" width="200" height="200" hitPoint="15,95 20,52 33,25 55,9 111,9 169,11 174,36 182,53 188,78 190,106 186,138 176,167 159,185 122,192 82,191 51,180 37,169 28,160 17,138" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10020" x="0" y="400" width="200" height="200" hitPoint="" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+  <SubTexture name="元件 10021" x="0" y="400" width="200" height="200" hitPoint="20,101 21,55 45,31 64,18 100,8 119,8 142,11 159,21 173,39 188,66 196,113 180,144 164,168 136,181 98,183 56,177 39,165 24,137" hitEffect="0" hurtInterval="0" cardFrame="10"/>
+</TextureAtlas>

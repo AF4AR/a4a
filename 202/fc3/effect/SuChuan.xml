@@ -1,0 +1,6 @@
+<TextureAtlas imagePath="SuChuan.png" px="-248" py="-94" class="">
+  <SubTexture name="元件 130000" x="0" y="0" width="509" height="190" hitPoint="242,8 216,-18 158,-64 62,-73 -26,-90 36,-37 81,-21 -143,-15 -182,-6 80,33 -35,82 126,68 216,28" hitEffect="2" hurtInterval="0"/>
+  <SubTexture name="元件 130001" x="0" y="190" width="509" height="190"/>
+  <SubTexture name="元件 130002" x="0" y="380" width="509" height="190"/>
+  <SubTexture name="元件 130003" x="0" y="380" width="509" height="190"/>
+</TextureAtlas>

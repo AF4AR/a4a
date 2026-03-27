@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="smsy.png">
+  <SubTexture name="元件 10000" x="0" y="0" width="464" height="581" hitPoint="211,551 94,524 135,480 191,264 215,171 333,171 340,228 272,460 284,523" hitEffect="0" hurtInterval="0" cardFrame="4"/>
+  <SubTexture name="元件 10001" x="464" y="0" width="464" height="581" hitPoint="167,96 185,7 227,-24 333,-16 423,-18 440,-11 453,-3 442,83 432,160 416,271 393,321 358,397 331,453 307,544 259,571 177,573 150,563 81,547 49,539" hitEffect="4" hurtInterval="2" cardFrame="0"/>
+  <SubTexture name="元件 10002" x="0" y="581" width="464" height="581"/>
+  <SubTexture name="元件 10003" x="464" y="581" width="464" height="581"/>
+  <SubTexture name="元件 10004" x="0" y="1162" width="464" height="581"/>
+  <SubTexture name="元件 10005" x="464" y="1162" width="464" height="581"/>
+</TextureAtlas>

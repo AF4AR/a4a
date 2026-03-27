@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="suolongj3.png" px="15" py="4" class="">
+  <SubTexture name="gif0" x="0" y="0" width="520" height="425" hitPoint="-11,265 107,37 282,-2 492,75 544,255 436,373 190,453 36,352" hitEffect="4" hurtInterval="10" cardFrame="0" frameX="-24" frameY="-8"/>
+  <SubTexture name="gif1" x="520" y="0" width="520" height="425" frameX="11" frameY="21" hitPoint=""/>
+  <SubTexture name="gif2" x="1040" y="0" width="520" height="425" hitPoint=""/>
+  <SubTexture name="gif3" x="1560" y="0" width="520" height="425" hitPoint=""/>
+  <SubTexture name="gif4" x="2080" y="0" width="520" height="425" frameX="-15" frameY="-1" hitPoint=""/>
+  <SubTexture name="gif5" x="2600" y="0" width="520" height="425"/>
+</TextureAtlas>

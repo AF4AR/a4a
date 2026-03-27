@@ -1,0 +1,8 @@
+<TextureAtlas imagePath="qichang.png">
+  <SubTexture name="gif0" x="0" y="0" width="282" height="105"/>
+  <SubTexture name="gif1" x="0" y="105" width="282" height="105"/>
+  <SubTexture name="gif2" x="0" y="210" width="282" height="105"/>
+  <SubTexture name="gif3" x="0" y="315" width="282" height="105"/>
+  <SubTexture name="gif4" x="0" y="420" width="282" height="105"/>
+  <SubTexture name="gif5" x="0" y="525" width="282" height="105"/>
+</TextureAtlas>

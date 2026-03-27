@@ -1,0 +1,4 @@
+<TextureAtlas imagePath="shan.png">
+  <SubTexture name="gif0" x="0" y="0" width="335" height="60" hitPoint="-9,63 33,14 73,-15 165,-18 260,-20 300,-15 347,-2 343,16 309,41 253,56 177,62 100,68" hitEffect="1" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="gif1" x="0" y="60" width="335" height="60"/>
+</TextureAtlas>

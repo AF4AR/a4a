@@ -1,0 +1,19 @@
+<TextureAtlas imagePath="suolongsu.png">
+  <SubTexture name="gif0" x="0" y="0" width="476" height="450" hitPoint="143,93 327,88 321,280 131,264" hitEffect="2" hurtInterval="10" cardFrame="4"/>
+  <SubTexture name="gif1" x="476" y="0" width="476" height="450"/>
+  <SubTexture name="gif2" x="952" y="0" width="476" height="450"/>
+  <SubTexture name="gif3" x="1428" y="0" width="476" height="450" hitPoint="85,222 162,166 251,143 333,139 398,154 413,175 391,215 323,235 259,244 202,262 104,249 81,235" hitEffect="9" hurtInterval="2" cardFrame="0"/>
+  <SubTexture name="gif4" x="1904" y="0" width="476" height="450" hitPoint=""/>
+  <SubTexture name="gif5" x="2380" y="0" width="476" height="450"/>
+  <SubTexture name="gif6" x="2856" y="0" width="476" height="450" hitPoint="" hitEffect="6" hurtInterval="2" cardFrame="2"/>
+  <SubTexture name="gif7" x="3332" y="0" width="476" height="450"/>
+  <SubTexture name="gif8" x="0" y="450" width="476" height="450"/>
+  <SubTexture name="gif9" x="0" y="900" width="476" height="450"/>
+  <SubTexture name="gif10" x="0" y="1350" width="476" height="450"/>
+  <SubTexture name="gif11" x="0" y="1800" width="476" height="450"/>
+  <SubTexture name="gif12" x="0" y="2250" width="476" height="450"/>
+  <SubTexture name="gif13" x="0" y="2700" width="476" height="450"/>
+  <SubTexture name="gif14" x="0" y="3150" width="476" height="450"/>
+  <SubTexture name="gif15" x="0" y="3600" width="476" height="450"/>
+  <SubTexture name="gif16" x="476" y="450" width="476" height="450"/>
+</TextureAtlas>

@@ -1,0 +1,9 @@
+<TextureAtlas imagePath="XieZhan.png" px="-82" py="-52" fuck="2">
+  <SubTexture name="元件 90000" x="0" y="0" width="318" height="106"/>
+  <SubTexture name="元件 90001" x="318" y="0" width="318" height="106"/>
+  <SubTexture name="元件 90002" x="636" y="0" width="318" height="106" hitPoint="-8,-18.5 47.5,-39 156,-29 196,-5.5 206,24.5 173.5,51.5 101.5,53" hitEffect="2" hurtInterval="0" cardFrame="0"/>
+  <SubTexture name="元件 90003" x="0" y="106" width="318" height="106"/>
+  <SubTexture name="元件 90004" x="318" y="106" width="318" height="106"/>
+  <SubTexture name="元件 90005" x="636" y="106" width="318" height="106"/>
+  <SubTexture name="元件 90006" x="636" y="106" width="318" height="106"/>
+</TextureAtlas>

@@ -1,0 +1,10 @@
+<TextureAtlas imagePath="xxxuan.png">
+  <SubTexture name="gif0" x="0" y="0" width="277" height="154" hitPoint="137,156 91,140 10,68 54,17 187,7 252,28 267,60 214,104 215,117"/>
+  <SubTexture name="gif1" x="0" y="154" width="277" height="154" hitPoint="107,146 4,61 91,9 221,26 253,33 264,56 236,97 223,124 220,134 179,144"/>
+  <SubTexture name="gif2" x="0" y="308" width="277" height="154" hitPoint="126,153 4,73 38,21 130,5 218,9 264,45 274,75 218,124 213,138"/>
+  <SubTexture name="gif3" x="0" y="462" width="277" height="154" hitPoint="106,143 15,79 38,14 229,-1 267,45 249,78 208,129"/>
+  <SubTexture name="gif4" x="0" y="616" width="277" height="154" hitPoint="105,148 5,100 25,23 206,10 268,39 231,104 192,129 168,141"/>
+  <SubTexture name="gif5" x="0" y="770" width="277" height="154" hitPoint="104,148 12,81 88,3 247,25 268,60 232,105 197,133"/>
+  <SubTexture name="gif6" x="0" y="924" width="277" height="154" hitPoint="106,145 5,51 157,17 267,28 261,86 171,144"/>
+  <SubTexture name="gif7" x="0" y="1078" width="277" height="154" hitPoint="115,143 12,67 87,5 200,12 262,31 267,59 210,125 175,145"/>
+</TextureAtlas>

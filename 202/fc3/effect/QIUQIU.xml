@@ -1,0 +1,23 @@
+<TextureAtlas imagePath="QIUQIU.png">
+  <SubTexture name="gif0" x="0" y="0" width="325" height="277" hitPoint="-6,276 260,278 313,114 146,-10 11,82" hitEffect="10" hurtInterval="3" cardFrame="0"/>
+  <SubTexture name="gif1" x="0" y="277" width="325" height="277"/>
+  <SubTexture name="gif2" x="0" y="554" width="325" height="277"/>
+  <SubTexture name="gif3" x="0" y="831" width="325" height="277"/>
+  <SubTexture name="gif4" x="0" y="1108" width="325" height="277"/>
+  <SubTexture name="gif5" x="0" y="1385" width="325" height="277"/>
+  <SubTexture name="gif6" x="0" y="1662" width="325" height="277"/>
+  <SubTexture name="gif7" x="0" y="1939" width="325" height="277"/>
+  <SubTexture name="gif8" x="0" y="2216" width="325" height="277"/>
+  <SubTexture name="gif9" x="0" y="2493" width="325" height="277"/>
+  <SubTexture name="gif10" x="0" y="2770" width="325" height="277"/>
+  <SubTexture name="gif11" x="0" y="3047" width="325" height="277" hitPoint="-3,271 293,278 307,131 184,2 35,71" hitEffect="9" hurtInterval="3" cardFrame="0"/>
+  <SubTexture name="gif12" x="0" y="3324" width="325" height="277"/>
+  <SubTexture name="gif13" x="0" y="3601" width="325" height="277"/>
+  <SubTexture name="gif14" x="325" y="0" width="325" height="277"/>
+  <SubTexture name="gif15" x="325" y="277" width="325" height="277" hitPoint=""/>
+  <SubTexture name="gif16" x="325" y="554" width="325" height="277"/>
+  <SubTexture name="gif17" x="325" y="831" width="325" height="277"/>
+  <SubTexture name="gif18" x="325" y="1108" width="325" height="277"/>
+  <SubTexture name="gif19" x="325" y="1385" width="325" height="277"/>
+  <SubTexture name="gif20" x="325" y="1662" width="325" height="277"/>
+</TextureAtlas>
