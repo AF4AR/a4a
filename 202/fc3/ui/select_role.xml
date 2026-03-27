@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2f387cc2f57d2a29becffcaab924df21:1/1$ -->
+<TextureAtlas imagePath="select_role.png">
+    <SubTexture name="1p2p" x="1470" y="775" width="337" height="88"/>
+    <SubTexture name="1pframe" x="1960" y="635" width="62" height="62"/>
+    <SubTexture name="1phigh" x="638" y="610" width="634" height="156" frameX="-1" frameY="0" frameWidth="636" frameHeight="156"/>
+    <SubTexture name="1pselected" x="1856" y="332" width="78" height="154"/>
+    <SubTexture name="1ptips" x="486" y="768" width="482" height="28" frameX="-53" frameY="0" frameWidth="578" frameHeight="42"/>
+    <SubTexture name="2pframe" x="1960" y="571" width="62" height="62"/>
+    <SubTexture name="2phigh" x="2" y="610" width="634" height="156" frameX="-1" frameY="0" frameWidth="636" frameHeight="156"/>
+    <SubTexture name="2pselected" x="1856" y="176" width="78" height="154"/>
+    <SubTexture name="2ptips" x="2" y="768" width="482" height="28" frameX="-53" frameY="0" frameWidth="578" frameHeight="42"/>
+    <SubTexture name="allhurt" x="359" y="928" width="115" height="64"/>
+    <SubTexture name="attr_frame" x="1155" y="871" width="202" height="22" frameX="-1" frameY="-1" frameWidth="204" frameHeight="24"/>
+    <SubTexture name="attr_line" x="1781" y="936" width="193" height="12"/>
+    <SubTexture name="attrframe" x="1538" y="2" width="316" height="599"/>
+    <SubTexture name="behurt" x="242" y="868" width="115" height="64"/>
+    <SubTexture name="beidong" x="1538" y="603" width="283" height="170"/>
+    <SubTexture name="bg" x="2" y="2" width="1534" height="606" frameX="-9" frameY="0" frameWidth="1552" frameHeight="606"/>
+    <SubTexture name="common_btn" x="1856" y="571" width="72" height="30" frameX="-1" frameY="-1" frameWidth="74" frameHeight="32"/>
+    <SubTexture name="continue" x="726" y="884" width="142" height="68"/>
+    <SubTexture name="exit" x="424" y="862" width="178" height="64"/>
+    <SubTexture name="fight_frame" x="1781" y="950" width="180" height="36"/>
+    <SubTexture name="frame" x="1936" y="335" width="70" height="70" frameX="-2" frameY="-2" frameWidth="74" frameHeight="74"/>
+    <SubTexture name="frame_select" x="1936" y="261" width="72" height="72" frameX="-1" frameY="-1" frameWidth="74" frameHeight="74"/>
+    <SubTexture name="gameOver" x="1627" y="961" width="114" height="61"/>
+    <SubTexture name="gameOver2" x="1886" y="98" width="156" height="61"/>
+    <SubTexture name="gameWin" x="1936" y="407" width="105" height="61"/>
+    <SubTexture name="gaoduan_1p" x="870" y="903" width="120" height="84"/>
+    <SubTexture name="gaoduan_1p_use" x="604" y="862" width="120" height="84"/>
+    <SubTexture name="gaoduan_2p" x="122" y="868" width="118" height="84"/>
+    <SubTexture name="gaoduan_2p_use" x="2" y="868" width="118" height="84"/>
+    <SubTexture name="gaoduan_tips" x="970" y="768" width="183" height="133"/>
+    <SubTexture name="huxuan_1p" x="809" y="798" width="120" height="84"/>
+    <SubTexture name="huxuan_2p" x="992" y="903" width="118" height="84"/>
+    <SubTexture name="liliang" x="2010" y="268" width="32" height="32"/>
+    <SubTexture name="loading_bottom" x="1319" y="961" width="306" height="12"/>
+    <SubTexture name="loading_mask" x="1470" y="865" width="318" height="24"/>
+    <SubTexture name="map_bg_frame" x="1886" y="2" width="153" height="94"/>
+    <SubTexture name="map_select" x="1936" y="161" width="61" height="98"/>
+    <SubTexture name="mofa" x="2010" y="234" width="32" height="32"/>
+    <SubTexture name="nameframe" x="424" y="798" width="383" height="62" frameX="-1" frameY="0" frameWidth="387" frameHeight="62"/>
+    <SubTexture name="scroll" x="1856" y="2" width="28" height="172" frameX="-1" frameY="-1" frameWidth="30" frameHeight="174"/>
+    <SubTexture name="scroll_yuan" x="1999" y="161" width="37" height="37" frameX="-1" frameY="-1" frameWidth="39" frameHeight="39"/>
+    <SubTexture name="shengcun" x="2008" y="369" width="32" height="32"/>
+    <SubTexture name="shuijing" x="2008" y="335" width="32" height="32"/>
+    <SubTexture name="submit" x="1155" y="895" width="162" height="68"/>
+    <SubTexture name="sudu" x="1999" y="200" width="32" height="32"/>
+    <SubTexture name="timehurt" x="1155" y="768" width="115" height="64"/>
+    <SubTexture name="tips_frame" x="1856" y="488" width="163" height="81"/>
+    <SubTexture name="unuse" x="2" y="798" width="420" height="68"/>
+    <SubTexture name="use" x="1359" y="891" width="420" height="68"/>
+    <SubTexture name="vs" x="1274" y="610" width="194" height="259"/>
+    <SubTexture name="vs_frame" x="1823" y="603" width="135" height="331"/>
+</TextureAtlas>

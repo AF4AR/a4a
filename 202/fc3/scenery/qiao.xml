@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:1c94f8acde2ecf2e34e644f5adbac1cd:1/1$ -->
+<TextureAtlas imagePath="qiao.png">
+    <SubTexture name="22_0_002_2_000" x="260" y="260" width="256" height="256"/>
+    <SubTexture name="22_0_002_3_000" x="518" y="2" width="256" height="256"/>
+    <SubTexture name="22_1_001_0_000" x="260" y="2" width="256" height="256"/>
+    <SubTexture name="22_1_001_1_000" x="2" y="516" width="256" height="256"/>
+    <SubTexture name="22_1_002_0_000" x="2" y="2" width="256" height="512"/>
+    <SubTexture name="23_0_001_0_000" x="842" y="2" width="64" height="128"/>
+    <SubTexture name="23_0_001_1_000" x="2" y="774" width="256" height="128"/>
+    <SubTexture name="23_0_001_2_000" x="776" y="2" width="64" height="128"/>
+</TextureAtlas>

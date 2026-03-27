@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:74e538489667407a4f9c2b36eedfea9b:1/1$ -->
+<TextureAtlas imagePath="role_head.png">
+    <SubTexture name="Twelve.jpeg" x="188" y="251" width="60" height="59"/>
+    <SubTexture name="baihuzi.jpeg" x="2" y="260" width="60" height="60"/>
+    <SubTexture name="baimian.jpeg" x="64" y="252" width="60" height="60"/>
+    <SubTexture name="buluoli.jpeg" x="126" y="251" width="60" height="60"/>
+    <SubTexture name="cike.jpeg" x="74" y="65" width="60" height="61"/>
+    <SubTexture name="frame" x="2" y="2" width="70" height="70" frameX="-2" frameY="-2" frameWidth="74" frameHeight="74"/>
+    <SubTexture name="guijianshi.jpeg" x="188" y="189" width="60" height="60"/>
+    <SubTexture name="hchq.jpeg" x="2" y="198" width="60" height="60"/>
+    <SubTexture name="hfh.jpeg" x="64" y="190" width="60" height="60"/>
+    <SubTexture name="huolongaisi" x="126" y="189" width="60" height="60"/>
+    <SubTexture name="jianxin" x="2" y="136" width="60" height="60"/>
+    <SubTexture name="lufei" x="64" y="128" width="60" height="60"/>
+    <SubTexture name="shanzhi.jpeg" x="136" y="2" width="60" height="61"/>
+    <SubTexture name="suolong.jpeg" x="136" y="127" width="60" height="60"/>
+    <SubTexture name="telankesi.jpeg" x="136" y="65" width="60" height="60"/>
+    <SubTexture name="yasina" x="74" y="2" width="60" height="61"/>
+    <SubTexture name="yingwuzhe.jpeg" x="2" y="74" width="60" height="60"/>
+</TextureAtlas>

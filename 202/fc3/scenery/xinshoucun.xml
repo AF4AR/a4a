@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:86e151d1b52b221dc6f96c9053ed80f8:1/1$ -->
+<TextureAtlas imagePath="xinshoucun.png">
+    <SubTexture name="01_0_003_0_000" x="198" y="260" width="64" height="128"/>
+    <SubTexture name="01_0_003_1_000" x="2" y="260" width="128" height="128"/>
+    <SubTexture name="01_0_003_2_000" x="132" y="2" width="128" height="256"/>
+    <SubTexture name="01_0_003_4_000" x="2" y="2" width="128" height="256"/>
+    <SubTexture name="01_0_003_5_000" x="132" y="260" width="64" height="128"/>
+</TextureAtlas>

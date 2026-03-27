@@ -1,0 +1,64 @@
+<Project mapMain="zl0.tmx">
+	<file path="core/sound/fangyu.mp3"/>
+	<file path="core/sound/oskill.mp3"/>
+	<file path="data/problem.xml" info="考试题目"/>
+  <file path="core/sound/ko.mp3" info="KO音效"/>
+  <file path="core/sound/readygo.mp3" info="准备战斗"/>
+  <file path="core/sound/readygo2.mp3" info="准备战斗"/>
+  <file path="core/effect/bisha.xml"/>
+  <file path="core/effect/bisha.png"/>
+	<file path="ui/start_main.xml"/>
+	<file path="ui/start_main.png"/>
+	<file path="ui/hpmp.xml"/>
+	<file path="ui/hpmp.png"/>
+	<file path="ui/role_head.xml"/>
+	<file path="ui/role_head.png"/>
+	<file path="ui/select_role.xml"/>
+	<file path="ui/select_role.png"/>
+	<file path="ui/role_image.xml"/>
+	<file path="ui/role_image.png"/>
+	<file path="ui/select_role_bg.png"/>
+	<file path="font/hurt_font.png"/>
+	<file path="font/hurt_font.xml"/>
+	<file path="core/effect/KO.png"/>
+	<file path="core/effect/KO.xml"/>
+  <file path="font/white_num_font.png"/>
+  <file path="font/white_num_font.xml"/>
+  <file path="font/fong_suiwen_font.png"/>
+  <file path="font/fong_suiwen_font.xml"/>
+  <file path="font/fontNum_font.png"/>
+  <file path="font/fontNum_font.xml"/>
+  <file path="data/fight.xml" info="战斗数据"/>
+  <file path="data/npcname.xml" info="NPC数据"/>
+  <file path="data/maps.xml" info="地图数据"/>
+  <file path="ui/map_image.xml" info="地图"/>
+  <file path="ui/map_image.png" info="地图"/>
+  <file path="data/ai/ordinary.xml" info="默认AI"/>
+  <file path="core/effect/blade.png"/>
+  <file path="core/effect/blade.xml"/>
+  <file path="core/effect/blade.mp3"/>
+  <file path="core/effect/daodichen.png"/>
+  <file path="core/effect/daodichen.mp3"/>
+  <file path="core/effect/daodichen.xml"/>
+  <file path="core/effect/ground.png"/>
+  <file path="core/effect/ground.xml"/>
+  <file path="core/effect/ground.mp3"/>
+  <file path="core/effect/jump.png"/>
+  <file path="core/effect/jump.xml"/>
+  <file path="core/effect/jump.mp3"/>
+  <file path="core/effect/defense.png"/>
+  <file path="core/effect/defense.xml"/>
+  <file path="core/font/fCount.png"/>
+  <file path="core/font/fCount.xml"/>
+  <file path="core/font/hitfont_font.png"/>
+  <file path="core/font/hitfont_font.xml"/>
+  <file path="core/sprites/fightState.png"/>
+  <file path="core/sprites/fightState.xml"/>
+  <file path="core/sprites/props.png"/>
+  <file path="core/sprites/props.xml"/>
+  <file path="core/effect/transfer.png"/>
+  <file path="core/effect/transfer.xml"/>
+  <file path="sound/sound_hit.mp3"/>
+  <file path="data/ai/ordinary.xml"/>
+  <file path="bgm/main.mp3"/>
+</Project>
