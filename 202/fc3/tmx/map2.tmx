@@ -1,0 +1,56 @@
+<map version="1.0" orientation="orthogonal" width="64" height="40" tilewidth="32" tileheight="32" texture="&lt;null>" world="&lt;null>" bg="test" textureOffsetX="0" textureOffsetY="0">
+  <properties>
+    <property name="extend" value="{&quot;version&quot;:&quot;0.0.2&quot;,&quot;_dataLayer&quot;:[],&quot;_eventSprite&quot;:[{&quot;go&quot;:&quot;&quot;,&quot;x&quot;:725.55,&quot;width&quot;:100,&quot;scaleX&quot;:1,&quot;height&quot;:100,&quot;scaleY&quot;:1,&quot;type&quot;:&quot;repeat_event&quot;,&quot;y&quot;:802.8,&quot;name&quot;:&quot;1p&quot;,&quot;other&quot;:&quot;&quot;,&quot;noChange&quot;:false,&quot;poltData&quot;:&quot;bnVsbA==&quot;,&quot;to&quot;:&quot;&quot;,&quot;dialogue&quot;:&quot;left&quot;,&quot;instanceName&quot;:&quot;1p&quot;,&quot;path&quot;:&quot;&quot;,&quot;blendMode&quot;:null},{&quot;go&quot;:&quot;&quot;,&quot;x&quot;:1233.95,&quot;width&quot;:100,&quot;scaleX&quot;:1,&quot;height&quot;:100,&quot;scaleY&quot;:1,&quot;type&quot;:&quot;repeat_event&quot;,&quot;y&quot;:808.75,&quot;name&quot;:&quot;2p&quot;,&quot;other&quot;:&quot;&quot;,&quot;noChange&quot;:false,&quot;poltData&quot;:&quot;bnVsbA==&quot;,&quot;to&quot;:&quot;&quot;,&quot;dialogue&quot;:&quot;left&quot;,&quot;instanceName&quot;:&quot;2p&quot;,&quot;path&quot;:&quot;&quot;,&quot;blendMode&quot;:null}],&quot;map2&quot;:[{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:1255.05,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:865.35,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:1513.75,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:866.7,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:745.9,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.85,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:999.65,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.85,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0}],&quot;_bottomLayer&quot;:[{&quot;name&quot;:&quot;22_0_002_2_000&quot;,&quot;x&quot;:-1.6,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1029.8,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_2_000&quot;,&quot;x&quot;:253.95,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1030.45,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_3_000&quot;,&quot;x&quot;:508.25,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1031.55,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_3_000&quot;,&quot;x&quot;:762.55,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1031.55,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_2_000&quot;,&quot;x&quot;:1013.65,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1032.1,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_3_000&quot;,&quot;x&quot;:1267.9,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1033.15,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_2_000&quot;,&quot;x&quot;:1521.65,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1033.15,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_2_000&quot;,&quot;x&quot;:1776,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1033.7,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_0_002_2_000&quot;,&quot;x&quot;:2028.7,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:1032.6,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_002_0_000&quot;,&quot;x&quot;:53.95,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:713.2,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_002_0_000&quot;,&quot;x&quot;:1783.55,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:715.3,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_002_0_000&quot;,&quot;x&quot;:410.35,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:678.55,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:-18.6,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.3,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:236.75,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.3,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:491.55,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.85,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:1765.8,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.85,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;23_0_001_1_000&quot;,&quot;x&quot;:2020.1,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:864.85,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_001_0_000&quot;,&quot;x&quot;:1737.3,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:478.8,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_001_0_000&quot;,&quot;x&quot;:70.05,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:475.05,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_002_0_000&quot;,&quot;x&quot;:889.4,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:646.75,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0},{&quot;name&quot;:&quot;22_1_002_0_000&quot;,&quot;x&quot;:1386.1,&quot;other&quot;:&quot;&quot;,&quot;scaleY&quot;:1,&quot;y&quot;:693.4,&quot;target&quot;:&quot;qiao&quot;,&quot;instanceName&quot;:&quot;&quot;,&quot;scaleX&quot;:1,&quot;rotation&quot;:0}],&quot;hit_layer&quot;:[],&quot;_topLayer&quot;:[],&quot;layers&quot;:[{&quot;name&quot;:&quot;数据层（不可选）&quot;,&quot;type&quot;:&quot;data&quot;,&quot;id&quot;:&quot;_dataLayer&quot;},{&quot;name&quot;:&quot;事件层（不可选）&quot;,&quot;type&quot;:&quot;event&quot;,&quot;id&quot;:&quot;_eventSprite&quot;},{&quot;name&quot;:&quot;装饰层1&quot;,&quot;type&quot;:&quot;scenery&quot;,&quot;id&quot;:&quot;_topLayer&quot;},{&quot;name&quot;:&quot;互动层（原生）&quot;,&quot;type&quot;:&quot;npc&quot;,&quot;id&quot;:&quot;_npcLayer&quot;},{&quot;name&quot;:&quot;hit_layer&quot;,&quot;type&quot;:&quot;map&quot;,&quot;id&quot;:&quot;hit_layer&quot;},{&quot;name&quot;:&quot;map2&quot;,&quot;type&quot;:&quot;scenery&quot;,&quot;id&quot;:&quot;map2&quot;},{&quot;name&quot;:&quot;装饰层2&quot;,&quot;type&quot;:&quot;scenery&quot;,&quot;id&quot;:&quot;_bottomLayer&quot;}],&quot;scenery&quot;:[{&quot;path&quot;:&quot;scenery/qiao.xml&quot;,&quot;name&quot;:&quot;qiao&quot;}],&quot;_npcLayer&quot;:[]}"/>
+  </properties>
+  <objectgroup name="hit_layer" width="64" height="40">
+    <properties/>
+    <object x="-30" y="905">
+      <properties>
+        <property name="lines" value="[]"/>
+        <property name="draw_mode" value="auto"/>
+        <property name="mode" value="not_penetrate"/>
+      </properties>
+      <polygon points="0,0 -23.35,410 2181.75,650.05 2333.4,0"/>
+    </object>
+    <object x="107" y="737">
+      <properties>
+        <property name="lines" value="[]"/>
+        <property name="draw_mode" value="auto"/>
+        <property name="mode" value="not_visible_stes"/>
+      </properties>
+      <polygon points="0,0 168.55,-3.35 146.9,25.35 5.9,38.25"/>
+    </object>
+    <object x="462" y="705">
+      <properties>
+        <property name="lines" value="[]"/>
+        <property name="draw_mode" value="auto"/>
+        <property name="mode" value="not_visible_stes"/>
+      </properties>
+      <polygon points="0,0 169.1,-1.65 135.2,35.45 6,33.2"/>
+    </object>
+    <object x="944" y="670">
+      <properties>
+        <property name="lines" value="[]"/>
+        <property name="draw_mode" value="auto"/>
+        <property name="mode" value="not_visible_stes"/>
+      </properties>
+      <polygon points="0,0 166.85,-0.5 130.15,39 10.5,36.1"/>
+    </object>
+    <object x="1438" y="715">
+      <properties>
+        <property name="lines" value="[]"/>
+        <property name="draw_mode" value="auto"/>
+        <property name="mode" value="not_visible_stes"/>
+      </properties>
+      <polygon points="0,0 166.8,-1.7 142.9,33.35 6.95,37.85"/>
+    </object>
+    <object x="1838" y="737">
+      <properties>
+        <property name="lines" value="[]"/>
+        <property name="draw_mode" value="auto"/>
+        <property name="mode" value="not_visible_stes"/>
+      </properties>
+      <polygon points="0,0 164,-1.7 115.3,36 10.8,32.7"/>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,29 @@
+<map version="1.0" orientation="orthogonal" width="64" height="64" tilewidth="32" tileheight="32" texture="texture/chengsi" world="&lt;null>" bg="test" textureOffsetX="0" textureOffsetY="32">
+  <properties>
+    <property name="extend" value="{&quot;version&quot;:&quot;0.0.2&quot;,&quot;scenery&quot;:[],&quot;_eventSprite&quot;:[{&quot;other&quot;:&quot;&quot;,&quot;x&quot;:810.7,&quot;to&quot;:&quot;&quot;,&quot;width&quot;:100,&quot;scaleX&quot;:1,&quot;go&quot;:&quot;&quot;,&quot;height&quot;:100,&quot;scaleY&quot;:1,&quot;type&quot;:&quot;repeat_event&quot;,&quot;y&quot;:1701.4,&quot;poltData&quot;:&quot;bnVsbA==&quot;,&quot;instanceName&quot;:&quot;1p&quot;,&quot;blendMode&quot;:null,&quot;name&quot;:&quot;1p&quot;,&quot;dialogue&quot;:&quot;left&quot;,&quot;path&quot;:&quot;&quot;,&quot;noChange&quot;:false},{&quot;other&quot;:&quot;&quot;,&quot;x&quot;:1213.8,&quot;to&quot;:&quot;&quot;,&quot;width&quot;:100,&quot;scaleX&quot;:1,&quot;go&quot;:&quot;&quot;,&quot;height&quot;:100,&quot;scaleY&quot;:1,&quot;type&quot;:&quot;repeat_event&quot;,&quot;y&quot;:1699.6,&quot;poltData&quot;:&quot;bnVsbA==&quot;,&quot;instanceName&quot;:&quot;2p&quot;,&quot;blendMode&quot;:null,&quot;name&quot;:&quot;2p&quot;,&quot;dialogue&quot;:&quot;left&quot;,&quot;path&quot;:&quot;&quot;,&quot;noChange&quot;:false}],&quot;_npcLayer&quot;:[],&quot;hit_layer&quot;:[],&quot;_topLayer&quot;:[],&quot;layers&quot;:[{&quot;name&quot;:&quot;数据层（不可选）&quot;,&quot;type&quot;:&quot;data&quot;,&quot;id&quot;:&quot;_dataLayer&quot;},{&quot;name&quot;:&quot;事件层（不可选）&quot;,&quot;type&quot;:&quot;event&quot;,&quot;id&quot;:&quot;_eventSprite&quot;},{&quot;name&quot;:&quot;装饰层1&quot;,&quot;type&quot;:&quot;scenery&quot;,&quot;id&quot;:&quot;_topLayer&quot;},{&quot;name&quot;:&quot;装饰层2&quot;,&quot;type&quot;:&quot;scenery&quot;,&quot;id&quot;:&quot;_bottomLayer&quot;},{&quot;name&quot;:&quot;互动层（原生）&quot;,&quot;type&quot;:&quot;npc&quot;,&quot;id&quot;:&quot;_npcLayer&quot;},{&quot;name&quot;:&quot;hit_layer&quot;,&quot;type&quot;:&quot;map&quot;,&quot;id&quot;:&quot;hit_layer&quot;}],&quot;_dataLayer&quot;:[],&quot;_bottomLayer&quot;:[]}"/>
+  </properties>
+  <objectgroup name="hit_layer" width="64" height="40">
+    <properties/>
+    <object x="-23" y="1798">
+      <properties>
+        <property name="mode" value="not_penetrate"/>
+        <property name="lines" value="[]"/>
+      </properties>
+      <polygon points="0,0 2112.55,0 2155.95,736.4 -50.5,728.9"/>
+    </object>
+    <object x="-18" y="860">
+      <properties>
+        <property name="mode" value="not_penetrate"/>
+        <property name="lines" value="[]"/>
+      </properties>
+      <polygon points="0,0 204.1,34.7 172.7,968.2 -35.1,1001"/>
+    </object>
+    <object x="1962" y="1840">
+      <properties>
+        <property name="mode" value="not_penetrate"/>
+        <property name="lines" value="[]"/>
+      </properties>
+      <polygon points="0,0 -69.35,-955.7 106.8,-997.8 131.8,8.5"/>
+    </object>
+  </objectgroup>
+</map>
