@@ -1,0 +1,16 @@
+<ai>
+	<and id="攻击" interval="10">
+		<action id="AI.enemy(role,260,160);"/>
+		<action id="AI2.skill(role);"/>
+	</and>
+	<and id="追击" interval="10">
+		<action id="AI.hate(role);"/>
+		<action id="AI.chase(role);"/>
+	</and>
+	<and id="防御" interval="80">
+		<action id="AI2.defense(role);"/>
+	</and>
+	<and id="巡逻" interval="60">
+		<action id="AI2.move(role);"/>
+	</and>
+</ai>

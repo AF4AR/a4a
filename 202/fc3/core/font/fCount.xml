@@ -1,0 +1,21 @@
+<font>
+	<info face="fCount.png" size="80" />
+	<common lineHeight="80" scaleW="82" scaleH="81" pages="1" />
+	<pages>
+		<page id="0" file="fCount.png" />
+	</pages>
+	<chars count="80">
+		<char id="48" x="0" y="26" width="21" height="26" xoffset="0" yoffset="54" xadvance="22" /><!-- 0 -->
+		<char id="49" x="65" y="0" width="16" height="25" xoffset="0" yoffset="54" xadvance="17" /><!-- 1 -->
+		<char id="50" x="44" y="55" width="20" height="25" xoffset="0" yoffset="54" xadvance="21" /><!-- 2 -->
+		<char id="51" x="44" y="27" width="20" height="27" xoffset="0" yoffset="53" xadvance="21" /><!-- 3 -->
+		<char id="52" x="0" y="0" width="22" height="25" xoffset="0" yoffset="54" xadvance="23" /><!-- 4 -->
+		<char id="53" x="44" y="0" width="20" height="26" xoffset="0" yoffset="54" xadvance="21" /><!-- 5 -->
+		<char id="54" x="22" y="54" width="21" height="26" xoffset="0" yoffset="54" xadvance="22" /><!-- 6 -->
+		<char id="55" x="23" y="0" width="20" height="25" xoffset="0" yoffset="54" xadvance="21" /><!-- 7 -->
+		<char id="56" x="0" y="53" width="21" height="26" xoffset="0" yoffset="54" xadvance="22" /><!-- 8 -->
+		<char id="57" x="22" y="26" width="21" height="27" xoffset="0" yoffset="53" xadvance="22" /><!-- 9 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

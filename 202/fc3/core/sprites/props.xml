@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="props.png">
+	<!-- Created with Adobe Animate version 15.1.0.210 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="二锅头0000" x="4" y="4" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="伏特加0000" x="72" y="4" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="体力纹章0000" x="140" y="4" width="64" height="68" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="信0000" x="208" y="4" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="兽牙0000" x="276" y="4" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="冰岚之书0000" x="344" y="4" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="决心饼0000" x="412" y="4" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="力量纹章0000" x="4" y="76" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="单单香菇0000" x="72" y="76" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="史莱姆液块0000" x="140" y="76" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="史莱姆王液块0000" x="208" y="76" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="呆萌素0000" x="276" y="76" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="命中纹章0000" x="344" y="76" width="64" height="65" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="大经验瓶0000" x="412" y="76" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="大血瓶0000" x="4" y="145" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="宠物蛋0000" x="72" y="145" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="小经验瓶0000" x="140" y="145" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="小血瓶0000" x="208" y="145" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="提神酒0000" x="276" y="145" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="暴击纹章0000" x="344" y="145" width="68" height="70" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="朗姆酒0000" x="416" y="145" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="沾满口水的水果0000" x="4" y="219" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="波兰石0000" x="72" y="219" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="深蓝纹章0000" x="140" y="219" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="灵眼纹章0000" x="208" y="219" width="68" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="爆伤纹章0000" x="280" y="219" width="66" height="68" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="物防纹章0000" x="350" y="219" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="特质魔法酒0000" x="418" y="219" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="盒子之物0000" x="4" y="291" width="69" height="66" pivotX="32.6" pivotY="68.75"/>
+	<SubTexture name="眼睛0000" x="77" y="291" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="礼包0000" x="145" y="291" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="神秘代码0000" x="213" y="291" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="神秘瓶子0000" x="281" y="291" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="移动纹章0000" x="349" y="291" width="64" height="66" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="篮瘦香菇0000" x="417" y="291" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="紫色碎片0000" x="4" y="361" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="红色液块0000" x="72" y="361" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="红色碎片0000" x="140" y="361" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="红色香菇0000" x="208" y="361" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="经验瓶0000" x="276" y="361" width="64" height="64" pivotX="31.15" pivotY="65.2"/>
+	<SubTexture name="绿色碎片0000" x="344" y="361" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="绿色香菇0000" x="412" y="361" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="蓝色碎片0000" x="4" y="429" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="虫壳0000" x="72" y="429" width="64" height="64" pivotX="31.15" pivotY="65.2"/>
+	<SubTexture name="血瓶0000" x="140" y="429" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="跳跃纹章0000" x="208" y="429" width="64" height="68" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="金币0000" x="276" y="429" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+	<SubTexture name="魔力纹章0000" x="344" y="429" width="69" height="65" pivotX="32.05" pivotY="68.2"/>
+	<SubTexture name="魔防纹章0000" x="417" y="429" width="69" height="65" pivotX="32.35" pivotY="68.2"/>
+	<SubTexture name="黄色碎片0000" x="4" y="501" width="64" height="64" pivotX="31.15" pivotY="68.2"/>
+</TextureAtlas>

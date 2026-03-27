@@ -1,0 +1,162 @@
+<fightdata>
+	<init name="默认参数">
+		<data name="体力" id="hp" value="30000" info="角色的总生命"/>
+		<data name="力量" id="power" value="500"/>
+		<data name="魔力" id="magic" value="500"/>
+		<data name="物理防御" id="armorDefense" value="500"/>
+		<data name="魔法防御" id="magicDefense" value="500"/>
+		<data name="负重" id="gravity" value="100" info="值越大弹飞得越高，最小值为0，为不可弹起或击退"/>
+		<data name="命中率" id="shooting" value="100"/>
+		<data name="闪避率" id="dodgeRate" value="1"/>
+		<data name="暴击率" id="crit" value="10"/>
+		<data name="暴击伤害" id="critHurt" value="150"/>
+		<data name="移动速度" id="speed" value="6"/>
+		<data name="跳跃力" id="jump" value="20"/>
+		<data name="攻击欲望" id="desire" value="50"/>
+		<data name="成长" id="growth" value="50" info="影响经验值的长短"/>
+		<data name="经验奖励" id="expRewards" value="50" info="被杀的时候，可得到的经验值"/>
+		<data name="抗击" id="beatBack" value="0" info="强壮的角色，抗击能力就越强，没那么容易被击飞以及击退，技能打断等。"/>
+		<data name="复活时间" id="resurrectionTime" value="60" info="复活的时间，单位为秒。"/>
+		<data name="含金量" id="gold" value="10" info="被杀时，会经过此值进行计算出可得到的金币数量。"/>
+		<data name="幸运" id="lucky" value="1" info="幸运加成，可以为你的金币，物品爆出率提高一定的可能。"/>
+		<data name="水晶" id="crystal" value="1" info="幸运加成，可以为你的金币，物品爆出率提高一定的可能。"/>
+	</init>
+	<jianxin head="jianxin.png" name="绯村剑心" passive="处于残影（强制）状态时，技能伤害将提高50%" introduce="原名：绯村心太。日本漫画《浪客剑心》及其衍生作品中的男主角，过去曾经被称为“刽子手拔刀斋”，流派为“飞天御剑流”，师父为比古清十郎。">
+		<data name="移动速度" value="1"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.5"/>
+		<data name="魔法防御" value="0.25"/>
+		<data name="体力" value="0.7"/>
+		<data name="水晶" value="3"/>
+	</jianxin>
+	<hchq head="hchq.png" name="河城荷取" passive="处于飞行模式状态时，移动速度将提升20%。" introduce="河城荷取是系列作品《东方project》中的角色，初登场于《东方风神录》。">
+		<data name="移动速度" value="0.8"/>
+		<data name="力量" value="0.6"/>
+		<data name="魔力" value="0.9"/>
+		<data name="物理防御" value="0.3"/>
+		<data name="魔法防御" value="0.75"/>
+		<data name="体力" value="0.7"/>
+		<data name="水晶" value="10"/>
+	</hchq>
+	<suolong head="suolong.png" name="索隆" passive="战斗时得到25%的闪避能力，成功闪避后获得0.3s的霸体。该被动在5秒内只会触发一次。" introduce="罗罗诺亚·索隆，是在漫画《航海王》及改编动画中登场的角色。草帽海贼团中的战斗员，使用三把刀战斗的三刀流剑士，二年前超新星11人之一。">
+		<data name="移动速度" value="1"/>
+		<data name="力量" value="0.6"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.75"/>
+		<data name="魔法防御" value="0.25"/>
+		<data name="体力" value="0.85"/>
+		<data name="水晶" value="3"/>
+	</suolong>
+	<lufei visible="true" head="lufei.png" name="路飞" passive="见闻色能够使路飞得到第一击100%闪避率，并存在10s的CD。" introduce="蒙奇·D·路飞是在漫画及改编动画《海贼王》中登场的虚拟角色，男主角，草帽海贼团船长。">
+		<data name="移动速度" value="1.1"/>
+		<data name="力量" value="0.75"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.9"/>
+		<data name="魔法防御" value="0.1"/>
+		<data name="体力" value="0.7"/>
+		<data name="水晶" value="4"/>
+	</lufei>
+	<shanzhi head="shanzhi.png" name="山治" passive="山治允许跳跃三次，每次跳跃增加霸体0.3秒；如果击中了敌人增加自已的霸体0.1秒。" introduce="山治是日本人气漫画《航海王》中的主要角色之一。草帽海贼团厨师，金发，有着卷曲眉毛，永远遮住半边脸的家伙，香烟不离口，最爱女人，很花心但很有风度，海贼中的绅士。">
+		<data name="移动速度" value="1.1"/> 
+		<data name="力量" value="0.6"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.25"/>
+		<data name="魔法防御" value="0.25"/>
+		<data name="体力" value="0.75"/>
+		<data name="水晶" value="6"/>
+	</shanzhi>
+	<telankesi head="telankesi.png" name="特兰克斯" passive="在移动的时候允许在空中自由移动。" introduce="特兰克斯，日本国民神作动漫《龙珠》系列的重要男性角色之一。赛亚人王子贝吉塔和地球科学家布尔玛之子，保卫地球的战士之一。">
+		<data name="移动速度" value="0.9"/>
+		<data name="力量" value="0.7"/>
+		<data name="魔力" value="0.5"/>
+		<data name="物理防御" value="0.6"/>
+		<data name="魔法防御" value="0.75"/>
+		<data name="体力" value="0.75"/>
+		<data name="水晶" value="6"/>
+	</telankesi>
+	<buluoli head="buluoli.png" name="布罗利" passive="被动1：每损失1%的血量增加2点力量。被动2：每耗时1秒增加2点力量，上限200力量。" introduce="日本动漫《七龙珠》剧场版中的原创角色，一出生就有一万的战斗力，与孙悟空同一天出生。会对孙悟空的声音、气产生反应。">
+		<data name="移动速度" value="0.7"/>
+		<data name="力量" value="0.6"/>
+		<data name="魔力" value="0.3"/>
+		<data name="物理防御" value="0.8"/>
+		<data name="魔法防御" value="0.5"/>
+		<data name="体力" value="0.95"/>
+		<data name="水晶" value="3"/>
+	</buluoli>
+	<guijianshi head="guijianshi.png" name="鬼剑士（狂战士）" passive="释放血气技能需要消耗当前2%的血量（低于10%血量不再消耗），每损失1%的血增加3点力量。" introduce="狂战士是网络游戏《地下城与勇士》中男鬼剑士转职后的职业之一。“为了得到更强的力量，不惜一切代价！即使出卖自己的灵魂！”">
+		<data name="移动速度" value="0.9"/>
+		<data name="力量" value="0.8"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.5"/>
+		<data name="魔法防御" value="0.25"/>
+		<data name="体力" value="1"/>
+		<data name="水晶" value="6"/>
+	</guijianshi>
+	<!-- <baihuzi head="baihuzi.png" name="白胡子" passive="被动？别想了，左眼还不一定会让我出场。" introduce="狂战士是网络游戏《地下城与勇士》中男鬼剑士转职后的职业之一。“为了得到更强的力量，不惜一切代价！即使出卖自己的灵魂！”">
+		<data name="移动速度" value="0.5"/>
+		<data name="力量" value="0.7"/>
+		<data name="魔力" value="0.7"/>
+		<data name="物理防御" value="1"/>
+		<data name="魔法防御" value="1"/>
+		<data name="体力" value="1"/>
+		<data name="水晶" value="10"/>
+	</baihuzi> -->
+	<yasina head="yasina.png" name="亚丝娜" passive="每次使用不同技能击中敌人会得到5%伤害加成，效果可叠加（途中击中敌人，可更新buff持续时间）" introduce="结城明日奈，轻小说《刀剑神域》及其衍生作品中的女主角。[1-2]  因好奇借用哥哥结成浩一郎的NERvGear进入SAO的网络游戏新手，并用真名取游戏角色名字。人物技能设计提议：秋夜">
+		<data name="移动速度" value="1"/>
+		<data name="力量" value="0.7"/>
+		<data name="魔力" value="0.4"/>
+		<data name="物理防御" value="0.3"/>
+		<data name="魔法防御" value="0.3"/>
+		<data name="体力" value="0.7"/>
+		<data name="水晶" value="6"/>
+	</yasina>
+	<baimian head="baimian.png" name="白面" passive="每次被魔法伤害攻击时，都可以吸收30%的魔法伤害。" introduce="白面，游戏《苍翼默示录》中的参战人物。过去曾经消灭“黑兽”的六英雄之首，全身穿着白色铠甲，戴着白色面具，使用野太刀的神秘人物。">
+		<data name="移动速度" value="1"/>
+		<data name="力量" value="0.7"/>
+		<data name="魔力" value="0.4"/>
+		<data name="物理防御" value="0.25"/>
+		<data name="魔法防御" value="0.25"/>
+		<data name="体力" value="0.7"/>
+		<data name="水晶" value="6"/>
+	</baimian>
+	<cike head="cike.png" name="暗夜使者（刺客）" passive="本身会获得暴击率35%，但暴击效果只有125%。一段时间儿不使用技能将会进入隐身状态，增加50%闪避率。" introduce="刺客Rogue，作为DNF新增加的盗贼职业中的一个分支，国内一般译为刺客。">
+		<data name="移动速度" value="1"/>
+		<data name="力量" value="1"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.3"/>
+		<data name="魔法防御" value="0.3"/>
+		<data name="体力" value="0.6"/>
+		<data name="水晶" value="3"/>
+		<data name="暴击率" value="3.5"/>
+		<data name="暴击伤害" value="0.8"/>
+	</cike>
+	<Twelve head="Twelve.png" name="艾布鲁" passive="（暂未开发）" introduce="艾布鲁由Urien亲信吴博士制造的人型杀戮兵器，为多个人间兵器中最优秀的一个，绝对听从尤里安（Urien）的指示。">
+		<data name="移动速度" value="1"/>
+		<data name="力量" value="1"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.3"/>
+		<data name="魔法防御" value="0.3"/>
+		<data name="体力" value="0.6"/>
+		<data name="水晶" value="3"/>
+		<data name="暴击率" value="3.5"/>
+		<data name="暴击伤害" value="0.8"/>
+	</Twelve>
+	<hfh visible="false" head="hfh.png" name="李烈火（黄飞鸿）" passive="？" introduce="艾布鲁由Urien亲信吴博士制造的人型杀戮兵器，为多个人间兵器中最优秀的一个，绝对听从尤里安（Urien）的指示。">
+		<data name="移动速度" value="1"/>
+		<data name="力量" value="0.8"/>
+		<data name="魔力" value="0"/>
+		<data name="物理防御" value="0.5"/>
+		<data name="魔法防御" value="0.2"/>
+		<data name="体力" value="0.7"/>
+		<data name="水晶" value="3"/>
+	</hfh>
+	<huolongaisi visible="false" head="huolongaisi.png" name="艾斯库尔">
+		<data name="移动速度" value="0.8"/>
+		<data name="力量" value="0.3"/>
+		<data name="魔力" value="0.8"/>
+		<data name="物理防御" value="0.3"/>
+		<data name="魔法防御" value="0.6"/>
+		<data name="体力" value="0.65"/>
+		<data name="水晶" value="6"/>
+	</huolongaisi>
+</fightdata>

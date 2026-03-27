@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fightState.png">
+	<!-- Created with Adobe Animate version 15.1.0.210 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="暴击 实例 10000" x="4" y="4" width="198" height="103" pivotX="99" pivotY="51.5"/>
+	<SubTexture name="闪避 实例 10000" x="4" y="111" width="197" height="103" pivotX="98.5" pivotY="51.5"/>
+</TextureAtlas>
