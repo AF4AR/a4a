@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texts>
+	
+	<!--  GENERAL  -->
+	<!--  =======  -->
+	<term key="ContextMenuItems">Purple Tree Studio</term>	<!--  Item de menu contextual customizado (para que no haya menu customizado, borrar esta linea)  -->
+	<term key="frame_label_default">eng</term>
+	
+	<!--  PRELOADER  -->
+	<!--  =========  -->
+	<term key="turn_on_speakers">turn on your speakers to play</term>
+	<term key="preloader_continue_btn">ok</term>
+	
+	<!--  MAIN MENU  -->
+	<!--  =========  -->
+	<term key="credits_btn_txt">credits</term>
+	<term key="play_btn">play</term>
+	<term key="continue_btn_txt">continue</term>
+	
+	<!--  LEVEL LOST  -->
+	<!--  ==========  -->
+	<term key="glost_results_title">results</term>
+	<term key="glost_title">game over</term>
+	<term key="glost_level_label">level</term>
+	<term key="glost_score_label">score</term>
+	<term key="glost_ranking_label">ranking</term>
+	<term key="glost_map">map</term>
+	<term key="glost_play_again"><![CDATA[<TEXTFORMAT LEADING="-6"><P ALIGN="CENTER"><FONT FACE="Kiss Kiss From Paris" SIZE="21" COLOR="#6820BA" LETTERSPACING="1" KERNING="1">PLAY</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="-6"><P ALIGN="CENTER"><FONT FACE="Kiss Kiss From Paris" SIZE="21" COLOR="#6820BA" LETTERSPACING="1" KERNING="1">AGAIN</FONT></P></TEXTFORMAT>]]></term>
+	
+	<!--  LEVEL WON  -->
+	<!--  =========  -->
+	<term key="gwon_results_title">results</term>
+	<term key="gwon_title">you won</term>
+	<term key="gwon_level_label">level</term>
+	<term key="gwon_score_label">score</term>
+	<term key="gwon_map">continue</term>
+	<term key="gwon_play_again"><![CDATA[<TEXTFORMAT LEADING="-6"><P ALIGN="CENTER"><FONT FACE="Kiss Kiss From Paris" SIZE="21" COLOR="#6820BA" LETTERSPACING="1" KERNING="1">PLAY</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="-6"><P ALIGN="CENTER"><FONT FACE="Kiss Kiss From Paris" SIZE="21" COLOR="#6820BA" LETTERSPACING="1" KERNING="1">AGAIN</FONT></P></TEXTFORMAT>]]></term>
+	<term key="gwon_ranking_label">ranking</term>
+	
+	<!--  GAME WON  -->
+	<!--  ========  -->
+	<term key="game_won_final_text">you won the game!</term>
+	
+	<!--  LEVEL LOADING  -->
+	<!--  =============  -->
+	<term key="loading_txt">loading...</term>
+	
+	<!--  MAP  -->
+	<!--  ===  -->
+	<term key="map_title">map</term>
+	<term key="level_select">select a level</term>
+	<term key="back_btn_txt">back</term>
+	<term key="enemy_name_level_1">party pat</term>
+	<term key="enemy_name_level_2">bmo</term>
+	<term key="enemy_name_level_3">marceline</term>
+	<term key="enemy_name_level_4">ice king</term>
+	<term key="map_level_label">level</term>
+	<term key="map_ranking_label">ranking</term>
+	
+	<!--  LEVELS  -->
+	<!--  ======  -->
+	<term key="level_name_level_1">BELLY OF THE BEAST</term>
+	<term key="level_name_short_level_1">belly of the beast</term>
+	<term key="level_name_level_2">GUARDIANS OF SUNSHINE</term>
+	<term key="level_name_short_level_2">guardians of...</term>
+	<term key="level_name_level_3">HENCHMAN</term>
+	<term key="level_name_short_level_3">henchman</term>
+	<term key="level_name_level_4">THE CHAMBER OF FROZEN BLADES</term>
+	<term key="level_name_short_level_4">the chamber of...</term>
+	
+	<!--  CHARACTER SELECT  -->
+	<!--  ================  -->
+	<term key="character_select_title">select your character</term>
+	<term key="finn_name">finn</term>
+	<term key="jake_name">jake</term>
+	
+	<!--  EXIT POPUP  -->
+	<!--  ==========  -->
+	<term key="exit_txt">are you sure you want to exit?</term>
+	<term key="yes_btn_txt">yes</term>
+	<term key="no_btn_txt">no</term>
+	
+	<!--  CHARACTER UNLOCKED  -->
+	<!--  ==================  -->
+	<term key="character_unlocked">character unlocked</term>
+	
+	<!--  LEVEL LOCKED  -->
+	<!--  ============  -->
+	<term key="level_locked">level locked</term>
+	<term key="level_locked_info">play using jake and reach finn in the final level</term>
+	<term key="ok_btn_txt">OK</term>
+	
+	<!--  HUD  -->
+	<!--  ===  -->
+	<term key="hud_score_label">score</term>
+	<term key="pause_txt">pause</term>
+	<term key="hud_score_label_uppercase">SCORE</term>
+	<term key="pause_txt_uppercase">PAUSE</term>
+	
+	<!--  TUTORIALS  -->
+	<!--  =========  -->
+	<term key="tutorial_title_txt">TUTORIAL</term>
+	<term key="tutorial_skip_txt">SKIP</term>
+	<term key="tutorial_lesson_ok">well done!</term>
+	<term key="tutorial_lesson_wrong">try again!</term>
+	<term key="tutorial_complete">tutorial complete</term>
+	<term key="tutorial_lesson_ok_uppercase">WELL DONE!</term>
+	<term key="tutorial_lesson_wrong_uppercase">TRY AGAIN!</term>
+	<term key="tutorial_complete_uppercase">TUTORIAL COMPLETE</term>
+	
+	<term key="tutorial_lv1_lesson1">make finn sing pressing z</term>
+	<term key="tutorial_lv1_lesson2">finish the song the bears sing</term>
+	<term key="tutorial_lv2_lesson1">HIT ENEMIES PRESSING Z</term>
+	<term key="tutorial_lv2_lesson2">PRESS X TO JUMP BEES</term>
+	<term key="tutorial_lv3_lesson1">press Z once after marceline gives this sign</term>
+	<term key="tutorial_lv3_lesson2">press Z twice after marceline gives this sign</term>
+	<term key="tutorial_lv3_lesson3">press Z 3 times after marceline gives this sign</term>
+	<term key="tutorial_lv4_lesson1">block the attacks pressing Z</term>
+	<term key="tutorial_lv4_lesson2">return ice bombs pressing X</term>
+	
+	<!--  CREDITS  -->
+	<!--  =======  -->
+	<term key="credits_text">credits</term>
+	<term key="cast_text">starring</term>
+	<term key="starring_text">with:</term>
+	<term key="party_pat_text">party pat</term>
+	<term key="party_bears_text">party bears</term>
+	<term key="special_guests_text">special guests:</term>
+	<term key="the_zombies_text">the zombies</term>
+	<term key="marceline_text">marceline</term>
+	<term key="finn_text">finn</term>
+	<term key="and_text">and</term>
+	<term key="jake_text">jake</term>
+	<term key="thanks_for_playing_text">thank you for playing</term>
+	
+</texts>
