@@ -1,0 +1,101 @@
+﻿<sounds genvol="75" fxvol="100" musicvol="80">
+   <file id="main" hifi="soundmain.swf" lofi="">
+      <musics>
+         <!--theme intro-->
+         <_theme volume="70"/>
+         <!--release bouton-->
+         <_release volume="50"/>
+         <!--rollover bouton-->
+         <_rollover volume="30"/>
+         <!--lose-->
+         <_lose volume="100"/>
+         <!--checkpoint-->
+         <_checkpoint volume="100"/>
+         <!--win-->
+         <_win volume="100"/>
+      </musics>
+      <fx>
+         <!--fin de tube-->
+         <_endtube volume="100"/>
+         <!--hurt-->
+         <_hurt volume="100"/>
+         <!--jump Adam-->
+         <_jumpadam volume="15"/>
+         <!--item collected-->
+         <_item volume="30"/>
+         <!--energy bonus collected-->
+         <_energybonus volume="90"/>
+         <!--hit-->
+         <_hit volume="100"/>
+         <!--ressort-->
+         <_ressort volume="100"/>
+         <!--hang-->
+         <_hang volume="100"/>
+         <!--ball-->
+         <_ball volume="100"/>
+         <!--jake sort du buisson-->
+         <_jakebush volume="70"/>
+         <!--dans le tube-->
+         <_ontube volume="100"/>
+         <!--mecanisme-->
+         <_meca volume="100"/>
+         <!--bulle eclate-->
+         <_bulleeclate volume="100"/>
+         <!--bulle gonfle-->
+         <_bullegonfle volume="75"/>
+         <!--bumper-->
+         <_bump volume="75"/>
+         <!--cassage de caisse-->
+         <_caisse volume="75"/>
+         <!--entrée dans un passage-->
+         <_doorway volume="80"/>
+         <!--narwal attack-->
+         <_narwalattack volume="80"/>
+         <!--seringue-->
+         <_syringe volume="100"/>
+         <!--shoot-->
+         <_shoot volume="75"/>
+         <!--ouchs-->
+         <_ouch1 volume="70"/>
+         <_ouch2 volume="70"/>
+         <_ouch3 volume="70"/>
+         <!--on bus-->
+         <_onbus volume="80"/>
+         <!--bulle level2-->
+         <_bulle2 volume="100"/>
+      </fx>
+   </file>
+   <file id="game1" hifi="sound1.swf" lofi="">
+      <musics>
+         <!--boucle niveau 1-->
+         <_game1 volume="100"/>
+         <!--tarzan boucle 1-->
+         <_tarzan1 volume="100"/>
+         <!--transition niveau 1-->
+         <_transition1 volume="70"/>
+      </musics>
+      <fx/>
+   </file>
+   <file id="game2" hifi="sound2.swf" lofi="">
+      <musics>
+         <!--boucle niveau 1-->
+         <_game2 volume="100"/>
+         <!--tarzan boucle 2-->
+         <_tarzan2 volume="100"/>
+         <!--transition niveau 2-->
+         <_transition2 volume="100"/>
+      </musics>
+      <fx/>
+   </file>
+   <file id="game3" hifi="sound3.swf" lofi="">
+      <musics>
+         <!--boucle niveau 3-->
+         <_game3 volume="100"/>
+         <!--tarzan boucle 3-->
+         <_tarzan3 volume="100"/>
+         <!--transition niveau 3-->
+         <_transition3 volume="100"/>
+      </musics>
+      <fx/>
+   </file>
+</sounds>
